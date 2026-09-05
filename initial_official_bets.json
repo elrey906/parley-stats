@@ -1,0 +1,92 @@
+[
+  {
+    "id": "bet_oficial_1_banquero",
+    "date": "2026-09-05T05:20:00.000Z",
+    "stake": 5.0,
+    "combinedOdds": 1.91,
+    "payout": 9.55,
+    "status": "pending",
+    "sport": "MLB (Parley.la)",
+    "notes": "Ticket 1 (Base Fuerte $5): Dodgers (-317) + Mariners (-218)",
+    "legs": [
+      {
+        "id": "pla-2",
+        "match": "Washington Nationals vs Los Angeles Dodgers",
+        "selection": "Los Angeles Dodgers",
+        "decimalOdds": 1.31
+      },
+      {
+        "id": "pla-1",
+        "match": "Athletics vs Seattle Mariners",
+        "selection": "Seattle Mariners (L. GILBERT)",
+        "decimalOdds": 1.46
+      }
+    ]
+  },
+  {
+    "id": "bet_oficial_2_equilibrado",
+    "date": "2026-09-05T05:21:00.000Z",
+    "stake": 3.5,
+    "combinedOdds": 2.6,
+    "payout": 9.1,
+    "status": "pending",
+    "sport": "Fútbol + MLB",
+    "notes": "Ticket 2 (Ganancia Buena $3.5): Real Madrid (-275) + Dodgers (-317) + Mariners (-218)",
+    "legs": [
+      {
+        "id": "pla-3",
+        "match": "Real Madrid vs Real Betis",
+        "selection": "Real Madrid Gana",
+        "decimalOdds": 1.36
+      },
+      {
+        "id": "pla-2",
+        "match": "Washington Nationals vs Los Angeles Dodgers",
+        "selection": "Los Angeles Dodgers",
+        "decimalOdds": 1.31
+      },
+      {
+        "id": "pla-1",
+        "match": "Athletics vs Seattle Mariners",
+        "selection": "Seattle Mariners (L. GILBERT)",
+        "decimalOdds": 1.46
+      }
+    ]
+  },
+  {
+    "id": "bet_oficial_3_multiplicador",
+    "date": "2026-09-05T05:22:00.000Z",
+    "stake": 1.5,
+    "combinedOdds": 4.85,
+    "payout": 7.27,
+    "status": "pending",
+    "sport": "Multiplicador Mixto",
+    "notes": "Ticket 3 (Bomba $1.5): Liverpool (-242) + Brewers (-166) + Pirates (-203) + Medvedev (-286)",
+    "legs": [
+      {
+        "id": "pla-5",
+        "match": "Liverpool vs Ipswich Town",
+        "selection": "Liverpool Gana",
+        "decimalOdds": 1.41
+      },
+      {
+        "id": "pla-6",
+        "match": "Milwaukee Brewers vs Cincinnati Reds",
+        "selection": "Milwaukee Brewers",
+        "decimalOdds": 1.6
+      },
+      {
+        "id": "pla-4",
+        "match": "Los Angeles Angels vs Pittsburgh Pirates",
+        "selection": "Pittsburgh Pirates (J. JONES)",
+        "decimalOdds": 1.49
+      },
+      {
+        "id": "pla-8",
+        "match": "Daniil Medvedev vs Arthur Rinderknech",
+        "selection": "Daniil Medvedev Gana",
+        "decimalOdds": 1.35
+      }
+    ]
+  }
+]

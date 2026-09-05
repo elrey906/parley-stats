@@ -1,0 +1,5 @@
+bin/
+*.log
+__pycache__/
+ENLACE_MOVIL.txt
+.DS_Store

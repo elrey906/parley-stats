@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PARLEY STATS PRO - Estadísticas y Seleccionador de Top Picks</title>
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+  <!-- Top Header Navigation -->
+  <header>
+    <div class="nav-bar">
+      <div class="logo-group">
+        <div class="logo-badge">⚡ PARLEY PRO</div>
+        <div class="logo-title">Analytics & Picks del Día</div>
+      </div>
+      
+            <nav class="nav-tabs">
+        <button class="tab-btn active" data-tab="picks-parleyla">🇻🇪 Picks Parley.la (Bs / Taquilla)</button>
+        <button class="tab-btn" data-tab="picks-stake">🟢 Picks Stake (USD / USDT)</button>
+        <button class="tab-btn" data-tab="calculator">
+          📊 Mi Parley <span id="header-parlay-count" class="cart-count-badge">0</span>
+        </button>
+        <button class="tab-btn" data-tab="monte-carlo">🎲 Monte Carlo</button>
+        <button class="tab-btn" data-tab="sports-stats">⚽ Estadísticas</button>
+        <button class="tab-btn" data-tab="kelly">🧠 Bankroll & Kelly</button>
+        <button class="tab-btn" data-tab="tracker">📑 Historial & ROI</button>
+        <button id="btn-force-zero" class="btn btn-danger btn-sm" style="margin-left: 0.5rem;" title="Resetear todas las ganancias y apuestas a 0">↺ Reset a Cero</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Live Metrics Banner -->
+    <section class="top-metrics-grid">
+      <div class="metric-card">
+        <div class="metric-icon" style="background: rgba(59, 130, 246, 0.15); color: #60a5fa;">📋</div>
+        <div class="metric-info">
+          <h4>Total Apuestas</h4>
+          <p id="stat-total-bets">0</p>
+        </div>
+      </div>
+
+      <div class="metric-card">
+        <div class="metric-icon" style="background: rgba(16, 185, 129, 0.15); color: #34d399;">🎯</div>
+        <div class="metric-info">
+          <h4>Win Rate Global</h4>
+          <p id="stat-win-rate">0.0%</p>
+        </div>
+      </div>
+
+      <div class="metric-card">
+        <div class="metric-icon" style="background: rgba(139, 92, 246, 0.15); color: #a78bfa;">💵</div>
+        <div class="metric-info">
+          <h4>Beneficio Neto</h4>
+          <p id="stat-net-profit">$0.00</p>
+        </div>
+      </div>
+
+      <div class="metric-card">
+        <div class="metric-icon" style="background: rgba(245, 158, 11, 0.15); color: #fbbf24;">📈</div>
+        <div class="metric-info">
+          <h4>ROI Acumulado</h4>
+          <p id="stat-roi">0.0%</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         TAB 0: TOP PICKS DEL DÍA (SELECCIONADOR INTELIGENTE)
+         ========================================================================= -->
+            <!-- =========================================================================
+         TAB 0-A: PICKS PARLEY.LA (VENEZUELA - EN BOLÍVARES / TAQUILLA)
+         ========================================================================= -->
+    <section id="view-picks-parleyla" class="view-content active">
+      <div class="top-picks-header" style="background: linear-gradient(135deg, rgba(59, 130, 246, 0.15), rgba(15, 23, 42, 0.9)); border: 1px solid rgba(59, 130, 246, 0.3);">
+        <div>
+          <div style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem;">
+            <span class="badge badge-blue">🇻🇪 PARLEY.LA (PIZARRA VENEZUELA EN BS)</span>
+            <span class="badge badge-green">🗓️ CARTELERA DE HOY (HORARIOS VENEZUELA)</span>
+          </div>
+          <h2 style="font-size: 1.6rem; font-weight: 800; margin: 0.2rem 0; color: #f8fafc;">Picks y Logros de Parley.la con Hora y Abridores</h2>
+          <p style="color: #cbd5e1; font-size: 0.92rem; margin-top: 0.2rem;">
+            Cobro en Bolívares por Pago Móvil y taquillas autorizadas. Consulta aquí el día, la hora exacta de cada juego y los lanzadores abridores.
+          </p>
+        </div>
+        <div style="text-align: right;">
+          <button class="btn btn-primary btn-go-calc">
+            ⚡ Ver Mi Parley (<span class="badge-parlay-count">0</span>)
+          </button>
+        </div>
+      </div>
+
+      <!-- Parleys Automáticos Recomendados Parley.la -->
+      <h3 style="font-size: 1.1rem; margin-bottom: 0.75rem; color: #94a3b8;">🚀 Parleys Recomendados de HOY en Parley.la (1-Click):</h3>
+      <div class="auto-parley-box">
+        <div class="auto-parley-card" id="btn-pla-parley-safe" style="border-left: 4px solid #10b981;">
+          <div>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+              <span class="badge badge-green">🛡️ Banquero de Hoy</span>
+              <strong style="color: #10b981; font-size: 1.15rem;">@2.29</strong>
+            </div>
+            <p style="font-size: 0.85rem; color: #cbd5e1;">Phillies (R. Suárez 6:40 PM) + Rangers (C. Bradford 8:05 PM)</p>
+          </div>
+          <div style="font-size: 0.78rem; color: #94a3b8; margin-top: 0.75rem; font-weight: 600;">
+            Prob. Estimada: <strong>~53%</strong> | 2 Juegos de Hoy
+          </div>
+        </div>
+
+        <div class="auto-parley-card" id="btn-pla-parley-opt" style="border-left: 4px solid #3b82f6;">
+          <div>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+              <span class="badge badge-blue">⚖️ Parley Equilibrado (+EV)</span>
+              <strong style="color: #60a5fa; font-size: 1.15rem;">@3.73</strong>
+            </div>
+            <p style="font-size: 0.85rem; color: #cbd5e1;">Phillies (6:40 PM) + Pirates (6:40 PM) + Rangers (8:05 PM)</p>
+          </div>
+          <div style="font-size: 0.78rem; color: #94a3b8; margin-top: 0.75rem; font-weight: 600;">
+            Prob. Estimada: <strong>~36%</strong> | 3 Juegos de Hoy
+          </div>
+        </div>
+
+        <div class="auto-parley-card" id="btn-pla-parley-bomb" style="border-left: 4px solid #f59e0b;">
+          <div>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+              <span class="badge badge-amber">💣 Parley Multiplicador Cuotón</span>
+              <strong style="color: #fbbf24; font-size: 1.15rem;">@5.22</strong>
+            </div>
+            <p style="font-size: 0.85rem; color: #cbd5e1;">Phillies + Pirates + Braves (7:20 PM) + Padres (8:40 PM)</p>
+          </div>
+          <div style="font-size: 0.78rem; color: #94a3b8; margin-top: 0.75rem; font-weight: 600;">
+            Prob. Estimada: <strong>~23%</strong> | 4 Juegos de Hoy
+          </div>
+        </div>
+      </div>
+
+      <!-- Filtros de Picks Parley.la -->
+      <div class="filter-pills" id="pills-parleyla">
+        <button class="pill-btn active" data-filter="all">Todos los Juegos de Hoy</button>
+        <button class="pill-btn" data-filter="seguro">💎 Banqueros y Fijos</button>
+        <button class="pill-btn" data-filter="valor">🚀 Alto Valor (+EV)</button>
+        <button class="pill-btn" data-filter="baseball">⚾ MLB Béisbol</button>
+      </div>
+
+      <!-- Grid de Picks Parley.la -->
+      <div id="parleyla-picks-grid" class="picks-grid"></div>
+    </section>
+
+    <!-- =========================================================================
+         TAB 0-B: PICKS STAKE.COM (USD / USDT)
+         ========================================================================= -->
+    <section id="view-picks-stake" class="view-content">
+      <div class="top-picks-header" style="background: linear-gradient(135deg, rgba(16, 185, 129, 0.15), rgba(15, 23, 42, 0.9)); border: 1px solid rgba(16, 185, 129, 0.3);">
+        <div>
+          <div style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem;">
+            <span class="badge badge-green">🟢 STAKE.COM OFICIAL (DÓLARES / USDT)</span>
+            <span class="badge badge-blue">🎁 Bono 200% + Seguro MLB</span>
+          </div>
+          <h2 style="font-size: 1.6rem; font-weight: 800; margin: 0.2rem 0; color: #f8fafc;">Picks de Stake.com con Horarios y Cuotas Mejoradas (+EV)</h2>
+          <p style="color: #cbd5e1; font-size: 0.92rem; margin-top: 0.2rem;">
+            Apuesta en dólares reales (USDT vía Binance Pay). Cuotas más altas que en taquilla y cobros en 5 minutos.
+          </p>
+        </div>
+        <div style="text-align: right;">
+          <button class="btn btn-primary btn-go-calc">
+            ⚡ Ver Mi Parley (<span class="badge-parlay-count">0</span>)
+          </button>
+        </div>
+      </div>
+
+      <!-- Parleys Automáticos Recomendados Stake -->
+      <h3 style="font-size: 1.1rem; margin-bottom: 0.75rem; color: #94a3b8;">🚀 Parleys Recomendados en Dólares (1-Click Stake):</h3>
+      <div class="auto-parley-box">
+        <div class="auto-parley-card" id="btn-stake-parley-safe" style="border-left: 4px solid #10b981;">
+          <div>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+              <span class="badge badge-green">🛡️ Parley Conservador Stake</span>
+              <strong style="color: #10b981; font-size: 1.15rem;">@2.95</strong>
+            </div>
+            <p style="font-size: 0.85rem; color: #cbd5e1;">Phillies -1.5 (6:40 PM) + Rangers ML (8:05 PM) [Stake USD]</p>
+          </div>
+          <div style="font-size: 0.78rem; color: #94a3b8; margin-top: 0.75rem; font-weight: 600;">
+            Prob. Estimada: <strong>~46%</strong> | Cobro estimado $20 -> $59.00 USD
+          </div>
+        </div>
+
+        <div class="auto-parley-card" id="btn-stake-parley-opt" style="border-left: 4px solid #3b82f6;">
+          <div>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+              <span class="badge badge-blue">⚖️ Parley Equilibrado (+EV)</span>
+              <strong style="color: #60a5fa; font-size: 1.15rem;">@5.07</strong>
+            </div>
+            <p style="font-size: 0.85rem; color: #cbd5e1;">Phillies -1.5 + Pirates ML + Rangers ML [Stake USD]</p>
+          </div>
+          <div style="font-size: 0.78rem; color: #94a3b8; margin-top: 0.75rem; font-weight: 600;">
+            Prob. Estimada: <strong>~30%</strong> | Cobro estimado $20 -> $101.40 USD
+          </div>
+        </div>
+
+        <div class="auto-parley-card" id="btn-stake-parley-bomb" style="border-left: 4px solid #f59e0b;">
+          <div>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+              <span class="badge badge-amber">💣 Super Cuotón Stake</span>
+              <strong style="color: #fbbf24; font-size: 1.15rem;">@8.92</strong>
+            </div>
+            <p style="font-size: 0.85rem; color: #cbd5e1;">Phillies -1.5 + Pirates + Braves -1.5 + Padres [Stake USD]</p>
+          </div>
+          <div style="font-size: 0.78rem; color: #94a3b8; margin-top: 0.75rem; font-weight: 600;">
+            Prob. Estimada: <strong>~18%</strong> | Cobro estimado $20 -> $178.40 USD
+          </div>
+        </div>
+      </div>
+
+      <!-- Filtros de Picks Stake -->
+      <div class="filter-pills" id="pills-stake">
+        <button class="pill-btn active" data-filter="all">Todos los Picks Stake</button>
+        <button class="pill-btn" data-filter="seguro">💎 Picks Seguros</button>
+        <button class="pill-btn" data-filter="valor">🚀 Alto Valor (+EV)</button>
+        <button class="pill-btn" data-filter="baseball">⚾ Béisbol MLB</button>
+      </div>
+
+      <!-- Grid de Picks Stake -->
+      <div id="stake-picks-grid" class="picks-grid"></div>
+    </section>
+
+    <!-- =========================================================================
+         TAB 1: CALCULADORA DE PARLEY & EV ENGINE
+         ========================================================================= -->
+    <section id="view-calculator" class="view-content">
+      <div class="grid-2col">
+        <!-- Columna Izquierda: Creador de Selecciones -->
+        <div>
+          <div class="card">
+            <div class="card-header">
+              <div class="card-title">🎯 Selecciones de tu Parley (<span id="parlay-legs-count-badge">2</span>)</div>
+              <div style="display: flex; gap: 0.5rem;">
+                <button id="btn-add-custom-leg" class="btn btn-secondary btn-sm">+ Añadir Manual</button>
+                <button id="btn-clear-parlay" class="btn btn-danger btn-sm">Limpiar</button>
+              </div>
+            </div>
+
+            <!-- Alerta de correlación de eventos -->
+            <div id="parlay-correlation-warning" style="display: none; background: rgba(245, 158, 11, 0.15); border: 1px solid rgba(245, 158, 11, 0.4); padding: 0.75rem; border-radius: 0.5rem; margin-bottom: 1rem; color: #fbbf24; font-size: 0.85rem;">
+              ⚠️ <strong>Riesgo de Correlación:</strong> Has seleccionado múltiples opciones del mismo partido. Las casas de apuestas reducen o ajustan la cuota combinada en apuestas correlacionadas (Same Game Parlay).
+            </div>
+
+            <div id="parlay-legs-container">
+              <!-- Renderizado dinámico vía JS -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Columna Derecha: Resumen de Cuota, Retorno, EV y Kelly -->
+        <div>
+          <div class="card">
+            <div class="card-header">
+              <div class="card-title">💰 Resumen de Pagos y Valor Esperado</div>
+              <span id="res-ev-badge" class="badge badge-green">+0.0% EV</span>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Monto de la Apuesta ($)</label>
+              <input type="number" id="parlay-stake-input" class="input-field" value="25" min="1" step="5">
+            </div>
+
+            <div class="summary-box">
+              <div class="summary-row">
+                <span class="label">Cuota Combinada (Decimal):</span>
+                <span class="value" id="res-combined-decimal" style="color: #60a5fa; font-size: 1.25rem;">1.00</span>
+              </div>
+              <div class="summary-row">
+                <span class="label">Cuota Americana / Fraccional:</span>
+                <span class="value"><span id="res-combined-american">+0</span> (<span id="res-combined-fractional">0/1</span>)</span>
+              </div>
+              <div class="summary-row">
+                <span class="label">Probabilidad Implícita (Casa):</span>
+                <span class="value" id="res-implied-prob">0.0%</span>
+              </div>
+              <div class="summary-row">
+                <span class="label">Probabilidad Real Estimada:</span>
+                <span class="value" id="res-real-prob" style="color: #34d399;">0.0%</span>
+              </div>
+              <div class="summary-row">
+                <span class="label">Pago Total Estimado:</span>
+                <span class="value" id="res-payout">$0.00</span>
+              </div>
+              <div class="summary-row" style="margin-top: 0.5rem; padding-top: 0.75rem; border-top: 1px dashed rgba(255,255,255,0.15);">
+                <span class="label" style="font-weight: 700; color: #fff;">Beneficio Neto Potencial:</span>
+                <span class="value highlight-profit" id="res-profit">+$0.00</span>
+              </div>
+            </div>
+
+            <div style="margin-top: 1rem; padding: 0.75rem; background: rgba(15, 23, 42, 0.6); border-radius: 0.5rem; border: 1px solid var(--border-color);">
+              <div style="font-size: 0.78rem; text-transform: uppercase; color: #94a3b8; margin-bottom: 0.25rem;">Análisis de Gestión de Capital</div>
+              <div id="res-kelly-rec" style="font-size: 0.85rem; font-weight: 600;">Calculando...</div>
+            </div>
+
+            <div style="margin-top: 1.25rem; display: flex; gap: 0.75rem;">
+              <button id="btn-save-parlay-to-tracker" class="btn btn-primary" style="flex: 1;">💾 Guardar en Historial</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         TAB 2: MONTE CARLO SIMULATOR
+         ========================================================================= -->
+    <section id="view-monte-carlo" class="view-content">
+      <div class="grid-2col">
+        <!-- Parámetros de la simulación -->
+        <div>
+          <div class="card">
+            <div class="card-header">
+              <div class="card-title">🎲 Parámetros de Simulación Estocástica</div>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+              <div class="form-group">
+                <label class="form-label">Bankroll Inicial ($)</label>
+                <input type="number" id="mc-bankroll" class="input-field" value="1000" step="100">
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Tipo de Apuesta</label>
+                <select id="mc-stake-type" class="select-field">
+                  <option value="fixed">Monto Fijo ($)</option>
+                  <option value="percent">% Dinámico de Bankroll</option>
+                </select>
+              </div>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+              <div class="form-group">
+                <label class="form-label">Tamaño de Apuesta: <span id="mc-stake-val">25</span></label>
+                <input type="range" id="mc-stake" class="input-field" min="5" max="200" value="25" step="5">
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Cuota Media del Parley: <span id="mc-odds-val">4.50</span></label>
+                <input type="range" id="mc-odds" class="input-field" min="1.50" max="25.00" value="4.50" step="0.25">
+              </div>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+              <div class="form-group">
+                <label class="form-label">Probabilidad de Éxito (%): <span id="mc-winprob-val">25</span>%</label>
+                <input type="range" id="mc-winprob" class="input-field" min="1" max="90" value="25" step="1">
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Apuestas por Serie: <span id="mc-numbets-val">100</span></label>
+                <input type="range" id="mc-numbets" class="input-field" min="20" max="500" value="100" step="10">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Número de Simulaciones (Trayectorias): <span id="mc-numsims-val">1000</span></label>
+              <input type="range" id="mc-numsims" class="input-field" min="100" max="5000" value="1000" step="100">
+            </div>
+
+            <button id="btn-run-monte-carlo" class="btn btn-primary" style="width: 100%; margin-top: 0.5rem;">⚡ Ejecutar Simulación Monte Carlo</button>
+          </div>
+
+          <!-- Métricas de Riesgo Monte Carlo -->
+          <div class="card">
+            <div class="card-header">
+              <div class="card-title">🛡️ Evaluación de Riesgo y Quiebra</div>
+            </div>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 0.75rem;">
+              <div style="background: rgba(15, 23, 42, 0.6); padding: 0.75rem; border-radius: 0.5rem; text-align: center;">
+                <div style="font-size: 0.75rem; color: #94a3b8;">Riesgo de Quiebra</div>
+                <div id="mc-res-bust-rate" style="font-size: 1.25rem; font-weight: 700; color: #10b981;">0.0%</div>
+              </div>
+
+              <div style="background: rgba(15, 23, 42, 0.6); padding: 0.75rem; border-radius: 0.5rem; text-align: center;">
+                <div style="font-size: 0.75rem; color: #94a3b8;">Prob. Beneficio</div>
+                <div id="mc-res-profit-prob" style="font-size: 1.25rem; font-weight: 700; color: #60a5fa;">0.0%</div>
+              </div>
+
+              <div style="background: rgba(15, 23, 42, 0.6); padding: 0.75rem; border-radius: 0.5rem; text-align: center;">
+                <div style="font-size: 0.75rem; color: #94a3b8;">Mediana Final</div>
+                <div id="mc-res-median-bankroll" style="font-size: 1.25rem; font-weight: 700; color: #f8fafc;">$0</div>
+              </div>
+
+              <div style="background: rgba(15, 23, 42, 0.6); padding: 0.75rem; border-radius: 0.5rem; text-align: center;">
+                <div style="font-size: 0.75rem; color: #94a3b8;">Max Drawdown</div>
+                <div id="mc-res-max-drawdown" style="font-size: 1.25rem; font-weight: 700; color: #fbbf24;">0.0%</div>
+              </div>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.5rem; margin-top: 0.75rem; font-size: 0.8rem; color: #94a3b8; text-align: center;">
+              <div>Percentil 10 (Pesimista): <strong id="mc-res-p10" style="color: #fff;">$0</strong></div>
+              <div>Percentil 90 (Optimista): <strong id="mc-res-p90" style="color: #fff;">$0</strong></div>
+              <div>Racha de Derrotas Max: <strong id="mc-res-longest-streak" style="color: #fff;">0</strong></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Gráficos de Trayectorias y Distribución -->
+        <div>
+          <div class="card">
+            <div class="card-header">
+              <div class="card-title">📈 Trayectorias de Bankroll</div>
+            </div>
+            <div class="chart-wrapper">
+              <canvas id="chart-monte-carlo-lines"></canvas>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <div class="card-title">📊 Distribución de Resultados Finales</div>
+            </div>
+            <div class="chart-wrapper" style="height: 220px;">
+              <canvas id="chart-monte-carlo-hist"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         TAB 3: SPORTS STATS & FIXTURES
+         ========================================================================= -->
+    <section id="view-sports-stats" class="view-content">
+      <div class="card" style="margin-bottom: 1.25rem;">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+          <div class="card-title">⚽ Rendimiento, Rachas y Cartelera de Partidos</div>
+          <div style="display: flex; gap: 0.5rem; align-items: center;">
+            <label class="form-label" style="margin: 0;">Filtrar Deporte:</label>
+            <select id="sports-category-filter" class="select-field" style="width: auto;">
+              <option value="all">Todos los Deportes</option>
+              <option value="soccer">Fútbol (Champions / Premier / LaLiga)</option>
+              <option value="basketball">Baloncesto (NBA)</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-2col">
+        <!-- Lista de Partidos con Cuotas y Botón de Añadir -->
+        <div>
+          <h3 style="font-size: 1.1rem; margin-bottom: 0.75rem; color: #94a3b8;">🔥 Partidos Destacados & Mercados con Valor</h3>
+          <div id="sports-matches-container">
+            <!-- Partidos inyectados por JS -->
+          </div>
+        </div>
+
+        <!-- Tabla de Estadísticas de Equipos -->
+        <div>
+          <div class="card">
+            <div class="card-header">
+              <div class="card-title">📊 Estadísticas Clave de Equipos</div>
+            </div>
+            <div class="table-responsive">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Equipo</th>
+                    <th>Forma (Últimos 5)</th>
+                    <th>Win Rate %</th>
+                    <th>Over / Cover %</th>
+                    <th>Tendencia</th>
+                  </tr>
+                </thead>
+                <tbody id="sports-teams-table-body">
+                  <!-- Inyectado vía JS -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         TAB 4: KELLY CRITERION & BANKROLL
+         ========================================================================= -->
+    <section id="view-kelly" class="view-content">
+      <div class="grid-2col">
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title">🧠 Calculadora de Criterio de Kelly</div>
+            <span id="kelly-ev-status" class="badge badge-green">Calculando...</span>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Capital Total de Bankroll ($)</label>
+            <input type="number" id="kelly-bankroll" class="input-field" value="1000" step="100">
+          </div>
+
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+            <div class="form-group">
+              <label class="form-label">Cuota Decimal Ofrecida</label>
+              <input type="number" id="kelly-odds" class="input-field" value="2.50" step="0.05">
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Probabilidad Real Estimada (%)</label>
+              <input type="number" id="kelly-prob" class="input-field" value="45" min="1" max="99" step="1">
+            </div>
+          </div>
+
+          <button id="btn-calc-kelly" class="btn btn-primary" style="width: 100%; margin-top: 0.5rem;">Calcular Asignación Óptima</button>
+
+          <div style="margin-top: 1.5rem;">
+            <h4 style="font-size: 0.95rem; color: #94a3b8; margin-bottom: 0.75rem;">Recomendaciones de Tamaño de Apuesta:</h4>
+
+            <div class="summary-box">
+              <div class="summary-row">
+                <span class="label">Kelly Completo (Full Kelly - 1.0x):</span>
+                <span class="value" id="kelly-full-val" style="color: #fbbf24;">$0.00 (0%)</span>
+              </div>
+              <div class="summary-row">
+                <span class="label">Medio Kelly (Half Kelly - 0.5x):</span>
+                <span class="value" id="kelly-half-val" style="color: #60a5fa;">$0.00 (0%)</span>
+              </div>
+              <div class="summary-row">
+                <span class="label">Cuarto Kelly (Quarter Kelly - 0.25x - Recomendado):</span>
+                <span class="value" id="kelly-quarter-val" style="color: #34d399; font-size: 1.15rem;">$0.00 (0%)</span>
+              </div>
+              <div class="summary-row" style="margin-top: 0.5rem; border-top: 1px dashed rgba(255,255,255,0.1);">
+                <span class="label">Riesgo de Ruina Matemático:</span>
+                <span class="value" id="kelly-ror-val" style="color: #f87171;">0%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Explicación de Estrategia -->
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title">📖 Guía Profesional de Bankroll para Parleys</div>
+          </div>
+          
+          <div style="font-size: 0.9rem; line-height: 1.6; color: #cbd5e1;">
+            <p style="margin-bottom: 1rem;">
+              <strong>¿Por qué el Criterio de Kelly?</strong> En apuestas combinadas (parleys), la volatilidad es exponencialmente mayor que en apuestas simples. Apostar un porcentaje fijo desproporcionado lleva a la ruina incluso cuando las selecciones tienen valor esperado positivo (+EV).
+            </p>
+
+            <div style="background: rgba(15, 23, 42, 0.6); padding: 1rem; border-radius: 0.5rem; border-left: 3px solid #10b981; margin-bottom: 1rem;">
+              <strong style="color: #10b981;">Regla de Oro en Parleys:</strong><br>
+              Nunca arriesgues más del <strong>1% al 2.5%</strong> de tu bankroll en un parley de 2 a 3 selecciones, y menos del <strong>0.5%</strong> en combinadas de 4+ selecciones.
+            </div>
+
+            <p>
+              El modo <strong>Cuarto de Kelly (Quarter Kelly)</strong> ofrece el equilibrio perfecto entre maximizar la tasa de crecimiento del capital a largo plazo y mantener el drawdown por debajo del 20%.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         TAB 5: BET TRACKER & ROI HISTORY
+         ========================================================================= -->
+    <section id="view-tracker" class="view-content">
+      <div class="card" style="margin-bottom: 1.25rem;">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.75rem;">
+          <div class="card-title">📑 Historial de Parleys y Rendimiento Real</div>
+          <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+            <button id="btn-load-official-10" class="btn btn-primary btn-sm" style="background: #10b981; border-color: #10b981; font-weight: 700;">
+              ⚡ Registrar Jugada de $10 (3 Tickets)
+            </button>
+            <button id="btn-export-csv" class="btn btn-secondary btn-sm">📥 Exportar CSV</button>
+            <button id="btn-export-json" class="btn btn-secondary btn-sm">💾 Backup JSON</button>
+            <label class="btn btn-secondary btn-sm" style="margin: 0; cursor: pointer;">
+              📂 Importar JSON
+              <input type="file" id="input-import-json" accept=".json" style="display: none;">
+            </label>
+            <button id="btn-reset-sample-data" class="btn btn-danger btn-sm">↺ Limpiar Historial</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Gráficos de ROI e Historial -->
+      <div class="grid-2col" style="margin-bottom: 1.5rem;">
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title">📈 Curva de Beneficio Neto ($)</div>
+          </div>
+          <div class="chart-wrapper">
+            <canvas id="chart-tracker-roi"></canvas>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title">🎯 Rendimiento por Cantidad de Selecciones (Legs)</div>
+          </div>
+          <div class="chart-wrapper">
+            <canvas id="chart-legs-winrate"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tabla de Registro -->
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">📋 Registro de Apuestas</div>
+        </div>
+        <div class="table-responsive">
+          <table>
+            <thead>
+              <tr>
+                <th>Fecha</th>
+                <th>Detalles / Selecciones</th>
+                <th>Cuota</th>
+                <th>Apostado</th>
+                <th>Ganancia / Pérdida</th>
+                <th>Estado</th>
+                <th>Acciones</th>
+              </tr>
+            </thead>
+            <tbody id="tracker-table-body">
+              <!-- Inyectado vía JS -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Contenedor de Alertas Flotantes Toast -->
+  <div id="toast-container"></div>
+
+  <!-- Scripts -->
+  <script type="module" src="./js/app.js?v=3.4.0"></script>
+</body>
+</html>
