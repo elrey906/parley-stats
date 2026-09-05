@@ -173,3 +173,14 @@
   - Se independizó el `daemon_guardian.py` en una nueva sesión POSIX desacoplada (`setsid` anclado a PID 1) para que no dependa de terminales abiertas ni se cierre accidentalmente.
   - El hilo de monitoreo en segundo plano vigila el enlace, reportando estado `HTTP/2 200 OK` continuo.
   - El enlace móvil activo se actualiza automáticamente en el archivo del Escritorio `ENLACE_PARLEY_MOVIL.txt`.
+
+### [05/09/2026 - Fase 15]: Despliegue Oficial en la Nube 24/7/365 en GitHub Pages
+- **Objetivo**: Desvincular la disponibilidad móvil de la energía eléctrica o estado de la laptop local, logrando un enlace permanente, seguro y de alta disponibilidad sin costos.
+- **Acciones Ejecutadas**:
+  - Se vinculó el repositorio a `https://github.com/elrey906/parley-stats`.
+  - Se subió la rama `main` a GitHub.
+  - Se aprovisionó y activó GitHub Pages vía API con rama `main` en la raíz `/`.
+  - La URL pública definitiva es **`https://elrey906.github.io/parley-stats/`**.
+  - Verificación exitosa de estado `HTTP/2 200 OK` directo desde CDN global de GitHub.
+  - Se actualizó el acceso directo en el Escritorio (`ENLACE_PARLEY_MOVIL.txt`).
+
