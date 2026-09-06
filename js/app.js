@@ -4,7 +4,7 @@
 import { OddsCalculator } from "./oddsCalculator.js";
 import { KellyCriterion } from "./kellyCriterion.js";
 import { MonteCarloSimulator } from "./monteCarlo.js";
-import { SPORTS_DATA, TOP_PICKS_OF_THE_DAY } from "./sportsData.js?v=4.0.0";
+import { SPORTS_DATA, TOP_PICKS_OF_THE_DAY } from "./sportsData.js?v=4.2.0";
 import { STAKE_PICKS_OF_THE_DAY, STAKE_PARLAY_PRESETS } from "./sportsDataStake.js";
 import { BetTracker } from "./betTracker.js";
 import { ChartManager } from "./charts.js";
@@ -30,6 +30,7 @@ class ParleyApp {
     this.currentLegs = [];
     this.currentStake = 25;
     this.currentTopPicksFilter = "all";
+    this.hideStartedGames = false;
 
     this.init();
   }
@@ -37,6 +38,8 @@ class ParleyApp {
   init() {
     this.setupTabs();
     this.setupTopPicks();
+    this.startLiveClock();
+    this.setupAnalysisModal();
     this.setupParlayCalculator();
     this.setupMonteCarlo();
     this.setupSportsStats();
@@ -165,6 +168,25 @@ class ParleyApp {
     const pBomb = document.getElementById("btn-pla-parley-bomb");
     if (pBomb) pBomb.addEventListener("click", () => this.loadPresetParleyLa("bomb"));
 
+    // 5. Control de Tiempo Real & Filtro de Juegos Iniciados (Fase 2)
+    const toggleHide = document.getElementById("toggle-hide-started");
+    if (toggleHide) {
+      toggleHide.addEventListener("change", (e) => {
+        this.hideStartedGames = e.target.checked;
+        this.renderParleyLaGrid();
+        this.showToast(this.hideStartedGames ? "Juegos iniciados ocultados." : "Mostrando todos los juegos.", "info");
+      });
+    }
+
+    const btnRefresh = document.getElementById("btn-refresh-lines");
+    if (btnRefresh) {
+      btnRefresh.addEventListener("click", () => {
+        this.renderParleyLaGrid();
+        this.renderStakeGrid();
+        this.showToast("Pizarra de logros sincronizada con hora oficial VET.", "success");
+      });
+    }
+
     // Render inicial de ambas
     this.renderStakeGrid();
     this.renderParleyLaGrid();
@@ -272,8 +294,19 @@ class ParleyApp {
     if (!container) return;
     container.innerHTML = "";
 
+    const now = new Date();
     const filter = this.parleyLaFilter || "all";
     const filtered = TOP_PICKS_OF_THE_DAY.filter(pick => {
+      let isStarted = false;
+      if (pick.isoStartTime) {
+        const gameTime = new Date(pick.isoStartTime);
+        if (now >= gameTime) isStarted = true;
+      }
+
+      if (this.hideStartedGames && isStarted) {
+        return false;
+      }
+
       if (filter === "all") return true;
       if (filter === "seguro" || filter === "valor" || filter === "bomba") {
         return pick.category === filter;
@@ -288,7 +321,7 @@ class ParleyApp {
     });
 
     if (filtered.length === 0) {
-      container.innerHTML = `<div style="grid-column: 1/-1; text-align:center; padding: 2rem; color:#64748b;">No hay picks disponibles para este filtro.</div>`;
+      container.innerHTML = `<div style="grid-column: 1/-1; text-align:center; padding: 2rem; color:#64748b;">No hay picks disponibles para este filtro o los juegos ya iniciaron.</div>`;
       return;
     }
 
@@ -296,6 +329,28 @@ class ParleyApp {
       const isSelected = this.currentLegs.some(leg => leg.match === pick.match && leg.selection.includes(pick.selection));
       const card = document.createElement("div");
       card.className = `pick-card ${isSelected ? "selected-in-parlay" : ""}`;
+
+      let timeBadgeHtml = "";
+      let isStarted = false;
+      if (pick.isoStartTime) {
+        const startTime = new Date(pick.isoStartTime);
+        const diffMs = startTime - now;
+        if (diffMs <= 0) {
+          isStarted = true;
+          timeBadgeHtml = `<span class="status-badge status-closed">🔴 EN VIVO / CERRADO</span>`;
+        } else {
+          const diffMins = Math.round(diffMs / (1000 * 60));
+          if (diffMins < 60) {
+            timeBadgeHtml = `<span class="status-badge status-open">🟢 Faltan ${diffMins} min</span>`;
+          } else if (diffMins < 1440) {
+            const hours = Math.floor(diffMins / 60);
+            const mins = diffMins % 60;
+            timeBadgeHtml = `<span class="status-badge status-open">🟢 Empieza en ${hours}h ${mins}m</span>`;
+          } else {
+            timeBadgeHtml = `<span class="status-badge status-open">🟢 Abierto</span>`;
+          }
+        }
+      }
 
       const stars = "★".repeat(pick.stars) + "☆".repeat(5 - pick.stars);
       const categoryBadge = `<span class="badge badge-green">${pick.categoryLabel}</span>`;
@@ -311,6 +366,10 @@ class ParleyApp {
               <div style="font-size: 0.7rem; color: #60a5fa; text-transform: uppercase;">Parley.la</div>
               <div class="pick-odds-number" style="color: #60a5fa;">@${pick.decimalOdds.toFixed(2)}</div>
             </div>
+          </div>
+
+          <div style="margin-bottom: 0.4rem;">
+            ${timeBadgeHtml}
           </div>
 
           <div class="pick-match-title">${pick.match}</div>
@@ -333,9 +392,12 @@ class ParleyApp {
             <div>Ventaja: <strong style="color: #10b981;">${pick.edgePercent} EV</strong></div>
           </div>
 
-          <div class="pick-metrics-footer">
-            <button class="btn ${isSelected ? "btn-danger" : "btn-primary"} btn-sm toggle-pla-btn" style="width: 100%;" data-id="${pick.id}">
-              ${isSelected ? "✕ Quitar del Parley" : "⚡ Añadir a Mi Parley"}
+          <div class="pick-metrics-footer" style="display: flex; gap: 0.5rem;">
+            <button class="btn btn-secondary btn-sm view-analysis-btn" style="flex: 1; font-size: 0.78rem; font-weight: 700;" data-id="${pick.id}">
+              📊 Sabermetría
+            </button>
+            <button class="btn ${isSelected ? "btn-danger" : "btn-primary"} btn-sm toggle-pla-btn" style="flex: 1.2;" data-id="${pick.id}">
+              ${isSelected ? "✕ Quitar" : "⚡ Añadir"}
             </button>
           </div>
         </div>
@@ -366,6 +428,226 @@ class ParleyApp {
         this.renderParleyLaGrid();
       });
     });
+
+    container.querySelectorAll(".view-analysis-btn").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const id = btn.getAttribute("data-id");
+        this.openDeepAnalysisModal(id);
+      });
+    });
+  }
+
+  setupAnalysisModal() {
+    const modal = document.getElementById("modal-deep-analysis");
+    const closeBtn = document.getElementById("btn-close-analysis-modal");
+    if (!modal) return;
+
+    if (closeBtn) {
+      closeBtn.addEventListener("click", () => {
+        modal.style.display = "none";
+      });
+    }
+
+    modal.addEventListener("click", (e) => {
+      if (e.target === modal) {
+        modal.style.display = "none";
+      }
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && modal.style.display === "flex") {
+        modal.style.display = "none";
+      }
+    });
+  }
+
+  openDeepAnalysisModal(pickId) {
+    const pick = TOP_PICKS_OF_THE_DAY.find(p => p.id === pickId);
+    if (!pick) return;
+
+    const modal = document.getElementById("modal-deep-analysis");
+    const titleEl = document.getElementById("modal-analysis-title");
+    const bodyEl = document.getElementById("modal-analysis-body");
+    if (!modal || !bodyEl) return;
+
+    const a = pick.analysis || {};
+    titleEl.innerHTML = `📊 Análisis Sabermétrico: <span style="color: #38bdf8; margin-left: 0.5rem;">${pick.match}</span>`;
+
+    let sportDetailHtml = "";
+    if (a.type === "baseball" && a.starterFavorite) {
+      sportDetailHtml = `
+        <div>
+          <h4 style="font-size: 0.95rem; color: #94a3b8; margin-bottom: 0.6rem; text-transform: uppercase;">⚾ Duelo de Abridores & Sabermetría</h4>
+          <div class="saber-compare-grid">
+            <div class="saber-side">
+              <div class="saber-side-title">🟢 ${a.starterFavorite.name}</div>
+              <div class="saber-stat-row"><span>Efectividad (ERA):</span> <strong>${a.starterFavorite.era}</strong></div>
+              <div class="saber-stat-row"><span>WHIP (Bases/Inning):</span> <strong style="color: #34d399;">${a.starterFavorite.whip}</strong></div>
+              <div class="saber-stat-row"><span>Ponches K/9:</span> <strong>${a.starterFavorite.k9}</strong></div>
+              <div class="saber-stat-row"><span>Récord W-L:</span> <strong>${a.starterFavorite.record}</strong></div>
+              <div class="saber-stat-row"><span>Forma Reciente:</span> <em>${a.starterFavorite.form}</em></div>
+            </div>
+            <div class="saber-side">
+              <div class="saber-side-title" style="color: #f87171;">🔴 ${a.starterUnderdog.name}</div>
+              <div class="saber-stat-row"><span>Efectividad (ERA):</span> <strong>${a.starterUnderdog.era}</strong></div>
+              <div class="saber-stat-row"><span>WHIP (Bases/Inning):</span> <strong style="color: #f87171;">${a.starterUnderdog.whip}</strong></div>
+              <div class="saber-stat-row"><span>Ponches K/9:</span> <strong>${a.starterUnderdog.k9}</strong></div>
+              <div class="saber-stat-row"><span>Récord W-L:</span> <strong>${a.starterUnderdog.record}</strong></div>
+              <div class="saber-stat-row"><span>Forma Reciente:</span> <em>${a.starterUnderdog.form}</em></div>
+            </div>
+          </div>
+
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.75rem; font-size: 0.84rem;">
+            <div style="background: rgba(15, 23, 42, 0.6); padding: 0.6rem; border-radius: 6px; border: 1px solid rgba(255,255,255,0.05);">
+              <span style="color: #94a3b8;">Bullpen Favorito (ERA):</span> <strong style="color: #34d399;">${a.bullpenFavEra}</strong><br>
+              <span style="color: #cbd5e1; font-size: 0.78rem;">${a.offenseFav}</span>
+            </div>
+            <div style="background: rgba(15, 23, 42, 0.6); padding: 0.6rem; border-radius: 6px; border: 1px solid rgba(255,255,255,0.05);">
+              <span style="color: #94a3b8;">Bullpen Rival (ERA):</span> <strong style="color: #f87171;">${a.bullpenDogEra}</strong><br>
+              <span style="color: #cbd5e1; font-size: 0.78rem;">${a.offenseDog}</span>
+            </div>
+          </div>
+        </div>
+      `;
+    } else if (a.type === "soccer") {
+      sportDetailHtml = `
+        <div>
+          <h4 style="font-size: 0.95rem; color: #94a3b8; margin-bottom: 0.6rem; text-transform: uppercase;">⚽ Métricas Avanzadas de Fútbol (xG)</h4>
+          <div class="saber-compare-grid">
+            <div class="saber-side">
+              <div class="saber-side-title">🟢 ${a.teamFavorite.name}</div>
+              <div class="saber-stat-row"><span>Goles Esperados (xG):</span> <strong style="color: #34d399;">${a.teamFavorite.xg}</strong></div>
+              <div class="saber-stat-row"><span>Promedio Goles p/p:</span> <strong>${a.teamFavorite.goalsAvg}</strong></div>
+              <div class="saber-stat-row"><span>Racha Reciente:</span> <strong>${a.teamFavorite.streak}</strong></div>
+              <div class="saber-stat-row"><span>Valla Invicto Prob.:</span> <strong>${a.teamFavorite.cleanSheetProb}</strong></div>
+            </div>
+            <div class="saber-side">
+              <div class="saber-side-title" style="color: #f87171;">🔴 ${a.teamUnderdog.name}</div>
+              <div class="saber-stat-row"><span>Goles Esperados (xG):</span> <strong style="color: #f87171;">${a.teamUnderdog.xg}</strong></div>
+              <div class="saber-stat-row"><span>Promedio Goles p/p:</span> <strong>${a.teamUnderdog.goalsAvg}</strong></div>
+              <div class="saber-stat-row"><span>Racha Reciente:</span> <strong>${a.teamUnderdog.streak}</strong></div>
+              <div class="saber-stat-row"><span>Valla Invicto Prob.:</span> <strong>${a.teamUnderdog.cleanSheetProb}</strong></div>
+            </div>
+          </div>
+          <div style="margin-top: 0.75rem; font-size: 0.85rem; color: #cbd5e1; background: rgba(15, 23, 42, 0.6); padding: 0.6rem; border-radius: 6px;">
+            🏟️ <strong>Factor Clave:</strong> ${a.keyFactors}
+          </div>
+        </div>
+      `;
+    } else if (a.type === "tennis") {
+      sportDetailHtml = `
+        <div>
+          <h4 style="font-size: 0.95rem; color: #94a3b8; margin-bottom: 0.6rem; text-transform: uppercase;">🎾 Rendimiento en Pista Rápida</h4>
+          <div class="saber-compare-grid">
+            <div class="saber-side">
+              <div class="saber-side-title">🟢 ${a.playerFavorite.name}</div>
+              <div class="saber-stat-row"><span>Puntos con 1er Saque:</span> <strong style="color: #34d399;">${a.playerFavorite.firstServePoints}</strong></div>
+              <div class="saber-stat-row"><span>Break Points Salvados:</span> <strong>${a.playerFavorite.breakPointsSaved}</strong></div>
+              <div class="saber-stat-row"><span>Récord en Cemento:</span> <strong>${a.playerFavorite.hardCourtRecord}</strong></div>
+            </div>
+            <div class="saber-side">
+              <div class="saber-side-title" style="color: #f87171;">🔴 ${a.playerUnderdog.name}</div>
+              <div class="saber-stat-row"><span>Puntos con 1er Saque:</span> <strong style="color: #f87171;">${a.playerUnderdog.firstServePoints}</strong></div>
+              <div class="saber-stat-row"><span>Break Points Salvados:</span> <strong>${a.playerUnderdog.breakPointsSaved}</strong></div>
+              <div class="saber-stat-row"><span>Récord en Cemento:</span> <strong>${a.playerUnderdog.hardCourtRecord}</strong></div>
+            </div>
+          </div>
+          <div style="margin-top: 0.75rem; font-size: 0.85rem; color: #cbd5e1; background: rgba(15, 23, 42, 0.6); padding: 0.6rem; border-radius: 6px;">
+            🎾 <strong>Superficie & H2H:</strong> ${a.surface} | ${a.h2hRecord}
+          </div>
+        </div>
+      `;
+    }
+
+    bodyEl.innerHTML = `
+      ${sportDetailHtml}
+
+      <!-- Matriz de Valor Esperado (+EV) -->
+      <div>
+        <h4 style="font-size: 0.95rem; color: #94a3b8; margin-bottom: 0.6rem; text-transform: uppercase;">🧮 Matriz de Valor Cuantitativo</h4>
+        <div class="ev-matrix-box">
+          <div>
+            <div class="ev-matrix-item-val" style="color: #38bdf8;">@${(a.fairOdds || pick.decimalOdds).toFixed(2)}</div>
+            <div class="ev-matrix-item-lbl">Cuota Justa Modelo</div>
+          </div>
+          <div>
+            <div class="ev-matrix-item-val" style="color: #fbbf24;">@${pick.decimalOdds.toFixed(2)}</div>
+            <div class="ev-matrix-item-lbl">Cuota Parley.la</div>
+          </div>
+          <div>
+            <div class="ev-matrix-item-val" style="color: #34d399;">${a.evPercent || pick.edgePercent}</div>
+            <div class="ev-matrix-item-lbl">Ventaja Real (+EV)</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Semáforo de Riesgo y Dictamen -->
+      <div style="background: rgba(30, 41, 59, 0.7); padding: 1rem; border-radius: 0.75rem; border-left: 4px solid #10b981;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.4rem;">
+          <span style="font-size: 0.82rem; color: #94a3b8; text-transform: uppercase; font-weight: 700;">Nivel de Riesgo:</span>
+          <strong>${a.riskLevel || 'Bajo (🟢 Confiable)'}</strong>
+        </div>
+        <p style="font-size: 0.88rem; color: #e2e8f0; margin: 0; line-height: 1.45;">
+          💡 <strong>Dictamen Cuantitativo:</strong> ${a.recommendation || pick.reasoning}
+        </p>
+      </div>
+
+      <div style="display: flex; gap: 0.75rem; margin-top: 0.5rem;">
+        <button id="modal-btn-add-parlay" class="btn btn-primary" style="flex: 1;">
+          ⚡ Añadir a Mi Parley (@${pick.decimalOdds.toFixed(2)})
+        </button>
+        <button id="modal-btn-close-action" class="btn btn-secondary" style="flex: 0.6;">
+          Cerrar
+        </button>
+      </div>
+    `;
+
+    document.getElementById("modal-btn-close-action").addEventListener("click", () => {
+      modal.style.display = "none";
+    });
+
+    document.getElementById("modal-btn-add-parlay").addEventListener("click", () => {
+      const idx = this.currentLegs.findIndex(l => l.match === pick.match && l.selection.includes(pick.selection));
+      if (idx < 0) {
+        this.addCustomLeg({
+          id: pick.id,
+          match: pick.match,
+          selection: pick.selection + " [Parley.la]",
+          decimalOdds: pick.decimalOdds,
+          estimatedProb: pick.estimatedProb
+        });
+        this.showToast(`Añadido: ${pick.selection} (@${pick.decimalOdds})`, "success");
+        this.renderParleyLaGrid();
+      } else {
+        this.showToast("Esta selección ya está en tu parley.", "info");
+      }
+      modal.style.display = "none";
+    });
+
+    modal.style.display = "flex";
+  }
+
+  startLiveClock() {
+    const updateTime = () => {
+      const clockEl = document.getElementById("live-clock-vet");
+      if (!clockEl) return;
+      const now = new Date();
+      const options = {
+        timeZone: "America/Caracas",
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit",
+        hour12: true
+      };
+      clockEl.innerText = now.toLocaleTimeString("es-VE", options);
+    };
+
+    updateTime();
+    setInterval(updateTime, 1000);
+
+    setInterval(() => {
+      this.renderParleyLaGrid();
+    }, 60000);
   }
 
   loadPresetStake(type) {

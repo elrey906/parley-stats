@@ -241,3 +241,16 @@
     * *Parley Nocturno de Hoy (@2.14)*: Dodgers 9:10 PM + Ohio State + Sinner Final (Prob ~73%).
     * *Multiplicador Domingo (@7.15)*: Cuotón dominical.
   - Cache buster actualizado a `v=3.7.0`.
+
+### [06/09/2026 - Fase 19]: Fase 2 - Análisis Cuantitativo Sabermétrico Profundo y Automatización con API Oficial en Vivo
+- **Objetivo**: Elevar la plataforma a nivel profesional mediante:
+  1. **Fichas de Análisis Cuantitativo Profundo**: Modal interactivo por cada juego que desglosa el duelo de abridores con métricas sabermétricas (ERA, WHIP, ponches K/9, efectividad reciente), bullpen de últimos 7 días, OPS ofensivo, y métricas avanzadas de fútbol (xG) y tenis (% 1er servicio en pista rápida).
+  2. **Reloj Oficial y Filtro de Juegos Iniciados en Tiempo Real**: Sincronizado con la hora legal de Venezuela (VET). Si un juego ya comenzó, se marca como cerrado y puede ocultarse con 1 clic para mantener la cartelera 100% limpia.
+  3. **Script de Automatización en Vivo (`actualizar_pizarra.py`)**: Conexión a la API oficial de la MLB (`statsapi.mlb.com`) para consultar en tiempo real el calendario, horarios y abridores oficiales de hoy y mañana.
+- **Archivos Modificados**:
+  - `js/sportsData.js`: Enriquecido con objetos `analysis` completos e `isoStartTime`.
+  - `js/app.js`: Implementado `openDeepAnalysisModal()`, `startLiveClock()` y listeners de tiempo real.
+  - `index.html` & `css/styles.css`: Modal responsivo Glassmorphism, barra de tiempo real y semáforo de valor esperado.
+  - `actualizar_pizarra.py`: Pipeline de descarga en vivo de MLB.
+- Cache buster general actualizado a `v=4.2.0`.
+
