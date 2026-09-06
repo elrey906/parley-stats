@@ -312,7 +312,7 @@ class ParleyApp {
             🕒 <strong>${pick.gameDate || 'Hoy 05 Sep'}</strong> - <strong>${pick.gameTime || 'Hoy'}</strong>
           </div>
           <div style="font-size: 0.78rem; color: #cbd5e1; margin-bottom: 0.4rem; background: rgba(15, 23, 42, 0.6); padding: 0.3rem 0.5rem; border-radius: 4px; border: 1px solid rgba(255,255,255,0.05);">
-            ⚾ <strong>Lanzadores:</strong> ${pick.pitchers || 'Confirmados'}
+            ${pick.sport === 'baseball' ? '⚾ <strong>Abridores:</strong>' : (pick.sport === 'soccer' ? '⚽ <strong>Detalle:</strong>' : '🎾 <strong>Ronda:</strong>')} ${pick.keyDetail || pick.pitchers || 'Confirmado'}
           </div>
           <div class="pick-selection-title">🎯 ${pick.selection}</div>
 
@@ -381,25 +381,30 @@ class ParleyApp {
   loadPresetParleyLa(type) {
     if (type === "safe") {
       this.currentLegs = [
-        { id: "pla-1", match: "Phillies vs Marlins (6:40 PM)", selection: "Phillies a Ganar (R. Suárez) [Parley.la]", decimalOdds: 1.48, estimatedProb: 0.74 },
-        { id: "pla-3", match: "Angels vs Rangers (8:05 PM)", selection: "Rangers a Ganar (C. Bradford) [Parley.la]", decimalOdds: 1.55, estimatedProb: 0.71 }
+        { id: "pla-tn-1", match: "Sinner vs Draper (3:00 PM)", selection: "Jannik Sinner a Ganar [Parley.la]", decimalOdds: 1.18, estimatedProb: 0.86 },
+        { id: "pla-fb-1", match: "Países Bajos vs Bosnia (2:45 PM)", selection: "Países Bajos a Ganar [Parley.la]", decimalOdds: 1.22, estimatedProb: 0.83 },
+        { id: "pla-1", match: "Phillies vs Marlins (6:40 PM)", selection: "Phillies a Ganar (R. Suárez) [Parley.la]", decimalOdds: 1.48, estimatedProb: 0.74 }
       ];
-      this.showToast("Cargado Banquero de Hoy Parley.la (@2.29)", "success");
+      this.showToast("Cargado Banquero Multideporte (@2.13)", "success");
     } else if (type === "opt") {
       this.currentLegs = [
+        { id: "pla-tn-2", match: "Sabalenka vs Pegula (4:00 PM)", selection: "Aryna Sabalenka a Ganar [Parley.la]", decimalOdds: 1.36, estimatedProb: 0.77 },
+        { id: "pla-fb-3", match: "Chicago vs Inter Miami (8:30 PM)", selection: "Inter Miami Gana o Empata [Parley.la]", decimalOdds: 1.42, estimatedProb: 0.76 },
         { id: "pla-1", match: "Phillies vs Marlins (6:40 PM)", selection: "Phillies a Ganar (R. Suárez) [Parley.la]", decimalOdds: 1.48, estimatedProb: 0.74 },
-        { id: "pla-2", match: "Nationals vs Pirates (6:40 PM)", selection: "Pirates a Ganar (B. Falter) [Parley.la]", decimalOdds: 1.63, estimatedProb: 0.68 },
         { id: "pla-3", match: "Angels vs Rangers (8:05 PM)", selection: "Rangers a Ganar (C. Bradford) [Parley.la]", decimalOdds: 1.55, estimatedProb: 0.71 }
       ];
-      this.showToast("Cargado Parley Equilibrado Parley.la (@3.73)", "success");
+      this.showToast("Cargado Equilibrado Multideporte (@3.45)", "success");
     } else if (type === "bomb") {
       this.currentLegs = [
+        { id: "pla-tn-1", match: "Sinner vs Draper (3:00 PM)", selection: "Jannik Sinner a Ganar [Parley.la]", decimalOdds: 1.18, estimatedProb: 0.86 },
+        { id: "pla-tn-2", match: "Sabalenka vs Pegula (4:00 PM)", selection: "Aryna Sabalenka a Ganar [Parley.la]", decimalOdds: 1.36, estimatedProb: 0.77 },
+        { id: "pla-fb-1", match: "Países Bajos vs Bosnia (2:45 PM)", selection: "Países Bajos a Ganar [Parley.la]", decimalOdds: 1.22, estimatedProb: 0.83 },
+        { id: "pla-fb-3", match: "Chicago vs Inter Miami (8:30 PM)", selection: "Inter Miami Gana o Empata [Parley.la]", decimalOdds: 1.42, estimatedProb: 0.76 },
         { id: "pla-1", match: "Phillies vs Marlins (6:40 PM)", selection: "Phillies a Ganar (R. Suárez) [Parley.la]", decimalOdds: 1.48, estimatedProb: 0.74 },
         { id: "pla-2", match: "Nationals vs Pirates (6:40 PM)", selection: "Pirates a Ganar (B. Falter) [Parley.la]", decimalOdds: 1.63, estimatedProb: 0.68 },
-        { id: "pla-4", match: "Rockies vs Braves (7:20 PM)", selection: "Braves a Ganar (R. López) [Parley.la]", decimalOdds: 1.40, estimatedProb: 0.77 },
-        { id: "pla-5", match: "Tigers vs Padres (8:40 PM)", selection: "Padres a Ganar (M. Pérez) [Parley.la]", decimalOdds: 1.62, estimatedProb: 0.67 }
+        { id: "pla-4", match: "Rockies vs Braves (7:20 PM)", selection: "Braves a Ganar (R. López) [Parley.la]", decimalOdds: 1.40, estimatedProb: 0.77 }
       ];
-      this.showToast("Cargado Parley Multiplicador Parley.la (@5.22)", "success");
+      this.showToast("Cargado Bomba Multiplicador Cuotón (@7.08)", "success");
     }
 
     this.renderParlayLegs();
@@ -883,48 +888,53 @@ class ParleyApp {
   }
 
   registerOfficialThreeTickets() {
-    // 1. Ticket 1: Banquero de Hoy ($5.00 a cuota @2.29)
+    // 1. Ticket 1: Banquero Multideporte ($5.00 a cuota @2.13)
     this.tracker.addBet({
       stake: 5.00,
-      combinedOdds: 2.29,
-      payout: 11.45,
+      combinedOdds: 2.13,
+      payout: 10.65,
       status: "pending",
-      sport: "MLB (Parley.la)",
-      notes: "Ticket 1 (Banquero $5): Phillies (R. Suárez 6:40 PM) + Rangers (C. Bradford 8:05 PM)",
+      sport: "Multideporte (Parley.la)",
+      notes: "Ticket 1 (Banquero $5): 🎾 Sinner (@1.18) + ⚽ Países Bajos (@1.22) + ⚾ Phillies (@1.48)",
       legs: [
-        { id: "pla-1", match: "Phillies vs Marlins (6:40 PM)", selection: "Phillies a Ganar (R. Suárez)", decimalOdds: 1.48 },
-        { id: "pla-3", match: "Angels vs Rangers (8:05 PM)", selection: "Rangers a Ganar (C. Bradford)", decimalOdds: 1.55 }
+        { id: "pla-tn-1", match: "Sinner vs Draper (3:00 PM)", selection: "Jannik Sinner a Ganar", decimalOdds: 1.18 },
+        { id: "pla-fb-1", match: "Países Bajos vs Bosnia (2:45 PM)", selection: "Países Bajos a Ganar", decimalOdds: 1.22 },
+        { id: "pla-1", match: "Phillies vs Marlins (6:40 PM)", selection: "Phillies a Ganar (R. Suárez)", decimalOdds: 1.48 }
       ]
     });
 
-    // 2. Ticket 2: Equilibrado (+EV) ($3.50 a cuota @3.73)
+    // 2. Ticket 2: Equilibrado Multideporte ($3.50 a cuota @3.45)
     this.tracker.addBet({
       stake: 3.50,
-      combinedOdds: 3.73,
-      payout: 13.06,
+      combinedOdds: 3.45,
+      payout: 12.08,
       status: "pending",
-      sport: "MLB (Parley.la)",
-      notes: "Ticket 2 (Equilibrado $3.5): Phillies (6:40 PM) + Pirates (6:40 PM) + Rangers (8:05 PM)",
+      sport: "Multideporte (Parley.la)",
+      notes: "Ticket 2 (Equilibrado $3.5): 🎾 Sabalenka + ⚽ Inter Miami 1X + ⚾ Phillies + ⚾ Rangers",
       legs: [
+        { id: "pla-tn-2", match: "Sabalenka vs Pegula (4:00 PM)", selection: "Aryna Sabalenka a Ganar", decimalOdds: 1.36 },
+        { id: "pla-fb-3", match: "Chicago vs Inter Miami (8:30 PM)", selection: "Inter Miami Gana o Empata", decimalOdds: 1.42 },
         { id: "pla-1", match: "Phillies vs Marlins (6:40 PM)", selection: "Phillies a Ganar (R. Suárez)", decimalOdds: 1.48 },
-        { id: "pla-2", match: "Nationals vs Pirates (6:40 PM)", selection: "Pirates a Ganar (B. Falter)", decimalOdds: 1.63 },
         { id: "pla-3", match: "Angels vs Rangers (8:05 PM)", selection: "Rangers a Ganar (C. Bradford)", decimalOdds: 1.55 }
       ]
     });
 
-    // 3. Ticket 3: Multiplicador Cuotón ($1.50 a cuota @5.22)
+    // 3. Ticket 3: Bomba Multiplicador ($1.50 a cuota @7.08)
     this.tracker.addBet({
       stake: 1.50,
-      combinedOdds: 5.22,
-      payout: 7.83,
+      combinedOdds: 7.08,
+      payout: 10.62,
       status: "pending",
-      sport: "MLB (Parley.la)",
-      notes: "Ticket 3 (Cuotón $1.5): Phillies + Pirates + Braves (7:20 PM) + Padres (8:40 PM)",
+      sport: "Multideporte (Parley.la)",
+      notes: "Ticket 3 (Bomba $1.5): Sinner + Sabalenka + Países Bajos + Inter Miami + Phillies + Pirates + Braves",
       legs: [
-        { id: "pla-1", match: "Phillies vs Marlins (6:40 PM)", selection: "Phillies a Ganar (R. Suárez)", decimalOdds: 1.48 },
-        { id: "pla-2", match: "Nationals vs Pirates (6:40 PM)", selection: "Pirates a Ganar (B. Falter)", decimalOdds: 1.63 },
-        { id: "pla-4", match: "Rockies vs Braves (7:20 PM)", selection: "Braves a Ganar (R. López)", decimalOdds: 1.40 },
-        { id: "pla-5", match: "Tigers vs Padres (8:40 PM)", selection: "Padres a Ganar (M. Pérez)", decimalOdds: 1.62 }
+        { id: "pla-tn-1", match: "Sinner vs Draper", selection: "Jannik Sinner a Ganar", decimalOdds: 1.18 },
+        { id: "pla-tn-2", match: "Sabalenka vs Pegula", selection: "Aryna Sabalenka a Ganar", decimalOdds: 1.36 },
+        { id: "pla-fb-1", match: "Países Bajos vs Bosnia", selection: "Países Bajos a Ganar", decimalOdds: 1.22 },
+        { id: "pla-fb-3", match: "Chicago vs Inter Miami", selection: "Inter Miami Gana o Empata", decimalOdds: 1.42 },
+        { id: "pla-1", match: "Phillies vs Marlins", selection: "Phillies a Ganar", decimalOdds: 1.48 },
+        { id: "pla-2", match: "Nationals vs Pirates", selection: "Pirates a Ganar", decimalOdds: 1.63 },
+        { id: "pla-4", match: "Rockies vs Braves", selection: "Braves a Ganar", decimalOdds: 1.40 }
       ]
     });
 

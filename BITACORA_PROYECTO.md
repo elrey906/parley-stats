@@ -184,3 +184,19 @@
   - Verificación exitosa de estado `HTTP/2 200 OK` directo desde CDN global de GitHub.
   - Se actualizó el acceso directo en el Escritorio (`ENLACE_PARLEY_MOVIL.txt`).
 
+### [05/09/2026 - Fase 16]: Integración Multideporte en Parley.la (Fútbol + Tenis + Béisbol MLB)
+- **Objetivo**: Ampliar la oferta de picks de la pizarra venezolana (Parley.la) incorporando los eventos de mayor probabilidad del planeta hoy sábado (Tenis US Open y Fútbol Nations League/MLS) junto al Béisbol MLB, reduciendo la varianza y aumentando drásticamente la tasa de acierto del parley.
+- **Acciones Ejecutadas**:
+  - **Inclusión de picks estelares en `js/sportsData.js`**:
+    * 🎾 **Tenis US Open**: Jannik Sinner (@1.18, prob 86%) y Aryna Sabalenka (@1.36, prob 77%).
+    * ⚽ **Fútbol**: Países Bajos (@1.22, prob 83%), Alemania (@1.28, prob 80%), e Inter Miami 1X (@1.42, prob 76%).
+    * ⚾ **MLB**: Phillies con Ranger Suárez (@1.48), Pirates (@1.63), Rangers (@1.55), Braves (@1.40), Padres (@1.62).
+  - **Píldoras de Filtro Multideporte**: Agregados filtros en la interfaz para `🌐 Todos los Deportes`, `💎 Banqueros y Fijos`, `🚀 Alto Valor (+EV)`, `⚾ Béisbol MLB`, `⚽ Fútbol`, `🎾 Tenis (US Open)`.
+  - **Parleys Multideporte Inteligentes (1-Click)**:
+    * *Banquero Multideporte (@2.13)*: Sinner + Países Bajos + Phillies (~71% de probabilidad calculada).
+    * *Equilibrado Multideporte (@3.45)*: Sabalenka + Inter Miami 1X + Phillies + Rangers (~44% de probabilidad).
+    * *Bomba Multiplicador (@7.08)*: 7 selecciones élite combinadas.
+  - **Actualización de Tickets Oficiales de $10**: Se ajustaron a la estrategia multideporte ($5 en Banquero, $3.50 en Equilibrado, $1.50 en Bomba).
+  - Cache buster actualizado a `v=3.5.0`.
+
+

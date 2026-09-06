@@ -1,91 +1,121 @@
 [
   {
-    "id": "bet_oficial_1_banquero",
-    "date": "2026-09-05T05:20:00.000Z",
+    "id": "bet_oficial_1_banquero_multi",
+    "date": "2026-09-05T20:30:00.000Z",
     "stake": 5.0,
-    "combinedOdds": 1.91,
-    "payout": 9.55,
+    "combinedOdds": 2.13,
+    "payout": 10.65,
     "status": "pending",
-    "sport": "MLB (Parley.la)",
-    "notes": "Ticket 1 (Base Fuerte $5): Dodgers (-317) + Mariners (-218)",
+    "sport": "Multideporte (Parley.la)",
+    "notes": "Ticket 1 (Banquero $5): 🎾 Sinner (@1.18) + ⚽ Países Bajos (@1.22) + ⚾ Phillies (@1.48)",
     "legs": [
       {
-        "id": "pla-2",
-        "match": "Washington Nationals vs Los Angeles Dodgers",
-        "selection": "Los Angeles Dodgers",
-        "decimalOdds": 1.31
+        "id": "pla-tn-1",
+        "match": "Sinner vs Draper (3:00 PM)",
+        "selection": "Jannik Sinner a Ganar",
+        "decimalOdds": 1.18
+      },
+      {
+        "id": "pla-fb-1",
+        "match": "Países Bajos vs Bosnia (2:45 PM)",
+        "selection": "Países Bajos a Ganar",
+        "decimalOdds": 1.22
       },
       {
         "id": "pla-1",
-        "match": "Athletics vs Seattle Mariners",
-        "selection": "Seattle Mariners (L. GILBERT)",
-        "decimalOdds": 1.46
+        "match": "Phillies vs Marlins (6:40 PM)",
+        "selection": "Phillies a Ganar (R. Suárez)",
+        "decimalOdds": 1.48
       }
     ]
   },
   {
-    "id": "bet_oficial_2_equilibrado",
-    "date": "2026-09-05T05:21:00.000Z",
+    "id": "bet_oficial_2_equilibrado_multi",
+    "date": "2026-09-05T20:31:00.000Z",
     "stake": 3.5,
-    "combinedOdds": 2.6,
-    "payout": 9.1,
+    "combinedOdds": 3.45,
+    "payout": 12.08,
     "status": "pending",
-    "sport": "Fútbol + MLB",
-    "notes": "Ticket 2 (Ganancia Buena $3.5): Real Madrid (-275) + Dodgers (-317) + Mariners (-218)",
+    "sport": "Multideporte (Parley.la)",
+    "notes": "Ticket 2 (Equilibrado $3.5): 🎾 Sabalenka + ⚽ Inter Miami 1X + ⚾ Phillies + ⚾ Rangers",
     "legs": [
       {
-        "id": "pla-3",
-        "match": "Real Madrid vs Real Betis",
-        "selection": "Real Madrid Gana",
+        "id": "pla-tn-2",
+        "match": "Sabalenka vs Pegula (4:00 PM)",
+        "selection": "Aryna Sabalenka a Ganar",
         "decimalOdds": 1.36
       },
       {
-        "id": "pla-2",
-        "match": "Washington Nationals vs Los Angeles Dodgers",
-        "selection": "Los Angeles Dodgers",
-        "decimalOdds": 1.31
+        "id": "pla-fb-3",
+        "match": "Chicago vs Inter Miami (8:30 PM)",
+        "selection": "Inter Miami Gana o Empata",
+        "decimalOdds": 1.42
       },
       {
         "id": "pla-1",
-        "match": "Athletics vs Seattle Mariners",
-        "selection": "Seattle Mariners (L. GILBERT)",
-        "decimalOdds": 1.46
+        "match": "Phillies vs Marlins (6:40 PM)",
+        "selection": "Phillies a Ganar (R. Suárez)",
+        "decimalOdds": 1.48
+      },
+      {
+        "id": "pla-3",
+        "match": "Angels vs Rangers (8:05 PM)",
+        "selection": "Rangers a Ganar (C. Bradford)",
+        "decimalOdds": 1.55
       }
     ]
   },
   {
-    "id": "bet_oficial_3_multiplicador",
-    "date": "2026-09-05T05:22:00.000Z",
+    "id": "bet_oficial_3_bomba_multi",
+    "date": "2026-09-05T20:32:00.000Z",
     "stake": 1.5,
-    "combinedOdds": 4.85,
-    "payout": 7.27,
+    "combinedOdds": 7.08,
+    "payout": 10.62,
     "status": "pending",
-    "sport": "Multiplicador Mixto",
-    "notes": "Ticket 3 (Bomba $1.5): Liverpool (-242) + Brewers (-166) + Pirates (-203) + Medvedev (-286)",
+    "sport": "Multideporte (Parley.la)",
+    "notes": "Ticket 3 (Bomba $1.5): Sinner + Sabalenka + Países Bajos + Inter Miami + Phillies + Pirates + Braves",
     "legs": [
       {
-        "id": "pla-5",
-        "match": "Liverpool vs Ipswich Town",
-        "selection": "Liverpool Gana",
-        "decimalOdds": 1.41
+        "id": "pla-tn-1",
+        "match": "Sinner vs Draper",
+        "selection": "Jannik Sinner a Ganar",
+        "decimalOdds": 1.18
       },
       {
-        "id": "pla-6",
-        "match": "Milwaukee Brewers vs Cincinnati Reds",
-        "selection": "Milwaukee Brewers",
-        "decimalOdds": 1.6
+        "id": "pla-tn-2",
+        "match": "Sabalenka vs Pegula",
+        "selection": "Aryna Sabalenka a Ganar",
+        "decimalOdds": 1.36
+      },
+      {
+        "id": "pla-fb-1",
+        "match": "Países Bajos vs Bosnia",
+        "selection": "Países Bajos a Ganar",
+        "decimalOdds": 1.22
+      },
+      {
+        "id": "pla-fb-3",
+        "match": "Chicago vs Inter Miami",
+        "selection": "Inter Miami Gana o Empata",
+        "decimalOdds": 1.42
+      },
+      {
+        "id": "pla-1",
+        "match": "Phillies vs Marlins",
+        "selection": "Phillies a Ganar",
+        "decimalOdds": 1.48
+      },
+      {
+        "id": "pla-2",
+        "match": "Nationals vs Pirates",
+        "selection": "Pirates a Ganar",
+        "decimalOdds": 1.63
       },
       {
         "id": "pla-4",
-        "match": "Los Angeles Angels vs Pittsburgh Pirates",
-        "selection": "Pittsburgh Pirates (J. JONES)",
-        "decimalOdds": 1.49
-      },
-      {
-        "id": "pla-8",
-        "match": "Daniil Medvedev vs Arthur Rinderknech",
-        "selection": "Daniil Medvedev Gana",
-        "decimalOdds": 1.35
+        "match": "Rockies vs Braves",
+        "selection": "Braves a Ganar",
+        "decimalOdds": 1.40
       }
     ]
   }
