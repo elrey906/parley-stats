@@ -1,12 +1,12 @@
 /**
  * Base de Datos de Logros y Top Picks de PARLEY.LA (Pizarra Venezuela en Bolívares / Taquilla)
- * Cartelera Multideporte Oficial de HOY (05 de Septiembre) con Hora de Venezuela (VET)
- * Béisbol MLB + Fútbol (Nations League / MLS) + Tenis (US Open)
+ * Cartelera Multideporte Oficial adaptada a los 5 Deportes Favoritos:
+ * ⚽ Fútbol + ⚾ Béisbol MLB + 🏒 Hockey + 🏈 Fútbol Americano + 🎾 Tenis
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
   // ==========================================
-  // 🎾 TENIS - US OPEN (SEMIS Y FINALES DE HOY)
+  // 🎾 TENIS (US OPEN - SEMIS Y FINALES)
   // ==========================================
   {
     id: "pla-tn-1",
@@ -44,15 +44,61 @@ export const TOP_PICKS_OF_THE_DAY = [
     americanOdds: "-278",
     estimatedProb: 0.77,
     category: "seguro",
-    categoryLabel: "💎 Gran Final Grand Slam",
+    categoryLabel: "💎 Final Grand Slam",
     stars: 5,
     edgePercent: "+9.5%",
     confidenceScore: 92,
-    reasoning: "Sabalenka llega como una locomotora conectando saques sobre 120 mph y récord de 11-1 en Flushing Meadows. Máxima favorita al trofeo."
+    reasoning: "Sabalenka llega como una locomotora conectando saques sobre 120 mph y récord de 11-1 en Flushing Meadows. Máxima favorita al título."
   },
 
   // ==========================================
-  // ⚽ FÚTBOL (NATIONS LEAGUE & MLS NOCHE)
+  // 🏈 FÚTBOL AMERICANO (NCAA / NFL)
+  // ==========================================
+  {
+    id: "pla-af-1",
+    sport: "football",
+    sportName: "Fútbol Americano",
+    sportIcon: "🏈",
+    league: "NCAA College Football",
+    match: "Western Michigan vs Ohio State Buckeyes",
+    gameDate: "Hoy 05 Sep",
+    gameTime: "7:30 PM (Hora VE)",
+    keyDetail: "Ohio Stadium - Big Ten Conference",
+    selection: "Ohio State Buckeyes a Ganar (ML)",
+    decimalOdds: 1.12,
+    americanOdds: "-833",
+    estimatedProb: 0.89,
+    category: "seguro",
+    categoryLabel: "💎 Banquero Colegial",
+    stars: 5,
+    edgePercent: "+6.8%",
+    confidenceScore: 99,
+    reasoning: "Los Buckeyes cuentan con el roster y la defensa #1 de la nación, favoritos por más de 30 puntos en casa. Victoria prácticamente cantada."
+  },
+  {
+    id: "pla-af-2",
+    sport: "football",
+    sportName: "Fútbol Americano",
+    sportIcon: "🏈",
+    league: "NCAA College Football",
+    match: "Texas Longhorns vs Michigan Wolverines",
+    gameDate: "Hoy 05 Sep",
+    gameTime: "12:00 PM (Hora VE)",
+    keyDetail: "The Big House (Ann Arbor)",
+    selection: "Texas Longhorns a Ganar (ML)",
+    decimalOdds: 1.30,
+    americanOdds: "-333",
+    estimatedProb: 0.79,
+    category: "seguro",
+    categoryLabel: "💎 Favorito Top 5 NCAA",
+    stars: 5,
+    edgePercent: "+9.2%",
+    confidenceScore: 93,
+    reasoning: "Quinn Ewers comanda un ataque aéreo de élite frente a un Michigan que perdió a su entrenador en jefe y su mariscal estrella hacia la NFL."
+  },
+
+  // ==========================================
+  // ⚽ FÚTBOL (NATIONS LEAGUE & MLS)
   // ==========================================
   {
     id: "pla-fb-1",
@@ -73,7 +119,7 @@ export const TOP_PICKS_OF_THE_DAY = [
     stars: 5,
     edgePercent: "+8.5%",
     confidenceScore: 96,
-    reasoning: "Gakpo, Reijnders y Simons comandan la ofensiva de la 'Oranje' ante una Bosnia en profunda reestructuración y débil en defensa."
+    reasoning: "Cody Gakpo, Reijnders y Xavi Simons en punta ante una Bosnia con defensa extremadamente permeable y baja efectividad visitante."
   },
   {
     id: "pla-fb-2",
@@ -94,7 +140,7 @@ export const TOP_PICKS_OF_THE_DAY = [
     stars: 5,
     edgePercent: "+9.0%",
     confidenceScore: 94,
-    reasoning: "Jamal Musiala y Florian Wirtz lideran una Alemania dinámica y arrolladora como local frente al bloque húngaro."
+    reasoning: "Jamal Musiala y Florian Wirtz desatados con una Alemania muy superior en dinámica y posesión como local."
   },
   {
     id: "pla-fb-3",
@@ -119,7 +165,53 @@ export const TOP_PICKS_OF_THE_DAY = [
   },
 
   // ==========================================
-  // ⚾ BÉISBOL (MLB GRANDES LIGAS HOY)
+  // 🏒 HOCKEY (CHL / EUROPA / NHL HIELO)
+  // ==========================================
+  {
+    id: "pla-hk-1",
+    sport: "hockey",
+    sportName: "Hockey",
+    sportIcon: "🏒",
+    league: "Champions Hockey League (Hielo)",
+    match: "ZSC Lions Zurich vs Red Bull Salzburg",
+    gameDate: "Hoy 05 Sep",
+    gameTime: "1:45 PM (Hora VE)",
+    keyDetail: "Swiss Life Arena (Zúrich)",
+    selection: "ZSC Lions a Ganar (Línea de Dinero)",
+    decimalOdds: 1.38,
+    americanOdds: "-263",
+    estimatedProb: 0.76,
+    category: "seguro",
+    categoryLabel: "💎 Banquero Hockey",
+    stars: 5,
+    edgePercent: "+8.9%",
+    confidenceScore: 92,
+    reasoning: "El monarca suizo con figuras de pasado NHL (Malgin, Andrighetto) jugando de local con un índice de victorias en casa de 84%."
+  },
+  {
+    id: "pla-hk-2",
+    sport: "hockey",
+    sportName: "Hockey",
+    sportIcon: "🏒",
+    league: "Champions Hockey League (Hielo)",
+    match: "Tappara Tampere vs Rouen Dragons",
+    gameDate: "Hoy 05 Sep",
+    gameTime: "12:00 PM (Hora VE)",
+    keyDetail: "Nokia Arena - Duelo Ofensivo",
+    selection: "Más de 4.5 Goles Totales (Alta)",
+    decimalOdds: 1.42,
+    americanOdds: "-238",
+    estimatedProb: 0.75,
+    category: "valor",
+    categoryLabel: "🚀 Alta de Goles Hockey",
+    stars: 4,
+    edgePercent: "+9.6%",
+    confidenceScore: 90,
+    reasoning: "Tappara promedia más de 4 goles por encuentro y los Dragons conceden alta cantidad de rebotes frente al arco."
+  },
+
+  // ==========================================
+  // ⚾ BÉISBOL (MLB GRANDES LIGAS)
   // ==========================================
   {
     id: "pla-1",
@@ -229,22 +321,9 @@ export const TOP_PICKS_OF_THE_DAY = [
 ];
 
 export const SPORTS_DATA = {
-  baseball: {
-    name: "Baseball (MLB - Parley.la)",
-    leagues: ["Major League Baseball"],
-    teams: [],
-    upcomingMatches: []
-  },
-  soccer: {
-    name: "Fútbol (Nations League / MLS)",
-    leagues: ["UEFA Nations League", "MLS"],
-    teams: [],
-    upcomingMatches: []
-  },
-  tennis: {
-    name: "Tenis (US Open Grand Slam)",
-    leagues: ["ATP / WTA US Open"],
-    teams: [],
-    upcomingMatches: []
-  }
+  soccer: { name: "Fútbol (Soccer)", leagues: ["UEFA Nations League", "MLS"] },
+  baseball: { name: "Béisbol (MLB)", leagues: ["Major League Baseball"] },
+  hockey: { name: "Hockey (Hielo)", leagues: ["Champions Hockey League", "NHL"] },
+  football: { name: "Fútbol Americano", leagues: ["NCAA College Football", "NFL"] },
+  tennis: { name: "Tenis (US Open)", leagues: ["ATP / WTA Grand Slam"] }
 };

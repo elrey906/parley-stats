@@ -199,4 +199,20 @@
   - **Actualización de Tickets Oficiales de $10**: Se ajustaron a la estrategia multideporte ($5 en Banquero, $3.50 en Equilibrado, $1.50 en Bomba).
   - Cache buster actualizado a `v=3.5.0`.
 
-
+### [05/09/2026 - Fase 17]: Cobertura Total de los 5 Deportes Favoritos del Usuario
+- **Objetivo**: Adaptar la plataforma a los 5 deportes específicos que el usuario sigue y disfruta: **Fútbol (Soccer)**, **Béisbol (MLB)**, **Hockey (NHL/Hielo)**, **Fútbol Americano (NCAA/NFL)** y **Tenis**.
+- **Acciones Ejecutadas**:
+  - **Ampliación de la Cartelera en `js/sportsData.js`**:
+    * 🏈 **Fútbol Americano**: Ohio State Buckeyes ML (@1.12, prob 89%) y Texas Longhorns ML (@1.30, prob 79%).
+    * 🏒 **Hockey**: ZSC Lions Zurich ML (@1.38, prob 76%) y Alta de 4.5 Goles Tappara vs Rouen (@1.42, prob 75%).
+    * ⚽ **Fútbol**: Países Bajos (@1.22), Alemania (@1.28), Inter Miami 1X (@1.42).
+    * 🎾 **Tenis**: Jannik Sinner (@1.18) y Aryna Sabalenka (@1.36).
+    * ⚾ **MLB**: Phillies Ranger Suárez (@1.48), Pirates (@1.63), Rangers (@1.55), Braves (@1.40), Padres (@1.62).
+  - **Filtros Dedicados por Deporte**:
+    * `[ 🌐 Todos (5 Deportes) ]` `[ 💎 Banqueros ]` `[ ⚽ Fútbol ]` `[ ⚾ Béisbol MLB ]` `[ 🏒 Hockey ]` `[ 🏈 Fútbol Americano ]` `[ 🎾 Tenis ]`.
+  - **Parleys Prearmados Cruzados (1-Click)**:
+    * *Banquero de Oro 4 Deportes (@2.38)*: Sinner + Ohio State + Países Bajos + Phillies (~75% de probabilidad).
+    * *Equilibrado 5 Deportes (+EV @4.85)*: 1 pick de cada uno de los 5 deportes (~40% de probabilidad).
+    * *Multiplicador Bomba 5 Deportes (@12.60)*: Combinación multi-deporte de alto impacto.
+  - Actualización de los 3 tickets oficiales de $10 USD para auditar mañana.
+  - Cache buster actualizado a `v=3.6.0`.
