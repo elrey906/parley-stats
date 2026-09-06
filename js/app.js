@@ -278,6 +278,12 @@ class ParleyApp {
       if (filter === "seguro" || filter === "valor" || filter === "bomba") {
         return pick.category === filter;
       }
+      if (filter === "today") {
+        return pick.gameDate && (pick.gameDate.includes("Hoy") || pick.gameDate.includes("05"));
+      }
+      if (filter === "tomorrow") {
+        return pick.gameDate && (pick.gameDate.includes("Dom") || pick.gameDate.includes("06"));
+      }
       return pick.sport === filter;
     });
 
@@ -381,32 +387,28 @@ class ParleyApp {
   loadPresetParleyLa(type) {
     if (type === "safe") {
       this.currentLegs = [
-        { id: "pla-tn-1", match: "Sinner vs Draper (3:00 PM)", selection: "Jannik Sinner a Ganar [Parley.la]", decimalOdds: 1.18, estimatedProb: 0.86 },
-        { id: "pla-af-1", match: "W. Michigan vs Ohio State (7:30 PM)", selection: "Ohio State Buckeyes a Ganar [Parley.la]", decimalOdds: 1.12, estimatedProb: 0.89 },
-        { id: "pla-fb-1", match: "Países Bajos vs Bosnia (2:45 PM)", selection: "Países Bajos a Ganar [Parley.la]", decimalOdds: 1.22, estimatedProb: 0.83 },
-        { id: "pla-1", match: "Phillies vs Marlins (6:40 PM)", selection: "Phillies a Ganar (R. Suárez) [Parley.la]", decimalOdds: 1.48, estimatedProb: 0.74 }
+        { id: "pla-twins-sun", match: "Twins vs White Sox (Dom 6:20 PM)", selection: "Minnesota Twins a Ganar [Parley.la]", decimalOdds: 1.38, estimatedProb: 0.78 },
+        { id: "pla-mariners-sun", match: "Athletics vs Mariners (Dom 4:10 PM)", selection: "Seattle Mariners a Ganar [Parley.la]", decimalOdds: 1.46, estimatedProb: 0.74 },
+        { id: "pla-portugal-sun", match: "Portugal vs Escocia (Dom 2:45 PM)", selection: "Portugal a Ganar [Parley.la]", decimalOdds: 1.25, estimatedProb: 0.82 }
       ];
-      this.showToast("Cargado Banquero de Oro 4 Deportes (@2.38)", "success");
+      this.showToast("Cargado Banquero Domingo Seguro (@2.52)", "success");
     } else if (type === "opt") {
       this.currentLegs = [
-        { id: "pla-tn-2", match: "Sabalenka vs Pegula (4:00 PM)", selection: "Aryna Sabalenka a Ganar [Parley.la]", decimalOdds: 1.36, estimatedProb: 0.77 },
-        { id: "pla-af-2", match: "Texas vs Michigan (12:00 PM)", selection: "Texas Longhorns a Ganar [Parley.la]", decimalOdds: 1.30, estimatedProb: 0.79 },
-        { id: "pla-hk-1", match: "ZSC Lions vs RB Salzburg (1:45 PM)", selection: "ZSC Lions a Ganar [Parley.la]", decimalOdds: 1.38, estimatedProb: 0.76 },
-        { id: "pla-fb-3", match: "Chicago vs Inter Miami (8:30 PM)", selection: "Inter Miami Gana o Empata [Parley.la]", decimalOdds: 1.42, estimatedProb: 0.76 },
-        { id: "pla-3", match: "Angels vs Rangers (8:05 PM)", selection: "Rangers a Ganar (C. Bradford) [Parley.la]", decimalOdds: 1.55, estimatedProb: 0.71 }
+        { id: "pla-dodgers-today", match: "Nationals vs Dodgers (Hoy 9:10 PM)", selection: "Dodgers a Ganar [Parley.la]", decimalOdds: 1.32, estimatedProb: 0.82 },
+        { id: "pla-ncaa-sun", match: "W. Michigan vs Ohio St (Hoy 7:30 PM)", selection: "Ohio State Buckeyes a Ganar [Parley.la]", decimalOdds: 1.12, estimatedProb: 0.89 },
+        { id: "pla-sinner-final", match: "Sinner vs Fritz (Dom 2:00 PM)", selection: "Jannik Sinner a Ganar [Parley.la]", decimalOdds: 1.24, estimatedProb: 0.83 }
       ];
-      this.showToast("Cargado Equilibrado 5 Deportes (@4.85)", "success");
+      this.showToast("Cargado Parley Nocturno de Hoy (@1.83)", "success");
     } else if (type === "bomb") {
       this.currentLegs = [
-        { id: "pla-tn-1", match: "Sinner vs Draper", selection: "Jannik Sinner a Ganar [Parley.la]", decimalOdds: 1.18, estimatedProb: 0.86 },
-        { id: "pla-tn-2", match: "Sabalenka vs Pegula", selection: "Aryna Sabalenka a Ganar [Parley.la]", decimalOdds: 1.36, estimatedProb: 0.77 },
-        { id: "pla-af-1", match: "Western Michigan vs Ohio State", selection: "Ohio State Buckeyes a Ganar [Parley.la]", decimalOdds: 1.12, estimatedProb: 0.89 },
-        { id: "pla-fb-1", match: "Países Bajos vs Bosnia", selection: "Países Bajos a Ganar [Parley.la]", decimalOdds: 1.22, estimatedProb: 0.83 },
-        { id: "pla-hk-1", match: "ZSC Lions vs Salzburg", selection: "ZSC Lions a Ganar [Parley.la]", decimalOdds: 1.38, estimatedProb: 0.76 },
-        { id: "pla-1", match: "Phillies vs Marlins", selection: "Phillies a Ganar (R. Suárez) [Parley.la]", decimalOdds: 1.48, estimatedProb: 0.74 },
-        { id: "pla-2", match: "Nationals vs Pirates", selection: "Pirates a Ganar (B. Falter) [Parley.la]", decimalOdds: 1.63, estimatedProb: 0.68 }
+        { id: "pla-twins-sun", match: "Twins vs White Sox", selection: "Twins a Ganar [Parley.la]", decimalOdds: 1.38, estimatedProb: 0.78 },
+        { id: "pla-mariners-sun", match: "Athletics vs Mariners", selection: "Mariners a Ganar [Parley.la]", decimalOdds: 1.46, estimatedProb: 0.74 },
+        { id: "pla-orioles-sun", match: "Red Sox vs Orioles", selection: "Orioles a Ganar [Parley.la]", decimalOdds: 1.50, estimatedProb: 0.72 },
+        { id: "pla-sinner-final", match: "Sinner vs Fritz Final", selection: "Sinner a Ganar [Parley.la]", decimalOdds: 1.24, estimatedProb: 0.83 },
+        { id: "pla-portugal-sun", match: "Portugal vs Escocia", selection: "Portugal a Ganar [Parley.la]", decimalOdds: 1.25, estimatedProb: 0.82 },
+        { id: "pla-espana-sun", match: "Suiza vs España", selection: "España X2 [Parley.la]", decimalOdds: 1.22, estimatedProb: 0.84 }
       ];
-      this.showToast("Cargado Multiplicador Bomba 5 Deportes (@12.60)", "success");
+      this.showToast("Cargado Multiplicador Domingo Cuotón (@7.15)", "success");
     }
 
     this.renderParlayLegs();

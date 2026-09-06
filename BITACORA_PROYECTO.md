@@ -216,3 +216,28 @@
     * *Multiplicador Bomba 5 Deportes (@12.60)*: Combinación multi-deporte de alto impacto.
   - Actualización de los 3 tickets oficiales de $10 USD para auditar mañana.
   - Cache buster actualizado a `v=3.6.0`.
+
+### [05/09/2026 - Fase 18]: Sincronización en Tiempo Real con Pizarra Móvil `m.parley.la`
+- **Diagnóstico Basado en Captura del Usuario (8:37 PM)**:
+  1. A las 8:37 PM, los juegos de MLB de las 6:40 PM, 7:20 PM y 8:05 PM ya habían iniciado o cerrado en taquilla, por eso no aparecían para apostar en `m.parley.la`.
+  2. En la pizarra de `m.parley.la` de hoy sábado quedaba abierto únicamente el juego estelar de las **9:10 PM**: *Washington Nationals vs Los Angeles Dodgers*.
+  3. La casa de apuestas ya abrió toda la cartelera de **MAÑANA DOMINGO 06 DE SEPTIEMBRE** (Red Sox vs Orioles 1:35 PM, Tigers vs Guardians 1:40 PM, Athletics vs Mariners 4:10 PM, Twins vs White Sox 6:20 PM, y Japón NPB desde las 3:00 AM).
+- **Acciones Ejecutadas**:
+  - **Sincronización Exacta de Picks con Parley.la**:
+    * 🔴 **Juego de HOY Sábado (9:10 PM)**: Dodgers ML (@1.32, prob 82%) - ¡Para sellar ya mismo esta noche!
+    * ☀️ **Juegos de MAÑANA Domingo 06 Sep**:
+      - Twins vs White Sox (Dom 6:20 PM) @1.38 (Banquero de Oro).
+      - Athletics vs Mariners (Dom 4:10 PM) @1.46 (Base Fija).
+      - Red Sox vs Orioles (Dom 1:35 PM) @1.50.
+      - Tigers vs Guardians (Dom 1:40 PM) @1.55.
+      - Yomiuri Giants (Japón NPB Dom 5:00 AM) @1.52.
+    * ⚽ **Fútbol Domingo**: Portugal vs Escocia (@1.25) y Suiza vs España (@1.22).
+    * 🎾 **Tenis Domingo**: Gran Final US Open Jannik Sinner vs Taylor Fritz (@1.24).
+  - **Filtros Temporales en UI**:
+    * Botón `🔴 Hoy Sábado (9:10 PM Dodgers)` para ver el juego activo de esta noche.
+    * Botón `☀️ Mañana Domingo 06 Sep` para ver todos los juegos abiertos de mañana.
+  - **Nuevos Parleys Prearmados**:
+    * *Banquero Domingo Seguro (@2.52)*: Twins + Mariners + Portugal (Prob ~76%).
+    * *Parley Nocturno de Hoy (@2.14)*: Dodgers 9:10 PM + Ohio State + Sinner Final (Prob ~73%).
+    * *Multiplicador Domingo (@7.15)*: Cuotón dominical.
+  - Cache buster actualizado a `v=3.7.0`.
