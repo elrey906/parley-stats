@@ -3,11 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
   <title>PARLEY STATS PRO - Estadísticas y Seleccionador de Top Picks</title>
   <!-- Chart.js -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <!-- Custom Styles -->
-  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/styles.css?v=4.0.0">
 </head>
 <body>
 
@@ -101,39 +104,39 @@
         <div class="auto-parley-card" id="btn-pla-parley-safe" style="border-left: 4px solid #10b981;">
           <div>
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
-              <span class="badge badge-green">🛡️ Banquero Domingo Seguro</span>
-              <strong style="color: #10b981; font-size: 1.15rem;">@2.52</strong>
+              <span class="badge badge-green">⚡ Parley Nocturno de HOY</span>
+              <strong style="color: #10b981; font-size: 1.15rem;">@2.20</strong>
             </div>
-            <p style="font-size: 0.85rem; color: #cbd5e1;">⚾ Twins vs White Sox (@1.38) + ⚾ Mariners (@1.46) + ⚽ Portugal (@1.25)</p>
+            <p style="font-size: 0.85rem; color: #cbd5e1;">⚾ Dodgers (-182 / @1.55, 9:10 PM) + ⚾ Mariners (-239 / @1.42, 9:40 PM)</p>
           </div>
           <div style="font-size: 0.78rem; color: #94a3b8; margin-top: 0.75rem; font-weight: 600;">
-            Prob. Estimada: <strong style="color: #10b981;">~76%</strong> | ☀️ Cartelera de Mañana Abierta
+            Prob. Estimada: <strong style="color: #10b981;">~78%</strong> | 🔴 ¡Los 2 Juegos de Tu Pantalla!
           </div>
         </div>
 
         <div class="auto-parley-card" id="btn-pla-parley-opt" style="border-left: 4px solid #3b82f6;">
           <div>
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
-              <span class="badge badge-blue">⚡ Parley Nocturno de HOY</span>
-              <strong style="color: #60a5fa; font-size: 1.15rem;">@2.14</strong>
+              <span class="badge badge-blue">🛡️ Banquero Domingo Seguro</span>
+              <strong style="color: #60a5fa; font-size: 1.15rem;">@2.52</strong>
             </div>
-            <p style="font-size: 0.85rem; color: #cbd5e1;">⚾ Dodgers ML (9:10 PM) + 🏈 Ohio State + 🎾 Sinner Final</p>
+            <p style="font-size: 0.85rem; color: #cbd5e1;">⚾ Twins vs White Sox (@1.38) + ⚾ Mariners (@1.46) + ⚽ Portugal (@1.25)</p>
           </div>
           <div style="font-size: 0.78rem; color: #94a3b8; margin-top: 0.75rem; font-weight: 600;">
-            Prob. Estimada: <strong style="color: #60a5fa;">~73%</strong> | 🔴 ¡Para Sellar Ya Mismo!
+            Prob. Estimada: <strong style="color: #60a5fa;">~76%</strong> | ☀️ Cartelera de Mañana
           </div>
         </div>
 
         <div class="auto-parley-card" id="btn-pla-parley-bomb" style="border-left: 4px solid #f59e0b;">
           <div>
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
-              <span class="badge badge-amber">💣 Multiplicador Domingo Cuotón</span>
-              <strong style="color: #fbbf24; font-size: 1.15rem;">@7.15</strong>
+              <span class="badge badge-amber">💣 Multiplicador Sábado-Domingo</span>
+              <strong style="color: #fbbf24; font-size: 1.15rem;">@4.98</strong>
             </div>
-            <p style="font-size: 0.85rem; color: #cbd5e1;">Twins + Mariners + Orioles + Sinner + Portugal + España X2</p>
+            <p style="font-size: 0.85rem; color: #cbd5e1;">Dodgers (9:10 PM) + Mariners (9:40 PM) + Ham Fighters (3 AM) + Twins (Dom)</p>
           </div>
           <div style="font-size: 0.78rem; color: #94a3b8; margin-top: 0.75rem; font-weight: 600;">
-            Prob. Estimada: <strong style="color: #fbbf24;">~28%</strong> | Cuotón @7.15 Domingo
+            Prob. Estimada: <strong style="color: #fbbf24;">~42%</strong> | Cuotón @4.98
           </div>
         </div>
       </div>
@@ -141,13 +144,11 @@
       <!-- Filtros de Picks Parley.la (Hoy y Mañana) -->
       <div class="filter-pills" id="pills-parleyla">
         <button class="pill-btn active" data-filter="all">🌐 Todos los Juegos</button>
-        <button class="pill-btn" data-filter="today" style="border-color: #ef4444; color: #fca5a5;">🔴 Hoy Sábado (9:10 PM Dodgers)</button>
+        <button class="pill-btn" data-filter="today" style="border-color: #ef4444; color: #fca5a5;">🔴 Hoy Sábado (Dodgers 9:10 PM & Mariners 9:40 PM)</button>
         <button class="pill-btn" data-filter="tomorrow" style="border-color: #f59e0b; color: #fcd34d;">☀️ Mañana Domingo 06 Sep</button>
         <button class="pill-btn" data-filter="baseball">⚾ Béisbol MLB / NPB</button>
         <button class="pill-btn" data-filter="soccer">⚽ Fútbol</button>
         <button class="pill-btn" data-filter="tennis">🎾 Tenis Final</button>
-        <button class="pill-btn" data-filter="football">🏈 Fútbol Americano</button>
-        <button class="pill-btn" data-filter="hockey">🏒 Hockey</button>
       </div>
 
       <!-- Grid de Picks Parley.la -->

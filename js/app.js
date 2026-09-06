@@ -4,7 +4,7 @@
 import { OddsCalculator } from "./oddsCalculator.js";
 import { KellyCriterion } from "./kellyCriterion.js";
 import { MonteCarloSimulator } from "./monteCarlo.js";
-import { SPORTS_DATA, TOP_PICKS_OF_THE_DAY } from "./sportsData.js";
+import { SPORTS_DATA, TOP_PICKS_OF_THE_DAY } from "./sportsData.js?v=4.0.0";
 import { STAKE_PICKS_OF_THE_DAY, STAKE_PARLAY_PRESETS } from "./sportsDataStake.js";
 import { BetTracker } from "./betTracker.js";
 import { ChartManager } from "./charts.js";
@@ -387,28 +387,25 @@ class ParleyApp {
   loadPresetParleyLa(type) {
     if (type === "safe") {
       this.currentLegs = [
+        { id: "pla-dodgers-exact", match: "Nationals vs Dodgers (Hoy 9:10 PM)", selection: "Dodgers ML (T. GLASNOW) [Parley.la]", decimalOdds: 1.55, estimatedProb: 0.82 },
+        { id: "pla-mariners-exact", match: "Athletics vs Mariners (Hoy 9:40 PM)", selection: "Mariners ML (G. KIRBY) [Parley.la]", decimalOdds: 1.42, estimatedProb: 0.80 }
+      ];
+      this.showToast("Cargado Parley Nocturno de Hoy (@2.20)", "success");
+    } else if (type === "opt") {
+      this.currentLegs = [
         { id: "pla-twins-sun", match: "Twins vs White Sox (Dom 6:20 PM)", selection: "Minnesota Twins a Ganar [Parley.la]", decimalOdds: 1.38, estimatedProb: 0.78 },
         { id: "pla-mariners-sun", match: "Athletics vs Mariners (Dom 4:10 PM)", selection: "Seattle Mariners a Ganar [Parley.la]", decimalOdds: 1.46, estimatedProb: 0.74 },
         { id: "pla-portugal-sun", match: "Portugal vs Escocia (Dom 2:45 PM)", selection: "Portugal a Ganar [Parley.la]", decimalOdds: 1.25, estimatedProb: 0.82 }
       ];
       this.showToast("Cargado Banquero Domingo Seguro (@2.52)", "success");
-    } else if (type === "opt") {
-      this.currentLegs = [
-        { id: "pla-dodgers-today", match: "Nationals vs Dodgers (Hoy 9:10 PM)", selection: "Dodgers a Ganar [Parley.la]", decimalOdds: 1.32, estimatedProb: 0.82 },
-        { id: "pla-ncaa-sun", match: "W. Michigan vs Ohio St (Hoy 7:30 PM)", selection: "Ohio State Buckeyes a Ganar [Parley.la]", decimalOdds: 1.12, estimatedProb: 0.89 },
-        { id: "pla-sinner-final", match: "Sinner vs Fritz (Dom 2:00 PM)", selection: "Jannik Sinner a Ganar [Parley.la]", decimalOdds: 1.24, estimatedProb: 0.83 }
-      ];
-      this.showToast("Cargado Parley Nocturno de Hoy (@1.83)", "success");
     } else if (type === "bomb") {
       this.currentLegs = [
-        { id: "pla-twins-sun", match: "Twins vs White Sox", selection: "Twins a Ganar [Parley.la]", decimalOdds: 1.38, estimatedProb: 0.78 },
-        { id: "pla-mariners-sun", match: "Athletics vs Mariners", selection: "Mariners a Ganar [Parley.la]", decimalOdds: 1.46, estimatedProb: 0.74 },
-        { id: "pla-orioles-sun", match: "Red Sox vs Orioles", selection: "Orioles a Ganar [Parley.la]", decimalOdds: 1.50, estimatedProb: 0.72 },
-        { id: "pla-sinner-final", match: "Sinner vs Fritz Final", selection: "Sinner a Ganar [Parley.la]", decimalOdds: 1.24, estimatedProb: 0.83 },
-        { id: "pla-portugal-sun", match: "Portugal vs Escocia", selection: "Portugal a Ganar [Parley.la]", decimalOdds: 1.25, estimatedProb: 0.82 },
-        { id: "pla-espana-sun", match: "Suiza vs España", selection: "España X2 [Parley.la]", decimalOdds: 1.22, estimatedProb: 0.84 }
+        { id: "pla-dodgers-exact", match: "Nationals vs Dodgers (9:10 PM)", selection: "Dodgers ML [Parley.la]", decimalOdds: 1.55, estimatedProb: 0.82 },
+        { id: "pla-mariners-exact", match: "Athletics vs Mariners (9:40 PM)", selection: "Mariners ML [Parley.la]", decimalOdds: 1.42, estimatedProb: 0.80 },
+        { id: "pla-npb-fighters", match: "Ham Fighters vs Rakuten (3:00 AM)", selection: "Ham Fighters [Parley.la]", decimalOdds: 1.64, estimatedProb: 0.72 },
+        { id: "pla-twins-sun", match: "Twins vs White Sox (Dom)", selection: "Twins a Ganar [Parley.la]", decimalOdds: 1.38, estimatedProb: 0.78 }
       ];
-      this.showToast("Cargado Multiplicador Domingo Cuotón (@7.15)", "success");
+      this.showToast("Cargado Multiplicador Sábado-Domingo (@4.98)", "success");
     }
 
     this.renderParlayLegs();
