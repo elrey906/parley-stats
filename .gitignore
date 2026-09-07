@@ -3,3 +3,6 @@ bin/
 __pycache__/
 ENLACE_MOVIL.txt
 .DS_Store
+*.token
+.token*
+.env

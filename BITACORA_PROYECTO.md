@@ -252,5 +252,18 @@
   - `js/app.js`: Implementado `openDeepAnalysisModal()`, `startLiveClock()` y listeners de tiempo real.
   - `index.html` & `css/styles.css`: Modal responsivo Glassmorphism, barra de tiempo real y semáforo de valor esperado.
   - `actualizar_pizarra.py`: Pipeline de descarga en vivo de MLB.
-- Cache buster general actualizado a `v=4.2.0`.
+- Cache buster general actualizado a `v=5.0.0`.
+
+### [06/09/2026 - Fase 20]: Registro Oficial de Ticket Real en Parley.la (#90708157)
+- **Usuario**: `ELREY906`
+- **Ticket Oficial**: `NRO 90708157`
+- **Hora de Emisión**: `06/09/2026 08:35 PM`
+- **Monto Apostado**: `4.000,00 Bs` (de Saldo Bono, preservando 16.000 Bs en General)
+- **Premio Neto Estimado**: `+5.646,83 Bs` (Retorno Total: **9.646,83 Bs**)
+- **Cuota Combinada**: `@2.41`
+- **Detalle de Jugadas**:
+  1. ⚾ **Los Angeles Dodgers (Moneyline -198 / @1.50)** vs Washington Nationals (Hoy 06/09 10:10 PM)
+  2. ⚾ **Philadelphia Phillies (Moneyline -166 / @1.60)** vs Atlanta Braves con Jesús Luzardo (Mañana 07/09 1:05 PM)
+- **Estado Actual**: PENDIENTE (En seguimiento de resultados en vivo).
+
 

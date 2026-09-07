@@ -91,6 +91,51 @@ def leer_salida_tunel(proc):
     except Exception as e:
         log(f"Fin de lectura del túnel: {e}")
 
+last_pizarra_sync = 0
+
+def get_github_remote_url():
+    token_file = os.path.join(BASE_DIR, ".token_git")
+    if os.path.exists(token_file):
+        try:
+            with open(token_file, "r", encoding="utf-8") as f:
+                t = f.read().strip()
+                if t:
+                    return f"https://elrey906:{t}@github.com/elrey906/parley-stats.git"
+        except Exception:
+            pass
+    return "origin"
+
+def auto_sincronizar_pizarra():
+    global last_pizarra_sync
+    # Sincronizar cada 2 horas (7200 segundos)
+    now = time.time()
+    if now - last_pizarra_sync < 7200:
+        return
+
+    log("Ejecutando auto-sincronización de pizarra deportiva en vivo...")
+    try:
+        script_sync = os.path.join(BASE_DIR, "actualizar_pizarra.py")
+        res = subprocess.run([sys.executable, script_sync], cwd=BASE_DIR, capture_output=True, text=True, timeout=60)
+        if res.returncode == 0:
+            log("Pizarra local actualizada con éxito.")
+            # Verificar si hay cambios en git
+            st = subprocess.run(["git", "status", "--porcelain", "js/sportsData.js"], cwd=BASE_DIR, capture_output=True, text=True)
+            if st.stdout.strip():
+                log("Detectados nuevos partidos. Haciendo commit y push a GitHub...")
+                subprocess.run(["git", "commit", "-m", "chore(guardian): auto-sincronizacion de cartelera en vivo", "js/sportsData.js"], cwd=BASE_DIR, capture_output=True)
+                push_res = subprocess.run(["git", "push", get_github_remote_url(), "main"], cwd=BASE_DIR, capture_output=True, text=True, timeout=40)
+                if push_res.returncode == 0:
+                    log("¡Despliegue a GitHub Pages completado con éxito!")
+                else:
+                    log(f"Aviso push GitHub: {push_res.stderr.strip()}")
+            else:
+                log("Pizarra al día, no requirió push.")
+            last_pizarra_sync = now
+        else:
+            log(f"Error ejecutando actualizar_pizarra.py: {res.stderr.strip()}")
+    except Exception as e:
+        log(f"Excepción en auto_sincronizar_pizarra: {e}")
+
 def main():
     global current_tunnel_url
     log("Iniciando Guardián Anti-Fallas 24/7 para Parley Stats (v3.0)...")
@@ -155,6 +200,9 @@ def main():
                 except Exception:
                     # Falla transitoria de red, no tumbar de inmediato
                     pass
+
+            # 5. Sincronizador Automático de Pizarra en Vivo (Fase 2 Pro)
+            auto_sincronizar_pizarra()
 
             time.sleep(10)
 
