@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-07 18:47:42 UTC
+ * Generado automáticamente: 2026-09-07 20:47:40 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -47,106 +47,6 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+9.2%",
       "riskLevel": "Bajo (🟢 Base Multideporte)",
       "recommendation": "Excelente base de alta probabilidad para sellar en parley."
-    }
-  },
-  {
-    "id": "mlb-api-823415",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Atlanta Braves vs Philadelphia Phillies",
-    "gameDate": "Hoy",
-    "gameTime": "01:05 PM (Hora VE)",
-    "isoStartTime": "2026-09-07T13:05:00+00:00",
-    "keyDetail": "Grant Holmes vs Jesús Luzardo",
-    "selection": "Philadelphia Phillies a Ganar (Jesús Luzardo)",
-    "decimalOdds": 1.48,
-    "americanOdds": "-208",
-    "estimatedProb": 0.77,
-    "category": "seguro",
-    "categoryLabel": "💎 Banquero (01:05 PM)",
-    "stars": 5,
-    "edgePercent": "+10.8%",
-    "confidenceScore": 95,
-    "reasoning": "Philadelphia Phillies de local con Jesús Luzardo en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Atlanta Braves.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Jesús Luzardo (PHI)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Grant Holmes (ATL)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.3,
-      "marketOdds": 1.48,
-      "evPercent": "+10.8%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Philadelphia Phillies. Duelo favorable de abridores y respaldo en casa."
-    }
-  },
-  {
-    "id": "mlb-api-824793",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Cleveland Guardians vs Baltimore Orioles",
-    "gameDate": "Hoy",
-    "gameTime": "01:35 PM (Hora VE)",
-    "isoStartTime": "2026-09-07T13:35:00+00:00",
-    "keyDetail": "Joey Cantillo vs Trevor Rogers",
-    "selection": "Baltimore Orioles a Ganar (Trevor Rogers)",
-    "decimalOdds": 1.48,
-    "americanOdds": "-208",
-    "estimatedProb": 0.77,
-    "category": "seguro",
-    "categoryLabel": "💎 Banquero (01:35 PM)",
-    "stars": 5,
-    "edgePercent": "+10.8%",
-    "confidenceScore": 95,
-    "reasoning": "Baltimore Orioles de local con Trevor Rogers en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Cleveland Guardians.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Trevor Rogers (BAL)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Joey Cantillo (CLE)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.3,
-      "marketOdds": 1.48,
-      "evPercent": "+10.8%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Baltimore Orioles. Duelo favorable de abridores y respaldo en casa."
     }
   },
   {
@@ -497,6 +397,106 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+10.8%",
       "riskLevel": "Bajo (🟢 Sólido)",
       "recommendation": "Apuesta con ventaja matemática sobre New York Yankees. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
+    "id": "mlb-api-824063",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Mañana)",
+    "match": "Arizona Diamondbacks vs Kansas City Royals",
+    "gameDate": "Mañana",
+    "gameTime": "07:40 PM (Hora VE)",
+    "isoStartTime": "2026-09-08T19:40:00+00:00",
+    "keyDetail": "Corbin Burnes vs Michael Wacha",
+    "selection": "Kansas City Royals a Ganar (Michael Wacha)",
+    "decimalOdds": 1.48,
+    "americanOdds": "-208",
+    "estimatedProb": 0.77,
+    "category": "seguro",
+    "categoryLabel": "💎 Banquero (07:40 PM)",
+    "stars": 5,
+    "edgePercent": "+10.8%",
+    "confidenceScore": 95,
+    "reasoning": "Kansas City Royals de local con Michael Wacha en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Arizona Diamondbacks.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Michael Wacha (KAN)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "Corbin Burnes (ARI)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.3,
+      "marketOdds": 1.48,
+      "evPercent": "+10.8%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre Kansas City Royals. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
+    "id": "mlb-api-823738",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Mañana)",
+    "match": "Chicago Cubs vs Milwaukee Brewers",
+    "gameDate": "Mañana",
+    "gameTime": "07:40 PM (Hora VE)",
+    "isoStartTime": "2026-09-08T19:40:00+00:00",
+    "keyDetail": "David Peterson vs Jacob Misiorowski",
+    "selection": "Milwaukee Brewers a Ganar (Jacob Misiorowski)",
+    "decimalOdds": 1.48,
+    "americanOdds": "-208",
+    "estimatedProb": 0.77,
+    "category": "seguro",
+    "categoryLabel": "💎 Banquero (07:40 PM)",
+    "stars": 5,
+    "edgePercent": "+10.8%",
+    "confidenceScore": 95,
+    "reasoning": "Milwaukee Brewers de local con Jacob Misiorowski en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Chicago Cubs.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Jacob Misiorowski (MIL)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "David Peterson (CHI)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.3,
+      "marketOdds": 1.48,
+      "evPercent": "+10.8%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre Milwaukee Brewers. Duelo favorable de abridores y respaldo en casa."
     }
   }
 ];
