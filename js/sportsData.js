@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-07 00:46:37 UTC
+ * Generado automáticamente: 2026-09-07 02:46:48 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -309,7 +309,7 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Mañana",
     "gameTime": "05:10 PM (Hora VE)",
     "isoStartTime": "2026-09-07T17:10:00+00:00",
-    "keyDetail": "Por Anunciar vs Nick Pivetta",
+    "keyDetail": "Jake Irvin vs Nick Pivetta",
     "selection": "San Diego Padres a Ganar (Nick Pivetta)",
     "decimalOdds": 1.48,
     "americanOdds": "-208",
@@ -331,7 +331,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Por Anunciar (WAS)",
+        "name": "Jake Irvin (WAS)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
@@ -445,30 +445,30 @@ export const TOP_PICKS_OF_THE_DAY = [
     }
   },
   {
-    "id": "mlb-api-824552",
+    "id": "mlb-api-823820",
     "sport": "baseball",
     "sportName": "MLB",
     "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Minnesota Twins vs Chicago White Sox",
-    "gameDate": "Hoy",
-    "gameTime": "06:20 PM (Hora VE)",
-    "isoStartTime": "2026-09-06T18:20:00+00:00",
-    "keyDetail": "Bailey Ober vs Bryan Hudson",
-    "selection": "Chicago White Sox a Ganar (Bryan Hudson)",
+    "league": "MLB (Mañana)",
+    "match": "New York Mets vs Miami Marlins",
+    "gameDate": "Mañana",
+    "gameTime": "01:10 PM (Hora VE)",
+    "isoStartTime": "2026-09-07T13:10:00+00:00",
+    "keyDetail": "Jonah Tong vs Eury Pérez",
+    "selection": "Miami Marlins a Ganar (Eury Pérez)",
     "decimalOdds": 1.62,
     "americanOdds": "-161",
     "estimatedProb": 0.7,
     "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (06:20 PM)",
+    "categoryLabel": "🚀 Alto Valor +EV (01:10 PM)",
     "stars": 4,
     "edgePercent": "+9.5%",
     "confidenceScore": 90,
-    "reasoning": "Chicago White Sox de local con Bryan Hudson en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Minnesota Twins.",
+    "reasoning": "Miami Marlins de local con Eury Pérez en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a New York Mets.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Bryan Hudson (CHI)",
+        "name": "Eury Pérez (MIA)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -476,7 +476,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Bailey Ober (MIN)",
+        "name": "Jonah Tong (NEW)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
@@ -491,7 +491,7 @@ export const TOP_PICKS_OF_THE_DAY = [
       "marketOdds": 1.62,
       "evPercent": "+9.5%",
       "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Chicago White Sox. Duelo favorable de abridores y respaldo en casa."
+      "recommendation": "Apuesta con ventaja matemática sobre Miami Marlins. Duelo favorable de abridores y respaldo en casa."
     }
   }
 ];
