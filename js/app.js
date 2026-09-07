@@ -4,7 +4,7 @@
 import { OddsCalculator } from "./oddsCalculator.js";
 import { KellyCriterion } from "./kellyCriterion.js";
 import { MonteCarloSimulator } from "./monteCarlo.js";
-import { SPORTS_DATA, TOP_PICKS_OF_THE_DAY } from "./sportsData.js?v=4.2.0";
+import { SPORTS_DATA, TOP_PICKS_OF_THE_DAY } from "./sportsData.js?v=5.0.0";
 import { STAKE_PICKS_OF_THE_DAY, STAKE_PARLAY_PRESETS } from "./sportsDataStake.js";
 import { BetTracker } from "./betTracker.js";
 import { ChartManager } from "./charts.js";
@@ -311,11 +311,15 @@ class ParleyApp {
       if (filter === "seguro" || filter === "valor" || filter === "bomba") {
         return pick.category === filter;
       }
-      if (filter === "today") {
-        return pick.gameDate && (pick.gameDate.includes("Hoy") || pick.gameDate.includes("05"));
+      if (filter === "tarde") {
+        if (!pick.isoStartTime) return false;
+        const h = new Date(pick.isoStartTime).getHours();
+        return h >= 12 && h < 18;
       }
-      if (filter === "tomorrow") {
-        return pick.gameDate && (pick.gameDate.includes("Dom") || pick.gameDate.includes("06"));
+      if (filter === "noche") {
+        if (!pick.isoStartTime) return false;
+        const h = new Date(pick.isoStartTime).getHours();
+        return h >= 18;
       }
       return pick.sport === filter;
     });
@@ -669,25 +673,27 @@ class ParleyApp {
   loadPresetParleyLa(type) {
     if (type === "safe") {
       this.currentLegs = [
-        { id: "pla-dodgers-exact", match: "Nationals vs Dodgers (Hoy 9:10 PM)", selection: "Dodgers ML (T. GLASNOW) [Parley.la]", decimalOdds: 1.55, estimatedProb: 0.82 },
-        { id: "pla-mariners-exact", match: "Athletics vs Mariners (Hoy 9:40 PM)", selection: "Mariners ML (G. KIRBY) [Parley.la]", decimalOdds: 1.42, estimatedProb: 0.80 }
+        { id: "mlb-phillies-mon", match: "Braves vs Phillies (1:05 PM)", selection: "Phillies ML (J. LUZARDO) [Parley.la]", decimalOdds: 1.52, estimatedProb: 0.78 },
+        { id: "soc-italia-mon", match: "Israel vs Italia (2:45 PM)", selection: "Italia a Ganar [Parley.la]", decimalOdds: 1.30, estimatedProb: 0.84 },
+        { id: "mlb-dodgers-mon", match: "Reds vs Dodgers (9:10 PM)", selection: "Dodgers ML [Parley.la]", decimalOdds: 1.42, estimatedProb: 0.81 }
       ];
-      this.showToast("Cargado Parley Nocturno de Hoy (@2.20)", "success");
+      this.showToast("Cargado Banquero Seguro Lunes (@2.81)", "success");
     } else if (type === "opt") {
       this.currentLegs = [
-        { id: "pla-twins-sun", match: "Twins vs White Sox (Dom 6:20 PM)", selection: "Minnesota Twins a Ganar [Parley.la]", decimalOdds: 1.38, estimatedProb: 0.78 },
-        { id: "pla-mariners-sun", match: "Athletics vs Mariners (Dom 4:10 PM)", selection: "Seattle Mariners a Ganar [Parley.la]", decimalOdds: 1.46, estimatedProb: 0.74 },
-        { id: "pla-portugal-sun", match: "Portugal vs Escocia (Dom 2:45 PM)", selection: "Portugal a Ganar [Parley.la]", decimalOdds: 1.25, estimatedProb: 0.82 }
+        { id: "mlb-royals-mon", match: "D-backs vs Royals (2:10 PM)", selection: "Royals ML (N. CAMERON) [Parley.la]", decimalOdds: 1.62, estimatedProb: 0.72 },
+        { id: "soc-francia-mon", match: "Francia vs Bélgica (2:45 PM)", selection: "Francia a Ganar [Parley.la]", decimalOdds: 1.72, estimatedProb: 0.69 },
+        { id: "mlb-padres-mon", match: "Nationals vs Padres (5:10 PM)", selection: "Padres ML (N. PIVETTA) [Parley.la]", decimalOdds: 1.44, estimatedProb: 0.79 }
       ];
-      this.showToast("Cargado Banquero Domingo Seguro (@2.52)", "success");
+      this.showToast("Cargado Parley Equilibrado Lunes (+EV @3.86)", "success");
     } else if (type === "bomb") {
       this.currentLegs = [
-        { id: "pla-dodgers-exact", match: "Nationals vs Dodgers (9:10 PM)", selection: "Dodgers ML [Parley.la]", decimalOdds: 1.55, estimatedProb: 0.82 },
-        { id: "pla-mariners-exact", match: "Athletics vs Mariners (9:40 PM)", selection: "Mariners ML [Parley.la]", decimalOdds: 1.42, estimatedProb: 0.80 },
-        { id: "pla-npb-fighters", match: "Ham Fighters vs Rakuten (3:00 AM)", selection: "Ham Fighters [Parley.la]", decimalOdds: 1.64, estimatedProb: 0.72 },
-        { id: "pla-twins-sun", match: "Twins vs White Sox (Dom)", selection: "Twins a Ganar [Parley.la]", decimalOdds: 1.38, estimatedProb: 0.78 }
+        { id: "mlb-phillies-mon", match: "Braves vs Phillies", selection: "Phillies a Ganar [Parley.la]", decimalOdds: 1.52, estimatedProb: 0.78 },
+        { id: "mlb-royals-mon", match: "D-backs vs Royals", selection: "Royals a Ganar [Parley.la]", decimalOdds: 1.62, estimatedProb: 0.72 },
+        { id: "mlb-padres-mon", match: "Nationals vs Padres", selection: "Padres a Ganar [Parley.la]", decimalOdds: 1.44, estimatedProb: 0.79 },
+        { id: "soc-italia-mon", match: "Israel vs Italia", selection: "Italia a Ganar [Parley.la]", decimalOdds: 1.30, estimatedProb: 0.84 },
+        { id: "soc-francia-mon", match: "Francia vs Bélgica", selection: "Francia a Ganar [Parley.la]", decimalOdds: 1.72, estimatedProb: 0.69 }
       ];
-      this.showToast("Cargado Multiplicador Sábado-Domingo (@4.98)", "success");
+      this.showToast("Cargado Multiplicador Lunes 5 Legs (@8.65)", "success");
     }
 
     this.renderParlayLegs();
