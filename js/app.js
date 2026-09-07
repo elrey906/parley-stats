@@ -4,7 +4,7 @@
 import { OddsCalculator } from "./oddsCalculator.js";
 import { KellyCriterion } from "./kellyCriterion.js";
 import { MonteCarloSimulator } from "./monteCarlo.js";
-import { SPORTS_DATA, TOP_PICKS_OF_THE_DAY } from "./sportsData.js?v=5.0.0";
+import { SPORTS_DATA, TOP_PICKS_OF_THE_DAY } from "./sportsData.js?v=5.1.0";
 import { STAKE_PICKS_OF_THE_DAY, STAKE_PARLAY_PRESETS } from "./sportsDataStake.js";
 import { BetTracker } from "./betTracker.js";
 import { ChartManager } from "./charts.js";
@@ -308,6 +308,10 @@ class ParleyApp {
       }
 
       if (filter === "all") return true;
+      if (filter === "antitrampa") return (pick.antiTrapScore || 0) >= 85;
+      if (filter === "f5") return pick.f5Option && !pick.f5Option.includes("Evitar");
+      if (filter === "urgencia") return pick.playoffUrgency && pick.playoffUrgency.startsWith("9");
+      if (filter === "hockey") return pick.sport === "hockey";
       if (filter === "seguro" || filter === "valor" || filter === "bomba") {
         return pick.category === filter;
       }
@@ -359,6 +363,11 @@ class ParleyApp {
       const stars = "★".repeat(pick.stars) + "☆".repeat(5 - pick.stars);
       const categoryBadge = `<span class="badge badge-green">${pick.categoryLabel}</span>`;
 
+      const isTrap = pick.antiTrapStatus === "trap_warning";
+      const trapBadgeHtml = isTrap
+        ? `<span class="badge-anti-trap-warn">🚨 TRAMPA DETECTADA (Score: ${pick.antiTrapScore}/100)</span>`
+        : `<span class="badge-anti-trap-safe">🛡️ Anti-Trampa: ${pick.antiTrapScore}/100</span>`;
+
       card.innerHTML = `
         <div>
           <div class="pick-card-top">
@@ -372,8 +381,9 @@ class ParleyApp {
             </div>
           </div>
 
-          <div style="margin-bottom: 0.4rem;">
+          <div style="display: flex; gap: 0.4rem; align-items: center; margin-bottom: 0.4rem; flex-wrap: wrap;">
             ${timeBadgeHtml}
+            ${trapBadgeHtml}
           </div>
 
           <div class="pick-match-title">${pick.match}</div>
@@ -384,6 +394,18 @@ class ParleyApp {
             ${pick.sport === 'baseball' ? '⚾ <strong>Abridores:</strong>' : (pick.sport === 'soccer' ? '⚽ <strong>Detalle:</strong>' : (pick.sport === 'football' ? '🏈 <strong>Detalle:</strong>' : (pick.sport === 'hockey' ? '🏒 <strong>Pabellón:</strong>' : '🎾 <strong>Ronda:</strong>')))} ${pick.keyDetail || pick.pitchers || 'Confirmado'}
           </div>
           <div class="pick-selection-title">🎯 ${pick.selection}</div>
+
+          <!-- Caja de Métricas Anti-Trampa & F5 -->
+          <div class="anti-trap-box">
+            <div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.78rem;">
+              <span style="color: #94a3b8; font-weight: 600;">Urgencia Competitiva:</span>
+              <span class="badge-urgency-high">${pick.playoffUrgency || 'Normal'}</span>
+            </div>
+            <div style="display: flex; gap: 0.35rem; flex-wrap: wrap; margin-top: 0.25rem;">
+              ${pick.f5Option ? `<span class="badge-f5-rec">⏱️ F5: ${pick.f5Option}</span>` : ''}
+              ${pick.runlineOption ? `<span class="badge-f5-rec" style="border-color: rgba(16,185,129,0.4); color: #6ee7b7;">🛡️ ${pick.runlineOption}</span>` : ''}
+            </div>
+          </div>
 
           <div class="pick-reasoning">
             💡 ${pick.reasoning}
@@ -398,7 +420,7 @@ class ParleyApp {
 
           <div class="pick-metrics-footer" style="display: flex; gap: 0.5rem;">
             <button class="btn btn-secondary btn-sm view-analysis-btn" style="flex: 1; font-size: 0.78rem; font-weight: 700;" data-id="${pick.id}">
-              📊 Sabermetría
+              📊 Sabermetría FIP
             </button>
             <button class="btn ${isSelected ? "btn-danger" : "btn-primary"} btn-sm toggle-pla-btn" style="flex: 1.2;" data-id="${pick.id}">
               ${isSelected ? "✕ Quitar" : "⚡ Añadir"}
@@ -486,6 +508,7 @@ class ParleyApp {
             <div class="saber-side">
               <div class="saber-side-title">🟢 ${a.starterFavorite.name}</div>
               <div class="saber-stat-row"><span>Efectividad (ERA):</span> <strong>${a.starterFavorite.era}</strong></div>
+              <div class="saber-stat-row"><span>FIP (Pitcheo Real):</span> <strong style="color: #38bdf8;">${a.starterFavorite.fip || a.starterFavorite.era}</strong></div>
               <div class="saber-stat-row"><span>WHIP (Bases/Inning):</span> <strong style="color: #34d399;">${a.starterFavorite.whip}</strong></div>
               <div class="saber-stat-row"><span>Ponches K/9:</span> <strong>${a.starterFavorite.k9}</strong></div>
               <div class="saber-stat-row"><span>Récord W-L:</span> <strong>${a.starterFavorite.record}</strong></div>
@@ -494,6 +517,7 @@ class ParleyApp {
             <div class="saber-side">
               <div class="saber-side-title" style="color: #f87171;">🔴 ${a.starterUnderdog.name}</div>
               <div class="saber-stat-row"><span>Efectividad (ERA):</span> <strong>${a.starterUnderdog.era}</strong></div>
+              <div class="saber-stat-row"><span>FIP (Pitcheo Real):</span> <strong style="color: #f87171;">${a.starterUnderdog.fip || a.starterUnderdog.era}</strong></div>
               <div class="saber-stat-row"><span>WHIP (Bases/Inning):</span> <strong style="color: #f87171;">${a.starterUnderdog.whip}</strong></div>
               <div class="saber-stat-row"><span>Ponches K/9:</span> <strong>${a.starterUnderdog.k9}</strong></div>
               <div class="saber-stat-row"><span>Récord W-L:</span> <strong>${a.starterUnderdog.record}</strong></div>
@@ -565,6 +589,21 @@ class ParleyApp {
 
     bodyEl.innerHTML = `
       ${sportDetailHtml}
+
+      <!-- Panel de Detección Anti-Trampa y Urgencia Septiembre -->
+      <div style="background: rgba(15, 23, 42, 0.85); padding: 0.9rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.08); margin: 0.75rem 0;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.4rem;">
+          <span style="font-size: 0.85rem; font-weight: 700; color: #94a3b8;">🛡️ Score Cuantitativo Anti-Trampa:</span>
+          <strong style="font-size: 1.1rem; color: ${pick.antiTrapStatus === 'trap_warning' ? '#ef4444' : '#10b981'};">${pick.antiTrapScore || 80}/100</strong>
+        </div>
+        <div class="anti-trap-score-meter">
+          <div class="anti-trap-score-fill" style="width: ${pick.antiTrapScore || 80}%; background: ${pick.antiTrapStatus === 'trap_warning' ? '#ef4444' : '#10b981'};"></div>
+        </div>
+        <div style="font-size: 0.82rem; color: #cbd5e1; margin-top: 0.55rem; line-height: 1.5;">
+          🔥 <strong>Urgencia de Victoria:</strong> <span style="color: #fbbf24;">${pick.playoffUrgency || 'Normal'}</span><br>
+          ⏱️ <strong>Recomendación F5:</strong> <span style="color: #38bdf8;">${pick.f5Option || 'N/A'}</span> | 🛡️ <strong>Colchón RunLine:</strong> <span style="color: #34d399;">${pick.runlineOption || 'N/A'}</span>
+        </div>
+      </div>
 
       <!-- Matriz de Valor Esperado (+EV) -->
       <div>

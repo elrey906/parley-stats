@@ -265,5 +265,18 @@
   1. ⚾ **Los Angeles Dodgers (Moneyline -198 / @1.50)** vs Washington Nationals (Hoy 06/09 10:10 PM)
   2. ⚾ **Philadelphia Phillies (Moneyline -166 / @1.60)** vs Atlanta Braves con Jesús Luzardo (Mañana 07/09 1:05 PM)
 - **Estado Actual**: PENDIENTE (En seguimiento de resultados en vivo).
-
-
+### [06/09/2026 - Fase 21]: Implementación de Métricas Cuantitativas Anti-Trampa, Sabermetría FIP y Filtros F5 / Septiembre
+- **Problema Detectado**: Emboscadas de cuotas sobre-infladas de la casa de apuestas (ej. favoritos `-200` en septiembre cuidando brazos para postemporada) y colapsos de relevistas en innings finales.
+- **Nuevas Métricas y Herramientas Implementadas**:
+  1. **Score Cuantitativo Anti-Trampa (0-100 pts)**: Evalúa discrepancia de cuotas, FIP vs ERA, descanso de bullpen y urgencia competitiva. Detecta y alerta visualmente las "Líneas Trampa" de las casas de apuestas.
+  2. **Sabermetría FIP (Fielding Independent Pitching)**: Medición del rendimiento real del lanzador independiente de la defensa.
+  3. **Métrica de Urgencia Competitiva en Septiembre**: Filtra equipos con necesidad obligada de ganar (en lucha de comodín o división) vs equipos cómodos o eliminados que rotan prospectos.
+  4. **Modo F5 (Primeras 5 Entradas) y RunLine Protegido (+1.5)**: Recomendaciones por partido para eliminar la varianza de los relevistas.
+  5. **Integración Multideporte KHL Hockey**: Añadido Ak Bars Kazan (-296 / @1.34) como banquero matutino de alta fiabilidad.
+  6. **Filtros Rápidos en Interfaz**: Añadidos botones para `🛡️ Filtro Anti-Trampa (+85 pts)`, `⏱️ Primeros 5 Innings (F5)` y `🔥 Alta Urgencia Playoff`.
+- **Archivos Modificados**:
+  - `js/sportsData.js`: Enriquecido con `antiTrapScore`, `antiTrapStatus`, `fip`, `playoffUrgency`, `f5Option`, `runlineOption` y Hockey KHL.
+  - `js/app.js`: Lógica de renderizado con medidor de score, alertas de trampa y filtros avanzados.
+  - `index.html`: Filtros pills de Anti-Trampa, F5 y presets actualizados v5.1.0.
+  - `css/styles.css`: Estilos para medidores de riesgo, badges pulsantes de alerta y cajas de métricas.
+- Cache buster actualizado a `v=5.1.0`.
