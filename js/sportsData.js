@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-07 20:47:40 UTC
+ * Generado automáticamente: 2026-09-07 22:47:50 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -47,106 +47,6 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+9.2%",
       "riskLevel": "Bajo (🟢 Base Multideporte)",
       "recommendation": "Excelente base de alta probabilidad para sellar en parley."
-    }
-  },
-  {
-    "id": "mlb-api-824062",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Arizona Diamondbacks vs Kansas City Royals",
-    "gameDate": "Hoy",
-    "gameTime": "02:10 PM (Hora VE)",
-    "isoStartTime": "2026-09-07T14:10:00+00:00",
-    "keyDetail": "Derek Law vs Noah Cameron",
-    "selection": "Kansas City Royals a Ganar (Noah Cameron)",
-    "decimalOdds": 1.48,
-    "americanOdds": "-208",
-    "estimatedProb": 0.77,
-    "category": "seguro",
-    "categoryLabel": "💎 Banquero (02:10 PM)",
-    "stars": 5,
-    "edgePercent": "+10.8%",
-    "confidenceScore": 95,
-    "reasoning": "Kansas City Royals de local con Noah Cameron en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Arizona Diamondbacks.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Noah Cameron (KAN)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Derek Law (ARI)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.3,
-      "marketOdds": 1.48,
-      "evPercent": "+10.8%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Kansas City Royals. Duelo favorable de abridores y respaldo en casa."
-    }
-  },
-  {
-    "id": "mlb-api-823742",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Chicago Cubs vs Milwaukee Brewers",
-    "gameDate": "Hoy",
-    "gameTime": "02:10 PM (Hora VE)",
-    "isoStartTime": "2026-09-07T14:10:00+00:00",
-    "keyDetail": "Matthew Boyd vs Robert Gasser",
-    "selection": "Milwaukee Brewers a Ganar (Robert Gasser)",
-    "decimalOdds": 1.48,
-    "americanOdds": "-208",
-    "estimatedProb": 0.77,
-    "category": "seguro",
-    "categoryLabel": "💎 Banquero (02:10 PM)",
-    "stars": 5,
-    "edgePercent": "+10.8%",
-    "confidenceScore": 95,
-    "reasoning": "Milwaukee Brewers de local con Robert Gasser en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Chicago Cubs.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Robert Gasser (MIL)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Matthew Boyd (CHI)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.3,
-      "marketOdds": 1.48,
-      "evPercent": "+10.8%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Milwaukee Brewers. Duelo favorable de abridores y respaldo en casa."
     }
   },
   {
@@ -209,8 +109,8 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Hoy",
     "gameTime": "09:10 PM (Hora VE)",
     "isoStartTime": "2026-09-07T21:10:00+00:00",
-    "keyDetail": "Chase Burns vs Por Anunciar",
-    "selection": "Los Angeles Dodgers a Ganar (Por Anunciar)",
+    "keyDetail": "Chase Burns vs Emmet Sheehan",
+    "selection": "Los Angeles Dodgers a Ganar (Emmet Sheehan)",
     "decimalOdds": 1.48,
     "americanOdds": "-208",
     "estimatedProb": 0.77,
@@ -219,11 +119,11 @@ export const TOP_PICKS_OF_THE_DAY = [
     "stars": 5,
     "edgePercent": "+10.8%",
     "confidenceScore": 95,
-    "reasoning": "Los Angeles Dodgers de local con Por Anunciar en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Cincinnati Reds.",
+    "reasoning": "Los Angeles Dodgers de local con Emmet Sheehan en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Cincinnati Reds.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Por Anunciar (LOS)",
+        "name": "Emmet Sheehan (LOS)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -497,6 +397,106 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+10.8%",
       "riskLevel": "Bajo (🟢 Sólido)",
       "recommendation": "Apuesta con ventaja matemática sobre Milwaukee Brewers. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
+    "id": "mlb-api-823250",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Mañana)",
+    "match": "Washington Nationals vs San Diego Padres",
+    "gameDate": "Mañana",
+    "gameTime": "09:40 PM (Hora VE)",
+    "isoStartTime": "2026-09-08T21:40:00+00:00",
+    "keyDetail": "Por Anunciar vs Casey Mize",
+    "selection": "San Diego Padres a Ganar (Casey Mize)",
+    "decimalOdds": 1.48,
+    "americanOdds": "-208",
+    "estimatedProb": 0.77,
+    "category": "seguro",
+    "categoryLabel": "💎 Banquero (09:40 PM)",
+    "stars": 5,
+    "edgePercent": "+10.8%",
+    "confidenceScore": 95,
+    "reasoning": "San Diego Padres de local con Casey Mize en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Washington Nationals.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Casey Mize (SAN)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "Por Anunciar (WAS)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.3,
+      "marketOdds": 1.48,
+      "evPercent": "+10.8%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre San Diego Padres. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
+    "id": "mlb-api-823901",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Mañana)",
+    "match": "Cincinnati Reds vs Los Angeles Dodgers",
+    "gameDate": "Mañana",
+    "gameTime": "10:10 PM (Hora VE)",
+    "isoStartTime": "2026-09-08T22:10:00+00:00",
+    "keyDetail": "Nick Lodolo vs Tarik Skubal",
+    "selection": "Los Angeles Dodgers a Ganar (Tarik Skubal)",
+    "decimalOdds": 1.48,
+    "americanOdds": "-208",
+    "estimatedProb": 0.77,
+    "category": "seguro",
+    "categoryLabel": "💎 Banquero (10:10 PM)",
+    "stars": 5,
+    "edgePercent": "+10.8%",
+    "confidenceScore": 95,
+    "reasoning": "Los Angeles Dodgers de local con Tarik Skubal en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Cincinnati Reds.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Tarik Skubal (LOS)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "Nick Lodolo (CIN)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.3,
+      "marketOdds": 1.48,
+      "evPercent": "+10.8%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre Los Angeles Dodgers. Duelo favorable de abridores y respaldo en casa."
     }
   }
 ];
