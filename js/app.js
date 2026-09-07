@@ -4,8 +4,8 @@
 import { OddsCalculator } from "./oddsCalculator.js";
 import { KellyCriterion } from "./kellyCriterion.js";
 import { MonteCarloSimulator } from "./monteCarlo.js";
-import { SPORTS_DATA, TOP_PICKS_OF_THE_DAY } from "./sportsData.js?v=5.1.0";
-import { STAKE_PICKS_OF_THE_DAY, STAKE_PARLAY_PRESETS } from "./sportsDataStake.js";
+import { SPORTS_DATA, TOP_PICKS_OF_THE_DAY } from "./sportsData.js?v=5.2.0";
+import { STAKE_PICKS_OF_THE_DAY, STAKE_PARLAY_PRESETS } from "./sportsDataStake.js?v=5.2.0";
 import { BetTracker } from "./betTracker.js";
 import { ChartManager } from "./charts.js";
 

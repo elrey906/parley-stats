@@ -317,3 +317,21 @@
      - ⚾ **Toronto Blue Jays ML (-208)** con Dylan Cease vs Athletics (10:05 PM)
      - **Retorno Total a Cobrar**: **`11.928,42 Bs`** | Estado: PENDIENTE
 - **Potencial Total Acumulado en Juego para Esta Noche**: **`44.344,33 Bs.`**
+
+### [07/09/2026 - Fase 24]: Despliegue de Feed Cuantitativo y Simulación de 6 Tickets en Stake.com (USD / USDT)
+- **Objetivo**: Calibrar y simular 6 combinadas en dólares en la plataforma internacional **Stake.com** para preparar el fondeo en USDT.
+- **Ventajas de Stake.com vs Taquilla Local**:
+  1. Cuotas superiores (+10% a +15% de valor esperado sin vigorish inflado).
+  2. Promoción Oficial de Seguro MLB (pago automático si el equipo lidera por 2+ carreras).
+  3. Mercados de F5 (Primeras 5 Entradas) y totales alternativos en vivo.
+- **6 Tickets Simulados**:
+  1. Ticket 1: Banquero Nocturno (Giants ML + Blue Jays ML) @2.68 -> $20 paga $53.60 USD
+  2. Ticket 2: Escudo F5 (Giants F5 + Blue Jays F5) @2.65 -> $25 paga $66.25 USD
+  3. Ticket 3: Multideporte (Gremio ML + Giants ML) @2.90 -> $15 paga $43.50 USD
+  4. Ticket 4: Tridente Defensivo (Giants ML + Under 8.5 + Blue Jays ML) @4.95 -> $15 paga $74.25 USD
+  5. Ticket 5: Puente Noche & Martes (Blue Jays + Orioles + Red Sox) @4.72 -> $10 paga $47.20 USD
+  6. Ticket 6: Mega Bomba Cuotón (Giants + Under 8.5 + Blue Jays -1.5 + Red Sox) @10.66 -> $10 paga $106.60 USD
+- **Archivos Modificados**:
+  - `js/sportsDataStake.js`: Feed renovado con partidos actualizados en USD.
+  - `js/app.js`: Import v5.2.0.
+  - `index.html`: Cache buster v5.2.0.
