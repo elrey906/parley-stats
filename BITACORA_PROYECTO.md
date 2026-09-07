@@ -289,17 +289,31 @@
 
 #### 📋 Ficha de Tickets Activos en Taquilla:
 1. **Ticket #90708157** (Emitido: 06/09 08:35 PM) - Monto: `4.000,00 Bs` (Bono)
-   - ⚾ **Dodgers ML (-198)** vs Washington Nationals (06/09 10:10 PM)
-   - ⚾ **Phillies ML (-166)** con Jesús Luzardo vs Atlanta Braves (07/09 1:05 PM)
-   - **Premio**: `5.646,83 Bs` | Estado: PENDIENTE
+   - ⚾ **Dodgers ML (-198)** vs Washington Nationals (06/09 10:10 PM) -> GANADOR
+   - ⚾ **Phillies ML (-166)** con Jesús Luzardo vs Atlanta Braves (07/09 1:05 PM) -> GANADOR (1-0)
+   - **Premio**: `5.646,80 Bs` | Estado: **¡COBRADO Y ACREDITADO! (GANADOR)**
 
 2. **Ticket #90708194** (Emitido: 06/09 09:04 PM) - Monto: `5.000,00 Bs` (Bono)
-   - ⚾ **Milwaukee Brewers ML (-128)** vs Chicago Cubs (07/09 2:10 PM) [Score 95]
-   - ⚾ **San Francisco Giants ML (-138)** con Logan Webb vs St. Louis Cardinals (07/09 8:10 PM) [Score 94]
-   - **Premio**: `10.360,05 Bs` | Estado: PENDIENTE
+   - ⚾ **Milwaukee Brewers ML (-128)** vs Chicago Cubs (07/09 2:10 PM) -> GANADOR (4-3)
+   - ⚾ **San Francisco Giants ML (-138)** con Logan Webb vs St. Louis Cardinals (07/09 8:10 PM) -> Pendiente
+   - **Premio**: `10.360,00 Bs` | Estado: PENDIENTE (A 1 juego del cobro)
 
 3. **Ticket #90708198** (Emitido: 06/09 09:07 PM) - Monto: `5.000,00 Bs` (Bono)
-   - 🏒 **Ak Bars Kazan ML (-296)** vs Admiral Vladivostok (07/09 12:30 PM) [Score 96]
-   - ⚾ **Milwaukee Brewers ML (-128)** vs Chicago Cubs (07/09 2:10 PM) [Score 95]
-   - ⚾ **San Francisco Giants ML (-138)** con Logan Webb vs St. Louis Cardinals (07/09 8:10 PM) [Score 94]
-   - **Premio**: `15.549,26 Bs` | Estado: PENDIENTE
+   - 🏒 **Ak Bars Kazan ML (-296)** vs Admiral Vladivostok (07/09 12:30 PM)
+   - ⚾ **Milwaukee Brewers ML (-128)** vs Chicago Cubs (07/09 2:10 PM) -> GANADOR (4-3)
+   - ⚾ **San Francisco Giants ML (-138)** con Logan Webb vs St. Louis Cardinals (07/09 8:10 PM) -> Pendiente
+   - **Premio**: `15.549,50 Bs` | Estado: PENDIENTE (A 1 juego del cobro)
+
+### [07/09/2026 - Fase 23]: Cobro Confirmado en Taquilla y Registro de Nuevos Tickets Nocturnos
+- **Saldo General Actual**: **`16.646,80 Bs`** (Por encima del capital inicial de 16.000 Bs).
+- **Tickets Sellados para Esta Noche (07/09/2026)**:
+  4. **Ticket #90712555** (Emitido: 07/09 5:32 PM) - Monto: `2.500,00 Bs`
+     - ⚾ **San Francisco Giants ML (-132)** con Logan Webb vs Cardinals (8:10 PM)
+     - ⚾ **Toronto Blue Jays ML (-208)** con Dylan Cease vs Athletics (10:05 PM)
+     - **Retorno Total a Cobrar**: **`6.506,41 Bs`** | Estado: PENDIENTE
+  5. **Ticket #90712567** (Emitido: 07/09 5:34 PM) - Monto: `2.500,00 Bs`
+     - ⚾ **San Francisco Giants ML (-132)** con Logan Webb vs Cardinals (8:10 PM)
+     - ⚾ **Baja de 8.5 Carreras (-120)** en Cincinnati Reds vs LA Dodgers (9:10 PM)
+     - ⚾ **Toronto Blue Jays ML (-208)** con Dylan Cease vs Athletics (10:05 PM)
+     - **Retorno Total a Cobrar**: **`11.928,42 Bs`** | Estado: PENDIENTE
+- **Potencial Total Acumulado en Juego para Esta Noche**: **`44.344,33 Bs.`**
