@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-07 12:47:22 UTC
+ * Generado automáticamente: 2026-09-07 14:47:30 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -159,7 +159,7 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Hoy",
     "gameTime": "02:10 PM (Hora VE)",
     "isoStartTime": "2026-09-07T14:10:00+00:00",
-    "keyDetail": "Por Anunciar vs Noah Cameron",
+    "keyDetail": "Derek Law vs Noah Cameron",
     "selection": "Kansas City Royals a Ganar (Noah Cameron)",
     "decimalOdds": 1.48,
     "americanOdds": "-208",
@@ -181,7 +181,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Por Anunciar (ARI)",
+        "name": "Derek Law (ARI)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
