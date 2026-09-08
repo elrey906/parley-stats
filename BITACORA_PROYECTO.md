@@ -341,10 +341,25 @@
   - ⚾ **San Francisco Giants (5) vs St. Louis Cardinals (4)** [Final 11 Innings]: ¡GANADOR! Logan Webb y el relevo de Giants sellan la victoria en extra innings.
   - ⚾ **Milwaukee Brewers (4) vs Chicago Cubs (3)** [Final]: ¡GANADOR! Robert Gasser y el bullpen cerraron el juego.
   - ⚾ **Los Angeles Dodgers (6) vs Cincinnati Reds (3)** [Final]: 9 carreras totales.
-- **Auditoría de Tickets en Taquilla**:
-  - **Ticket #90708194**: **¡¡GANADOR CONFIRMADO!!** (Brewers ML + Giants ML). Cobro total de **`10.360,00 Bs`**.
-  - **Ticket #90708157**: **GANADOR PREVIO COBRADO** (+5.646,80 Bs acreditados a balance general).
-  - **Ticket #90708198**: Pata de Brewers y Giants ganadas; pendiente de verificación del primer logro en taquilla (**`15.549,50 Bs`**).
-  - **Ticket #90712555**: Giants Ganador; Blue Jays en desarrollo.
-  - **Ticket #90712567**: Giants Ganador; Dodgers Over 8.5.
+- **Auditoría Definitiva de Tickets en Taquilla**:
+  - **Ticket #90708157**: **¡GANADOR!** (Dodgers ML + Phillies ML) ➡️ **`+5.646,80 Bs`**.
+  - **Ticket #90708194**: **¡GANADOR!** (Brewers ML + Giants ML) ➡️ **`+10.360,00 Bs`**.
+  - **Ticket #90708198**: **¡GANADOR!** (Ak Bars Kazan ML + Brewers ML + Giants ML) ➡️ **`+15.549,50 Bs`**.
+  - **Ticket #90712555**: **PERDEDOR** (Giants Ganó, Blue Jays perdió 4-5) ➡️ `-2.500,00 Bs`.
+  - **Ticket #90712567**: **PERDEDOR** (Giants Ganó, Dodgers/Reds Over 8.5, Blue Jays perdió) ➡️ `-2.500,00 Bs`.
+- **Balance Neto de la Jornada**: `+31.556,30 Bs - 5.000,00 Bs = +26.556,30 Bs de ganancia neta`.
 - **Acción Realizada**: Creación del archivo `MANUAL_DEL_APOSTADOR_PRO.md` con la guía completa paso a paso para compartir con socios y amigos, explicando el sistema cuantitativo, el uso de la web móvil y la operativa en `parley.la` y `Stake.com`.
+
+### [08/09/2026 - Fase 26]: Lección Magistral del Usuario — "Panorama Completo" y Erradicación del Sesgo de Resultado (Outcome Bias)
+- **Principio Fundamental Impartido por el Usuario**:
+  > *"No porque ganes significa que estás bien. Aprende a mirar el panorama completo."*
+  - **Sesgo de Resultado (Outcome Bias)**: Es el error más peligroso de los apostadores: creer que porque el saldo total creció (+26.556 Bs) el análisis fue perfecto. Si dos tickets fallaron, hubo grietas de análisis que deben corregirse sin triunfalismos ciegos.
+  - **Gestión Inteligente del Usuario**: El usuario identificó intuitivamente la vulnerabilidad del turno nocturno tardío y recortó el tamaño de la apuesta a la mitad (de 5.000 Bs a 2.500 Bs), minimizando el impacto del fallo.
+- **Autopsia y Fallas de la "Visión Estrecha"**:
+  1. **Aislamiento Estadístico de Toronto**: Se evaluó a Dylan Cease por su K/9 en el papel, ignorando el panorama completo: Toronto viajando de visita a la costa oeste, contra unos Athletics sin presión que son matagigantes en casa, y con una cuota pésima de valor negativo (`-208`).
+  2. **Vulnerabilidad de Relevo Tardío en Bajas (Under)**: Se apostó la baja a 9 innings completos confiando en Chase Burns, ignorando que el 8vo y 9no inning en septiembre quedan en manos de relevistas descontrolados (el juego iba 3-1 en el 5to y terminó 6-3 por culpa del bullpen).
+- **Nuevo Protocolo Obligatorio: "Análisis del Panorama Completo"**:
+  1. **Veto Estricto a Favoritos Visitantes con Cuota < -160**: Ningún equipo jugando en parque ajeno con cuota inflada será recomendado para parley directo.
+  2. **Regla de Contexto Situacional (Viaje, Hambre y Presión)**: Todo pick debe considerar si el equipo viaja cruzando husos horarios, el cansancio acumulado de la semana y si el rival juega sin presión.
+  3. **Totales (Altas/Bajas) Exclusivamente en F5**: Prohibido jugar totales a 9 innings para eliminar la ruleta rusa de los relevistas tardíos.
+  4. **Calibración de Riesgo Real (Stake Dinámico)**: Cuando un logro presente factores de riesgo situacional, el sistema debe recomendar bajar el importe o descartarlo, sin dejarse llevar por el deseo de "meter más juegos".
