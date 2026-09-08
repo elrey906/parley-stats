@@ -335,3 +335,16 @@
   - `js/sportsDataStake.js`: Feed renovado con partidos actualizados en USD.
   - `js/app.js`: Import v5.2.0.
   - `index.html`: Cache buster v5.2.0.
+
+### [08/09/2026 - Fase 25]: Cierre de Jornada Nocturna - Victoria Confirmada en Ticket #90708194 (+10.360 Bs) y Generación de Manual Pro
+- **Resultados Oficiales MLB del Turno Nocturno**:
+  - ⚾ **San Francisco Giants (5) vs St. Louis Cardinals (4)** [Final 11 Innings]: ¡GANADOR! Logan Webb y el relevo de Giants sellan la victoria en extra innings.
+  - ⚾ **Milwaukee Brewers (4) vs Chicago Cubs (3)** [Final]: ¡GANADOR! Robert Gasser y el bullpen cerraron el juego.
+  - ⚾ **Los Angeles Dodgers (6) vs Cincinnati Reds (3)** [Final]: 9 carreras totales.
+- **Auditoría de Tickets en Taquilla**:
+  - **Ticket #90708194**: **¡¡GANADOR CONFIRMADO!!** (Brewers ML + Giants ML). Cobro total de **`10.360,00 Bs`**.
+  - **Ticket #90708157**: **GANADOR PREVIO COBRADO** (+5.646,80 Bs acreditados a balance general).
+  - **Ticket #90708198**: Pata de Brewers y Giants ganadas; pendiente de verificación del primer logro en taquilla (**`15.549,50 Bs`**).
+  - **Ticket #90712555**: Giants Ganador; Blue Jays en desarrollo.
+  - **Ticket #90712567**: Giants Ganador; Dodgers Over 8.5.
+- **Acción Realizada**: Creación del archivo `MANUAL_DEL_APOSTADOR_PRO.md` con la guía completa paso a paso para compartir con socios y amigos, explicando el sistema cuantitativo, el uso de la web móvil y la operativa en `parley.la` y `Stake.com`.
