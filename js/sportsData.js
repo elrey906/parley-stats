@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-07 22:47:50 UTC
+ * Generado automáticamente: 2026-09-08 00:47:55 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -47,56 +47,6 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+9.2%",
       "riskLevel": "Bajo (🟢 Base Multideporte)",
       "recommendation": "Excelente base de alta probabilidad para sellar en parley."
-    }
-  },
-  {
-    "id": "mlb-api-823254",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Washington Nationals vs San Diego Padres",
-    "gameDate": "Hoy",
-    "gameTime": "05:10 PM (Hora VE)",
-    "isoStartTime": "2026-09-07T17:10:00+00:00",
-    "keyDetail": "Jake Irvin vs Nick Pivetta",
-    "selection": "San Diego Padres a Ganar (Nick Pivetta)",
-    "decimalOdds": 1.48,
-    "americanOdds": "-208",
-    "estimatedProb": 0.77,
-    "category": "seguro",
-    "categoryLabel": "💎 Banquero (05:10 PM)",
-    "stars": 5,
-    "edgePercent": "+10.8%",
-    "confidenceScore": 95,
-    "reasoning": "San Diego Padres de local con Nick Pivetta en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Washington Nationals.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Nick Pivetta (SAN)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Jake Irvin (WAS)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.3,
-      "marketOdds": 1.48,
-      "evPercent": "+10.8%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre San Diego Padres. Duelo favorable de abridores y respaldo en casa."
     }
   },
   {
@@ -409,7 +359,7 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Mañana",
     "gameTime": "09:40 PM (Hora VE)",
     "isoStartTime": "2026-09-08T21:40:00+00:00",
-    "keyDetail": "Por Anunciar vs Casey Mize",
+    "keyDetail": "Riley Cornelio vs Casey Mize",
     "selection": "San Diego Padres a Ganar (Casey Mize)",
     "decimalOdds": 1.48,
     "americanOdds": "-208",
@@ -431,7 +381,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Por Anunciar (WAS)",
+        "name": "Riley Cornelio (WAS)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
@@ -497,6 +447,51 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+10.8%",
       "riskLevel": "Bajo (🟢 Sólido)",
       "recommendation": "Apuesta con ventaja matemática sobre Los Angeles Dodgers. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
+    "id": "soc-francia-mon",
+    "sport": "soccer",
+    "sportName": "Fútbol",
+    "sportIcon": "⚽",
+    "league": "UEFA Nations League",
+    "match": "Francia vs Bélgica",
+    "gameDate": "Lunes 07 Sep",
+    "gameTime": "2:45 PM (Hora VE)",
+    "isoStartTime": "2026-09-07T14:45:00-04:00",
+    "keyDetail": "Groupama Stadium (Lyon)",
+    "selection": "Francia a Ganar",
+    "decimalOdds": 1.72,
+    "americanOdds": "-139",
+    "estimatedProb": 0.69,
+    "category": "valor",
+    "categoryLabel": "🚀 Duelo Élite Europa (2:45 PM)",
+    "stars": 5,
+    "edgePercent": "+11.2%",
+    "confidenceScore": 92,
+    "reasoning": "Kylian Mbappé, Ousmane Dembélé y Antoine Griezmann en Lyon. Bélgica llega sin Romelu Lukaku y con serios problemas defensivos.",
+    "analysis": {
+      "type": "soccer",
+      "teamFavorite": {
+        "name": "Francia (Local)",
+        "xg": "2.10",
+        "goalsAvg": "2.3 p/p",
+        "streak": "G-G-P-G-G",
+        "cleanSheetProb": "55%"
+      },
+      "teamUnderdog": {
+        "name": "Bélgica (Visitante)",
+        "xg": "1.05",
+        "goalsAvg": "1.2 p/p",
+        "streak": "P-E-G-P-P",
+        "cleanSheetProb": "18%"
+      },
+      "keyFactors": "Superioridad física y velocidad en transiciones de Mbappé frente a centrales de Bélgica.",
+      "fairOdds": 1.45,
+      "marketOdds": 1.72,
+      "evPercent": "+11.2%",
+      "riskLevel": "Medio-Bajo (🟡 Gran Cuota +EV)",
+      "recommendation": "Francia domina el historial directo y tiene plantel superior en todas las líneas."
     }
   }
 ];
