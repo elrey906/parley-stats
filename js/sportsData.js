@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-08 14:48:20 UTC
+ * Generado automáticamente: 2026-09-08 16:48:33 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
