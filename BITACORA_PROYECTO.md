@@ -363,3 +363,40 @@
   2. **Regla de Contexto Situacional (Viaje, Hambre y Presión)**: Todo pick debe considerar si el equipo viaja cruzando husos horarios, el cansancio acumulado de la semana y si el rival juega sin presión.
   3. **Totales (Altas/Bajas) Exclusivamente en F5**: Prohibido jugar totales a 9 innings para eliminar la ruleta rusa de los relevistas tardíos.
   4. **Calibración de Riesgo Real (Stake Dinámico)**: Cuando un logro presente factores de riesgo situacional, el sistema debe recomendar bajar el importe o descartarlo, sin dejarse llevar por el deseo de "meter más juegos".
+
+### [08/09/2026 - Fase 27]: Despliegue de la Estrategia "Martes de Fuego" — 4 Tickets Blindados en Parley.la y Descorrelación Total
+- **Estado de Cuenta Inicial**: **`42.556,30 Bs.`** (Ganancia neta acumulada de +26.556,30 Bs tras cobrar 3 tickets el día anterior).
+- **Saldo en Caja Resguardado**: **`27.556,30 Bs.`** (Capital asegurado e intocable, preservando todas las ganancias).
+- **Inversión Estratégica en Taquilla**: 3 a 4 Tickets de **`5.000,00 Bs.`** cada uno, maximizando diversificación horaria y deportiva (KHL Rusia, Dinamarca Metal Ligaen y MLB).
+- **Cumplimiento del Protocolo "Panorama Completo"**:
+  1. **100% Equipos Locales**: Se erradicaron completamente los favoritos visitantes pesados. Todos los equipos defienden su feudo.
+  2. **Descorrelación de Riesgo**: Los Tickets 3 y 4 no dependen de Boston Red Sox. Si un juego falla por factores fortuitos, los otros tickets cobran de forma autónoma.
+  3. **Escalera Temporal**: Juegos desde las 10:00 AM (KHL Rusia) y 1:00 PM (Dinamarca) que permiten cobrar temprano, rematando con el pitcheo abridor de la noche (Detroit, Milwaukee y San Diego).
+
+#### 📋 Ficha Técnica de los Tickets Sellados para Hoy (Martes 08/09/2026):
+
+1. **Ticket #1: El Clásico Hielo & Diamante** (Monto: `5.000,00 Bs`)
+   - 🏒 **Lokomotiv Yaroslavl ML (-468 / @1.21)** vs Shanghai (12:30 PM)
+   - ⚾ **Boston Red Sox ML (-146 / @1.68)** vs Angels con Patrick Sandoval (6:45 PM)
+   - **Cuota Total**: `@2.03` | **Premio a Cobrar**: **`10.150,00 Bs`**
+
+2. **Ticket #2: El Escudo F5** (Monto: `5.000,00 Bs`)
+   - 🏒 **Neftekhimik Niznekamsk ML (-270 / @1.37)** vs Sochi (12:00 PM)
+   - ⚾ **Boston Red Sox F5 ML (-125 / @1.80)** vs Angels 5to Inning (6:45 PM)
+   - **Cuota Total**: `@2.47` | **Premio a Cobrar**: **`12.350,00 Bs`**
+
+3. **Ticket #3: El Tridente de Acero Local** (Monto: `5.000,00 Bs` - **SELLADO OFICIAL EN TAQUILLA**)
+   - 🏒 **Sonderjyske Ishockey ML (-317 / @1.31)** vs Rodovre (1:00 PM)
+   - ⚾ **Detroit Tigers ML (-140 / @1.71)** vs Minnesota Twins (6:40 PM)
+   - ⚾ **San Diego Padres ML (-190 / @1.53)** vs Washington Nationals (9:40 PM)
+   - **Premio Confirmado en Pantalla**: **`17.209,74 Bs`** (¡Multiplicador x3.44!)
+
+4. **Ticket #4: El Candado Matutino + Fuego de Milwaukee** (Monto: `5.000,00 Bs`)
+   - 🏒 **Metallurg Magnitogorsk ML (-364 / @1.27)** vs Khabarovsk (10:00 AM)
+   - ⚾ **Milwaukee Brewers ML (-218 / @1.46)** con Jacob Misiorowski (101 mph) vs Cubs (7:40 PM)
+   - ⚾ **Los Angeles Dodgers ML (-333 / @1.30)** en Dodger Stadium vs Reds (10:10 PM)
+   - **Cuota Total**: `@2.45` | **Premio Estimado**: **`~12.250,00 Bs`**
+
+- **Potencial Total de Cobro Combinado**: **`~51.950,00 Bs.`**
+- **Escenario de Éxito**: Cobrando solo 1 de los tickets grandes (Ticket 3), ya se cubre la jornada completa y se genera profit. Cobrando la barrida, el balance superará los **`70.000,00 Bs.`**
+
