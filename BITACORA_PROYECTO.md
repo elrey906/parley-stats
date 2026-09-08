@@ -400,3 +400,147 @@
 - **Potencial Total de Cobro Combinado**: **`~51.950,00 Bs.`**
 - **Escenario de Éxito**: Cobrando solo 1 de los tickets grandes (Ticket 3), ya se cubre la jornada completa y se genera profit. Cobrando la barrida, el balance superará los **`70.000,00 Bs.`**
 
+### [08/09/2026 - Fase 28]: Autopsia del Fallo de Sonderjyske y Protocolo Maestro de Toma de Decisiones v2.0
+
+#### 🔴 Fallo Registrado: Ticket #90714730 — PERDEDOR (-5.000,00 Bs)
+- **Logro Fallido**: 🏒 Sonderjyske Ishockey ML (-317) vs Rodovre Mighty Bulls [1:00 PM, Metal Ligaen Dinamarca]
+- **Resultado Real**: Rodovre Mighty Bulls GANÓ el partido como local (upset)
+- **Saldo tras el fallo**: **`22.556,30 Bs`** (bajó desde 27.556,30 Bs)
+
+#### 🔬 Diagnóstico del Error: "Confundí Cuota Alta con Seguridad Real"
+El error no fue elegir a Sonderjyske porque fuera un equipo malo. El error fue **no hacer las preguntas correctas antes de elegir la liga**:
+- ✅ Pregunta que hice: *"¿La cuota es alta? (-317 = sí, parece seguro)"*
+- ❌ Pregunta que NO hice: *"¿Qué tan predecible y equilibrada es esta liga específica?"*
+
+**La raíz del problema**: Una cuota de `-317` en la Metal Ligaen de Dinamarca NO equivale estadísticamente a una cuota de `-317` en el KHL ruso. La Metal Ligaen tiene 10 equipos con presupuestos similares y altísima paridad. Los "upsets" ocurren en el ~25-30% de los partidos. El KHL tiene superequipos y equipos débiles con diferencias abismales de talento. Los "upsets" reales allí ocurren en menos del 10-12%.
+
+---
+
+## 2. 🧠 PROTOCOLO MAESTRO DE TOMA DE DECISIONES v2.0
+*(Actualizado 08/09/2026 — Incorpora lecciones de Toronto, Sonderjyske y todos los fallos documentados)*
+
+> **Regla de Oro**: Antes de confirmar CUALQUIER logro, recorrer los 7 pasos en orden. Si falla UN filtro obligatorio 🔴, el logro se DESCARTA automáticamente. Sin excepciones. Sin negociación.
+
+---
+
+### PASO 1 — FILTRO DE LIGA (Obligatorio 🔴)
+
+Antes de analizar cualquier otra cosa, identificar en qué liga juegan:
+
+| Nivel | Liga / Deporte | Uso Permitido en Parley |
+|---|---|---|
+| ⭐⭐⭐ **TIER 1** | KHL Rusia, NHL, MLB, NBA, Liga MX, Serie A | ✅ Ancla principal del ticket |
+| ⭐⭐ **TIER 2** | SHL Suecia, Liiga Finlandia, NPB Japón, MLS | ⚠️ Solo como 2do o 3er logro, nunca ancla |
+| ⭐ **TIER 3** | Metal Ligaen Dinamarca, Extraliga Checa, DEL Alemania | 🚫 **VETADO para cualquier parley** |
+| ❌ **VETADO** | Cualquier liga con ≤12 equipos y presupuesto bajo | 🚫 **PROHIBIDO completamente** |
+
+**Pregunta 🔴**: ¿La liga es TIER 1 o TIER 2? → NO = DESCARTADO, buscar sustituto.
+
+---
+
+### PASO 2 — FILTRO DE LOCALÍA Y VIAJE (Obligatorio 🔴)
+
+**Pregunta 🔴**: ¿El equipo seleccionado es LOCAL (defiende su estadio/pista)?
+- Si es VISITANTE con cuota mayor a -160 → VETADO (Regla Anti-Toronto).
+- Si es LOCAL → Continuar.
+
+**Bonificadores de contexto de viaje**:
+- +Confianza: El rival viaja más de 3 husos horarios para llegar.
+- +Confianza: El rival tiene back-to-back (jugó ayer o juega mañana también).
+- -Confianza: El local también tiene back-to-back o viajó recientemente.
+
+---
+
+### PASO 3 — FILTRO DE CUOTA Y VALOR ESPERADO (Obligatorio 🔴)
+
+#### Ventana de Cuotas con Valor Real ("Golden Window")
+
+| Deporte | Cuota Mínima | Cuota Máxima | Advertencia |
+|---|---|---|---|
+| ⚾ **MLB (juego completo)** | -105 | -165 | Más de -165 = precio inflado sin valor |
+| ⚾ **MLB F5 (primeras 5 entradas)** | -105 | -145 | Protege contra bullpen tardío |
+| 🏒 **KHL Hockey TIER 1** | -200 | -450 | Rango amplio por dominancia estructural |
+| 🏒 **Hockey TIER 2** | -150 | -250 | Rango conservador por mayor varianza |
+
+**Pregunta 🔴**: ¿La cuota cae dentro del Golden Window? → Fuera del rango = analizar EV. Si EV negativo = DESCARTADO.
+
+---
+
+### PASO 4 — FILTRO DE JUGADOR/ABRIDOR CLAVE (Obligatorio 🔴 para MLB y Hockey)
+
+#### Para MLB:
+1. 🔴 ¿El abridor del equipo seleccionado está confirmado? (Si es "TBD" = DESCARTADO)
+2. 🔴 ¿El abridor tiene ERA menor a 4.50 en sus últimas 3 salidas?
+3. ⚠️ ¿El lineup rival castiga históricamente ese tipo de lanzador (Z/D)?
+4. ⚠️ ¿El bullpen del equipo local descansó en los últimos 2 días?
+
+#### Para Hockey KHL:
+1. 🔴 ¿El equipo local tiene más del 55% de victorias en casa esta temporada?
+2. 🔴 ¿El equipo local NO jugó en las últimas 48 horas?
+3. ⚠️ ¿El rival viaja más de 4.000 km? (Factor de fatiga extrema en KHL)
+
+---
+
+### PASO 5 — FILTRO DE CONTEXTO Y MOTIVACIÓN (El "Panorama Completo") (Obligatorio 🔴)
+
+Estas son las preguntas que se ignoraban antes. Ahora son el corazón del análisis:
+
+1. 🔴 ¿El equipo seleccionado tiene motivación real hoy? (¿Pelea playoffs? ¿Viene de paliza que quiere vengar? ¿O ya clasificó y no le importa el resultado?)
+2. 🔴 ¿El rival juega sin presión hoy? (Un equipo sin nada que perder puede ser "matagigantes" peligroso)
+3. ⚠️ ¿El partido es un "trampa" en el calendario? (Juegos entre series largas, viajes inmediatos después)
+4. ⚠️ ¿El local lleva 3+ partidos seguidos sin descanso? (Fatiga acumulada en septiembre de MLB)
+5. ⚠️ ¿Hay factores de clima extremo? (Viento fuerte en estadio de béisbol afecta totales y abridores)
+
+---
+
+### PASO 6 — FILTRO DE DESCORRELACIÓN DEL TICKET (Obligatorio 🔴 para parleys)
+
+Antes de armar el ticket final completo:
+
+1. 🔴 ¿Dos o más logros dependen del mismo equipo? → Máximo 2 logros con el mismo equipo.
+2. 🔴 ¿Todos los logros ocurren a la misma hora? → Diversificar en al menos 2 franjas horarias.
+3. 🔴 ¿El primer logro del día (ancla matutina) es de TIER 1 garantizado? → Si es de liga menor = REEMPLAZAR.
+4. ⚠️ ¿Si el primer logro falla, los demás logros podrían vivir en otro ticket independiente? → Si NO = replantear estructura.
+
+**Reglas rígidas de descorrelación**:
+- Máximo **2 picks de MLB** en el mismo ticket.
+- Máximo **1 pick de hockey de la misma liga** en el mismo ticket.
+- **NUNCA** mezclar hockey TIER 3 con logros de alto valor: un logro débil contamina y destruye todo el ticket.
+
+---
+
+### PASO 7 — STAKE DINÁMICO SEGÚN CALIDAD DEL ANÁLISIS (Obligatorio)
+
+| Resultado del Análisis | Stake Recomendado |
+|---|---|
+| Los 3 logros pasaron los 6 pasos sin dudas | **5.000 Bs** (apuesta completa) |
+| 1 logro tiene duda menor en Paso 4 o 5 | **3.000 Bs** (reducir exposición) |
+| 2 logros tienen dudas o hay correlaciones | **2.000 Bs** (mínimo defensivo) |
+| Cualquier logro falló un filtro 🔴 obligatorio | **0 Bs** → No apostar, reemplazar el logro |
+
+---
+
+### ✅ CHECKLIST RÁPIDO DE 7 PREGUNTAS (Para usar en tiempo real antes de cada ticket)
+
+```
+PASO 1 — Liga TIER 1 o TIER 2?           → NO = DESCARTADO
+PASO 2 — ¿Equipo LOCAL?                   → Visitante pesado (-160+) = VETADO
+PASO 3 — ¿Cuota en Golden Window?         → Fuera de rango = revisar EV
+PASO 4 — ¿Abridor/jugador clave sólido?   → TBD o ERA>4.50 = DESCARTADO
+PASO 5 — ¿Tiene motivación real hoy?      → ¿Pelea algo o ya no le importa?
+PASO 6 — ¿Ticket descorrelacionado?       → Horarios distintos, TIER 1 como ancla
+PASO 7 — ¿Cuánto apostar? (Stake)         → Según número de dudas que quedaron
+```
+
+> **El error de Sonderjyske se resuelve en el PASO 1**: Metal Ligaen Dinamarca = TIER 3 = VETADO. Fin del análisis, buscar sustituto en KHL. No hay más que discutir.
+
+---
+
+#### 📈 Registro Histórico de Fallos y Lecciones Aprendidas:
+
+| Fecha | Logro Fallido | Causa Raíz | Paso del Protocolo que lo Hubiera Detenido |
+|---|---|---|---|
+| 07/09/2026 | Toronto Blue Jays ML (-208) | Favorito visitante pesado con viaje costa este → oeste | **PASO 2** — Veto visitante > -160 |
+| 07/09/2026 | Baja 8.5 carreras (9 innings) | Bullpen tardío en 8vo/9no inning imprevisible | **PASO 4** — Totales solo F5, nunca 9 innings completos |
+| 08/09/2026 | Sonderjyske Ishockey ML (-317) | Liga débil y equilibrada (Dinamarca TIER 3) confundida con KHL | **PASO 1** — Jerarquía de ligas: TIER 3 = VETADO |
+
