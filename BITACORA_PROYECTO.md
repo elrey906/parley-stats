@@ -544,3 +544,18 @@ PASO 7 — ¿Cuánto apostar? (Stake)         → Según número de dudas que qu
 | 07/09/2026 | Baja 8.5 carreras (9 innings) | Bullpen tardío en 8vo/9no inning imprevisible | **PASO 4** — Totales solo F5, nunca 9 innings completos |
 | 08/09/2026 | Sonderjyske Ishockey ML (-317) | Liga débil y equilibrada (Dinamarca TIER 3) confundida con KHL | **PASO 1** — Jerarquía de ligas: TIER 3 = VETADO |
 
+### [08/09/2026 - Fase 29]: Integración de Benchmark Externo (MasterParley.com) vs Protocolo Maestro v2.0
+- **Objetivo**: Guardar y auditar en tiempo real los pronósticos públicos de la plataforma venezolana `masterparley.com` (Pablo Moya "El Maestro" / Raúl Tineo) para contrastar su rendimiento contra los filtros cuantitativos del **Protocolo Maestro v2.0**.
+- **Registro de Pronósticos Oficiales de MasterParley para Hoy (Martes 08/09/2026)**:
+  1. 👑 **Macho del Día**: ⚾ **Toronto Blue Jays ML (`-178`)** [Visitante].
+     - *Diagnóstico Protocolo v2.0*: 🔴 **VETADO (Paso 2)**. Toronto es favorito visitante con viaje largo. MasterParley insiste en el pick que falló ayer, desatendiendo el factor situacional de parque ajeno.
+  2. 💣 **Hembra del Día**: ⚾ **Los Angeles Dodgers -1.5 RunLine (`-150`)** vs Cincinnati Reds [10:10 PM].
+     - *Diagnóstico Protocolo v2.0*: ⚠️ **Riesgo innecesario vs ML directo (Paso 3 y 4)**. Coincidimos en la supremacía de Dodgers de local en Dodger Stadium, pero el protocolo prefiere Moneyline puro para no arriesgar en victorias apretadas por 1 carrera.
+  3. 🥊 **Parley Fijo**: ⚾ **Over / Alta 8.0 Carreras (`-110`)** en Angels vs Boston Red Sox [6:45 PM].
+     - *Diagnóstico Protocolo v2.0*: 🔴 **VETADO (Paso 4)**. Totales a 9 innings quedan expuestos a relevistas tardíos. La regla exige totales exclusivamente en F5.
+  4. 🎁 **Regalito de Pablo**: ⚾ **San Diego Padres ML (`-183`)** vs Washington Nationals [9:40 PM].
+     - *Diagnóstico Protocolo v2.0*: ✅ **COINCIDENCIA TOTAL (7/7 Pasos)**. Respaldo pleno en Petco Park (44 victorias locales, diferencial de +62 carreras y fatiga de viaje del rival).
+- **Hipótesis a Auditar Post-Jornada**:
+  - Demostrar que los filtros de Protocolo v2.0 previenen pérdidas sistemáticas donde los tipsters tradicionales siguen tropezando con trampas de visitantes y relevos tardíos.
+
+
