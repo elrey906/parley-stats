@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-09 20:49:21 UTC
+ * Generado automáticamente: 2026-09-09 22:49:31 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -409,7 +409,7 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Mañana",
     "gameTime": "01:05 PM (Hora VE)",
     "isoStartTime": "2026-09-10T13:05:00+00:00",
-    "keyDetail": "Por Anunciar vs Zack Wheeler",
+    "keyDetail": "Cristian Javier vs Zack Wheeler",
     "selection": "Philadelphia Phillies a Ganar (Zack Wheeler)",
     "decimalOdds": 1.48,
     "americanOdds": "-208",
@@ -431,7 +431,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Por Anunciar (HOU)",
+        "name": "Cristian Javier (HOU)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
