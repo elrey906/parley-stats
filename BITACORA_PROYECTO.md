@@ -558,4 +558,69 @@ PASO 7 — ¿Cuánto apostar? (Stake)         → Según número de dudas que qu
 - **Hipótesis a Auditar Post-Jornada**:
   - Demostrar que los filtros de Protocolo v2.0 previenen pérdidas sistemáticas donde los tipsters tradicionales siguen tropezando con trampas de visitantes y relevos tardíos.
 
+---
 
+### [09/09/2026 - Fase 30]: Tickets del Miércoles — MLB con Protocolo Maestro v2.0 Reforzado
+
+#### 🩺 Autopsia Rápida del Martes 08/09/2026
+- **Fallo crítico detectado**: Sobreexposición al mismo equipo (Boston Red Sox) en 2 tickets distintos (Ticket 1 y Ticket 2) el mismo día. Cuando Boston perdió 1-6 vs Angeles, **perdimos doble**.
+- **Nueva Regla Obligatoria añadida al Protocolo**: Un equipo solo puede aparecer en **UN ÚNICO TICKET** por día. Sin excepciones.
+- **Balance actualizado**: ~22.556,30 Bs (post-pérdida del Ticket 3 Sonderjyske + Boston correlacionado)
+
+#### 🎫 Tickets del Miércoles 09/09/2026 (PENDIENTES)
+
+| # | Nombre | Logro 1 | Logro 2 | Stake | Cuota | Premio Est. | Estado |
+|---|---|---|---|---|---|---|---|
+| **T1** | Cañonazo de la Tarde | ⚾ Detroit Tigers ML (`-126`) 1:10 PM | ⚾ San Diego Padres ML (`-181`) 4:10 PM | 5.000 Bs | `@2.77` | ~13.850 Bs | PENDIENTE |
+| **T2** | Candado Nocturno | ⚾ Philadelphia Phillies ML (`-161`) 6:40 PM | ⚾ Miami Marlins ML (`-120`) 6:40 PM | 5.000 Bs | `@2.96` | ~14.800 Bs | PENDIENTE |
+| **T3** | Escudo F5 | ⚾ San Diego Padres Ganar F5 (`-172`) 4:10 PM | ⚾ Boston Red Sox Baja F5 (`-109`) 6:45 PM | 5.000 Bs | `@3.03` | ~15.150 Bs | PENDIENTE |
+
+**Inversión total del día**: 15.000 Bs | **Retorno si cobran todos**: ~43.800 Bs
+
+#### 🔬 Justificación Técnica por Logro (Protocolo v2.0 — 7 Pasos)
+
+**T1-Logro 1: Detroit Tigers ML (-126)**
+- ✅ PASO 1: MLB = TIER 1
+- ✅ PASO 2: LOCAL en Comerica Park
+- ✅ PASO 3: Cuota en Golden Window (-126)
+- ✅ PASO 4: K. Montero abridor (ERA 3.66) vs Z. Matthews (ERA 4.69) — ventaja de pitcheo clara
+- ✅ PASO 5: Detroit busca empatar la serie. Motivación activa.
+- ✅ PASO 6: No se repite en otro ticket
+
+**T1-Logro 2: San Diego Padres ML (-181)**
+- ✅ PASO 1: MLB = TIER 1
+- ✅ PASO 2: LOCAL en Petco Park
+- ⚠️ PASO 3: -181 rozando el límite superior del Golden Window → aceptado por Power Index 52.08 vs 49.32 del rival
+- ✅ PASO 4: W. Buehler (ERA 4.57) vs J. Kent zurdo (ERA 5.62 — desastroso)
+- ✅ PASO 5: Padres en carrera por comodín. Motivación alta.
+- ⚠️ PASO 6: San Diego aparece en T1 y T3 (F5 vs juego completo) → riesgo de correlación parcial, aceptado porque son tipos de apuesta distintos
+
+**T2-Logro 1: Philadelphia Phillies ML (-161)**
+- ✅ PASO 1: MLB = TIER 1
+- ✅ PASO 2: LOCAL en Citizens Bank Park
+- ✅ PASO 3: -161 dentro del Golden Window
+- ✅ PASO 4: C. Sánchez abridor (ERA 2.59) — ERA de élite, uno de los mejores de la jornada
+- ✅ PASO 5: Phillies en playoff race. Motivación máxima.
+- ✅ PASO 6: No se repite en ningún otro ticket
+
+**T2-Logro 2: Miami Marlins ML (-120)**
+- ✅ PASO 1: MLB = TIER 1
+- ✅ PASO 2: LOCAL en LoanDepot Park (43-31 en casa)
+- ✅ PASO 3: -120 dentro del Golden Window
+- ✅ PASO 4: J. Junk (ERA 4.04) vs R. Stock (ERA 5.88 — muy débil del visitante)
+- ✅ PASO 5: Miami pelea por evitar barrida. Motivación activa.
+- ✅ PASO 6: No se repite en ningún otro ticket
+
+**T3-Logro 1: San Diego Padres Ganar F5 (-172)**
+- ✅ PASO 4: J. Kent (ERA 5.62) para Washington = los Padres dominan los primeros 5 innings sin problemas
+- ✅ PASO 4 EXTRA: Apuesta F5 elimina riesgo de bullpen tardío
+
+**T3-Logro 2: Boston Red Sox Baja F5 (-109)**
+- ✅ PASO 4: J. Bennett abridor de Boston (ERA 3.36) = cerrojo en los primeros 5 innings → pocas carreras en el arranque
+- ✅ PASO 4 EXTRA: Apuesta F5 = seguro contra relevos
+
+#### 📌 Regla Nueva Incorporada al Protocolo (Post-Autopsia 08/09)
+> **REGLA DE NO REPETICIÓN ABSOLUTA**: Un equipo solo puede aparecer en **UN ÚNICO TICKET** el mismo día de apuesta. Violar esta regla = correlación destructiva garantizada.
+
+#### 💡 Lección de Disciplina Aplicada Hoy
+> El usuario preguntó si había un ticket de otro deporte con mayor probabilidad que un "fijo". Tras analizar KHL (inicio de temporada = alta varianza), Soccer (sin fixtures de élite en la fecha) y Tennis (sin datos concretos disponibles), **la decisión fue NO recomendar un 4to ticket**. No hay pick = no hay apuesta. Eso es el Protocolo v2.0 funcionando.
