@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-10 16:38:42 UTC
+ * Generado automáticamente: 2026-09-10 18:38:53 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -209,8 +209,8 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Mañana",
     "gameTime": "07:45 PM (Hora VE)",
     "isoStartTime": "2026-09-11T19:45:00+00:00",
-    "keyDetail": "Andrew Abbott vs Shane Drohan",
-    "selection": "Milwaukee Brewers a Ganar (Shane Drohan)",
+    "keyDetail": "Andrew Abbott vs Dustin May",
+    "selection": "Milwaukee Brewers a Ganar (Dustin May)",
     "decimalOdds": 1.48,
     "americanOdds": "-208",
     "estimatedProb": 0.77,
@@ -219,11 +219,11 @@ export const TOP_PICKS_OF_THE_DAY = [
     "stars": 5,
     "edgePercent": "+10.8%",
     "confidenceScore": 95,
-    "reasoning": "Milwaukee Brewers de local con Shane Drohan en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Cincinnati Reds.",
+    "reasoning": "Milwaukee Brewers de local con Dustin May en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Cincinnati Reds.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Shane Drohan (MIL)",
+        "name": "Dustin May (MIL)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -292,56 +292,6 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+11.2%",
       "riskLevel": "Medio-Bajo (🟡 Gran Cuota +EV)",
       "recommendation": "Francia domina el historial directo y tiene plantel superior en todas las líneas."
-    }
-  },
-  {
-    "id": "mlb-api-824872",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Tampa Bay Rays vs Atlanta Braves",
-    "gameDate": "Hoy",
-    "gameTime": "12:15 PM (Hora VE)",
-    "isoStartTime": "2026-09-10T12:15:00+00:00",
-    "keyDetail": "Nick Martinez vs Martín Pérez",
-    "selection": "Atlanta Braves a Ganar (Martín Pérez)",
-    "decimalOdds": 1.62,
-    "americanOdds": "-161",
-    "estimatedProb": 0.7,
-    "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (12:15 PM)",
-    "stars": 4,
-    "edgePercent": "+9.5%",
-    "confidenceScore": 90,
-    "reasoning": "Atlanta Braves de local con Martín Pérez en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Tampa Bay Rays.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Martín Pérez (ATL)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Nick Martinez (TAM)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.43,
-      "marketOdds": 1.62,
-      "evPercent": "+9.5%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Atlanta Braves. Duelo favorable de abridores y respaldo en casa."
     }
   },
   {
@@ -492,6 +442,56 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+9.5%",
       "riskLevel": "Bajo (🟢 Sólido)",
       "recommendation": "Apuesta con ventaja matemática sobre Chicago Cubs. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
+    "id": "mlb-api-824227",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Mañana)",
+    "match": "Colorado Rockies vs Detroit Tigers",
+    "gameDate": "Mañana",
+    "gameTime": "06:40 PM (Hora VE)",
+    "isoStartTime": "2026-09-11T18:40:00+00:00",
+    "keyDetail": "Por Anunciar vs Framber Valdez",
+    "selection": "Detroit Tigers a Ganar (Framber Valdez)",
+    "decimalOdds": 1.62,
+    "americanOdds": "-161",
+    "estimatedProb": 0.7,
+    "category": "valor",
+    "categoryLabel": "🚀 Alto Valor +EV (06:40 PM)",
+    "stars": 4,
+    "edgePercent": "+9.5%",
+    "confidenceScore": 90,
+    "reasoning": "Detroit Tigers de local con Framber Valdez en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Colorado Rockies.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Framber Valdez (DET)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "Por Anunciar (COL)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.43,
+      "marketOdds": 1.62,
+      "evPercent": "+9.5%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre Detroit Tigers. Duelo favorable de abridores y respaldo en casa."
     }
   }
 ];
