@@ -506,10 +506,62 @@ Antes de armar el ticket final completo:
 - Máximo **2 picks de MLB** en el mismo ticket.
 - Máximo **1 pick de hockey de la misma liga** en el mismo ticket.
 - **NUNCA** mezclar hockey TIER 3 con logros de alto valor: un logro débil contamina y destruye todo el ticket.
+- **CERO repetición de equipos entre los 3 tickets del día**: Si Detroit está en Ticket 1, no puede aparecer en Ticket 2 ni Ticket 3.
 
 ---
 
-### PASO 7 — STAKE DINÁMICO SEGÚN CALIDAD DEL ANÁLISIS (Obligatorio)
+### PASO 7 — MOVIMIENTO DE LÍNEA / DINERO INTELIGENTE (Obligatorio 🔴)
+
+*(Añadido 10/09/2026 — Directiva directa de ELREY906)*
+
+Las casas de apuesta mueven sus cuotas en tiempo real cuando entra el dinero profesional (sharps). Leer ese movimiento es ver la radiografía del mercado. **Si el dinero serio ya eligió, yo confirmo. Si el dinero serio huyó, yo también huyo.**
+
+#### ¿Qué observar antes de confirmar cualquier logro?
+
+| Señal en la Línea | Significado | Acción |
+|---|---|---|
+| Cuota del equipo BAJA (ej. -120 → -135) | Dinero serio entrando A FAVOR de ese equipo | ✅ **CONFIRMA** el pick |
+| Cuota del equipo SUBE (ej. -135 → -115) | Dinero serio apostando al RIVAL — fuga del favorito | 🔴 **REVISAR** — posible trampa |
+| Cuota NO se mueve (línea estable) | Mercado equilibrado, sin señal fuerte de sharp money | ⚠️ Analizar con otros pasos |
+| Cuota se mueve drásticamente (>20 puntos) | Noticia de último minuto: lesión, cambio de abridor, clima | 🛑 **PAUSAR** hasta confirmar la causa |
+
+#### ¿Dónde revisar el movimiento de línea?
+
+1. **parley.la vs masterparley.com**: Si en ambas el equipo está más caro de apostar que ayer → el mercado lo respalda.
+2. **Línea apertura vs línea actual**: Si un equipo abrió en -115 y ahora está en -130 → entró dinero fuerte a ese equipo.
+3. **Consenso de casas**: Si 4 de 5 casas internacionales coinciden en el mismo favorito → mercado de acuerdo = señal positiva.
+4. **Masterparley.com picks**: Los picks diarios reflejan el movimiento del mercado de casas internacionales.
+
+#### Pregunta obligatoria 🔴:
+> ¿La línea se movió EN FAVOR del equipo que quieres apostar? → **Sí = ✅ Validado** | **No / En contra = 🔴 INVESTIGAR antes de confirmar**
+
+---
+
+### PASO 8 — STAKE DINÁMICO SEGÚN CALIDAD DEL ANÁLISIS (Obligatorio)
+
+| Resultado del Análisis | Stake Recomendado |
+|---|---|
+| Los 3 logros pasaron los 8 pasos sin dudas | **5.000 Bs** (apuesta completa) |
+| 1 logro tiene duda menor en Paso 4, 5 o 7 | **3.000 Bs** (reducir exposición) |
+| 2 logros tienen dudas o hay correlaciones | **2.000 Bs** (mínimo defensivo) |
+| Cualquier logro falló un filtro 🔴 obligatorio | **0 Bs** → No apostar, reemplazar el logro |
+
+---
+
+### ✅ CHECKLIST RÁPIDO DE 8 PREGUNTAS (Para usar en tiempo real antes de cada ticket)
+
+```
+PASO 1 — ¿Liga TIER 1 o TIER 2?                   → NO = DESCARTADO
+PASO 2 — ¿Equipo LOCAL?                            → Visitante pesado (-160+) = VETADO
+PASO 3 — ¿Cuota en Golden Window?                  → Fuera de rango = revisar EV
+PASO 4 — ¿Abridor/jugador clave sólido?            → TBD o ERA>4.50 = DESCARTADO
+PASO 5 — ¿Tiene motivación real hoy?               → ¿Pelea playoffs o ya no importa?
+PASO 6 — ¿Ticket descorrelacionado?                → Sin repetir equipos entre tickets
+PASO 7 — ¿Línea se mueve A FAVOR del pick?         → En contra = INVESTIGAR antes de sellar
+PASO 8 — ¿Cuánto apostar? (Stake)                  → Según dudas en los 8 pasos anteriores
+```
+
+> **El error de Sonderjyske se resuelve en el PASO 1**: Metal Ligaen Dinamarca = TIER 3 = VETADO. Fin del análisis, buscar sustituto en KHL. No hay más que discutir.
 
 | Resultado del Análisis | Stake Recomendado |
 |---|---|
