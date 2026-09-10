@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-10 18:38:53 UTC
+ * Generado automáticamente: 2026-09-10 20:39:01 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -47,56 +47,6 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+9.2%",
       "riskLevel": "Bajo (🟢 Base Multideporte)",
       "recommendation": "Excelente base de alta probabilidad para sellar en parley."
-    }
-  },
-  {
-    "id": "mlb-api-823413",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Houston Astros vs Philadelphia Phillies",
-    "gameDate": "Hoy",
-    "gameTime": "01:05 PM (Hora VE)",
-    "isoStartTime": "2026-09-10T13:05:00+00:00",
-    "keyDetail": "Cristian Javier vs Zack Wheeler",
-    "selection": "Philadelphia Phillies a Ganar (Zack Wheeler)",
-    "decimalOdds": 1.48,
-    "americanOdds": "-208",
-    "estimatedProb": 0.77,
-    "category": "seguro",
-    "categoryLabel": "💎 Banquero (01:05 PM)",
-    "stars": 5,
-    "edgePercent": "+10.8%",
-    "confidenceScore": 95,
-    "reasoning": "Philadelphia Phillies de local con Zack Wheeler en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Houston Astros.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Zack Wheeler (PHI)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Cristian Javier (HOU)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.3,
-      "marketOdds": 1.48,
-      "evPercent": "+10.8%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Philadelphia Phillies. Duelo favorable de abridores y respaldo en casa."
     }
   },
   {
@@ -492,6 +442,56 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+9.5%",
       "riskLevel": "Bajo (🟢 Sólido)",
       "recommendation": "Apuesta con ventaja matemática sobre Detroit Tigers. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
+    "id": "mlb-api-822684",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Mañana)",
+    "match": "Los Angeles Angels vs Washington Nationals",
+    "gameDate": "Mañana",
+    "gameTime": "06:45 PM (Hora VE)",
+    "isoStartTime": "2026-09-11T18:45:00+00:00",
+    "keyDetail": "Yusei Kikuchi vs Cade Cavalli",
+    "selection": "Washington Nationals a Ganar (Cade Cavalli)",
+    "decimalOdds": 1.62,
+    "americanOdds": "-161",
+    "estimatedProb": 0.7,
+    "category": "valor",
+    "categoryLabel": "🚀 Alto Valor +EV (06:45 PM)",
+    "stars": 4,
+    "edgePercent": "+9.5%",
+    "confidenceScore": 90,
+    "reasoning": "Washington Nationals de local con Cade Cavalli en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Los Angeles Angels.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Cade Cavalli (WAS)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "Yusei Kikuchi (LOS)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.43,
+      "marketOdds": 1.62,
+      "evPercent": "+9.5%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre Washington Nationals. Duelo favorable de abridores y respaldo en casa."
     }
   }
 ];
