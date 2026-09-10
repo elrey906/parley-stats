@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-10 20:39:01 UTC
+ * Generado automáticamente: 2026-09-10 22:39:02 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -109,8 +109,8 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Mañana",
     "gameTime": "07:05 PM (Hora VE)",
     "isoStartTime": "2026-09-11T19:05:00+00:00",
-    "keyDetail": "Nolan McLean vs Por Anunciar",
-    "selection": "New York Yankees a Ganar (Por Anunciar)",
+    "keyDetail": "Nolan McLean vs Carlos Rodón",
+    "selection": "New York Yankees a Ganar (Carlos Rodón)",
     "decimalOdds": 1.48,
     "americanOdds": "-208",
     "estimatedProb": 0.77,
@@ -119,11 +119,11 @@ export const TOP_PICKS_OF_THE_DAY = [
     "stars": 5,
     "edgePercent": "+10.8%",
     "confidenceScore": 95,
-    "reasoning": "New York Yankees de local con Por Anunciar en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a New York Mets.",
+    "reasoning": "New York Yankees de local con Carlos Rodón en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a New York Mets.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Por Anunciar (NEW)",
+        "name": "Carlos Rodón (NEW)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -404,7 +404,7 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Mañana",
     "gameTime": "06:40 PM (Hora VE)",
     "isoStartTime": "2026-09-11T18:40:00+00:00",
-    "keyDetail": "Por Anunciar vs Framber Valdez",
+    "keyDetail": "Mason Adams vs Framber Valdez",
     "selection": "Detroit Tigers a Ganar (Framber Valdez)",
     "decimalOdds": 1.62,
     "americanOdds": "-161",
@@ -426,7 +426,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Por Anunciar (COL)",
+        "name": "Mason Adams (COL)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
