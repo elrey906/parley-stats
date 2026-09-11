@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-11 19:06:23 UTC
+ * Generado automáticamente: 2026-09-11 21:06:23 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -295,56 +295,6 @@ export const TOP_PICKS_OF_THE_DAY = [
     }
   },
   {
-    "id": "mlb-api-824631",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Pittsburgh Pirates vs Chicago Cubs",
-    "gameDate": "Hoy",
-    "gameTime": "02:20 PM (Hora VE)",
-    "isoStartTime": "2026-09-11T14:20:00+00:00",
-    "keyDetail": "Wilber Dotel vs Shota Imanaga",
-    "selection": "Chicago Cubs a Ganar (Shota Imanaga)",
-    "decimalOdds": 1.62,
-    "americanOdds": "-161",
-    "estimatedProb": 0.7,
-    "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (02:20 PM)",
-    "stars": 4,
-    "edgePercent": "+9.5%",
-    "confidenceScore": 90,
-    "reasoning": "Chicago Cubs de local con Shota Imanaga en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Pittsburgh Pirates.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Shota Imanaga (CHI)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Wilber Dotel (PIT)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.43,
-      "marketOdds": 1.62,
-      "evPercent": "+9.5%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Chicago Cubs. Duelo favorable de abridores y respaldo en casa."
-    }
-  },
-  {
     "id": "mlb-api-824227",
     "sport": "baseball",
     "sportName": "MLB",
@@ -492,6 +442,56 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+9.5%",
       "riskLevel": "Bajo (🟢 Sólido)",
       "recommendation": "Apuesta con ventaja matemática sobre Toronto Blue Jays. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
+    "id": "mlb-api-824711",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Hoy)",
+    "match": "Kansas City Royals vs Boston Red Sox",
+    "gameDate": "Hoy",
+    "gameTime": "07:10 PM (Hora VE)",
+    "isoStartTime": "2026-09-11T19:10:00+00:00",
+    "keyDetail": "Seth Lugo vs Sonny Gray",
+    "selection": "Boston Red Sox a Ganar (Sonny Gray)",
+    "decimalOdds": 1.62,
+    "americanOdds": "-161",
+    "estimatedProb": 0.7,
+    "category": "valor",
+    "categoryLabel": "🚀 Alto Valor +EV (07:10 PM)",
+    "stars": 4,
+    "edgePercent": "+9.5%",
+    "confidenceScore": 90,
+    "reasoning": "Boston Red Sox de local con Sonny Gray en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Kansas City Royals.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Sonny Gray (BOS)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "Seth Lugo (KAN)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.43,
+      "marketOdds": 1.62,
+      "evPercent": "+9.5%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre Boston Red Sox. Duelo favorable de abridores y respaldo en casa."
     }
   }
 ];
