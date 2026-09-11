@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-10 22:39:02 UTC
+ * Generado automáticamente: 2026-09-11 00:39:17 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -245,56 +245,6 @@ export const TOP_PICKS_OF_THE_DAY = [
     }
   },
   {
-    "id": "mlb-api-823088",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Texas Rangers vs Seattle Mariners",
-    "gameDate": "Hoy",
-    "gameTime": "04:10 PM (Hora VE)",
-    "isoStartTime": "2026-09-10T16:10:00+00:00",
-    "keyDetail": "Jacob deGrom vs Logan Gilbert",
-    "selection": "Seattle Mariners a Ganar (Logan Gilbert)",
-    "decimalOdds": 1.62,
-    "americanOdds": "-161",
-    "estimatedProb": 0.7,
-    "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (04:10 PM)",
-    "stars": 4,
-    "edgePercent": "+9.5%",
-    "confidenceScore": 90,
-    "reasoning": "Seattle Mariners de local con Logan Gilbert en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Texas Rangers.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Logan Gilbert (SEA)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Jacob deGrom (TEX)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.43,
-      "marketOdds": 1.62,
-      "evPercent": "+9.5%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Seattle Mariners. Duelo favorable de abridores y respaldo en casa."
-    }
-  },
-  {
     "id": "mlb-api-824550",
     "sport": "baseball",
     "sportName": "MLB",
@@ -492,6 +442,56 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+9.5%",
       "riskLevel": "Bajo (🟢 Sólido)",
       "recommendation": "Apuesta con ventaja matemática sobre Washington Nationals. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
+    "id": "mlb-api-822767",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Mañana)",
+    "match": "Baltimore Orioles vs Toronto Blue Jays",
+    "gameDate": "Mañana",
+    "gameTime": "07:07 PM (Hora VE)",
+    "isoStartTime": "2026-09-11T19:07:00+00:00",
+    "keyDetail": "Chris Bassitt vs Max Scherzer",
+    "selection": "Toronto Blue Jays a Ganar (Max Scherzer)",
+    "decimalOdds": 1.62,
+    "americanOdds": "-161",
+    "estimatedProb": 0.7,
+    "category": "valor",
+    "categoryLabel": "🚀 Alto Valor +EV (07:07 PM)",
+    "stars": 4,
+    "edgePercent": "+9.5%",
+    "confidenceScore": 90,
+    "reasoning": "Toronto Blue Jays de local con Max Scherzer en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Baltimore Orioles.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Max Scherzer (TOR)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "Chris Bassitt (BAL)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.43,
+      "marketOdds": 1.62,
+      "evPercent": "+9.5%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre Toronto Blue Jays. Duelo favorable de abridores y respaldo en casa."
     }
   }
 ];
