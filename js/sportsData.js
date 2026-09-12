@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-12 16:25:24 UTC
+ * Generado automáticamente: 2026-09-12 18:25:36 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -109,8 +109,8 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Hoy",
     "gameTime": "07:10 PM (Hora VE)",
     "isoStartTime": "2026-09-12T19:10:00+00:00",
-    "keyDetail": "Brady Singer vs Por Anunciar",
-    "selection": "Milwaukee Brewers a Ganar (Por Anunciar)",
+    "keyDetail": "Brady Singer vs Shane Drohan",
+    "selection": "Milwaukee Brewers a Ganar (Shane Drohan)",
     "decimalOdds": 1.48,
     "americanOdds": "-208",
     "estimatedProb": 0.77,
@@ -119,11 +119,11 @@ export const TOP_PICKS_OF_THE_DAY = [
     "stars": 5,
     "edgePercent": "+10.8%",
     "confidenceScore": 95,
-    "reasoning": "Milwaukee Brewers de local con Por Anunciar en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Cincinnati Reds.",
+    "reasoning": "Milwaukee Brewers de local con Shane Drohan en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Cincinnati Reds.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Por Anunciar (MIL)",
+        "name": "Shane Drohan (MIL)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
