@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-12 20:25:35 UTC
+ * Generado automáticamente: 2026-09-12 22:25:40 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -245,156 +245,6 @@ export const TOP_PICKS_OF_THE_DAY = [
     }
   },
   {
-    "id": "mlb-api-824224",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Colorado Rockies vs Detroit Tigers",
-    "gameDate": "Hoy",
-    "gameTime": "01:10 PM (Hora VE)",
-    "isoStartTime": "2026-09-12T13:10:00+00:00",
-    "keyDetail": "Tanner Gordon vs Andrew Sears",
-    "selection": "Detroit Tigers a Ganar (Andrew Sears)",
-    "decimalOdds": 1.62,
-    "americanOdds": "-161",
-    "estimatedProb": 0.7,
-    "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (01:10 PM)",
-    "stars": 4,
-    "edgePercent": "+9.5%",
-    "confidenceScore": 90,
-    "reasoning": "Detroit Tigers de local con Andrew Sears en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Colorado Rockies.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Andrew Sears (DET)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Tanner Gordon (COL)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.43,
-      "marketOdds": 1.62,
-      "evPercent": "+9.5%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Detroit Tigers. Duelo favorable de abridores y respaldo en casa."
-    }
-  },
-  {
-    "id": "mlb-api-824630",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Pittsburgh Pirates vs Chicago Cubs",
-    "gameDate": "Hoy",
-    "gameTime": "02:20 PM (Hora VE)",
-    "isoStartTime": "2026-09-12T14:20:00+00:00",
-    "keyDetail": "Paul Skenes vs Clay Holmes",
-    "selection": "Chicago Cubs a Ganar (Clay Holmes)",
-    "decimalOdds": 1.62,
-    "americanOdds": "-161",
-    "estimatedProb": 0.7,
-    "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (02:20 PM)",
-    "stars": 4,
-    "edgePercent": "+9.5%",
-    "confidenceScore": 90,
-    "reasoning": "Chicago Cubs de local con Clay Holmes en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Pittsburgh Pirates.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Clay Holmes (CHI)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Paul Skenes (PIT)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.43,
-      "marketOdds": 1.62,
-      "evPercent": "+9.5%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Chicago Cubs. Duelo favorable de abridores y respaldo en casa."
-    }
-  },
-  {
-    "id": "mlb-api-822768",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Baltimore Orioles vs Toronto Blue Jays",
-    "gameDate": "Hoy",
-    "gameTime": "03:07 PM (Hora VE)",
-    "isoStartTime": "2026-09-12T15:07:00+00:00",
-    "keyDetail": "Kyle Bradish vs Spencer Miles",
-    "selection": "Toronto Blue Jays a Ganar (Spencer Miles)",
-    "decimalOdds": 1.62,
-    "americanOdds": "-161",
-    "estimatedProb": 0.7,
-    "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (03:07 PM)",
-    "stars": 4,
-    "edgePercent": "+9.5%",
-    "confidenceScore": 90,
-    "reasoning": "Toronto Blue Jays de local con Spencer Miles en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Baltimore Orioles.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Spencer Miles (TOR)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Kyle Bradish (BAL)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.43,
-      "marketOdds": 1.62,
-      "evPercent": "+9.5%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Toronto Blue Jays. Duelo favorable de abridores y respaldo en casa."
-    }
-  },
-  {
     "id": "mlb-api-822685",
     "sport": "baseball",
     "sportName": "MLB",
@@ -492,6 +342,156 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+9.5%",
       "riskLevel": "Bajo (🟢 Sólido)",
       "recommendation": "Apuesta con ventaja matemática sobre San Francisco Giants. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
+    "id": "mlb-api-824712",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Hoy)",
+    "match": "Kansas City Royals vs Boston Red Sox",
+    "gameDate": "Hoy",
+    "gameTime": "04:10 PM (Hora VE)",
+    "isoStartTime": "2026-09-12T16:10:00+00:00",
+    "keyDetail": "Randy Dobnak vs Ranger Suarez",
+    "selection": "Boston Red Sox a Ganar (Ranger Suarez)",
+    "decimalOdds": 1.62,
+    "americanOdds": "-161",
+    "estimatedProb": 0.7,
+    "category": "valor",
+    "categoryLabel": "🚀 Alto Valor +EV (04:10 PM)",
+    "stars": 4,
+    "edgePercent": "+9.5%",
+    "confidenceScore": 90,
+    "reasoning": "Boston Red Sox de local con Ranger Suarez en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Kansas City Royals.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Ranger Suarez (BOS)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "Randy Dobnak (KAN)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.43,
+      "marketOdds": 1.62,
+      "evPercent": "+9.5%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre Boston Red Sox. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
+    "id": "mlb-api-823657",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Hoy)",
+    "match": "Cleveland Guardians vs Minnesota Twins",
+    "gameDate": "Hoy",
+    "gameTime": "04:10 PM (Hora VE)",
+    "isoStartTime": "2026-09-12T16:10:00+00:00",
+    "keyDetail": "Daniel Espino vs Connor Prielipp",
+    "selection": "Minnesota Twins a Ganar (Connor Prielipp)",
+    "decimalOdds": 1.62,
+    "americanOdds": "-161",
+    "estimatedProb": 0.7,
+    "category": "valor",
+    "categoryLabel": "🚀 Alto Valor +EV (04:10 PM)",
+    "stars": 4,
+    "edgePercent": "+9.5%",
+    "confidenceScore": 90,
+    "reasoning": "Minnesota Twins de local con Connor Prielipp en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Cleveland Guardians.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Connor Prielipp (MIN)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "Daniel Espino (CLE)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.43,
+      "marketOdds": 1.62,
+      "evPercent": "+9.5%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre Minnesota Twins. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
+    "id": "mlb-api-823819",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Hoy)",
+    "match": "Los Angeles Dodgers vs Miami Marlins",
+    "gameDate": "Hoy",
+    "gameTime": "04:10 PM (Hora VE)",
+    "isoStartTime": "2026-09-12T16:10:00+00:00",
+    "keyDetail": "Tyler Glasnow vs Tyler Phillips",
+    "selection": "Miami Marlins a Ganar (Tyler Phillips)",
+    "decimalOdds": 1.62,
+    "americanOdds": "-161",
+    "estimatedProb": 0.7,
+    "category": "valor",
+    "categoryLabel": "🚀 Alto Valor +EV (04:10 PM)",
+    "stars": 4,
+    "edgePercent": "+9.5%",
+    "confidenceScore": 90,
+    "reasoning": "Miami Marlins de local con Tyler Phillips en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Los Angeles Dodgers.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Tyler Phillips (MIA)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "Tyler Glasnow (LOS)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.43,
+      "marketOdds": 1.62,
+      "evPercent": "+9.5%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre Miami Marlins. Duelo favorable de abridores y respaldo en casa."
     }
   }
 ];
