@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-12 00:24:51 UTC
+ * Generado automáticamente: 2026-09-12 02:24:58 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -47,106 +47,6 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+9.2%",
       "riskLevel": "Bajo (🟢 Base Multideporte)",
       "recommendation": "Excelente base de alta probabilidad para sellar en parley."
-    }
-  },
-  {
-    "id": "mlb-api-823498",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "New York Mets vs New York Yankees",
-    "gameDate": "Hoy",
-    "gameTime": "07:05 PM (Hora VE)",
-    "isoStartTime": "2026-09-11T19:05:00+00:00",
-    "keyDetail": "Nolan McLean vs Carlos Rodón",
-    "selection": "New York Yankees a Ganar (Carlos Rodón)",
-    "decimalOdds": 1.48,
-    "americanOdds": "-208",
-    "estimatedProb": 0.77,
-    "category": "seguro",
-    "categoryLabel": "💎 Banquero (07:05 PM)",
-    "stars": 5,
-    "edgePercent": "+10.8%",
-    "confidenceScore": 95,
-    "reasoning": "New York Yankees de local con Carlos Rodón en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a New York Mets.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Carlos Rodón (NEW)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Nolan McLean (NEW)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.3,
-      "marketOdds": 1.48,
-      "evPercent": "+10.8%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre New York Yankees. Duelo favorable de abridores y respaldo en casa."
-    }
-  },
-  {
-    "id": "mlb-api-823736",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Cincinnati Reds vs Milwaukee Brewers",
-    "gameDate": "Hoy",
-    "gameTime": "07:45 PM (Hora VE)",
-    "isoStartTime": "2026-09-11T19:45:00+00:00",
-    "keyDetail": "Andrew Abbott vs Dustin May",
-    "selection": "Milwaukee Brewers a Ganar (Dustin May)",
-    "decimalOdds": 1.48,
-    "americanOdds": "-208",
-    "estimatedProb": 0.77,
-    "category": "seguro",
-    "categoryLabel": "💎 Banquero (07:45 PM)",
-    "stars": 5,
-    "edgePercent": "+10.8%",
-    "confidenceScore": 95,
-    "reasoning": "Milwaukee Brewers de local con Dustin May en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Cincinnati Reds.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Dustin May (MIL)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Andrew Abbott (CIN)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.3,
-      "marketOdds": 1.48,
-      "evPercent": "+10.8%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Milwaukee Brewers. Duelo favorable de abridores y respaldo en casa."
     }
   },
   {
@@ -295,30 +195,30 @@ export const TOP_PICKS_OF_THE_DAY = [
     }
   },
   {
-    "id": "mlb-api-824227",
+    "id": "mlb-api-824873",
     "sport": "baseball",
     "sportName": "MLB",
     "sportIcon": "⚾",
     "league": "MLB (Hoy)",
-    "match": "Colorado Rockies vs Detroit Tigers",
+    "match": "Philadelphia Phillies vs Atlanta Braves",
     "gameDate": "Hoy",
-    "gameTime": "06:40 PM (Hora VE)",
-    "isoStartTime": "2026-09-11T18:40:00+00:00",
-    "keyDetail": "Mason Adams vs Framber Valdez",
-    "selection": "Detroit Tigers a Ganar (Framber Valdez)",
+    "gameTime": "07:15 PM (Hora VE)",
+    "isoStartTime": "2026-09-11T19:15:00+00:00",
+    "keyDetail": "Aaron Nola vs Chris Sale",
+    "selection": "Atlanta Braves a Ganar (Chris Sale)",
     "decimalOdds": 1.62,
     "americanOdds": "-161",
     "estimatedProb": 0.7,
     "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (06:40 PM)",
+    "categoryLabel": "🚀 Alto Valor +EV (07:15 PM)",
     "stars": 4,
     "edgePercent": "+9.5%",
     "confidenceScore": 90,
-    "reasoning": "Detroit Tigers de local con Framber Valdez en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Colorado Rockies.",
+    "reasoning": "Atlanta Braves de local con Chris Sale en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Philadelphia Phillies.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Framber Valdez (DET)",
+        "name": "Chris Sale (ATL)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -326,7 +226,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Mason Adams (COL)",
+        "name": "Aaron Nola (PHI)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
@@ -341,34 +241,34 @@ export const TOP_PICKS_OF_THE_DAY = [
       "marketOdds": 1.62,
       "evPercent": "+9.5%",
       "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Detroit Tigers. Duelo favorable de abridores y respaldo en casa."
+      "recommendation": "Apuesta con ventaja matemática sobre Atlanta Braves. Duelo favorable de abridores y respaldo en casa."
     }
   },
   {
-    "id": "mlb-api-822684",
+    "id": "mlb-api-823659",
     "sport": "baseball",
     "sportName": "MLB",
     "sportIcon": "⚾",
     "league": "MLB (Hoy)",
-    "match": "Los Angeles Angels vs Washington Nationals",
+    "match": "Cleveland Guardians vs Minnesota Twins",
     "gameDate": "Hoy",
-    "gameTime": "06:45 PM (Hora VE)",
-    "isoStartTime": "2026-09-11T18:45:00+00:00",
-    "keyDetail": "Yusei Kikuchi vs Cade Cavalli",
-    "selection": "Washington Nationals a Ganar (Cade Cavalli)",
+    "gameTime": "08:10 PM (Hora VE)",
+    "isoStartTime": "2026-09-11T20:10:00+00:00",
+    "keyDetail": "Parker Messick vs Taj Bradley",
+    "selection": "Minnesota Twins a Ganar (Taj Bradley)",
     "decimalOdds": 1.62,
     "americanOdds": "-161",
     "estimatedProb": 0.7,
     "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (06:45 PM)",
+    "categoryLabel": "🚀 Alto Valor +EV (08:10 PM)",
     "stars": 4,
     "edgePercent": "+9.5%",
     "confidenceScore": 90,
-    "reasoning": "Washington Nationals de local con Cade Cavalli en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Los Angeles Angels.",
+    "reasoning": "Minnesota Twins de local con Taj Bradley en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Cleveland Guardians.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Cade Cavalli (WAS)",
+        "name": "Taj Bradley (MIN)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -376,7 +276,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Yusei Kikuchi (LOS)",
+        "name": "Parker Messick (CLE)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
@@ -391,34 +291,34 @@ export const TOP_PICKS_OF_THE_DAY = [
       "marketOdds": 1.62,
       "evPercent": "+9.5%",
       "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Washington Nationals. Duelo favorable de abridores y respaldo en casa."
+      "recommendation": "Apuesta con ventaja matemática sobre Minnesota Twins. Duelo favorable de abridores y respaldo en casa."
     }
   },
   {
-    "id": "mlb-api-822767",
+    "id": "mlb-api-823012",
     "sport": "baseball",
     "sportName": "MLB",
     "sportIcon": "⚾",
     "league": "MLB (Hoy)",
-    "match": "Baltimore Orioles vs Toronto Blue Jays",
+    "match": "Chicago White Sox vs St. Louis Cardinals",
     "gameDate": "Hoy",
-    "gameTime": "07:07 PM (Hora VE)",
-    "isoStartTime": "2026-09-11T19:07:00+00:00",
-    "keyDetail": "Chris Bassitt vs Max Scherzer",
-    "selection": "Toronto Blue Jays a Ganar (Max Scherzer)",
+    "gameTime": "08:15 PM (Hora VE)",
+    "isoStartTime": "2026-09-11T20:15:00+00:00",
+    "keyDetail": "Anthony Kay vs Matthew Liberatore",
+    "selection": "St. Louis Cardinals a Ganar (Matthew Liberatore)",
     "decimalOdds": 1.62,
     "americanOdds": "-161",
     "estimatedProb": 0.7,
     "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (07:07 PM)",
+    "categoryLabel": "🚀 Alto Valor +EV (08:15 PM)",
     "stars": 4,
     "edgePercent": "+9.5%",
     "confidenceScore": 90,
-    "reasoning": "Toronto Blue Jays de local con Max Scherzer en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Baltimore Orioles.",
+    "reasoning": "St. Louis Cardinals de local con Matthew Liberatore en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Chicago White Sox.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Max Scherzer (TOR)",
+        "name": "Matthew Liberatore (ST.)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -426,7 +326,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Chris Bassitt (BAL)",
+        "name": "Anthony Kay (CHI)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
@@ -441,34 +341,34 @@ export const TOP_PICKS_OF_THE_DAY = [
       "marketOdds": 1.62,
       "evPercent": "+9.5%",
       "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Toronto Blue Jays. Duelo favorable de abridores y respaldo en casa."
+      "recommendation": "Apuesta con ventaja matemática sobre St. Louis Cardinals. Duelo favorable de abridores y respaldo en casa."
     }
   },
   {
-    "id": "mlb-api-824711",
+    "id": "mlb-api-824954",
     "sport": "baseball",
     "sportName": "MLB",
     "sportIcon": "⚾",
     "league": "MLB (Hoy)",
-    "match": "Kansas City Royals vs Boston Red Sox",
+    "match": "Seattle Mariners vs Athletics",
     "gameDate": "Hoy",
-    "gameTime": "07:10 PM (Hora VE)",
-    "isoStartTime": "2026-09-11T19:10:00+00:00",
-    "keyDetail": "Seth Lugo vs Sonny Gray",
-    "selection": "Boston Red Sox a Ganar (Sonny Gray)",
+    "gameTime": "09:40 PM (Hora VE)",
+    "isoStartTime": "2026-09-11T21:40:00+00:00",
+    "keyDetail": "George Kirby vs Jeffrey Springs",
+    "selection": "Athletics a Ganar (Jeffrey Springs)",
     "decimalOdds": 1.62,
     "americanOdds": "-161",
     "estimatedProb": 0.7,
     "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (07:10 PM)",
+    "categoryLabel": "🚀 Alto Valor +EV (09:40 PM)",
     "stars": 4,
     "edgePercent": "+9.5%",
     "confidenceScore": 90,
-    "reasoning": "Boston Red Sox de local con Sonny Gray en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Kansas City Royals.",
+    "reasoning": "Athletics de local con Jeffrey Springs en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Seattle Mariners.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Sonny Gray (BOS)",
+        "name": "Jeffrey Springs (ATH)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -476,7 +376,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Seth Lugo (KAN)",
+        "name": "George Kirby (SEA)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
@@ -491,7 +391,107 @@ export const TOP_PICKS_OF_THE_DAY = [
       "marketOdds": 1.62,
       "evPercent": "+9.5%",
       "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Boston Red Sox. Duelo favorable de abridores y respaldo en casa."
+      "recommendation": "Apuesta con ventaja matemática sobre Athletics. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
+    "id": "mlb-api-825036",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Hoy)",
+    "match": "Texas Rangers vs Arizona Diamondbacks",
+    "gameDate": "Hoy",
+    "gameTime": "09:40 PM (Hora VE)",
+    "isoStartTime": "2026-09-11T21:40:00+00:00",
+    "keyDetail": "MacKenzie Gore vs Merrill Kelly",
+    "selection": "Arizona Diamondbacks a Ganar (Merrill Kelly)",
+    "decimalOdds": 1.62,
+    "americanOdds": "-161",
+    "estimatedProb": 0.7,
+    "category": "valor",
+    "categoryLabel": "🚀 Alto Valor +EV (09:40 PM)",
+    "stars": 4,
+    "edgePercent": "+9.5%",
+    "confidenceScore": 90,
+    "reasoning": "Arizona Diamondbacks de local con Merrill Kelly en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Texas Rangers.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Merrill Kelly (ARI)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "MacKenzie Gore (TEX)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.43,
+      "marketOdds": 1.62,
+      "evPercent": "+9.5%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre Arizona Diamondbacks. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
+    "id": "mlb-api-823173",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Hoy)",
+    "match": "San Diego Padres vs San Francisco Giants",
+    "gameDate": "Hoy",
+    "gameTime": "10:15 PM (Hora VE)",
+    "isoStartTime": "2026-09-11T22:15:00+00:00",
+    "keyDetail": "Robbie Ray vs Anthony Molina",
+    "selection": "San Francisco Giants a Ganar (Anthony Molina)",
+    "decimalOdds": 1.62,
+    "americanOdds": "-161",
+    "estimatedProb": 0.7,
+    "category": "valor",
+    "categoryLabel": "🚀 Alto Valor +EV (10:15 PM)",
+    "stars": 4,
+    "edgePercent": "+9.5%",
+    "confidenceScore": 90,
+    "reasoning": "San Francisco Giants de local con Anthony Molina en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a San Diego Padres.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Anthony Molina (SAN)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "Robbie Ray (SAN)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.43,
+      "marketOdds": 1.62,
+      "evPercent": "+9.5%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre San Francisco Giants. Duelo favorable de abridores y respaldo en casa."
     }
   }
 ];
