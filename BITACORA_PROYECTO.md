@@ -676,3 +676,26 @@ PASO 7 — ¿Cuánto apostar? (Stake)         → Según número de dudas que qu
 
 #### 💡 Lección de Disciplina Aplicada Hoy
 > El usuario preguntó si había un ticket de otro deporte con mayor probabilidad que un "fijo". Tras analizar KHL (inicio de temporada = alta varianza), Soccer (sin fixtures de élite en la fecha) y Tennis (sin datos concretos disponibles), **la decisión fue NO recomendar un 4to ticket**. No hay pick = no hay apuesta. Eso es el Protocolo v2.0 funcionando.
+
+### Fase 31: Ajuste de Cartelera Reducida (Jueves 10/09)
+*   **Decisión Estratégica:** La IA detectó que de los 3 juegos restantes en la pizarra, solo 2 presentaban ventaja matemática clara (Yankees y Mariners). En lugar de forzar 3 tickets con otros deportes sin datos o romper la regla de no repetir equipos, **se decidió ir solo con 1 Ticket Fuerte** para proteger el bankroll. 
+*   **Ticket Único del Día:** Yankees RL -1.5 + Mariners ML (Inversión: 5.000 Bs).
+
+### 📌 NUEVA DIRECTIVA MAESTRA: AGENTE DIARIO Y AVISO DE OPERATIVIDAD (Go / No-Go)
+Por orden del usuario (11/09/2026), el sistema evoluciona a un formato de **Agente Diario Fijo**.
+*   **Rutina de Rastreo Total:** Todos los días, el agente debe escanear TODOS los deportes principales (MLB, NFL, Champions, etc.) para encontrar las mejores ventajas matemáticas posibles según el Protocolo v2.1. No se limitará solo al béisbol si hay dinero más seguro en otro lado.
+*   **Aviso de Operatividad (Filtro de Calidad Diario):** Antes de armar cualquier ticket, la IA emitirá un veredicto frontal sobre la calidad de la cartelera:
+    *   🟢 **LUZ VERDE (OPERAR):** Hay juegos sólidos, abridores con bajo ERA, localía a favor y el *Sharp Money* nos respalda. Se entregan los tickets con su score de confianza (0-100).
+    *   🔴 **LUZ ROJA (DÍA BASURA / NO OPERAR):** Si la cartelera del día es de alto riesgo, los pitchers son mediocres o las cuotas no tienen valor, el agente dará la orden expresa de **"GUARDAR EL BANKROLL"**. No se forzarán tickets mediocres para perder dinero.
+
+### 📌 EVOLUCIÓN DE PROTOCOLO: EL TRIPLE BARRIDO DE SHARP MONEY
+Por orden del usuario (11/09/2026), el escaneo de manipulación de cuotas se amplía para cazar a las casas de apuestas con precisión militar. El Agente Diario operará en tres fases:
+1.  **Fase 1 (08:00 AM - Apertura):** Captura de las líneas "trampa" diseñadas para engañar al público matutino.
+2.  **Fase 2 (10:30 AM - Ajuste):** Detección de la primera inyección de *Sharp Money* (sindicatos moviendo las cuotas reales).
+3.  **Fase 3 (12:30 PM - Cierre/Pre-Game):** Confirmación final del dinero inteligente justo antes de que empiecen los juegos de la tarde.
+*Veredicto final y Tickets se entregarán después de la Fase 3, asegurando la máxima rentabilidad y burlando la manipulación del casino.*
+
+### Fase 32: Integración Web de Tickets IA (11/09/2026 Noche)
+*   **Nueva Pestaña Web:** Se inyectó una nueva interfaz en `index.html` llamada **"🤖 Tickets IA del Día"**. 
+*   **Mecanismo de Entrega:** El Agente Autónomo ejecutará silenciosamente el *Triple Barrido (8am, 10:30am, 12:30pm)*. El usuario ya no necesita consultar el chat para ver los tickets; a las 12:30 PM la IA sobreescribirá el archivo `data/tickets_hoy.json` y los resultados aparecerán automáticamente en el celular del usuario a través del túnel seguro. 
+*   **Filosofía:** Trabajo pesado en el backend, entrega limpia y procesada en el frontend.
