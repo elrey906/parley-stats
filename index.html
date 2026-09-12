@@ -23,7 +23,8 @@
       </div>
       
             <nav class="nav-tabs">
-        <button class="tab-btn active" data-tab="picks-parleyla">🇻🇪 Picks Parley.la (Bs / Taquilla)</button>
+                <button class="tab-btn active" data-tab="tickets-ia" style="background: rgba(239, 68, 68, 0.2); color: #fca5a5; border-color: #ef4444;">🤖 Tickets IA del Día</button>
+        <button class="tab-btn" data-tab="picks-parleyla">🇻🇪 Picks Parley.la (Bs / Taquilla)</button>
         <button class="tab-btn" data-tab="picks-stake">🟢 Picks Stake (USD / USDT)</button>
         <button class="tab-btn" data-tab="calculator">
           📊 Mi Parley <span id="header-parlay-count" class="cart-count-badge">0</span>
@@ -79,6 +80,83 @@
             <!-- =========================================================================
          TAB 0-A: PICKS PARLEY.LA (VENEZUELA - EN BOLÍVARES / TAQUILLA)
          ========================================================================= -->
+    
+    <!-- TÍTULOS DE LA IA -->
+    <section id="view-tickets-ia" class="view-content active" style="display: block;">
+      <div style="background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); padding: 1.5rem; border-radius: 12px; border: 1px solid #334155; margin-bottom: 2rem;">
+        <h2 style="color: #f8fafc; font-size: 1.5rem; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">
+          🤖 Recomendaciones Oficiales de la IA
+        </h2>
+        <p style="color: #94a3b8; font-size: 0.95rem; line-height: 1.5;">
+          Estos tickets son generados automáticamente después del Triple Barrido de Sharp Money (12:30 PM). El sistema extrae las cuotas, audita el Power Index de los abridores, identifica movimientos en Las Vegas y publica los 3 mejores tickets con score de confianza del 1 al 100.
+        </p>
+        
+        <div id="ia-tickets-container" style="margin-top: 1.5rem; display: flex; flex-direction: column; gap: 1rem;">
+          <div style="padding: 2rem; text-align: center; color: #64748b; background: rgba(0,0,0,0.2); border-radius: 8px;">
+            <div style="font-size: 2rem; margin-bottom: 1rem;">⏳</div>
+            Cargando tickets de hoy... (Si está vacío, la IA aún no ha publicado el reporte final de las 12:30 PM).
+          </div>
+        </div>
+      </div>
+      
+      <script>
+        // Cargar los tickets generados por la IA en background
+        async function cargarTicketsIA() {
+          try {
+            const res = await fetch('data/tickets_hoy.json?t=' + new Date().getTime());
+            if (!res.ok) return;
+            const data = await res.json();
+            
+            let html = '';
+            
+            if (data.status === 'NO_OPERAR') {
+                html = `
+                  <div style="background: rgba(239, 68, 68, 0.1); border-left: 4px solid #ef4444; padding: 1rem; border-radius: 4px;">
+                    <h3 style="color: #ef4444; margin-bottom: 0.5rem;">🔴 ORDEN DE GUARDAR BANKROLL</h3>
+                    <p style="color: #f8fafc; font-size: 0.9rem;">${data.mensaje}</p>
+                  </div>
+                `;
+            } else {
+                html = `
+                  <div style="background: rgba(16, 185, 129, 0.1); border-left: 4px solid #10b981; padding: 1rem; border-radius: 4px; margin-bottom: 1rem;">
+                    <h3 style="color: #10b981; margin-bottom: 0.5rem;">🟢 LUZ VERDE - DÍA ÓPTIMO</h3>
+                    <p style="color: #f8fafc; font-size: 0.9rem;">${data.mensaje}</p>
+                  </div>
+                `;
+                
+                data.tickets.forEach((t, i) => {
+                    html += `
+                    <div style="background: #1e293b; border: 1px solid #334155; border-radius: 8px; padding: 1rem;">
+                      <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #334155; padding-bottom: 0.5rem; margin-bottom: 0.75rem;">
+                        <h4 style="color: #fca5a5; font-size: 1.1rem; margin: 0;">${t.titulo}</h4>
+                        <span style="background: ${t.score >= 90 ? '#10b981' : (t.score >= 80 ? '#f59e0b' : '#ef4444')}; color: white; padding: 0.2rem 0.5rem; border-radius: 4px; font-weight: bold; font-size: 0.8rem;">
+                          Score: ${t.score}/100
+                        </span>
+                      </div>
+                      <ul style="list-style: none; padding: 0; margin: 0; color: #cbd5e1; font-size: 0.9rem;">
+                    `;
+                    t.selecciones.forEach(sel => {
+                        html += `<li style="margin-bottom: 0.5rem; padding-left: 1.5rem; position: relative;">
+                          <span style="position: absolute; left: 0;">⚾</span> 
+                          <strong>${sel.equipo}</strong> (${sel.logro}) <br>
+                          <span style="color: #94a3b8; font-size: 0.8rem;">${sel.razon}</span>
+                        </li>`;
+                    });
+                    html += `</ul></div>`;
+                });
+            }
+            
+            document.getElementById('ia-tickets-container').innerHTML = html;
+          } catch (e) {
+            console.log('No tickets file yet.');
+          }
+        }
+        
+        // Ejecutar al cargar la página
+        document.addEventListener('DOMContentLoaded', cargarTicketsIA);
+      </script>
+    </section>
+
     <section id="view-picks-parleyla" class="view-content active">
       <div class="top-picks-header" style="background: linear-gradient(135deg, rgba(59, 130, 246, 0.15), rgba(15, 23, 42, 0.9)); border: 1px solid rgba(59, 130, 246, 0.3);">
         <div>

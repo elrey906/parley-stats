@@ -1,0 +1,38 @@
+{
+  "status": "OPERAR",
+  "mensaje": "El Sharp Money está con los locales. Cuotas depuradas y confirmadas (Viernes 11 Sep).",
+  "tickets": [
+    {
+      "titulo": "TICKET 1: La Muralla Local",
+      "score": 92,
+      "selecciones": [
+        {
+          "equipo": "Detroit Tigers",
+          "logro": "A Ganar (ML)",
+          "razon": "LOCAL. Comerica Park es un fortín. El diferencial defensivo aplasta a los Rockies."
+        },
+        {
+          "equipo": "Chicago Cubs",
+          "logro": "A Ganar (ML)",
+          "razon": "LOCAL. Power Index de 53.3. Jugar en Wrigley Field de día/tarde es una ventaja masiva."
+        }
+      ]
+    },
+    {
+      "titulo": "TICKET 2: El Bastión de la Bahía",
+      "score": 88,
+      "selecciones": [
+        {
+          "equipo": "Tampa Bay Rays",
+          "logro": "A Ganar (ML)",
+          "razon": "LOCAL. Récord bestial de 47-25 en el Tropicana Field. Sharp Money a su favor."
+        },
+        {
+          "equipo": "Detroit Tigers",
+          "logro": "RunLine -1.5",
+          "razon": "LOCAL. Fijo absoluto del día apostado en RunLine para potenciar cuota."
+        }
+      ]
+    }
+  ]
+}
