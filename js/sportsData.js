@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-13 16:26:39 UTC
+ * Generado automáticamente: 2026-09-13 18:26:55 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -147,56 +147,6 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+10.8%",
       "riskLevel": "Bajo (🟢 Sólido)",
       "recommendation": "Apuesta con ventaja matemática sobre Milwaukee Brewers. Duelo favorable de abridores y respaldo en casa."
-    }
-  },
-  {
-    "id": "mlb-api-824386",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Mañana)",
-    "match": "Chicago White Sox vs Cleveland Guardians",
-    "gameDate": "Mañana",
-    "gameTime": "06:40 PM (Hora VE)",
-    "isoStartTime": "2026-09-14T18:40:00+00:00",
-    "keyDetail": "Por Anunciar vs Por Anunciar",
-    "selection": "Cleveland Guardians a Ganar (Por Anunciar)",
-    "decimalOdds": 1.48,
-    "americanOdds": "-208",
-    "estimatedProb": 0.77,
-    "category": "seguro",
-    "categoryLabel": "💎 Banquero (06:40 PM)",
-    "stars": 5,
-    "edgePercent": "+10.8%",
-    "confidenceScore": 95,
-    "reasoning": "Cleveland Guardians de local con Por Anunciar en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Chicago White Sox.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Por Anunciar (CLE)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Por Anunciar (CHI)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.3,
-      "marketOdds": 1.48,
-      "evPercent": "+10.8%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Cleveland Guardians. Duelo favorable de abridores y respaldo en casa."
     }
   },
   {
@@ -492,6 +442,56 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+9.5%",
       "riskLevel": "Bajo (🟢 Sólido)",
       "recommendation": "Apuesta con ventaja matemática sobre Tampa Bay Rays. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
+    "id": "mlb-api-823815",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Hoy)",
+    "match": "Los Angeles Dodgers vs Miami Marlins",
+    "gameDate": "Hoy",
+    "gameTime": "01:40 PM (Hora VE)",
+    "isoStartTime": "2026-09-13T13:40:00+00:00",
+    "keyDetail": "Emmet Sheehan vs Eury Pérez",
+    "selection": "Miami Marlins a Ganar (Eury Pérez)",
+    "decimalOdds": 1.62,
+    "americanOdds": "-161",
+    "estimatedProb": 0.7,
+    "category": "valor",
+    "categoryLabel": "🚀 Alto Valor +EV (01:40 PM)",
+    "stars": 4,
+    "edgePercent": "+9.5%",
+    "confidenceScore": 90,
+    "reasoning": "Miami Marlins de local con Eury Pérez en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Los Angeles Dodgers.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Eury Pérez (MIA)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "Emmet Sheehan (LOS)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.43,
+      "marketOdds": 1.62,
+      "evPercent": "+9.5%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre Miami Marlins. Duelo favorable de abridores y respaldo en casa."
     }
   }
 ];
