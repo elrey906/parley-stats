@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-12 22:25:40 UTC
+ * Generado automáticamente: 2026-09-13 00:25:49 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -245,30 +245,30 @@ export const TOP_PICKS_OF_THE_DAY = [
     }
   },
   {
-    "id": "mlb-api-822685",
+    "id": "mlb-api-822927",
     "sport": "baseball",
     "sportName": "MLB",
     "sportIcon": "⚾",
     "league": "MLB (Hoy)",
-    "match": "Los Angeles Angels vs Washington Nationals",
+    "match": "Houston Astros vs Tampa Bay Rays",
     "gameDate": "Hoy",
-    "gameTime": "04:05 PM (Hora VE)",
-    "isoStartTime": "2026-09-12T16:05:00+00:00",
-    "keyDetail": "Walbert Ureña vs Andrew Alvarez",
-    "selection": "Washington Nationals a Ganar (Andrew Alvarez)",
+    "gameTime": "06:10 PM (Hora VE)",
+    "isoStartTime": "2026-09-12T18:10:00+00:00",
+    "keyDetail": "Peter Lambert vs Ian Seymour",
+    "selection": "Tampa Bay Rays a Ganar (Ian Seymour)",
     "decimalOdds": 1.62,
     "americanOdds": "-161",
     "estimatedProb": 0.7,
     "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (04:05 PM)",
+    "categoryLabel": "🚀 Alto Valor +EV (06:10 PM)",
     "stars": 4,
     "edgePercent": "+9.5%",
     "confidenceScore": 90,
-    "reasoning": "Washington Nationals de local con Andrew Alvarez en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Los Angeles Angels.",
+    "reasoning": "Tampa Bay Rays de local con Ian Seymour en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Houston Astros.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Andrew Alvarez (WAS)",
+        "name": "Ian Seymour (TAM)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -276,7 +276,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Walbert Ureña (LOS)",
+        "name": "Peter Lambert (HOU)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
@@ -291,34 +291,34 @@ export const TOP_PICKS_OF_THE_DAY = [
       "marketOdds": 1.62,
       "evPercent": "+9.5%",
       "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Washington Nationals. Duelo favorable de abridores y respaldo en casa."
+      "recommendation": "Apuesta con ventaja matemática sobre Tampa Bay Rays. Duelo favorable de abridores y respaldo en casa."
     }
   },
   {
-    "id": "mlb-api-823170",
+    "id": "mlb-api-824870",
     "sport": "baseball",
     "sportName": "MLB",
     "sportIcon": "⚾",
     "league": "MLB (Hoy)",
-    "match": "San Diego Padres vs San Francisco Giants",
+    "match": "Philadelphia Phillies vs Atlanta Braves",
     "gameDate": "Hoy",
-    "gameTime": "04:05 PM (Hora VE)",
-    "isoStartTime": "2026-09-12T16:05:00+00:00",
-    "keyDetail": "Michael King vs Cesar Perdomo",
-    "selection": "San Francisco Giants a Ganar (Cesar Perdomo)",
+    "gameTime": "07:15 PM (Hora VE)",
+    "isoStartTime": "2026-09-12T19:15:00+00:00",
+    "keyDetail": "Tim Mayza vs Tyler Mahle",
+    "selection": "Atlanta Braves a Ganar (Tyler Mahle)",
     "decimalOdds": 1.62,
     "americanOdds": "-161",
     "estimatedProb": 0.7,
     "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (04:05 PM)",
+    "categoryLabel": "🚀 Alto Valor +EV (07:15 PM)",
     "stars": 4,
     "edgePercent": "+9.5%",
     "confidenceScore": 90,
-    "reasoning": "San Francisco Giants de local con Cesar Perdomo en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a San Diego Padres.",
+    "reasoning": "Atlanta Braves de local con Tyler Mahle en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Philadelphia Phillies.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Cesar Perdomo (SAN)",
+        "name": "Tyler Mahle (ATL)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -326,7 +326,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Michael King (SAN)",
+        "name": "Tim Mayza (PHI)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
@@ -341,34 +341,34 @@ export const TOP_PICKS_OF_THE_DAY = [
       "marketOdds": 1.62,
       "evPercent": "+9.5%",
       "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre San Francisco Giants. Duelo favorable de abridores y respaldo en casa."
+      "recommendation": "Apuesta con ventaja matemática sobre Atlanta Braves. Duelo favorable de abridores y respaldo en casa."
     }
   },
   {
-    "id": "mlb-api-824712",
+    "id": "mlb-api-823009",
     "sport": "baseball",
     "sportName": "MLB",
     "sportIcon": "⚾",
     "league": "MLB (Hoy)",
-    "match": "Kansas City Royals vs Boston Red Sox",
+    "match": "Chicago White Sox vs St. Louis Cardinals",
     "gameDate": "Hoy",
-    "gameTime": "04:10 PM (Hora VE)",
-    "isoStartTime": "2026-09-12T16:10:00+00:00",
-    "keyDetail": "Randy Dobnak vs Ranger Suarez",
-    "selection": "Boston Red Sox a Ganar (Ranger Suarez)",
+    "gameTime": "07:15 PM (Hora VE)",
+    "isoStartTime": "2026-09-12T19:15:00+00:00",
+    "keyDetail": "Sean Newcomb vs Kyle Leahy",
+    "selection": "St. Louis Cardinals a Ganar (Kyle Leahy)",
     "decimalOdds": 1.62,
     "americanOdds": "-161",
     "estimatedProb": 0.7,
     "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (04:10 PM)",
+    "categoryLabel": "🚀 Alto Valor +EV (07:15 PM)",
     "stars": 4,
     "edgePercent": "+9.5%",
     "confidenceScore": 90,
-    "reasoning": "Boston Red Sox de local con Ranger Suarez en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Kansas City Royals.",
+    "reasoning": "St. Louis Cardinals de local con Kyle Leahy en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Chicago White Sox.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Ranger Suarez (BOS)",
+        "name": "Kyle Leahy (ST.)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -376,7 +376,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Randy Dobnak (KAN)",
+        "name": "Sean Newcomb (CHI)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
@@ -391,34 +391,34 @@ export const TOP_PICKS_OF_THE_DAY = [
       "marketOdds": 1.62,
       "evPercent": "+9.5%",
       "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Boston Red Sox. Duelo favorable de abridores y respaldo en casa."
+      "recommendation": "Apuesta con ventaja matemática sobre St. Louis Cardinals. Duelo favorable de abridores y respaldo en casa."
     }
   },
   {
-    "id": "mlb-api-823657",
+    "id": "mlb-api-825035",
     "sport": "baseball",
     "sportName": "MLB",
     "sportIcon": "⚾",
     "league": "MLB (Hoy)",
-    "match": "Cleveland Guardians vs Minnesota Twins",
+    "match": "Texas Rangers vs Arizona Diamondbacks",
     "gameDate": "Hoy",
-    "gameTime": "04:10 PM (Hora VE)",
-    "isoStartTime": "2026-09-12T16:10:00+00:00",
-    "keyDetail": "Daniel Espino vs Connor Prielipp",
-    "selection": "Minnesota Twins a Ganar (Connor Prielipp)",
+    "gameTime": "08:10 PM (Hora VE)",
+    "isoStartTime": "2026-09-12T20:10:00+00:00",
+    "keyDetail": "Kumar Rocker vs Brandon Pfaadt",
+    "selection": "Arizona Diamondbacks a Ganar (Brandon Pfaadt)",
     "decimalOdds": 1.62,
     "americanOdds": "-161",
     "estimatedProb": 0.7,
     "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (04:10 PM)",
+    "categoryLabel": "🚀 Alto Valor +EV (08:10 PM)",
     "stars": 4,
     "edgePercent": "+9.5%",
     "confidenceScore": 90,
-    "reasoning": "Minnesota Twins de local con Connor Prielipp en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Cleveland Guardians.",
+    "reasoning": "Arizona Diamondbacks de local con Brandon Pfaadt en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Texas Rangers.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Connor Prielipp (MIN)",
+        "name": "Brandon Pfaadt (ARI)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -426,7 +426,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Daniel Espino (CLE)",
+        "name": "Kumar Rocker (TEX)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
@@ -441,34 +441,34 @@ export const TOP_PICKS_OF_THE_DAY = [
       "marketOdds": 1.62,
       "evPercent": "+9.5%",
       "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Minnesota Twins. Duelo favorable de abridores y respaldo en casa."
+      "recommendation": "Apuesta con ventaja matemática sobre Arizona Diamondbacks. Duelo favorable de abridores y respaldo en casa."
     }
   },
   {
-    "id": "mlb-api-823819",
+    "id": "mlb-api-824955",
     "sport": "baseball",
     "sportName": "MLB",
     "sportIcon": "⚾",
     "league": "MLB (Hoy)",
-    "match": "Los Angeles Dodgers vs Miami Marlins",
+    "match": "Seattle Mariners vs Athletics",
     "gameDate": "Hoy",
-    "gameTime": "04:10 PM (Hora VE)",
-    "isoStartTime": "2026-09-12T16:10:00+00:00",
-    "keyDetail": "Tyler Glasnow vs Tyler Phillips",
-    "selection": "Miami Marlins a Ganar (Tyler Phillips)",
+    "gameTime": "09:40 PM (Hora VE)",
+    "isoStartTime": "2026-09-12T21:40:00+00:00",
+    "keyDetail": "Bryan Woo vs Gage Jump",
+    "selection": "Athletics a Ganar (Gage Jump)",
     "decimalOdds": 1.62,
     "americanOdds": "-161",
     "estimatedProb": 0.7,
     "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (04:10 PM)",
+    "categoryLabel": "🚀 Alto Valor +EV (09:40 PM)",
     "stars": 4,
     "edgePercent": "+9.5%",
     "confidenceScore": 90,
-    "reasoning": "Miami Marlins de local con Tyler Phillips en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Los Angeles Dodgers.",
+    "reasoning": "Athletics de local con Gage Jump en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Seattle Mariners.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Tyler Phillips (MIA)",
+        "name": "Gage Jump (ATH)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -476,7 +476,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Tyler Glasnow (LOS)",
+        "name": "Bryan Woo (SEA)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
@@ -491,7 +491,7 @@ export const TOP_PICKS_OF_THE_DAY = [
       "marketOdds": 1.62,
       "evPercent": "+9.5%",
       "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Miami Marlins. Duelo favorable de abridores y respaldo en casa."
+      "recommendation": "Apuesta con ventaja matemática sobre Athletics. Duelo favorable de abridores y respaldo en casa."
     }
   }
 ];
