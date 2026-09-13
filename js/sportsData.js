@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-13 18:26:55 UTC
+ * Generado automáticamente: 2026-09-13 20:26:49 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -47,56 +47,6 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+9.2%",
       "riskLevel": "Bajo (🟢 Base Multideporte)",
       "recommendation": "Excelente base de alta probabilidad para sellar en parley."
-    }
-  },
-  {
-    "id": "mlb-api-823495",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "New York Mets vs New York Yankees",
-    "gameDate": "Hoy",
-    "gameTime": "01:35 PM (Hora VE)",
-    "isoStartTime": "2026-09-13T13:35:00+00:00",
-    "keyDetail": "Christian Scott vs Cam Schlittler",
-    "selection": "New York Yankees a Ganar (Cam Schlittler)",
-    "decimalOdds": 1.48,
-    "americanOdds": "-208",
-    "estimatedProb": 0.77,
-    "category": "seguro",
-    "categoryLabel": "💎 Banquero (01:35 PM)",
-    "stars": 5,
-    "edgePercent": "+10.8%",
-    "confidenceScore": 95,
-    "reasoning": "New York Yankees de local con Cam Schlittler en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a New York Mets.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Cam Schlittler (NEW)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Christian Scott (NEW)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.3,
-      "marketOdds": 1.48,
-      "evPercent": "+10.8%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre New York Yankees. Duelo favorable de abridores y respaldo en casa."
     }
   },
   {
@@ -150,6 +100,56 @@ export const TOP_PICKS_OF_THE_DAY = [
     }
   },
   {
+    "id": "mlb-api-824386",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Mañana)",
+    "match": "Chicago White Sox vs Cleveland Guardians",
+    "gameDate": "Mañana",
+    "gameTime": "06:40 PM (Hora VE)",
+    "isoStartTime": "2026-09-14T18:40:00+00:00",
+    "keyDetail": "Sean Burke vs Por Anunciar",
+    "selection": "Cleveland Guardians a Ganar (Por Anunciar)",
+    "decimalOdds": 1.48,
+    "americanOdds": "-208",
+    "estimatedProb": 0.77,
+    "category": "seguro",
+    "categoryLabel": "💎 Banquero (06:40 PM)",
+    "stars": 5,
+    "edgePercent": "+10.8%",
+    "confidenceScore": 95,
+    "reasoning": "Cleveland Guardians de local con Por Anunciar en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Chicago White Sox.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Por Anunciar (CLE)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "Sean Burke (CHI)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.3,
+      "marketOdds": 1.48,
+      "evPercent": "+10.8%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre Cleveland Guardians. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
     "id": "soc-francia-mon",
     "sport": "soccer",
     "sportName": "Fútbol",
@@ -192,106 +192,6 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+11.2%",
       "riskLevel": "Medio-Bajo (🟡 Gran Cuota +EV)",
       "recommendation": "Francia domina el historial directo y tiene plantel superior en todas las líneas."
-    }
-  },
-  {
-    "id": "mlb-api-824225",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Colorado Rockies vs Detroit Tigers",
-    "gameDate": "Hoy",
-    "gameTime": "12:10 PM (Hora VE)",
-    "isoStartTime": "2026-09-13T12:10:00+00:00",
-    "keyDetail": "Gabriel Hughes vs Jackson Jobe",
-    "selection": "Detroit Tigers a Ganar (Jackson Jobe)",
-    "decimalOdds": 1.62,
-    "americanOdds": "-161",
-    "estimatedProb": 0.7,
-    "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (12:10 PM)",
-    "stars": 4,
-    "edgePercent": "+9.5%",
-    "confidenceScore": 90,
-    "reasoning": "Detroit Tigers de local con Jackson Jobe en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Colorado Rockies.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Jackson Jobe (DET)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Gabriel Hughes (COL)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.43,
-      "marketOdds": 1.62,
-      "evPercent": "+9.5%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Detroit Tigers. Duelo favorable de abridores y respaldo en casa."
-    }
-  },
-  {
-    "id": "mlb-api-822682",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Los Angeles Angels vs Washington Nationals",
-    "gameDate": "Hoy",
-    "gameTime": "01:35 PM (Hora VE)",
-    "isoStartTime": "2026-09-13T13:35:00+00:00",
-    "keyDetail": "Grayson Rodriguez vs Riley Cornelio",
-    "selection": "Washington Nationals a Ganar (Riley Cornelio)",
-    "decimalOdds": 1.62,
-    "americanOdds": "-161",
-    "estimatedProb": 0.7,
-    "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (01:35 PM)",
-    "stars": 4,
-    "edgePercent": "+9.5%",
-    "confidenceScore": 90,
-    "reasoning": "Washington Nationals de local con Riley Cornelio en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Los Angeles Angels.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Riley Cornelio (WAS)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Grayson Rodriguez (LOS)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.43,
-      "marketOdds": 1.62,
-      "evPercent": "+9.5%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Washington Nationals. Duelo favorable de abridores y respaldo en casa."
     }
   },
   {
@@ -395,56 +295,6 @@ export const TOP_PICKS_OF_THE_DAY = [
     }
   },
   {
-    "id": "mlb-api-822928",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Houston Astros vs Tampa Bay Rays",
-    "gameDate": "Hoy",
-    "gameTime": "01:40 PM (Hora VE)",
-    "isoStartTime": "2026-09-13T13:40:00+00:00",
-    "keyDetail": "Hayden Wesneski vs Freddy Peralta",
-    "selection": "Tampa Bay Rays a Ganar (Freddy Peralta)",
-    "decimalOdds": 1.62,
-    "americanOdds": "-161",
-    "estimatedProb": 0.7,
-    "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (01:40 PM)",
-    "stars": 4,
-    "edgePercent": "+9.5%",
-    "confidenceScore": 90,
-    "reasoning": "Tampa Bay Rays de local con Freddy Peralta en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Houston Astros.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Freddy Peralta (TAM)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Hayden Wesneski (HOU)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.43,
-      "marketOdds": 1.62,
-      "evPercent": "+9.5%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Tampa Bay Rays. Duelo favorable de abridores y respaldo en casa."
-    }
-  },
-  {
     "id": "mlb-api-823815",
     "sport": "baseball",
     "sportName": "MLB",
@@ -492,6 +342,156 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+9.5%",
       "riskLevel": "Bajo (🟢 Sólido)",
       "recommendation": "Apuesta con ventaja matemática sobre Miami Marlins. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
+    "id": "mlb-api-823658",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Hoy)",
+    "match": "Cleveland Guardians vs Minnesota Twins",
+    "gameDate": "Hoy",
+    "gameTime": "02:10 PM (Hora VE)",
+    "isoStartTime": "2026-09-13T14:10:00+00:00",
+    "keyDetail": "Tanner Bibee vs Joe Ryan",
+    "selection": "Minnesota Twins a Ganar (Joe Ryan)",
+    "decimalOdds": 1.62,
+    "americanOdds": "-161",
+    "estimatedProb": 0.7,
+    "category": "valor",
+    "categoryLabel": "🚀 Alto Valor +EV (02:10 PM)",
+    "stars": 4,
+    "edgePercent": "+9.5%",
+    "confidenceScore": 90,
+    "reasoning": "Minnesota Twins de local con Joe Ryan en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Cleveland Guardians.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Joe Ryan (MIN)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "Tanner Bibee (CLE)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.43,
+      "marketOdds": 1.62,
+      "evPercent": "+9.5%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre Minnesota Twins. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
+    "id": "mlb-api-823008",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Hoy)",
+    "match": "Chicago White Sox vs St. Louis Cardinals",
+    "gameDate": "Hoy",
+    "gameTime": "02:15 PM (Hora VE)",
+    "isoStartTime": "2026-09-13T14:15:00+00:00",
+    "keyDetail": "David Sandlin vs Michael McGreevy",
+    "selection": "St. Louis Cardinals a Ganar (Michael McGreevy)",
+    "decimalOdds": 1.62,
+    "americanOdds": "-161",
+    "estimatedProb": 0.7,
+    "category": "valor",
+    "categoryLabel": "🚀 Alto Valor +EV (02:15 PM)",
+    "stars": 4,
+    "edgePercent": "+9.5%",
+    "confidenceScore": 90,
+    "reasoning": "St. Louis Cardinals de local con Michael McGreevy en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Chicago White Sox.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Michael McGreevy (ST.)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "David Sandlin (CHI)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.43,
+      "marketOdds": 1.62,
+      "evPercent": "+9.5%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre St. Louis Cardinals. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
+    "id": "mlb-api-824628",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Hoy)",
+    "match": "Pittsburgh Pirates vs Chicago Cubs",
+    "gameDate": "Hoy",
+    "gameTime": "02:20 PM (Hora VE)",
+    "isoStartTime": "2026-09-13T14:20:00+00:00",
+    "keyDetail": "Bubba Chandler vs Matthew Boyd",
+    "selection": "Chicago Cubs a Ganar (Matthew Boyd)",
+    "decimalOdds": 1.62,
+    "americanOdds": "-161",
+    "estimatedProb": 0.7,
+    "category": "valor",
+    "categoryLabel": "🚀 Alto Valor +EV (02:20 PM)",
+    "stars": 4,
+    "edgePercent": "+9.5%",
+    "confidenceScore": 90,
+    "reasoning": "Chicago Cubs de local con Matthew Boyd en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Pittsburgh Pirates.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Matthew Boyd (CHI)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "Bubba Chandler (PIT)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.43,
+      "marketOdds": 1.62,
+      "evPercent": "+9.5%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre Chicago Cubs. Duelo favorable de abridores y respaldo en casa."
     }
   }
 ];
