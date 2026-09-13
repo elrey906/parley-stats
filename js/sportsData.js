@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-13 14:26:30 UTC
+ * Generado automáticamente: 2026-09-13 16:26:39 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -304,8 +304,8 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Hoy",
     "gameTime": "01:35 PM (Hora VE)",
     "isoStartTime": "2026-09-13T13:35:00+00:00",
-    "keyDetail": "Grayson Rodriguez vs Jake Irvin",
-    "selection": "Washington Nationals a Ganar (Jake Irvin)",
+    "keyDetail": "Grayson Rodriguez vs Riley Cornelio",
+    "selection": "Washington Nationals a Ganar (Riley Cornelio)",
     "decimalOdds": 1.62,
     "americanOdds": "-161",
     "estimatedProb": 0.7,
@@ -314,11 +314,11 @@ export const TOP_PICKS_OF_THE_DAY = [
     "stars": 4,
     "edgePercent": "+9.5%",
     "confidenceScore": 90,
-    "reasoning": "Washington Nationals de local con Jake Irvin en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Los Angeles Angels.",
+    "reasoning": "Washington Nationals de local con Riley Cornelio en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Los Angeles Angels.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Jake Irvin (WAS)",
+        "name": "Riley Cornelio (WAS)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
