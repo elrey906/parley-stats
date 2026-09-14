@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-13 22:26:55 UTC
+ * Generado automáticamente: 2026-09-14 00:27:00 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -142,156 +142,6 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+11.2%",
       "riskLevel": "Medio-Bajo (🟡 Gran Cuota +EV)",
       "recommendation": "Francia domina el historial directo y tiene plantel superior en todas las líneas."
-    }
-  },
-  {
-    "id": "mlb-api-824708",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Kansas City Royals vs Boston Red Sox",
-    "gameDate": "Hoy",
-    "gameTime": "03:05 PM (Hora VE)",
-    "isoStartTime": "2026-09-13T15:05:00+00:00",
-    "keyDetail": "Noah Cameron vs Payton Tolle",
-    "selection": "Boston Red Sox a Ganar (Payton Tolle)",
-    "decimalOdds": 1.62,
-    "americanOdds": "-161",
-    "estimatedProb": 0.7,
-    "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (03:05 PM)",
-    "stars": 4,
-    "edgePercent": "+9.5%",
-    "confidenceScore": 90,
-    "reasoning": "Boston Red Sox de local con Payton Tolle en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Kansas City Royals.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Payton Tolle (BOS)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Noah Cameron (KAN)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.43,
-      "marketOdds": 1.62,
-      "evPercent": "+9.5%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Boston Red Sox. Duelo favorable de abridores y respaldo en casa."
-    }
-  },
-  {
-    "id": "mlb-api-824952",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Seattle Mariners vs Athletics",
-    "gameDate": "Hoy",
-    "gameTime": "04:05 PM (Hora VE)",
-    "isoStartTime": "2026-09-13T16:05:00+00:00",
-    "keyDetail": "Bryce Miller vs Jacob Lopez",
-    "selection": "Athletics a Ganar (Jacob Lopez)",
-    "decimalOdds": 1.62,
-    "americanOdds": "-161",
-    "estimatedProb": 0.7,
-    "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (04:05 PM)",
-    "stars": 4,
-    "edgePercent": "+9.5%",
-    "confidenceScore": 90,
-    "reasoning": "Athletics de local con Jacob Lopez en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Seattle Mariners.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Jacob Lopez (ATH)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Bryce Miller (SEA)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.43,
-      "marketOdds": 1.62,
-      "evPercent": "+9.5%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Athletics. Duelo favorable de abridores y respaldo en casa."
-    }
-  },
-  {
-    "id": "mlb-api-825033",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Texas Rangers vs Arizona Diamondbacks",
-    "gameDate": "Hoy",
-    "gameTime": "04:10 PM (Hora VE)",
-    "isoStartTime": "2026-09-13T16:10:00+00:00",
-    "keyDetail": "Cal Quantrill vs Eduardo Rodriguez",
-    "selection": "Arizona Diamondbacks a Ganar (Eduardo Rodriguez)",
-    "decimalOdds": 1.62,
-    "americanOdds": "-161",
-    "estimatedProb": 0.7,
-    "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (04:10 PM)",
-    "stars": 4,
-    "edgePercent": "+9.5%",
-    "confidenceScore": 90,
-    "reasoning": "Arizona Diamondbacks de local con Eduardo Rodriguez en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Texas Rangers.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Eduardo Rodriguez (ARI)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Cal Quantrill (TEX)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.43,
-      "marketOdds": 1.62,
-      "evPercent": "+9.5%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Arizona Diamondbacks. Duelo favorable de abridores y respaldo en casa."
     }
   },
   {
@@ -492,6 +342,156 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+9.5%",
       "riskLevel": "Bajo (🟢 Sólido)",
       "recommendation": "Apuesta con ventaja matemática sobre New York Mets. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
+    "id": "mlb-api-824629",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Mañana)",
+    "match": "Atlanta Braves vs Chicago Cubs",
+    "gameDate": "Mañana",
+    "gameTime": "07:40 PM (Hora VE)",
+    "isoStartTime": "2026-09-14T19:40:00+00:00",
+    "keyDetail": "Reynaldo López vs David Peterson",
+    "selection": "Chicago Cubs a Ganar (David Peterson)",
+    "decimalOdds": 1.62,
+    "americanOdds": "-161",
+    "estimatedProb": 0.7,
+    "category": "valor",
+    "categoryLabel": "🚀 Alto Valor +EV (07:40 PM)",
+    "stars": 4,
+    "edgePercent": "+9.5%",
+    "confidenceScore": 90,
+    "reasoning": "Chicago Cubs de local con David Peterson en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Atlanta Braves.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "David Peterson (CHI)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "Reynaldo López (ATL)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.43,
+      "marketOdds": 1.62,
+      "evPercent": "+9.5%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre Chicago Cubs. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
+    "id": "mlb-api-823656",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Mañana)",
+    "match": "New York Yankees vs Minnesota Twins",
+    "gameDate": "Mañana",
+    "gameTime": "07:40 PM (Hora VE)",
+    "isoStartTime": "2026-09-14T19:40:00+00:00",
+    "keyDetail": "Will Warren vs Dean Kremer",
+    "selection": "Minnesota Twins a Ganar (Dean Kremer)",
+    "decimalOdds": 1.62,
+    "americanOdds": "-161",
+    "estimatedProb": 0.7,
+    "category": "valor",
+    "categoryLabel": "🚀 Alto Valor +EV (07:40 PM)",
+    "stars": 4,
+    "edgePercent": "+9.5%",
+    "confidenceScore": 90,
+    "reasoning": "Minnesota Twins de local con Dean Kremer en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a New York Yankees.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Dean Kremer (MIN)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "Will Warren (NEW)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.43,
+      "marketOdds": 1.62,
+      "evPercent": "+9.5%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre Minnesota Twins. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
+    "id": "mlb-api-823006",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Mañana)",
+    "match": "San Francisco Giants vs St. Louis Cardinals",
+    "gameDate": "Mañana",
+    "gameTime": "07:45 PM (Hora VE)",
+    "isoStartTime": "2026-09-14T19:45:00+00:00",
+    "keyDetail": "Landen Roupp vs Quinn Mathews",
+    "selection": "St. Louis Cardinals a Ganar (Quinn Mathews)",
+    "decimalOdds": 1.62,
+    "americanOdds": "-161",
+    "estimatedProb": 0.7,
+    "category": "valor",
+    "categoryLabel": "🚀 Alto Valor +EV (07:45 PM)",
+    "stars": 4,
+    "edgePercent": "+9.5%",
+    "confidenceScore": 90,
+    "reasoning": "St. Louis Cardinals de local con Quinn Mathews en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a San Francisco Giants.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Quinn Mathews (ST.)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "Landen Roupp (SAN)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.43,
+      "marketOdds": 1.62,
+      "evPercent": "+9.5%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre St. Louis Cardinals. Duelo favorable de abridores y respaldo en casa."
     }
   }
 ];
