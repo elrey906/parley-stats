@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-14 00:27:00 UTC
+ * Generado automáticamente: 2026-09-14 02:27:05 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -59,8 +59,8 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Mañana",
     "gameTime": "06:40 PM (Hora VE)",
     "isoStartTime": "2026-09-14T18:40:00+00:00",
-    "keyDetail": "Sean Newcomb vs Por Anunciar",
-    "selection": "Cleveland Guardians a Ganar (Por Anunciar)",
+    "keyDetail": "Sean Newcomb vs Gavin Williams",
+    "selection": "Cleveland Guardians a Ganar (Gavin Williams)",
     "decimalOdds": 1.48,
     "americanOdds": "-208",
     "estimatedProb": 0.77,
@@ -69,11 +69,11 @@ export const TOP_PICKS_OF_THE_DAY = [
     "stars": 5,
     "edgePercent": "+10.8%",
     "confidenceScore": 95,
-    "reasoning": "Cleveland Guardians de local con Por Anunciar en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Chicago White Sox.",
+    "reasoning": "Cleveland Guardians de local con Gavin Williams en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Chicago White Sox.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Por Anunciar (CLE)",
+        "name": "Gavin Williams (CLE)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -142,56 +142,6 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+11.2%",
       "riskLevel": "Medio-Bajo (🟡 Gran Cuota +EV)",
       "recommendation": "Francia domina el historial directo y tiene plantel superior en todas las líneas."
-    }
-  },
-  {
-    "id": "mlb-api-823171",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "San Diego Padres vs San Francisco Giants",
-    "gameDate": "Hoy",
-    "gameTime": "07:20 PM (Hora VE)",
-    "isoStartTime": "2026-09-13T19:20:00+00:00",
-    "keyDetail": "Nick Pivetta vs Logan Webb",
-    "selection": "San Francisco Giants a Ganar (Logan Webb)",
-    "decimalOdds": 1.62,
-    "americanOdds": "-161",
-    "estimatedProb": 0.7,
-    "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (07:20 PM)",
-    "stars": 4,
-    "edgePercent": "+9.5%",
-    "confidenceScore": 90,
-    "reasoning": "San Francisco Giants de local con Logan Webb en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a San Diego Padres.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Logan Webb (SAN)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Nick Pivetta (SAN)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.43,
-      "marketOdds": 1.62,
-      "evPercent": "+9.5%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre San Francisco Giants. Duelo favorable de abridores y respaldo en casa."
     }
   },
   {
@@ -492,6 +442,56 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+9.5%",
       "riskLevel": "Bajo (🟢 Sólido)",
       "recommendation": "Apuesta con ventaja matemática sobre St. Louis Cardinals. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
+    "id": "mlb-api-824308",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Mañana)",
+    "match": "San Diego Padres vs Colorado Rockies",
+    "gameDate": "Mañana",
+    "gameTime": "08:40 PM (Hora VE)",
+    "isoStartTime": "2026-09-14T20:40:00+00:00",
+    "keyDetail": "Casey Mize vs Tomoyuki Sugano",
+    "selection": "Colorado Rockies a Ganar (Tomoyuki Sugano)",
+    "decimalOdds": 1.62,
+    "americanOdds": "-161",
+    "estimatedProb": 0.7,
+    "category": "valor",
+    "categoryLabel": "🚀 Alto Valor +EV (08:40 PM)",
+    "stars": 4,
+    "edgePercent": "+9.5%",
+    "confidenceScore": 90,
+    "reasoning": "Colorado Rockies de local con Tomoyuki Sugano en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a San Diego Padres.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Tomoyuki Sugano (COL)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "Casey Mize (SAN)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.43,
+      "marketOdds": 1.62,
+      "evPercent": "+9.5%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre Colorado Rockies. Duelo favorable de abridores y respaldo en casa."
     }
   }
 ];
