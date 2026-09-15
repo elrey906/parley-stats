@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-15 15:34:30 UTC
+ * Generado automáticamente: 2026-09-15 17:34:33 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -59,7 +59,7 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Hoy",
     "gameTime": "06:40 PM (Hora VE)",
     "isoStartTime": "2026-09-15T18:40:00+00:00",
-    "keyDetail": "Davis Martin vs Foster Griffin",
+    "keyDetail": "Chris Murphy vs Foster Griffin",
     "selection": "Cleveland Guardians a Ganar (Foster Griffin)",
     "decimalOdds": 1.48,
     "americanOdds": "-208",
@@ -81,7 +81,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Davis Martin (CHI)",
+        "name": "Chris Murphy (CHI)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
