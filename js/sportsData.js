@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-15 19:34:35 UTC
+ * Generado automáticamente: 2026-09-15 21:34:38 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -61,7 +61,7 @@ export const TOP_PICKS_OF_THE_DAY = [
     "isoStartTime": "2026-09-15T18:40:00+00:00",
     "keyDetail": "Chris Murphy vs Foster Griffin",
     "selection": "Cleveland Guardians a Ganar (Foster Griffin)",
-    "decimalOdds": 1.48,
+    "decimalOdds": 1.75,
     "americanOdds": "-208",
     "estimatedProb": 0.77,
     "category": "seguro",
@@ -92,8 +92,8 @@ export const TOP_PICKS_OF_THE_DAY = [
       "bullpenDogEra": "4.50",
       "offenseFav": "4.9 carreras/juego de local",
       "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.3,
-      "marketOdds": 1.48,
+      "fairOdds": 1.54,
+      "marketOdds": 1.75,
       "evPercent": "+10.8%",
       "riskLevel": "Bajo (🟢 Sólido)",
       "recommendation": "Apuesta con ventaja matemática sobre Cleveland Guardians. Duelo favorable de abridores y respaldo en casa."
@@ -111,7 +111,7 @@ export const TOP_PICKS_OF_THE_DAY = [
     "isoStartTime": "2026-09-16T13:10:00+00:00",
     "keyDetail": "Por Anunciar vs Parker Messick",
     "selection": "Cleveland Guardians a Ganar (Parker Messick)",
-    "decimalOdds": 1.48,
+    "decimalOdds": 1.75,
     "americanOdds": "-208",
     "estimatedProb": 0.77,
     "category": "seguro",
@@ -142,8 +142,8 @@ export const TOP_PICKS_OF_THE_DAY = [
       "bullpenDogEra": "4.50",
       "offenseFav": "4.9 carreras/juego de local",
       "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.3,
-      "marketOdds": 1.48,
+      "fairOdds": 1.54,
+      "marketOdds": 1.75,
       "evPercent": "+10.8%",
       "riskLevel": "Bajo (🟢 Sólido)",
       "recommendation": "Apuesta con ventaja matemática sobre Cleveland Guardians. Duelo favorable de abridores y respaldo en casa."
