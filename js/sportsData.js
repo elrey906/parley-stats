@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-17 15:36:06 UTC
+ * Generado automáticamente: 2026-09-17 17:36:20 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -159,8 +159,8 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Mañana",
     "gameTime": "09:40 PM (Hora VE)",
     "isoStartTime": "2026-09-18T21:40:00+00:00",
-    "keyDetail": "Tyler Phillips vs Por Anunciar",
-    "selection": "San Diego Padres a Ganar (Por Anunciar)",
+    "keyDetail": "Tyler Phillips vs Nick Pivetta",
+    "selection": "San Diego Padres a Ganar (Nick Pivetta)",
     "decimalOdds": 1.75,
     "americanOdds": "-208",
     "estimatedProb": 0.77,
@@ -169,11 +169,11 @@ export const TOP_PICKS_OF_THE_DAY = [
     "stars": 5,
     "edgePercent": "+10.8%",
     "confidenceScore": 95,
-    "reasoning": "San Diego Padres de local con Por Anunciar en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Miami Marlins.",
+    "reasoning": "San Diego Padres de local con Nick Pivetta en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Miami Marlins.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Por Anunciar (SAN)",
+        "name": "Nick Pivetta (SAN)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
