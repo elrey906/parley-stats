@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-17 19:36:15 UTC
+ * Generado automáticamente: 2026-09-17 21:36:19 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -109,7 +109,7 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Mañana",
     "gameTime": "07:10 PM (Hora VE)",
     "isoStartTime": "2026-09-18T19:10:00+00:00",
-    "keyDetail": "Por Anunciar vs Daniel Espino",
+    "keyDetail": "Mason Barnett vs Daniel Espino",
     "selection": "Cleveland Guardians a Ganar (Daniel Espino)",
     "decimalOdds": 1.75,
     "americanOdds": "-208",
@@ -131,7 +131,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Por Anunciar (ATH)",
+        "name": "Mason Barnett (ATH)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
@@ -295,56 +295,6 @@ export const TOP_PICKS_OF_THE_DAY = [
     }
   },
   {
-    "id": "mlb-api-822924",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Athletics vs Tampa Bay Rays",
-    "gameDate": "Hoy",
-    "gameTime": "01:10 PM (Hora VE)",
-    "isoStartTime": "2026-09-17T13:10:00+00:00",
-    "keyDetail": "Jeffrey Springs vs Drew Rasmussen",
-    "selection": "Tampa Bay Rays a Ganar (Drew Rasmussen)",
-    "decimalOdds": 1.62,
-    "americanOdds": "-161",
-    "estimatedProb": 0.7,
-    "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (01:10 PM)",
-    "stars": 4,
-    "edgePercent": "+9.5%",
-    "confidenceScore": 90,
-    "reasoning": "Tampa Bay Rays de local con Drew Rasmussen en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Athletics.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Drew Rasmussen (TAM)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Jeffrey Springs (ATH)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.43,
-      "marketOdds": 1.62,
-      "evPercent": "+9.5%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Tampa Bay Rays. Duelo favorable de abridores y respaldo en casa."
-    }
-  },
-  {
     "id": "mlb-api-824305",
     "sport": "baseball",
     "sportName": "MLB",
@@ -492,6 +442,56 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+9.5%",
       "riskLevel": "Bajo (🟢 Sólido)",
       "recommendation": "Apuesta con ventaja matemática sobre New York Mets. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
+    "id": "mlb-api-824548",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Hoy)",
+    "match": "Detroit Tigers vs Chicago White Sox",
+    "gameDate": "Hoy",
+    "gameTime": "07:40 PM (Hora VE)",
+    "isoStartTime": "2026-09-17T19:40:00+00:00",
+    "keyDetail": "Framber Valdez vs Erick Fedde",
+    "selection": "Chicago White Sox a Ganar (Erick Fedde)",
+    "decimalOdds": 1.62,
+    "americanOdds": "-161",
+    "estimatedProb": 0.7,
+    "category": "valor",
+    "categoryLabel": "🚀 Alto Valor +EV (07:40 PM)",
+    "stars": 4,
+    "edgePercent": "+9.5%",
+    "confidenceScore": 90,
+    "reasoning": "Chicago White Sox de local con Erick Fedde en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Detroit Tigers.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Erick Fedde (CHI)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "Framber Valdez (DET)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.43,
+      "marketOdds": 1.62,
+      "evPercent": "+9.5%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre Chicago White Sox. Duelo favorable de abridores y respaldo en casa."
     }
   }
 ];
