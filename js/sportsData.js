@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-17 13:36:08 UTC
+ * Generado automáticamente: 2026-09-17 15:36:06 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -209,8 +209,8 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Mañana",
     "gameTime": "10:15 PM (Hora VE)",
     "isoStartTime": "2026-09-18T22:15:00+00:00",
-    "keyDetail": "Cesar Perdomo vs Por Anunciar",
-    "selection": "Los Angeles Dodgers a Ganar (Por Anunciar)",
+    "keyDetail": "Cesar Perdomo vs Tyler Glasnow",
+    "selection": "Los Angeles Dodgers a Ganar (Tyler Glasnow)",
     "decimalOdds": 1.75,
     "americanOdds": "-208",
     "estimatedProb": 0.77,
@@ -219,11 +219,11 @@ export const TOP_PICKS_OF_THE_DAY = [
     "stars": 5,
     "edgePercent": "+10.8%",
     "confidenceScore": 95,
-    "reasoning": "Los Angeles Dodgers de local con Por Anunciar en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a San Francisco Giants.",
+    "reasoning": "Los Angeles Dodgers de local con Tyler Glasnow en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a San Francisco Giants.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Por Anunciar (LOS)",
+        "name": "Tyler Glasnow (LOS)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
