@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-17 17:36:20 UTC
+ * Generado automáticamente: 2026-09-17 19:36:15 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -295,106 +295,6 @@ export const TOP_PICKS_OF_THE_DAY = [
     }
   },
   {
-    "id": "mlb-api-823334",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Milwaukee Brewers vs Pittsburgh Pirates",
-    "gameDate": "Hoy",
-    "gameTime": "12:35 PM (Hora VE)",
-    "isoStartTime": "2026-09-17T12:35:00+00:00",
-    "keyDetail": "Kyle Harrison vs Wilber Dotel",
-    "selection": "Pittsburgh Pirates a Ganar (Wilber Dotel)",
-    "decimalOdds": 1.62,
-    "americanOdds": "-161",
-    "estimatedProb": 0.7,
-    "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (12:35 PM)",
-    "stars": 4,
-    "edgePercent": "+9.5%",
-    "confidenceScore": 90,
-    "reasoning": "Pittsburgh Pirates de local con Wilber Dotel en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Milwaukee Brewers.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Wilber Dotel (PIT)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Kyle Harrison (MIL)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.43,
-      "marketOdds": 1.62,
-      "evPercent": "+9.5%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Pittsburgh Pirates. Duelo favorable de abridores y respaldo en casa."
-    }
-  },
-  {
-    "id": "mlb-api-824464",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Los Angeles Dodgers vs Cincinnati Reds",
-    "gameDate": "Hoy",
-    "gameTime": "12:40 PM (Hora VE)",
-    "isoStartTime": "2026-09-17T12:40:00+00:00",
-    "keyDetail": "Justin Wrobleski vs Brady Singer",
-    "selection": "Cincinnati Reds a Ganar (Brady Singer)",
-    "decimalOdds": 1.62,
-    "americanOdds": "-161",
-    "estimatedProb": 0.7,
-    "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (12:40 PM)",
-    "stars": 4,
-    "edgePercent": "+9.5%",
-    "confidenceScore": 90,
-    "reasoning": "Cincinnati Reds de local con Brady Singer en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Los Angeles Dodgers.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Brady Singer (CIN)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Justin Wrobleski (LOS)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.43,
-      "marketOdds": 1.62,
-      "evPercent": "+9.5%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Cincinnati Reds. Duelo favorable de abridores y respaldo en casa."
-    }
-  },
-  {
     "id": "mlb-api-822924",
     "sport": "baseball",
     "sportName": "MLB",
@@ -492,6 +392,106 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+9.5%",
       "riskLevel": "Bajo (🟢 Sólido)",
       "recommendation": "Apuesta con ventaja matemática sobre Colorado Rockies. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
+    "id": "mlb-api-824141",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Hoy)",
+    "match": "Kansas City Royals vs Houston Astros",
+    "gameDate": "Hoy",
+    "gameTime": "07:15 PM (Hora VE)",
+    "isoStartTime": "2026-09-17T19:15:00+00:00",
+    "keyDetail": "Seth Lugo vs Miguel Ullola",
+    "selection": "Houston Astros a Ganar (Miguel Ullola)",
+    "decimalOdds": 1.62,
+    "americanOdds": "-161",
+    "estimatedProb": 0.7,
+    "category": "valor",
+    "categoryLabel": "🚀 Alto Valor +EV (07:15 PM)",
+    "stars": 4,
+    "edgePercent": "+9.5%",
+    "confidenceScore": 90,
+    "reasoning": "Houston Astros de local con Miguel Ullola en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Kansas City Royals.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Miguel Ullola (HOU)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "Seth Lugo (KAN)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.43,
+      "marketOdds": 1.62,
+      "evPercent": "+9.5%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre Houston Astros. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
+    "id": "mlb-api-823573",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Hoy)",
+    "match": "Philadelphia Phillies vs New York Mets",
+    "gameDate": "Hoy",
+    "gameTime": "07:15 PM (Hora VE)",
+    "isoStartTime": "2026-09-17T19:15:00+00:00",
+    "keyDetail": "Aaron Nola vs Nolan McLean",
+    "selection": "New York Mets a Ganar (Nolan McLean)",
+    "decimalOdds": 1.62,
+    "americanOdds": "-161",
+    "estimatedProb": 0.7,
+    "category": "valor",
+    "categoryLabel": "🚀 Alto Valor +EV (07:15 PM)",
+    "stars": 4,
+    "edgePercent": "+9.5%",
+    "confidenceScore": 90,
+    "reasoning": "New York Mets de local con Nolan McLean en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Philadelphia Phillies.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Nolan McLean (NEW)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "Aaron Nola (PHI)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.43,
+      "marketOdds": 1.62,
+      "evPercent": "+9.5%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre New York Mets. Duelo favorable de abridores y respaldo en casa."
     }
   }
 ];
