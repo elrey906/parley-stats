@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-18 01:36:29 UTC
+ * Generado automáticamente: 2026-09-18 03:36:29 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -295,30 +295,30 @@ export const TOP_PICKS_OF_THE_DAY = [
     }
   },
   {
-    "id": "mlb-api-824141",
+    "id": "mlb-api-823978",
     "sport": "baseball",
     "sportName": "MLB",
     "sportIcon": "⚾",
     "league": "MLB (Hoy)",
-    "match": "Kansas City Royals vs Houston Astros",
+    "match": "Minnesota Twins vs Los Angeles Angels",
     "gameDate": "Hoy",
-    "gameTime": "07:15 PM (Hora VE)",
-    "isoStartTime": "2026-09-17T19:15:00+00:00",
-    "keyDetail": "Seth Lugo vs Miguel Ullola",
-    "selection": "Houston Astros a Ganar (Miguel Ullola)",
+    "gameTime": "09:38 PM (Hora VE)",
+    "isoStartTime": "2026-09-17T21:38:00+00:00",
+    "keyDetail": "Taj Bradley vs Walbert Ureña",
+    "selection": "Los Angeles Angels a Ganar (Walbert Ureña)",
     "decimalOdds": 1.62,
     "americanOdds": "-161",
     "estimatedProb": 0.7,
     "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (07:15 PM)",
+    "categoryLabel": "🚀 Alto Valor +EV (09:38 PM)",
     "stars": 4,
     "edgePercent": "+9.5%",
     "confidenceScore": 90,
-    "reasoning": "Houston Astros de local con Miguel Ullola en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Kansas City Royals.",
+    "reasoning": "Los Angeles Angels de local con Walbert Ureña en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Minnesota Twins.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Miguel Ullola (HOU)",
+        "name": "Walbert Ureña (LOS)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -326,7 +326,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Seth Lugo (KAN)",
+        "name": "Taj Bradley (MIN)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
@@ -341,34 +341,34 @@ export const TOP_PICKS_OF_THE_DAY = [
       "marketOdds": 1.62,
       "evPercent": "+9.5%",
       "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Houston Astros. Duelo favorable de abridores y respaldo en casa."
+      "recommendation": "Apuesta con ventaja matemática sobre Los Angeles Angels. Duelo favorable de abridores y respaldo en casa."
     }
   },
   {
-    "id": "mlb-api-823573",
+    "id": "mlb-api-824463",
     "sport": "baseball",
     "sportName": "MLB",
     "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Philadelphia Phillies vs New York Mets",
-    "gameDate": "Hoy",
-    "gameTime": "07:15 PM (Hora VE)",
-    "isoStartTime": "2026-09-17T19:15:00+00:00",
-    "keyDetail": "Aaron Nola vs Nolan McLean",
-    "selection": "New York Mets a Ganar (Nolan McLean)",
+    "league": "MLB (Mañana)",
+    "match": "Chicago Cubs vs Cincinnati Reds",
+    "gameDate": "Mañana",
+    "gameTime": "06:40 PM (Hora VE)",
+    "isoStartTime": "2026-09-18T18:40:00+00:00",
+    "keyDetail": "Clay Holmes vs Chase Burns",
+    "selection": "Cincinnati Reds a Ganar (Chase Burns)",
     "decimalOdds": 1.62,
     "americanOdds": "-161",
     "estimatedProb": 0.7,
     "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (07:15 PM)",
+    "categoryLabel": "🚀 Alto Valor +EV (06:40 PM)",
     "stars": 4,
     "edgePercent": "+9.5%",
     "confidenceScore": 90,
-    "reasoning": "New York Mets de local con Nolan McLean en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Philadelphia Phillies.",
+    "reasoning": "Cincinnati Reds de local con Chase Burns en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Chicago Cubs.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Nolan McLean (NEW)",
+        "name": "Chase Burns (CIN)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -376,7 +376,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Aaron Nola (PHI)",
+        "name": "Clay Holmes (CHI)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
@@ -391,34 +391,34 @@ export const TOP_PICKS_OF_THE_DAY = [
       "marketOdds": 1.62,
       "evPercent": "+9.5%",
       "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre New York Mets. Duelo favorable de abridores y respaldo en casa."
+      "recommendation": "Apuesta con ventaja matemática sobre Cincinnati Reds. Duelo favorable de abridores y respaldo en casa."
     }
   },
   {
-    "id": "mlb-api-824548",
+    "id": "mlb-api-823331",
     "sport": "baseball",
     "sportName": "MLB",
     "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Detroit Tigers vs Chicago White Sox",
-    "gameDate": "Hoy",
-    "gameTime": "07:40 PM (Hora VE)",
-    "isoStartTime": "2026-09-17T19:40:00+00:00",
-    "keyDetail": "Framber Valdez vs Erick Fedde",
-    "selection": "Chicago White Sox a Ganar (Erick Fedde)",
+    "league": "MLB (Mañana)",
+    "match": "Kansas City Royals vs Pittsburgh Pirates",
+    "gameDate": "Mañana",
+    "gameTime": "06:40 PM (Hora VE)",
+    "isoStartTime": "2026-09-18T18:40:00+00:00",
+    "keyDetail": "Randy Dobnak vs Paul Skenes",
+    "selection": "Pittsburgh Pirates a Ganar (Paul Skenes)",
     "decimalOdds": 1.62,
     "americanOdds": "-161",
     "estimatedProb": 0.7,
     "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (07:40 PM)",
+    "categoryLabel": "🚀 Alto Valor +EV (06:40 PM)",
     "stars": 4,
     "edgePercent": "+9.5%",
     "confidenceScore": 90,
-    "reasoning": "Chicago White Sox de local con Erick Fedde en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Detroit Tigers.",
+    "reasoning": "Pittsburgh Pirates de local con Paul Skenes en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Kansas City Royals.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Erick Fedde (CHI)",
+        "name": "Paul Skenes (PIT)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -426,7 +426,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Framber Valdez (DET)",
+        "name": "Randy Dobnak (KAN)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
@@ -441,34 +441,34 @@ export const TOP_PICKS_OF_THE_DAY = [
       "marketOdds": 1.62,
       "evPercent": "+9.5%",
       "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Chicago White Sox. Duelo favorable de abridores y respaldo en casa."
+      "recommendation": "Apuesta con ventaja matemática sobre Pittsburgh Pirates. Duelo favorable de abridores y respaldo en casa."
     }
   },
   {
-    "id": "mlb-api-822845",
+    "id": "mlb-api-822923",
     "sport": "baseball",
     "sportName": "MLB",
     "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Boston Red Sox vs Texas Rangers",
-    "gameDate": "Hoy",
-    "gameTime": "08:05 PM (Hora VE)",
-    "isoStartTime": "2026-09-17T20:05:00+00:00",
-    "keyDetail": "Sonny Gray vs Tyler Alexander",
-    "selection": "Texas Rangers a Ganar (Tyler Alexander)",
+    "league": "MLB (Mañana)",
+    "match": "Boston Red Sox vs Tampa Bay Rays",
+    "gameDate": "Mañana",
+    "gameTime": "07:10 PM (Hora VE)",
+    "isoStartTime": "2026-09-18T19:10:00+00:00",
+    "keyDetail": "Ranger Suarez vs Ian Seymour",
+    "selection": "Tampa Bay Rays a Ganar (Ian Seymour)",
     "decimalOdds": 1.62,
     "americanOdds": "-161",
     "estimatedProb": 0.7,
     "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (08:05 PM)",
+    "categoryLabel": "🚀 Alto Valor +EV (07:10 PM)",
     "stars": 4,
     "edgePercent": "+9.5%",
     "confidenceScore": 90,
-    "reasoning": "Texas Rangers de local con Tyler Alexander en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Boston Red Sox.",
+    "reasoning": "Tampa Bay Rays de local con Ian Seymour en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Boston Red Sox.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Tyler Alexander (TEX)",
+        "name": "Ian Seymour (TAM)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -476,7 +476,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Sonny Gray (BOS)",
+        "name": "Ranger Suarez (BOS)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
@@ -491,7 +491,7 @@ export const TOP_PICKS_OF_THE_DAY = [
       "marketOdds": 1.62,
       "evPercent": "+9.5%",
       "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Texas Rangers. Duelo favorable de abridores y respaldo en casa."
+      "recommendation": "Apuesta con ventaja matemática sobre Tampa Bay Rays. Duelo favorable de abridores y respaldo en casa."
     }
   }
 ];
