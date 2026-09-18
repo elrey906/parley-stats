@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-18 15:37:01 UTC
+ * Generado automáticamente: 2026-09-18 17:37:07 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -59,8 +59,8 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Hoy",
     "gameTime": "07:05 PM (Hora VE)",
     "isoStartTime": "2026-09-18T19:05:00+00:00",
-    "keyDetail": "Dustin May vs Por Anunciar",
-    "selection": "Baltimore Orioles a Ganar (Por Anunciar)",
+    "keyDetail": "Dustin May vs Cade Povich",
+    "selection": "Baltimore Orioles a Ganar (Cade Povich)",
     "decimalOdds": 1.75,
     "americanOdds": "-208",
     "estimatedProb": 0.77,
@@ -69,11 +69,11 @@ export const TOP_PICKS_OF_THE_DAY = [
     "stars": 5,
     "edgePercent": "+10.8%",
     "confidenceScore": 95,
-    "reasoning": "Baltimore Orioles de local con Por Anunciar en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Milwaukee Brewers.",
+    "reasoning": "Baltimore Orioles de local con Cade Povich en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Milwaukee Brewers.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Por Anunciar (BAL)",
+        "name": "Cade Povich (BAL)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
