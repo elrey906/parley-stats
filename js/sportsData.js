@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-18 19:37:04 UTC
+ * Generado automáticamente: 2026-09-18 21:37:10 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -259,8 +259,8 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Mañana",
     "gameTime": "04:05 PM (Hora VE)",
     "isoStartTime": "2026-09-19T16:05:00+00:00",
-    "keyDetail": "Robert Gasser vs Por Anunciar",
-    "selection": "Baltimore Orioles a Ganar (Por Anunciar)",
+    "keyDetail": "Robert Gasser vs Trevor Rogers",
+    "selection": "Baltimore Orioles a Ganar (Trevor Rogers)",
     "decimalOdds": 1.75,
     "americanOdds": "-208",
     "estimatedProb": 0.77,
@@ -269,11 +269,11 @@ export const TOP_PICKS_OF_THE_DAY = [
     "stars": 5,
     "edgePercent": "+10.8%",
     "confidenceScore": 95,
-    "reasoning": "Baltimore Orioles de local con Por Anunciar en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Milwaukee Brewers.",
+    "reasoning": "Baltimore Orioles de local con Trevor Rogers en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Milwaukee Brewers.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Por Anunciar (BAL)",
+        "name": "Trevor Rogers (BAL)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
