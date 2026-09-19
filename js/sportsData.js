@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-19 21:38:20 UTC
+ * Generado automáticamente: 2026-09-19 23:38:23 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -47,56 +47,6 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+9.2%",
       "riskLevel": "Bajo (🟢 Base Multideporte)",
       "recommendation": "Excelente base de alta probabilidad para sellar en parley."
-    }
-  },
-  {
-    "id": "mlb-api-824788",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Milwaukee Brewers vs Baltimore Orioles",
-    "gameDate": "Hoy",
-    "gameTime": "04:05 PM (Hora VE)",
-    "isoStartTime": "2026-09-19T16:05:00+00:00",
-    "keyDetail": "Robert Gasser vs Trevor Rogers",
-    "selection": "Baltimore Orioles a Ganar (Trevor Rogers)",
-    "decimalOdds": 1.75,
-    "americanOdds": "-208",
-    "estimatedProb": 0.77,
-    "category": "seguro",
-    "categoryLabel": "💎 Banquero (04:05 PM)",
-    "stars": 5,
-    "edgePercent": "+10.8%",
-    "confidenceScore": 95,
-    "reasoning": "Baltimore Orioles de local con Trevor Rogers en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Milwaukee Brewers.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Trevor Rogers (BAL)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Robert Gasser (MIL)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.54,
-      "marketOdds": 1.75,
-      "evPercent": "+10.8%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Baltimore Orioles. Duelo favorable de abridores y respaldo en casa."
     }
   },
   {
@@ -492,6 +442,56 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+11.2%",
       "riskLevel": "Medio-Bajo (🟡 Gran Cuota +EV)",
       "recommendation": "Francia domina el historial directo y tiene plantel superior en todas las líneas."
+    }
+  },
+  {
+    "id": "mlb-api-824461",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Hoy)",
+    "match": "Chicago Cubs vs Cincinnati Reds",
+    "gameDate": "Hoy",
+    "gameTime": "06:40 PM (Hora VE)",
+    "isoStartTime": "2026-09-19T18:40:00+00:00",
+    "keyDetail": "Matthew Boyd vs Nick Lodolo",
+    "selection": "Cincinnati Reds a Ganar (Nick Lodolo)",
+    "decimalOdds": 1.62,
+    "americanOdds": "-161",
+    "estimatedProb": 0.7,
+    "category": "valor",
+    "categoryLabel": "🚀 Alto Valor +EV (06:40 PM)",
+    "stars": 4,
+    "edgePercent": "+9.5%",
+    "confidenceScore": 90,
+    "reasoning": "Cincinnati Reds de local con Nick Lodolo en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Chicago Cubs.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Nick Lodolo (CIN)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "Matthew Boyd (CHI)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.43,
+      "marketOdds": 1.62,
+      "evPercent": "+9.5%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre Cincinnati Reds. Duelo favorable de abridores y respaldo en casa."
     }
   }
 ];
