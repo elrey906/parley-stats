@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-20 17:39:20 UTC
+ * Generado automáticamente: 2026-09-20 19:39:29 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -109,8 +109,8 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Hoy",
     "gameTime": "04:10 PM (Hora VE)",
     "isoStartTime": "2026-09-20T16:10:00+00:00",
-    "keyDetail": "Matt Wilkinson vs Por Anunciar",
-    "selection": "Los Angeles Dodgers a Ganar (Por Anunciar)",
+    "keyDetail": "Matt Wilkinson vs Jack Dreyer",
+    "selection": "Los Angeles Dodgers a Ganar (Jack Dreyer)",
     "decimalOdds": 1.75,
     "americanOdds": "-208",
     "estimatedProb": 0.77,
@@ -119,11 +119,11 @@ export const TOP_PICKS_OF_THE_DAY = [
     "stars": 5,
     "edgePercent": "+10.8%",
     "confidenceScore": 95,
-    "reasoning": "Los Angeles Dodgers de local con Por Anunciar en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a San Francisco Giants.",
+    "reasoning": "Los Angeles Dodgers de local con Jack Dreyer en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a San Francisco Giants.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Por Anunciar (LOS)",
+        "name": "Jack Dreyer (LOS)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
