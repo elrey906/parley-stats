@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-19 23:38:23 UTC
+ * Generado automáticamente: 2026-09-20 01:38:34 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -47,56 +47,6 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+9.2%",
       "riskLevel": "Bajo (🟢 Base Multideporte)",
       "recommendation": "Excelente base de alta probabilidad para sellar en parley."
-    }
-  },
-  {
-    "id": "mlb-api-824380",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Athletics vs Cleveland Guardians",
-    "gameDate": "Hoy",
-    "gameTime": "06:10 PM (Hora VE)",
-    "isoStartTime": "2026-09-19T18:10:00+00:00",
-    "keyDetail": "Jacob Lopez vs Tanner Bibee",
-    "selection": "Cleveland Guardians a Ganar (Tanner Bibee)",
-    "decimalOdds": 1.75,
-    "americanOdds": "-208",
-    "estimatedProb": 0.77,
-    "category": "seguro",
-    "categoryLabel": "💎 Banquero (06:10 PM)",
-    "stars": 5,
-    "edgePercent": "+10.8%",
-    "confidenceScore": 95,
-    "reasoning": "Cleveland Guardians de local con Tanner Bibee en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Athletics.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Tanner Bibee (CLE)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Jacob Lopez (ATH)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.54,
-      "marketOdds": 1.75,
-      "evPercent": "+10.8%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Cleveland Guardians. Duelo favorable de abridores y respaldo en casa."
     }
   },
   {
@@ -445,30 +395,30 @@ export const TOP_PICKS_OF_THE_DAY = [
     }
   },
   {
-    "id": "mlb-api-824461",
+    "id": "mlb-api-822843",
     "sport": "baseball",
     "sportName": "MLB",
     "sportIcon": "⚾",
     "league": "MLB (Hoy)",
-    "match": "Chicago Cubs vs Cincinnati Reds",
+    "match": "Toronto Blue Jays vs Texas Rangers",
     "gameDate": "Hoy",
-    "gameTime": "06:40 PM (Hora VE)",
-    "isoStartTime": "2026-09-19T18:40:00+00:00",
-    "keyDetail": "Matthew Boyd vs Nick Lodolo",
-    "selection": "Cincinnati Reds a Ganar (Nick Lodolo)",
+    "gameTime": "07:05 PM (Hora VE)",
+    "isoStartTime": "2026-09-19T19:05:00+00:00",
+    "keyDetail": "José Soriano vs Cal Quantrill",
+    "selection": "Texas Rangers a Ganar (Cal Quantrill)",
     "decimalOdds": 1.62,
     "americanOdds": "-161",
     "estimatedProb": 0.7,
     "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (06:40 PM)",
+    "categoryLabel": "🚀 Alto Valor +EV (07:05 PM)",
     "stars": 4,
     "edgePercent": "+9.5%",
     "confidenceScore": 90,
-    "reasoning": "Cincinnati Reds de local con Nick Lodolo en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Chicago Cubs.",
+    "reasoning": "Texas Rangers de local con Cal Quantrill en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Toronto Blue Jays.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Nick Lodolo (CIN)",
+        "name": "Cal Quantrill (TEX)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -476,7 +426,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Matthew Boyd (CHI)",
+        "name": "José Soriano (TOR)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
@@ -491,7 +441,57 @@ export const TOP_PICKS_OF_THE_DAY = [
       "marketOdds": 1.62,
       "evPercent": "+9.5%",
       "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Cincinnati Reds. Duelo favorable de abridores y respaldo en casa."
+      "recommendation": "Apuesta con ventaja matemática sobre Texas Rangers. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
+    "id": "mlb-api-824137",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Hoy)",
+    "match": "Atlanta Braves vs Houston Astros",
+    "gameDate": "Hoy",
+    "gameTime": "07:10 PM (Hora VE)",
+    "isoStartTime": "2026-09-19T19:10:00+00:00",
+    "keyDetail": "Grant Holmes vs Hayden Wesneski",
+    "selection": "Houston Astros a Ganar (Hayden Wesneski)",
+    "decimalOdds": 1.62,
+    "americanOdds": "-161",
+    "estimatedProb": 0.7,
+    "category": "valor",
+    "categoryLabel": "🚀 Alto Valor +EV (07:10 PM)",
+    "stars": 4,
+    "edgePercent": "+9.5%",
+    "confidenceScore": 90,
+    "reasoning": "Houston Astros de local con Hayden Wesneski en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Atlanta Braves.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Hayden Wesneski (HOU)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "Grant Holmes (ATL)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.43,
+      "marketOdds": 1.62,
+      "evPercent": "+9.5%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre Houston Astros. Duelo favorable de abridores y respaldo en casa."
     }
   }
 ];
