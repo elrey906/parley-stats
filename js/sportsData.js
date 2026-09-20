@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-20 21:39:34 UTC
+ * Generado automáticamente: 2026-09-20 23:39:37 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -47,156 +47,6 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+9.2%",
       "riskLevel": "Bajo (🟢 Base Multideporte)",
       "recommendation": "Excelente base de alta probabilidad para sellar en parley."
-    }
-  },
-  {
-    "id": "mlb-api-824381",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Athletics vs Cleveland Guardians",
-    "gameDate": "Hoy",
-    "gameTime": "01:40 PM (Hora VE)",
-    "isoStartTime": "2026-09-20T13:40:00+00:00",
-    "keyDetail": "Jack Perkins vs Gavin Williams",
-    "selection": "Cleveland Guardians a Ganar (Gavin Williams)",
-    "decimalOdds": 1.75,
-    "americanOdds": "-208",
-    "estimatedProb": 0.77,
-    "category": "seguro",
-    "categoryLabel": "💎 Banquero (01:40 PM)",
-    "stars": 5,
-    "edgePercent": "+10.8%",
-    "confidenceScore": 95,
-    "reasoning": "Cleveland Guardians de local con Gavin Williams en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Athletics.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Gavin Williams (CLE)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Jack Perkins (ATH)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.54,
-      "marketOdds": 1.75,
-      "evPercent": "+10.8%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Cleveland Guardians. Duelo favorable de abridores y respaldo en casa."
-    }
-  },
-  {
-    "id": "mlb-api-823896",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "San Francisco Giants vs Los Angeles Dodgers",
-    "gameDate": "Hoy",
-    "gameTime": "04:10 PM (Hora VE)",
-    "isoStartTime": "2026-09-20T16:10:00+00:00",
-    "keyDetail": "Matt Wilkinson vs Jack Dreyer",
-    "selection": "Los Angeles Dodgers a Ganar (Jack Dreyer)",
-    "decimalOdds": 1.75,
-    "americanOdds": "-208",
-    "estimatedProb": 0.77,
-    "category": "seguro",
-    "categoryLabel": "💎 Banquero (04:10 PM)",
-    "stars": 5,
-    "edgePercent": "+10.8%",
-    "confidenceScore": 95,
-    "reasoning": "Los Angeles Dodgers de local con Jack Dreyer en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a San Francisco Giants.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Jack Dreyer (LOS)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Matt Wilkinson (SAN)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.54,
-      "marketOdds": 1.75,
-      "evPercent": "+10.8%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Los Angeles Dodgers. Duelo favorable de abridores y respaldo en casa."
-    }
-  },
-  {
-    "id": "mlb-api-823247",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Miami Marlins vs San Diego Padres",
-    "gameDate": "Hoy",
-    "gameTime": "04:10 PM (Hora VE)",
-    "isoStartTime": "2026-09-20T16:10:00+00:00",
-    "keyDetail": "Sandy Alcantara vs Walker Buehler",
-    "selection": "San Diego Padres a Ganar (Walker Buehler)",
-    "decimalOdds": 1.75,
-    "americanOdds": "-208",
-    "estimatedProb": 0.77,
-    "category": "seguro",
-    "categoryLabel": "💎 Banquero (04:10 PM)",
-    "stars": 5,
-    "edgePercent": "+10.8%",
-    "confidenceScore": 95,
-    "reasoning": "San Diego Padres de local con Walker Buehler en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Miami Marlins.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Walker Buehler (SAN)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Sandy Alcantara (MIA)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.54,
-      "marketOdds": 1.75,
-      "evPercent": "+10.8%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre San Diego Padres. Duelo favorable de abridores y respaldo en casa."
     }
   },
   {
@@ -259,8 +109,8 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Mañana",
     "gameTime": "06:35 PM (Hora VE)",
     "isoStartTime": "2026-09-21T18:35:00+00:00",
-    "keyDetail": "Trey Yesavage vs Por Anunciar",
-    "selection": "Baltimore Orioles a Ganar (Por Anunciar)",
+    "keyDetail": "Trey Yesavage vs Shane Baz",
+    "selection": "Baltimore Orioles a Ganar (Shane Baz)",
     "decimalOdds": 1.75,
     "americanOdds": "-208",
     "estimatedProb": 0.77,
@@ -269,11 +119,11 @@ export const TOP_PICKS_OF_THE_DAY = [
     "stars": 5,
     "edgePercent": "+10.8%",
     "confidenceScore": 95,
-    "reasoning": "Baltimore Orioles de local con Por Anunciar en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Toronto Blue Jays.",
+    "reasoning": "Baltimore Orioles de local con Shane Baz en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Toronto Blue Jays.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Por Anunciar (BAL)",
+        "name": "Shane Baz (BAL)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -395,30 +245,30 @@ export const TOP_PICKS_OF_THE_DAY = [
     }
   },
   {
-    "id": "mlb-api-824300",
+    "id": "mlb-api-824221",
     "sport": "baseball",
     "sportName": "MLB",
     "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Seattle Mariners vs Colorado Rockies",
-    "gameDate": "Hoy",
-    "gameTime": "03:10 PM (Hora VE)",
-    "isoStartTime": "2026-09-20T15:10:00+00:00",
-    "keyDetail": "Kade Anderson vs Tomoyuki Sugano",
-    "selection": "Colorado Rockies a Ganar (Tomoyuki Sugano)",
+    "league": "MLB (Mañana)",
+    "match": "Washington Nationals vs Detroit Tigers",
+    "gameDate": "Mañana",
+    "gameTime": "06:40 PM (Hora VE)",
+    "isoStartTime": "2026-09-21T18:40:00+00:00",
+    "keyDetail": "Por Anunciar vs River Ryan",
+    "selection": "Detroit Tigers a Ganar (River Ryan)",
     "decimalOdds": 1.62,
     "americanOdds": "-161",
     "estimatedProb": 0.7,
     "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (03:10 PM)",
+    "categoryLabel": "🚀 Alto Valor +EV (06:40 PM)",
     "stars": 4,
     "edgePercent": "+9.5%",
     "confidenceScore": 90,
-    "reasoning": "Colorado Rockies de local con Tomoyuki Sugano en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Seattle Mariners.",
+    "reasoning": "Detroit Tigers de local con River Ryan en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Washington Nationals.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Tomoyuki Sugano (COL)",
+        "name": "River Ryan (DET)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -426,7 +276,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Kade Anderson (SEA)",
+        "name": "Por Anunciar (WAS)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
@@ -441,34 +291,34 @@ export const TOP_PICKS_OF_THE_DAY = [
       "marketOdds": 1.62,
       "evPercent": "+9.5%",
       "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Colorado Rockies. Duelo favorable de abridores y respaldo en casa."
+      "recommendation": "Apuesta con ventaja matemática sobre Detroit Tigers. Duelo favorable de abridores y respaldo en casa."
     }
   },
   {
-    "id": "mlb-api-823975",
+    "id": "mlb-api-823169",
     "sport": "baseball",
     "sportName": "MLB",
     "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Minnesota Twins vs Los Angeles Angels",
-    "gameDate": "Hoy",
-    "gameTime": "04:07 PM (Hora VE)",
-    "isoStartTime": "2026-09-20T16:07:00+00:00",
-    "keyDetail": "Dean Kremer vs Ryan Johnson",
-    "selection": "Los Angeles Angels a Ganar (Ryan Johnson)",
+    "league": "MLB (Mañana)",
+    "match": "Minnesota Twins vs San Francisco Giants",
+    "gameDate": "Mañana",
+    "gameTime": "09:45 PM (Hora VE)",
+    "isoStartTime": "2026-09-21T21:45:00+00:00",
+    "keyDetail": "Zebby Matthews vs Blade Tidwell",
+    "selection": "San Francisco Giants a Ganar (Blade Tidwell)",
     "decimalOdds": 1.62,
     "americanOdds": "-161",
     "estimatedProb": 0.7,
     "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (04:07 PM)",
+    "categoryLabel": "🚀 Alto Valor +EV (09:45 PM)",
     "stars": 4,
     "edgePercent": "+9.5%",
     "confidenceScore": 90,
-    "reasoning": "Los Angeles Angels de local con Ryan Johnson en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Minnesota Twins.",
+    "reasoning": "San Francisco Giants de local con Blade Tidwell en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Minnesota Twins.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Ryan Johnson (LOS)",
+        "name": "Blade Tidwell (SAN)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -476,7 +326,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Dean Kremer (MIN)",
+        "name": "Zebby Matthews (MIN)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
@@ -491,7 +341,7 @@ export const TOP_PICKS_OF_THE_DAY = [
       "marketOdds": 1.62,
       "evPercent": "+9.5%",
       "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Los Angeles Angels. Duelo favorable de abridores y respaldo en casa."
+      "recommendation": "Apuesta con ventaja matemática sobre San Francisco Giants. Duelo favorable de abridores y respaldo en casa."
     }
   }
 ];
