@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-20 19:39:29 UTC
+ * Generado automáticamente: 2026-09-20 21:39:34 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -345,30 +345,30 @@ export const TOP_PICKS_OF_THE_DAY = [
     }
   },
   {
-    "id": "mlb-api-823570",
+    "id": "mlb-api-824546",
     "sport": "baseball",
     "sportName": "MLB",
     "sportIcon": "⚾",
     "league": "MLB (Hoy)",
-    "match": "Philadelphia Phillies vs New York Mets",
+    "match": "Detroit Tigers vs Chicago White Sox",
     "gameDate": "Hoy",
-    "gameTime": "01:10 PM (Hora VE)",
-    "isoStartTime": "2026-09-20T13:10:00+00:00",
-    "keyDetail": "Cristopher Sánchez vs Jonah Tong",
-    "selection": "New York Mets a Ganar (Jonah Tong)",
+    "gameTime": "02:10 PM (Hora VE)",
+    "isoStartTime": "2026-09-20T14:10:00+00:00",
+    "keyDetail": "Troy Melton vs Davis Martin",
+    "selection": "Chicago White Sox a Ganar (Davis Martin)",
     "decimalOdds": 1.62,
     "americanOdds": "-161",
     "estimatedProb": 0.7,
     "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (01:10 PM)",
+    "categoryLabel": "🚀 Alto Valor +EV (02:10 PM)",
     "stars": 4,
     "edgePercent": "+9.5%",
     "confidenceScore": 90,
-    "reasoning": "New York Mets de local con Jonah Tong en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Philadelphia Phillies.",
+    "reasoning": "Chicago White Sox de local con Davis Martin en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Detroit Tigers.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Jonah Tong (NEW)",
+        "name": "Davis Martin (CHI)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -376,7 +376,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Cristopher Sánchez (PHI)",
+        "name": "Troy Melton (DET)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
@@ -391,34 +391,34 @@ export const TOP_PICKS_OF_THE_DAY = [
       "marketOdds": 1.62,
       "evPercent": "+9.5%",
       "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre New York Mets. Duelo favorable de abridores y respaldo en casa."
+      "recommendation": "Apuesta con ventaja matemática sobre Chicago White Sox. Duelo favorable de abridores y respaldo en casa."
     }
   },
   {
-    "id": "mlb-api-823329",
+    "id": "mlb-api-824300",
     "sport": "baseball",
     "sportName": "MLB",
     "sportIcon": "⚾",
     "league": "MLB (Hoy)",
-    "match": "Kansas City Royals vs Pittsburgh Pirates",
+    "match": "Seattle Mariners vs Colorado Rockies",
     "gameDate": "Hoy",
-    "gameTime": "01:35 PM (Hora VE)",
-    "isoStartTime": "2026-09-20T13:35:00+00:00",
-    "keyDetail": "Michael Wacha vs Lake Bachar",
-    "selection": "Pittsburgh Pirates a Ganar (Lake Bachar)",
+    "gameTime": "03:10 PM (Hora VE)",
+    "isoStartTime": "2026-09-20T15:10:00+00:00",
+    "keyDetail": "Kade Anderson vs Tomoyuki Sugano",
+    "selection": "Colorado Rockies a Ganar (Tomoyuki Sugano)",
     "decimalOdds": 1.62,
     "americanOdds": "-161",
     "estimatedProb": 0.7,
     "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (01:35 PM)",
+    "categoryLabel": "🚀 Alto Valor +EV (03:10 PM)",
     "stars": 4,
     "edgePercent": "+9.5%",
     "confidenceScore": 90,
-    "reasoning": "Pittsburgh Pirates de local con Lake Bachar en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Kansas City Royals.",
+    "reasoning": "Colorado Rockies de local con Tomoyuki Sugano en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Seattle Mariners.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Lake Bachar (PIT)",
+        "name": "Tomoyuki Sugano (COL)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -426,7 +426,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Michael Wacha (KAN)",
+        "name": "Kade Anderson (SEA)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
@@ -441,34 +441,34 @@ export const TOP_PICKS_OF_THE_DAY = [
       "marketOdds": 1.62,
       "evPercent": "+9.5%",
       "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Pittsburgh Pirates. Duelo favorable de abridores y respaldo en casa."
+      "recommendation": "Apuesta con ventaja matemática sobre Colorado Rockies. Duelo favorable de abridores y respaldo en casa."
     }
   },
   {
-    "id": "mlb-api-824462",
+    "id": "mlb-api-823975",
     "sport": "baseball",
     "sportName": "MLB",
     "sportIcon": "⚾",
     "league": "MLB (Hoy)",
-    "match": "Chicago Cubs vs Cincinnati Reds",
+    "match": "Minnesota Twins vs Los Angeles Angels",
     "gameDate": "Hoy",
-    "gameTime": "01:40 PM (Hora VE)",
-    "isoStartTime": "2026-09-20T13:40:00+00:00",
-    "keyDetail": "David Peterson vs Rhett Lowder",
-    "selection": "Cincinnati Reds a Ganar (Rhett Lowder)",
+    "gameTime": "04:07 PM (Hora VE)",
+    "isoStartTime": "2026-09-20T16:07:00+00:00",
+    "keyDetail": "Dean Kremer vs Ryan Johnson",
+    "selection": "Los Angeles Angels a Ganar (Ryan Johnson)",
     "decimalOdds": 1.62,
     "americanOdds": "-161",
     "estimatedProb": 0.7,
     "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (01:40 PM)",
+    "categoryLabel": "🚀 Alto Valor +EV (04:07 PM)",
     "stars": 4,
     "edgePercent": "+9.5%",
     "confidenceScore": 90,
-    "reasoning": "Cincinnati Reds de local con Rhett Lowder en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Chicago Cubs.",
+    "reasoning": "Los Angeles Angels de local con Ryan Johnson en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Minnesota Twins.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Rhett Lowder (CIN)",
+        "name": "Ryan Johnson (LOS)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -476,7 +476,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "David Peterson (CHI)",
+        "name": "Dean Kremer (MIN)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
@@ -491,7 +491,7 @@ export const TOP_PICKS_OF_THE_DAY = [
       "marketOdds": 1.62,
       "evPercent": "+9.5%",
       "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Cincinnati Reds. Duelo favorable de abridores y respaldo en casa."
+      "recommendation": "Apuesta con ventaja matemática sobre Los Angeles Angels. Duelo favorable de abridores y respaldo en casa."
     }
   }
 ];
