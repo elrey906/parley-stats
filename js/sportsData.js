@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-20 01:38:34 UTC
+ * Generado automáticamente: 2026-09-20 03:38:37 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -395,30 +395,30 @@ export const TOP_PICKS_OF_THE_DAY = [
     }
   },
   {
-    "id": "mlb-api-822843",
+    "id": "mlb-api-823976",
     "sport": "baseball",
     "sportName": "MLB",
     "sportIcon": "⚾",
     "league": "MLB (Hoy)",
-    "match": "Toronto Blue Jays vs Texas Rangers",
+    "match": "Minnesota Twins vs Los Angeles Angels",
     "gameDate": "Hoy",
-    "gameTime": "07:05 PM (Hora VE)",
-    "isoStartTime": "2026-09-19T19:05:00+00:00",
-    "keyDetail": "José Soriano vs Cal Quantrill",
-    "selection": "Texas Rangers a Ganar (Cal Quantrill)",
+    "gameTime": "09:38 PM (Hora VE)",
+    "isoStartTime": "2026-09-19T21:38:00+00:00",
+    "keyDetail": "Joe Ryan vs Reid Detmers",
+    "selection": "Los Angeles Angels a Ganar (Reid Detmers)",
     "decimalOdds": 1.62,
     "americanOdds": "-161",
     "estimatedProb": 0.7,
     "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (07:05 PM)",
+    "categoryLabel": "🚀 Alto Valor +EV (09:38 PM)",
     "stars": 4,
     "edgePercent": "+9.5%",
     "confidenceScore": 90,
-    "reasoning": "Texas Rangers de local con Cal Quantrill en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Toronto Blue Jays.",
+    "reasoning": "Los Angeles Angels de local con Reid Detmers en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Minnesota Twins.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Cal Quantrill (TEX)",
+        "name": "Reid Detmers (LOS)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -426,7 +426,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "José Soriano (TOR)",
+        "name": "Joe Ryan (MIN)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
@@ -441,34 +441,34 @@ export const TOP_PICKS_OF_THE_DAY = [
       "marketOdds": 1.62,
       "evPercent": "+9.5%",
       "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Texas Rangers. Duelo favorable de abridores y respaldo en casa."
+      "recommendation": "Apuesta con ventaja matemática sobre Los Angeles Angels. Duelo favorable de abridores y respaldo en casa."
     }
   },
   {
-    "id": "mlb-api-824137",
+    "id": "mlb-api-823570",
     "sport": "baseball",
     "sportName": "MLB",
     "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Atlanta Braves vs Houston Astros",
-    "gameDate": "Hoy",
-    "gameTime": "07:10 PM (Hora VE)",
-    "isoStartTime": "2026-09-19T19:10:00+00:00",
-    "keyDetail": "Grant Holmes vs Hayden Wesneski",
-    "selection": "Houston Astros a Ganar (Hayden Wesneski)",
+    "league": "MLB (Mañana)",
+    "match": "Philadelphia Phillies vs New York Mets",
+    "gameDate": "Mañana",
+    "gameTime": "01:10 PM (Hora VE)",
+    "isoStartTime": "2026-09-20T13:10:00+00:00",
+    "keyDetail": "Cristopher Sánchez vs Jonah Tong",
+    "selection": "New York Mets a Ganar (Jonah Tong)",
     "decimalOdds": 1.62,
     "americanOdds": "-161",
     "estimatedProb": 0.7,
     "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (07:10 PM)",
+    "categoryLabel": "🚀 Alto Valor +EV (01:10 PM)",
     "stars": 4,
     "edgePercent": "+9.5%",
     "confidenceScore": 90,
-    "reasoning": "Houston Astros de local con Hayden Wesneski en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Atlanta Braves.",
+    "reasoning": "New York Mets de local con Jonah Tong en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Philadelphia Phillies.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Hayden Wesneski (HOU)",
+        "name": "Jonah Tong (NEW)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -476,7 +476,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Grant Holmes (ATL)",
+        "name": "Cristopher Sánchez (PHI)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
@@ -491,7 +491,7 @@ export const TOP_PICKS_OF_THE_DAY = [
       "marketOdds": 1.62,
       "evPercent": "+9.5%",
       "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Houston Astros. Duelo favorable de abridores y respaldo en casa."
+      "recommendation": "Apuesta con ventaja matemática sobre New York Mets. Duelo favorable de abridores y respaldo en casa."
     }
   }
 ];
