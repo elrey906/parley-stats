@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-20 23:39:37 UTC
+ * Generado automáticamente: 2026-09-21 01:39:46 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -195,56 +195,6 @@ export const TOP_PICKS_OF_THE_DAY = [
     }
   },
   {
-    "id": "mlb-api-824546",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Detroit Tigers vs Chicago White Sox",
-    "gameDate": "Hoy",
-    "gameTime": "02:10 PM (Hora VE)",
-    "isoStartTime": "2026-09-20T14:10:00+00:00",
-    "keyDetail": "Troy Melton vs Davis Martin",
-    "selection": "Chicago White Sox a Ganar (Davis Martin)",
-    "decimalOdds": 1.62,
-    "americanOdds": "-161",
-    "estimatedProb": 0.7,
-    "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (02:10 PM)",
-    "stars": 4,
-    "edgePercent": "+9.5%",
-    "confidenceScore": 90,
-    "reasoning": "Chicago White Sox de local con Davis Martin en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Detroit Tigers.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Davis Martin (CHI)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Troy Melton (DET)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.43,
-      "marketOdds": 1.62,
-      "evPercent": "+9.5%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Chicago White Sox. Duelo favorable de abridores y respaldo en casa."
-    }
-  },
-  {
     "id": "mlb-api-824221",
     "sport": "baseball",
     "sportName": "MLB",
@@ -254,7 +204,7 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Mañana",
     "gameTime": "06:40 PM (Hora VE)",
     "isoStartTime": "2026-09-21T18:40:00+00:00",
-    "keyDetail": "Por Anunciar vs River Ryan",
+    "keyDetail": "DJ Herz vs River Ryan",
     "selection": "Detroit Tigers a Ganar (River Ryan)",
     "decimalOdds": 1.62,
     "americanOdds": "-161",
@@ -276,7 +226,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Por Anunciar (WAS)",
+        "name": "DJ Herz (WAS)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
