@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-22 20:40:25 UTC
+ * Generado automáticamente: 2026-09-22 22:40:37 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -209,8 +209,8 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Hoy",
     "gameTime": "10:10 PM (Hora VE)",
     "isoStartTime": "2026-09-22T22:10:00+00:00",
-    "keyDetail": "Michael King vs Por Anunciar",
-    "selection": "Los Angeles Dodgers a Ganar (Por Anunciar)",
+    "keyDetail": "Michael King vs Brock Stewart",
+    "selection": "Los Angeles Dodgers a Ganar (Brock Stewart)",
     "decimalOdds": 1.75,
     "americanOdds": "-208",
     "estimatedProb": 0.77,
@@ -219,11 +219,11 @@ export const TOP_PICKS_OF_THE_DAY = [
     "stars": 5,
     "edgePercent": "+10.8%",
     "confidenceScore": 95,
-    "reasoning": "Los Angeles Dodgers de local con Por Anunciar en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a San Diego Padres.",
+    "reasoning": "Los Angeles Dodgers de local con Brock Stewart en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a San Diego Padres.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Por Anunciar (LOS)",
+        "name": "Brock Stewart (LOS)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -309,8 +309,8 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Mañana",
     "gameTime": "01:35 PM (Hora VE)",
     "isoStartTime": "2026-09-23T13:35:00+00:00",
-    "keyDetail": "Por Anunciar vs Chris Bassitt",
-    "selection": "Baltimore Orioles a Ganar (Chris Bassitt)",
+    "keyDetail": "Max Scherzer vs Por Anunciar",
+    "selection": "Baltimore Orioles a Ganar (Por Anunciar)",
     "decimalOdds": 1.75,
     "americanOdds": "-208",
     "estimatedProb": 0.77,
@@ -319,11 +319,11 @@ export const TOP_PICKS_OF_THE_DAY = [
     "stars": 5,
     "edgePercent": "+10.8%",
     "confidenceScore": 95,
-    "reasoning": "Baltimore Orioles de local con Chris Bassitt en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Toronto Blue Jays.",
+    "reasoning": "Baltimore Orioles de local con Por Anunciar en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Toronto Blue Jays.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Chris Bassitt (BAL)",
+        "name": "Por Anunciar (BAL)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -331,7 +331,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Por Anunciar (TOR)",
+        "name": "Max Scherzer (TOR)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
