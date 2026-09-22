@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-21 23:40:30 UTC
+ * Generado automáticamente: 2026-09-22 03:04:03 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -47,56 +47,6 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+9.2%",
       "riskLevel": "Bajo (🟢 Base Multideporte)",
       "recommendation": "Excelente base de alta probabilidad para sellar en parley."
-    }
-  },
-  {
-    "id": "mlb-api-824787",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Toronto Blue Jays vs Baltimore Orioles",
-    "gameDate": "Hoy",
-    "gameTime": "06:35 PM (Hora VE)",
-    "isoStartTime": "2026-09-21T18:35:00+00:00",
-    "keyDetail": "Trey Yesavage vs Shane Baz",
-    "selection": "Baltimore Orioles a Ganar (Shane Baz)",
-    "decimalOdds": 1.75,
-    "americanOdds": "-208",
-    "estimatedProb": 0.77,
-    "category": "seguro",
-    "categoryLabel": "💎 Banquero (06:35 PM)",
-    "stars": 5,
-    "edgePercent": "+10.8%",
-    "confidenceScore": 95,
-    "reasoning": "Baltimore Orioles de local con Shane Baz en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Toronto Blue Jays.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Shane Baz (BAL)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Trey Yesavage (TOR)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.54,
-      "marketOdds": 1.75,
-      "evPercent": "+10.8%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Baltimore Orioles. Duelo favorable de abridores y respaldo en casa."
     }
   },
   {
@@ -445,17 +395,67 @@ export const TOP_PICKS_OF_THE_DAY = [
     }
   },
   {
-    "id": "mlb-api-824221",
+    "id": "mlb-api-823169",
     "sport": "baseball",
     "sportName": "MLB",
     "sportIcon": "⚾",
     "league": "MLB (Hoy)",
-    "match": "Washington Nationals vs Detroit Tigers",
+    "match": "Minnesota Twins vs San Francisco Giants",
     "gameDate": "Hoy",
+    "gameTime": "09:45 PM (Hora VE)",
+    "isoStartTime": "2026-09-21T21:45:00+00:00",
+    "keyDetail": "Zebby Matthews vs Blade Tidwell",
+    "selection": "San Francisco Giants a Ganar (Blade Tidwell)",
+    "decimalOdds": 1.62,
+    "americanOdds": "-161",
+    "estimatedProb": 0.7,
+    "category": "valor",
+    "categoryLabel": "🚀 Alto Valor +EV (09:45 PM)",
+    "stars": 4,
+    "edgePercent": "+9.5%",
+    "confidenceScore": 90,
+    "reasoning": "San Francisco Giants de local con Blade Tidwell en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Minnesota Twins.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Blade Tidwell (SAN)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "Zebby Matthews (MIN)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.43,
+      "marketOdds": 1.62,
+      "evPercent": "+9.5%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre San Francisco Giants. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
+    "id": "mlb-api-824222",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Mañana)",
+    "match": "Washington Nationals vs Detroit Tigers",
+    "gameDate": "Mañana",
     "gameTime": "06:40 PM (Hora VE)",
-    "isoStartTime": "2026-09-21T18:40:00+00:00",
-    "keyDetail": "DJ Herz vs River Ryan",
-    "selection": "Detroit Tigers a Ganar (River Ryan)",
+    "isoStartTime": "2026-09-22T18:40:00+00:00",
+    "keyDetail": "Jackson Kent vs Drew Anderson",
+    "selection": "Detroit Tigers a Ganar (Drew Anderson)",
     "decimalOdds": 1.62,
     "americanOdds": "-161",
     "estimatedProb": 0.7,
@@ -464,11 +464,11 @@ export const TOP_PICKS_OF_THE_DAY = [
     "stars": 4,
     "edgePercent": "+9.5%",
     "confidenceScore": 90,
-    "reasoning": "Detroit Tigers de local con River Ryan en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Washington Nationals.",
+    "reasoning": "Detroit Tigers de local con Drew Anderson en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Washington Nationals.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "River Ryan (DET)",
+        "name": "Drew Anderson (DET)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -476,7 +476,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "DJ Herz (WAS)",
+        "name": "Jackson Kent (WAS)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
