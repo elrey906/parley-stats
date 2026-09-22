@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-22 14:40:12 UTC
+ * Generado automáticamente: 2026-09-22 16:40:21 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -459,7 +459,7 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Mañana",
     "gameTime": "07:05 PM (Hora VE)",
     "isoStartTime": "2026-09-23T19:05:00+00:00",
-    "keyDetail": "Por Anunciar vs Gerrit Cole",
+    "keyDetail": "Ian Seymour vs Gerrit Cole",
     "selection": "New York Yankees a Ganar (Gerrit Cole)",
     "decimalOdds": 1.75,
     "americanOdds": "-208",
@@ -481,7 +481,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Por Anunciar (TAM)",
+        "name": "Ian Seymour (TAM)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
