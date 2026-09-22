@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-22 18:40:24 UTC
+ * Generado automáticamente: 2026-09-22 20:40:25 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -47,56 +47,6 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+9.2%",
       "riskLevel": "Bajo (🟢 Base Multideporte)",
       "recommendation": "Excelente base de alta probabilidad para sellar en parley."
-    }
-  },
-  {
-    "id": "mlb-api-823543",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Tampa Bay Rays vs New York Yankees",
-    "gameDate": "Hoy",
-    "gameTime": "01:05 PM (Hora VE)",
-    "isoStartTime": "2026-09-22T13:05:00+00:00",
-    "keyDetail": "Nick Martinez vs Carlos Rodón",
-    "selection": "New York Yankees a Ganar (Carlos Rodón)",
-    "decimalOdds": 1.75,
-    "americanOdds": "-208",
-    "estimatedProb": 0.77,
-    "category": "seguro",
-    "categoryLabel": "💎 Banquero (01:05 PM)",
-    "stars": 5,
-    "edgePercent": "+10.8%",
-    "confidenceScore": 95,
-    "reasoning": "New York Yankees de local con Carlos Rodón en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Tampa Bay Rays.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Carlos Rodón (NEW)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Nick Martinez (TAM)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.54,
-      "marketOdds": 1.75,
-      "evPercent": "+10.8%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre New York Yankees. Duelo favorable de abridores y respaldo en casa."
     }
   },
   {
@@ -359,8 +309,8 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Mañana",
     "gameTime": "01:35 PM (Hora VE)",
     "isoStartTime": "2026-09-23T13:35:00+00:00",
-    "keyDetail": "Por Anunciar vs Por Anunciar",
-    "selection": "Baltimore Orioles a Ganar (Por Anunciar)",
+    "keyDetail": "Por Anunciar vs Chris Bassitt",
+    "selection": "Baltimore Orioles a Ganar (Chris Bassitt)",
     "decimalOdds": 1.75,
     "americanOdds": "-208",
     "estimatedProb": 0.77,
@@ -369,11 +319,11 @@ export const TOP_PICKS_OF_THE_DAY = [
     "stars": 5,
     "edgePercent": "+10.8%",
     "confidenceScore": 95,
-    "reasoning": "Baltimore Orioles de local con Por Anunciar en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Toronto Blue Jays.",
+    "reasoning": "Baltimore Orioles de local con Chris Bassitt en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Toronto Blue Jays.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Por Anunciar (BAL)",
+        "name": "Chris Bassitt (BAL)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -497,6 +447,56 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+10.8%",
       "riskLevel": "Bajo (🟢 Sólido)",
       "recommendation": "Apuesta con ventaja matemática sobre Philadelphia Phillies. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
+    "id": "mlb-api-823492",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Mañana)",
+    "match": "Tampa Bay Rays vs New York Yankees",
+    "gameDate": "Mañana",
+    "gameTime": "07:05 PM (Hora VE)",
+    "isoStartTime": "2026-09-23T19:05:00+00:00",
+    "keyDetail": "Ian Seymour vs Gerrit Cole",
+    "selection": "New York Yankees a Ganar (Gerrit Cole)",
+    "decimalOdds": 1.75,
+    "americanOdds": "-208",
+    "estimatedProb": 0.77,
+    "category": "seguro",
+    "categoryLabel": "💎 Banquero (07:05 PM)",
+    "stars": 5,
+    "edgePercent": "+10.8%",
+    "confidenceScore": 95,
+    "reasoning": "New York Yankees de local con Gerrit Cole en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Tampa Bay Rays.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Gerrit Cole (NEW)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "Ian Seymour (TAM)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.54,
+      "marketOdds": 1.75,
+      "evPercent": "+10.8%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre New York Yankees. Duelo favorable de abridores y respaldo en casa."
     }
   }
 ];
