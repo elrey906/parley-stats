@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-23 18:41:08 UTC
+ * Generado automáticamente: 2026-09-23 20:41:12 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -50,56 +50,6 @@ export const TOP_PICKS_OF_THE_DAY = [
     }
   },
   {
-    "id": "mlb-api-824785",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Toronto Blue Jays vs Baltimore Orioles",
-    "gameDate": "Hoy",
-    "gameTime": "01:35 PM (Hora VE)",
-    "isoStartTime": "2026-09-23T13:35:00+00:00",
-    "keyDetail": "Max Scherzer vs Chris Bassitt",
-    "selection": "Baltimore Orioles a Ganar (Chris Bassitt)",
-    "decimalOdds": 1.75,
-    "americanOdds": "-208",
-    "estimatedProb": 0.77,
-    "category": "seguro",
-    "categoryLabel": "💎 Banquero (01:35 PM)",
-    "stars": 5,
-    "edgePercent": "+10.8%",
-    "confidenceScore": 95,
-    "reasoning": "Baltimore Orioles de local con Chris Bassitt en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Toronto Blue Jays.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Chris Bassitt (BAL)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Max Scherzer (TOR)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.54,
-      "marketOdds": 1.75,
-      "evPercent": "+10.8%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Baltimore Orioles. Duelo favorable de abridores y respaldo en casa."
-    }
-  },
-  {
     "id": "mlb-api-824784",
     "sport": "baseball",
     "sportName": "MLB",
@@ -109,8 +59,8 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Hoy",
     "gameTime": "06:35 PM (Hora VE)",
     "isoStartTime": "2026-09-23T18:35:00+00:00",
-    "keyDetail": "Por Anunciar vs Por Anunciar",
-    "selection": "Baltimore Orioles a Ganar (Por Anunciar)",
+    "keyDetail": "Por Anunciar vs Trey Gibson",
+    "selection": "Baltimore Orioles a Ganar (Trey Gibson)",
     "decimalOdds": 1.75,
     "americanOdds": "-208",
     "estimatedProb": 0.77,
@@ -119,11 +69,11 @@ export const TOP_PICKS_OF_THE_DAY = [
     "stars": 5,
     "edgePercent": "+10.8%",
     "confidenceScore": 95,
-    "reasoning": "Baltimore Orioles de local con Por Anunciar en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Toronto Blue Jays.",
+    "reasoning": "Baltimore Orioles de local con Trey Gibson en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Toronto Blue Jays.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Por Anunciar (BAL)",
+        "name": "Trey Gibson (BAL)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -497,6 +447,56 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+10.8%",
       "riskLevel": "Bajo (🟢 Sólido)",
       "recommendation": "Apuesta con ventaja matemática sobre New York Yankees. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
+    "id": "mlb-api-823895",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Mañana)",
+    "match": "San Diego Padres vs Los Angeles Dodgers",
+    "gameDate": "Mañana",
+    "gameTime": "10:10 PM (Hora VE)",
+    "isoStartTime": "2026-09-24T22:10:00+00:00",
+    "keyDetail": "Nick Pivetta vs Tyler Glasnow",
+    "selection": "Los Angeles Dodgers a Ganar (Tyler Glasnow)",
+    "decimalOdds": 1.75,
+    "americanOdds": "-208",
+    "estimatedProb": 0.77,
+    "category": "seguro",
+    "categoryLabel": "💎 Banquero (10:10 PM)",
+    "stars": 5,
+    "edgePercent": "+10.8%",
+    "confidenceScore": 95,
+    "reasoning": "Los Angeles Dodgers de local con Tyler Glasnow en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a San Diego Padres.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Tyler Glasnow (LOS)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "Nick Pivetta (SAN)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.54,
+      "marketOdds": 1.75,
+      "evPercent": "+10.8%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre Los Angeles Dodgers. Duelo favorable de abridores y respaldo en casa."
     }
   }
 ];
