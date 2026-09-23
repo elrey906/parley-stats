@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-23 12:40:59 UTC
+ * Generado automáticamente: 2026-09-23 14:40:55 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -59,8 +59,8 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Hoy",
     "gameTime": "01:35 PM (Hora VE)",
     "isoStartTime": "2026-09-23T13:35:00+00:00",
-    "keyDetail": "Max Scherzer vs Por Anunciar",
-    "selection": "Baltimore Orioles a Ganar (Por Anunciar)",
+    "keyDetail": "Max Scherzer vs Chris Bassitt",
+    "selection": "Baltimore Orioles a Ganar (Chris Bassitt)",
     "decimalOdds": 1.75,
     "americanOdds": "-208",
     "estimatedProb": 0.77,
@@ -69,11 +69,11 @@ export const TOP_PICKS_OF_THE_DAY = [
     "stars": 5,
     "edgePercent": "+10.8%",
     "confidenceScore": 95,
-    "reasoning": "Baltimore Orioles de local con Por Anunciar en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Toronto Blue Jays.",
+    "reasoning": "Baltimore Orioles de local con Chris Bassitt en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Toronto Blue Jays.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Por Anunciar (BAL)",
+        "name": "Chris Bassitt (BAL)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
