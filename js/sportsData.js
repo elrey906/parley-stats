@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-23 20:41:12 UTC
+ * Generado automáticamente: 2026-09-23 22:41:17 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -59,7 +59,7 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Hoy",
     "gameTime": "06:35 PM (Hora VE)",
     "isoStartTime": "2026-09-23T18:35:00+00:00",
-    "keyDetail": "Por Anunciar vs Trey Gibson",
+    "keyDetail": "CJ Van Eyk vs Trey Gibson",
     "selection": "Baltimore Orioles a Ganar (Trey Gibson)",
     "decimalOdds": 1.75,
     "americanOdds": "-208",
@@ -81,7 +81,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Por Anunciar (TOR)",
+        "name": "CJ Van Eyk (TOR)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
@@ -359,8 +359,8 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Mañana",
     "gameTime": "06:05 PM (Hora VE)",
     "isoStartTime": "2026-09-24T18:05:00+00:00",
-    "keyDetail": "Por Anunciar vs Por Anunciar",
-    "selection": "Philadelphia Phillies a Ganar (Por Anunciar)",
+    "keyDetail": "Por Anunciar vs Andrew Painter",
+    "selection": "Philadelphia Phillies a Ganar (Andrew Painter)",
     "decimalOdds": 1.75,
     "americanOdds": "-208",
     "estimatedProb": 0.77,
@@ -369,11 +369,11 @@ export const TOP_PICKS_OF_THE_DAY = [
     "stars": 5,
     "edgePercent": "+10.8%",
     "confidenceScore": 95,
-    "reasoning": "Philadelphia Phillies de local con Por Anunciar en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Milwaukee Brewers.",
+    "reasoning": "Philadelphia Phillies de local con Andrew Painter en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Milwaukee Brewers.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Por Anunciar (PHI)",
+        "name": "Andrew Painter (PHI)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -409,7 +409,7 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Mañana",
     "gameTime": "07:05 PM (Hora VE)",
     "isoStartTime": "2026-09-24T19:05:00+00:00",
-    "keyDetail": "Freddy Peralta vs Cam Schlittler",
+    "keyDetail": "Ian Seymour vs Cam Schlittler",
     "selection": "New York Yankees a Ganar (Cam Schlittler)",
     "decimalOdds": 1.75,
     "americanOdds": "-208",
@@ -431,7 +431,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Freddy Peralta (TAM)",
+        "name": "Ian Seymour (TAM)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
