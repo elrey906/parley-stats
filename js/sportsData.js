@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-24 12:41:57 UTC
+ * Generado automáticamente: 2026-09-24 14:42:05 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -109,7 +109,7 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Hoy",
     "gameTime": "06:05 PM (Hora VE)",
     "isoStartTime": "2026-09-24T18:05:00+00:00",
-    "keyDetail": "Bryse Wilson vs Andrew Painter",
+    "keyDetail": "Por Anunciar vs Andrew Painter",
     "selection": "Philadelphia Phillies a Ganar (Andrew Painter)",
     "decimalOdds": 1.75,
     "americanOdds": "-208",
@@ -131,7 +131,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Bryse Wilson (MIL)",
+        "name": "Por Anunciar (MIL)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
