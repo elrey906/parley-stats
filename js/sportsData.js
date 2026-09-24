@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-24 14:42:05 UTC
+ * Generado automáticamente: 2026-09-24 16:42:11 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -359,8 +359,8 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Mañana",
     "gameTime": "07:40 PM (Hora VE)",
     "isoStartTime": "2026-09-25T19:40:00+00:00",
-    "keyDetail": "Por Anunciar vs Por Anunciar",
-    "selection": "Kansas City Royals a Ganar (Por Anunciar)",
+    "keyDetail": "Por Anunciar vs Noah Cameron",
+    "selection": "Kansas City Royals a Ganar (Noah Cameron)",
     "decimalOdds": 1.75,
     "americanOdds": "-208",
     "estimatedProb": 0.77,
@@ -369,11 +369,11 @@ export const TOP_PICKS_OF_THE_DAY = [
     "stars": 5,
     "edgePercent": "+10.8%",
     "confidenceScore": 95,
-    "reasoning": "Kansas City Royals de local con Por Anunciar en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Cleveland Guardians.",
+    "reasoning": "Kansas City Royals de local con Noah Cameron en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Cleveland Guardians.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Por Anunciar (KAN)",
+        "name": "Noah Cameron (KAN)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
