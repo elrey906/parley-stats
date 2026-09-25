@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-25 00:42:34 UTC
+ * Generado automáticamente: 2026-09-25 02:42:34 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -47,106 +47,6 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+9.2%",
       "riskLevel": "Bajo (🟢 Base Multideporte)",
       "recommendation": "Excelente base de alta probabilidad para sellar en parley."
-    }
-  },
-  {
-    "id": "mlb-api-823411",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Milwaukee Brewers vs Philadelphia Phillies",
-    "gameDate": "Hoy",
-    "gameTime": "06:05 PM (Hora VE)",
-    "isoStartTime": "2026-09-24T18:05:00+00:00",
-    "keyDetail": "Shane Drohan vs Andrew Painter",
-    "selection": "Philadelphia Phillies a Ganar (Andrew Painter)",
-    "decimalOdds": 1.75,
-    "americanOdds": "-208",
-    "estimatedProb": 0.77,
-    "category": "seguro",
-    "categoryLabel": "💎 Banquero (06:05 PM)",
-    "stars": 5,
-    "edgePercent": "+10.8%",
-    "confidenceScore": 95,
-    "reasoning": "Philadelphia Phillies de local con Andrew Painter en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Milwaukee Brewers.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Andrew Painter (PHI)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Shane Drohan (MIL)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.54,
-      "marketOdds": 1.75,
-      "evPercent": "+10.8%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Philadelphia Phillies. Duelo favorable de abridores y respaldo en casa."
-    }
-  },
-  {
-    "id": "mlb-api-823493",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Tampa Bay Rays vs New York Yankees",
-    "gameDate": "Hoy",
-    "gameTime": "07:05 PM (Hora VE)",
-    "isoStartTime": "2026-09-24T19:05:00+00:00",
-    "keyDetail": "Ian Seymour vs Cam Schlittler",
-    "selection": "New York Yankees a Ganar (Cam Schlittler)",
-    "decimalOdds": 1.75,
-    "americanOdds": "-208",
-    "estimatedProb": 0.77,
-    "category": "seguro",
-    "categoryLabel": "💎 Banquero (07:05 PM)",
-    "stars": 5,
-    "edgePercent": "+10.8%",
-    "confidenceScore": 95,
-    "reasoning": "New York Yankees de local con Cam Schlittler en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Tampa Bay Rays.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Cam Schlittler (NEW)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Ian Seymour (TAM)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.54,
-      "marketOdds": 1.75,
-      "evPercent": "+10.8%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre New York Yankees. Duelo favorable de abridores y respaldo en casa."
     }
   },
   {
@@ -497,6 +397,101 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+10.8%",
       "riskLevel": "Bajo (🟢 Sólido)",
       "recommendation": "Apuesta con ventaja matemática sobre San Diego Padres. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
+    "id": "soc-francia-mon",
+    "sport": "soccer",
+    "sportName": "Fútbol",
+    "sportIcon": "⚽",
+    "league": "UEFA Nations League",
+    "match": "Francia vs Bélgica",
+    "gameDate": "Lunes 07 Sep",
+    "gameTime": "2:45 PM (Hora VE)",
+    "isoStartTime": "2026-09-07T14:45:00-04:00",
+    "keyDetail": "Groupama Stadium (Lyon)",
+    "selection": "Francia a Ganar",
+    "decimalOdds": 1.72,
+    "americanOdds": "-139",
+    "estimatedProb": 0.69,
+    "category": "valor",
+    "categoryLabel": "🚀 Duelo Élite Europa (2:45 PM)",
+    "stars": 5,
+    "edgePercent": "+11.2%",
+    "confidenceScore": 92,
+    "reasoning": "Kylian Mbappé, Ousmane Dembélé y Antoine Griezmann en Lyon. Bélgica llega sin Romelu Lukaku y con serios problemas defensivos.",
+    "analysis": {
+      "type": "soccer",
+      "teamFavorite": {
+        "name": "Francia (Local)",
+        "xg": "2.10",
+        "goalsAvg": "2.3 p/p",
+        "streak": "G-G-P-G-G",
+        "cleanSheetProb": "55%"
+      },
+      "teamUnderdog": {
+        "name": "Bélgica (Visitante)",
+        "xg": "1.05",
+        "goalsAvg": "1.2 p/p",
+        "streak": "P-E-G-P-P",
+        "cleanSheetProb": "18%"
+      },
+      "keyFactors": "Superioridad física y velocidad en transiciones de Mbappé frente a centrales de Bélgica.",
+      "fairOdds": 1.45,
+      "marketOdds": 1.72,
+      "evPercent": "+11.2%",
+      "riskLevel": "Medio-Bajo (🟡 Gran Cuota +EV)",
+      "recommendation": "Francia domina el historial directo y tiene plantel superior en todas las líneas."
+    }
+  },
+  {
+    "id": "mlb-api-824950",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Hoy)",
+    "match": "Houston Astros vs Athletics",
+    "gameDate": "Hoy",
+    "gameTime": "09:40 PM (Hora VE)",
+    "isoStartTime": "2026-09-24T21:40:00+00:00",
+    "keyDetail": "Peter Lambert vs Mason Barnett",
+    "selection": "Athletics a Ganar (Mason Barnett)",
+    "decimalOdds": 1.62,
+    "americanOdds": "-161",
+    "estimatedProb": 0.7,
+    "category": "valor",
+    "categoryLabel": "🚀 Alto Valor +EV (09:40 PM)",
+    "stars": 4,
+    "edgePercent": "+9.5%",
+    "confidenceScore": 90,
+    "reasoning": "Athletics de local con Mason Barnett en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Houston Astros.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Mason Barnett (ATH)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "Peter Lambert (HOU)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.43,
+      "marketOdds": 1.62,
+      "evPercent": "+9.5%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre Athletics. Duelo favorable de abridores y respaldo en casa."
     }
   }
 ];
