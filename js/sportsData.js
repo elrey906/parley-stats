@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-25 20:57:05 UTC
+ * Generado automáticamente: 2026-09-25 22:57:08 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -47,56 +47,6 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+9.2%",
       "riskLevel": "Bajo (🟢 Base Multideporte)",
       "recommendation": "Excelente base de alta probabilidad para sellar en parley."
-    }
-  },
-  {
-    "id": "mlb-api-823491",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Baltimore Orioles vs New York Yankees",
-    "gameDate": "Hoy",
-    "gameTime": "04:05 PM (Hora VE)",
-    "isoStartTime": "2026-09-25T16:05:00+00:00",
-    "keyDetail": "Trevor Rogers vs Brendan Beck",
-    "selection": "New York Yankees a Ganar (Brendan Beck)",
-    "decimalOdds": 1.75,
-    "americanOdds": "-208",
-    "estimatedProb": 0.77,
-    "category": "seguro",
-    "categoryLabel": "💎 Banquero (04:05 PM)",
-    "stars": 5,
-    "edgePercent": "+10.8%",
-    "confidenceScore": 95,
-    "reasoning": "New York Yankees de local con Brendan Beck en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Baltimore Orioles.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Brendan Beck (NEW)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Trevor Rogers (BAL)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.54,
-      "marketOdds": 1.75,
-      "evPercent": "+10.8%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre New York Yankees. Duelo favorable de abridores y respaldo en casa."
     }
   },
   {
@@ -309,8 +259,8 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Hoy",
     "gameTime": "09:40 PM (Hora VE)",
     "isoStartTime": "2026-09-25T21:40:00+00:00",
-    "keyDetail": "Brandon Pfaadt vs Por Anunciar",
-    "selection": "San Diego Padres a Ganar (Por Anunciar)",
+    "keyDetail": "Brandon Pfaadt vs Casey Mize",
+    "selection": "San Diego Padres a Ganar (Casey Mize)",
     "decimalOdds": 1.75,
     "americanOdds": "-208",
     "estimatedProb": 0.77,
@@ -319,11 +269,11 @@ export const TOP_PICKS_OF_THE_DAY = [
     "stars": 5,
     "edgePercent": "+10.8%",
     "confidenceScore": 95,
-    "reasoning": "San Diego Padres de local con Por Anunciar en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Arizona Diamondbacks.",
+    "reasoning": "San Diego Padres de local con Casey Mize en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Arizona Diamondbacks.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Por Anunciar (SAN)",
+        "name": "Casey Mize (SAN)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -497,6 +447,56 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+10.8%",
       "riskLevel": "Bajo (🟢 Sólido)",
       "recommendation": "Apuesta con ventaja matemática sobre Philadelphia Phillies. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
+    "id": "mlb-api-823245",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Mañana)",
+    "match": "Arizona Diamondbacks vs San Diego Padres",
+    "gameDate": "Mañana",
+    "gameTime": "08:40 PM (Hora VE)",
+    "isoStartTime": "2026-09-26T20:40:00+00:00",
+    "keyDetail": "Corbin Burnes vs Walker Buehler",
+    "selection": "San Diego Padres a Ganar (Walker Buehler)",
+    "decimalOdds": 1.75,
+    "americanOdds": "-208",
+    "estimatedProb": 0.77,
+    "category": "seguro",
+    "categoryLabel": "💎 Banquero (08:40 PM)",
+    "stars": 5,
+    "edgePercent": "+10.8%",
+    "confidenceScore": 95,
+    "reasoning": "San Diego Padres de local con Walker Buehler en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Arizona Diamondbacks.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Walker Buehler (SAN)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "Corbin Burnes (ARI)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.54,
+      "marketOdds": 1.75,
+      "evPercent": "+10.8%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre San Diego Padres. Duelo favorable de abridores y respaldo en casa."
     }
   }
 ];
