@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-24 22:42:37 UTC
+ * Generado automáticamente: 2026-09-25 00:42:34 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -209,7 +209,7 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Mañana",
     "gameTime": "04:05 PM (Hora VE)",
     "isoStartTime": "2026-09-25T16:05:00+00:00",
-    "keyDetail": "Por Anunciar vs Por Anunciar",
+    "keyDetail": "Trevor Rogers vs Por Anunciar",
     "selection": "New York Yankees a Ganar (Por Anunciar)",
     "decimalOdds": 1.75,
     "americanOdds": "-208",
@@ -231,7 +231,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Por Anunciar (BAL)",
+        "name": "Trevor Rogers (BAL)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
@@ -259,7 +259,7 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Mañana",
     "gameTime": "04:10 PM (Hora VE)",
     "isoStartTime": "2026-09-25T16:10:00+00:00",
-    "keyDetail": "Por Anunciar vs Por Anunciar",
+    "keyDetail": "Brandon Young vs Por Anunciar",
     "selection": "New York Yankees a Ganar (Por Anunciar)",
     "decimalOdds": 1.75,
     "americanOdds": "-208",
@@ -281,7 +281,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Por Anunciar (BAL)",
+        "name": "Brandon Young (BAL)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
