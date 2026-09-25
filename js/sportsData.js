@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-25 04:42:44 UTC
+ * Generado automáticamente: 2026-09-25 14:56:57 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -50,7 +50,7 @@ export const TOP_PICKS_OF_THE_DAY = [
     }
   },
   {
-    "id": "mlb-api-823489",
+    "id": "mlb-api-823491",
     "sport": "baseball",
     "sportName": "MLB",
     "sportIcon": "⚾",
@@ -59,8 +59,8 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Hoy",
     "gameTime": "04:05 PM (Hora VE)",
     "isoStartTime": "2026-09-25T16:05:00+00:00",
-    "keyDetail": "Trevor Rogers vs Brendan Beck",
-    "selection": "New York Yankees a Ganar (Brendan Beck)",
+    "keyDetail": "Brandon Young vs Por Anunciar",
+    "selection": "New York Yankees a Ganar (Por Anunciar)",
     "decimalOdds": 1.75,
     "americanOdds": "-208",
     "estimatedProb": 0.77,
@@ -69,11 +69,11 @@ export const TOP_PICKS_OF_THE_DAY = [
     "stars": 5,
     "edgePercent": "+10.8%",
     "confidenceScore": 95,
-    "reasoning": "New York Yankees de local con Brendan Beck en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Baltimore Orioles.",
+    "reasoning": "New York Yankees de local con Por Anunciar en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Baltimore Orioles.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Brendan Beck (NEW)",
+        "name": "Por Anunciar (NEW)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -81,7 +81,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Trevor Rogers (BAL)",
+        "name": "Brandon Young (BAL)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
@@ -100,7 +100,7 @@ export const TOP_PICKS_OF_THE_DAY = [
     }
   },
   {
-    "id": "mlb-api-823491",
+    "id": "mlb-api-823489",
     "sport": "baseball",
     "sportName": "MLB",
     "sportIcon": "⚾",
@@ -109,8 +109,8 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Hoy",
     "gameTime": "04:10 PM (Hora VE)",
     "isoStartTime": "2026-09-25T16:10:00+00:00",
-    "keyDetail": "Brandon Young vs Por Anunciar",
-    "selection": "New York Yankees a Ganar (Por Anunciar)",
+    "keyDetail": "Trevor Rogers vs Brendan Beck",
+    "selection": "New York Yankees a Ganar (Brendan Beck)",
     "decimalOdds": 1.75,
     "americanOdds": "-208",
     "estimatedProb": 0.77,
@@ -119,11 +119,11 @@ export const TOP_PICKS_OF_THE_DAY = [
     "stars": 5,
     "edgePercent": "+10.8%",
     "confidenceScore": 95,
-    "reasoning": "New York Yankees de local con Por Anunciar en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Baltimore Orioles.",
+    "reasoning": "New York Yankees de local con Brendan Beck en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Baltimore Orioles.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Por Anunciar (NEW)",
+        "name": "Brendan Beck (NEW)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -131,7 +131,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Brandon Young (BAL)",
+        "name": "Trevor Rogers (BAL)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
