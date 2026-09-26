@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-26 18:58:01 UTC
+ * Generado automáticamente: 2026-09-26 20:58:09 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -159,8 +159,8 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Hoy",
     "gameTime": "07:15 PM (Hora VE)",
     "isoStartTime": "2026-09-26T19:15:00+00:00",
-    "keyDetail": "Griffin Jax vs Por Anunciar",
-    "selection": "Philadelphia Phillies a Ganar (Por Anunciar)",
+    "keyDetail": "Griffin Jax vs Aaron Nola",
+    "selection": "Philadelphia Phillies a Ganar (Aaron Nola)",
     "decimalOdds": 1.75,
     "americanOdds": "-208",
     "estimatedProb": 0.77,
@@ -169,11 +169,11 @@ export const TOP_PICKS_OF_THE_DAY = [
     "stars": 5,
     "edgePercent": "+10.8%",
     "confidenceScore": 95,
-    "reasoning": "Philadelphia Phillies de local con Por Anunciar en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Tampa Bay Rays.",
+    "reasoning": "Philadelphia Phillies de local con Aaron Nola en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Tampa Bay Rays.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Por Anunciar (PHI)",
+        "name": "Aaron Nola (PHI)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -247,6 +247,56 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+10.8%",
       "riskLevel": "Bajo (🟢 Sólido)",
       "recommendation": "Apuesta con ventaja matemática sobre San Diego Padres. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
+    "id": "mlb-api-823490",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Mañana)",
+    "match": "Baltimore Orioles vs New York Yankees",
+    "gameDate": "Mañana",
+    "gameTime": "01:05 PM (Hora VE)",
+    "isoStartTime": "2026-09-27T13:05:00+00:00",
+    "keyDetail": "Shane Baz vs Elmer Rodríguez",
+    "selection": "New York Yankees a Ganar (Elmer Rodríguez)",
+    "decimalOdds": 1.75,
+    "americanOdds": "-208",
+    "estimatedProb": 0.77,
+    "category": "seguro",
+    "categoryLabel": "💎 Banquero (01:05 PM)",
+    "stars": 5,
+    "edgePercent": "+10.8%",
+    "confidenceScore": 95,
+    "reasoning": "New York Yankees de local con Elmer Rodríguez en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Baltimore Orioles.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Elmer Rodríguez (NEW)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "Shane Baz (BAL)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.54,
+      "marketOdds": 1.75,
+      "evPercent": "+10.8%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre New York Yankees. Duelo favorable de abridores y respaldo en casa."
     }
   },
   {
@@ -447,56 +497,6 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+10.8%",
       "riskLevel": "Bajo (🟢 Sólido)",
       "recommendation": "Apuesta con ventaja matemática sobre Milwaukee Brewers. Duelo favorable de abridores y respaldo en casa."
-    }
-  },
-  {
-    "id": "mlb-api-823490",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Mañana)",
-    "match": "Baltimore Orioles vs New York Yankees",
-    "gameDate": "Mañana",
-    "gameTime": "03:20 PM (Hora VE)",
-    "isoStartTime": "2026-09-27T15:20:00+00:00",
-    "keyDetail": "Shane Baz vs Elmer Rodríguez",
-    "selection": "New York Yankees a Ganar (Elmer Rodríguez)",
-    "decimalOdds": 1.75,
-    "americanOdds": "-208",
-    "estimatedProb": 0.77,
-    "category": "seguro",
-    "categoryLabel": "💎 Banquero (03:20 PM)",
-    "stars": 5,
-    "edgePercent": "+10.8%",
-    "confidenceScore": 95,
-    "reasoning": "New York Yankees de local con Elmer Rodríguez en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Baltimore Orioles.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Elmer Rodríguez (NEW)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Shane Baz (BAL)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.54,
-      "marketOdds": 1.75,
-      "evPercent": "+10.8%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre New York Yankees. Duelo favorable de abridores y respaldo en casa."
     }
   }
 ];
