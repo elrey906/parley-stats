@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-25 22:57:08 UTC
+ * Generado automáticamente: 2026-09-26 00:57:12 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -59,8 +59,8 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Hoy",
     "gameTime": "04:10 PM (Hora VE)",
     "isoStartTime": "2026-09-25T16:10:00+00:00",
-    "keyDetail": "Brandon Young vs Por Anunciar",
-    "selection": "New York Yankees a Ganar (Por Anunciar)",
+    "keyDetail": "Brandon Young vs Ryan Yarbrough",
+    "selection": "New York Yankees a Ganar (Ryan Yarbrough)",
     "decimalOdds": 1.75,
     "americanOdds": "-208",
     "estimatedProb": 0.77,
@@ -69,11 +69,11 @@ export const TOP_PICKS_OF_THE_DAY = [
     "stars": 5,
     "edgePercent": "+10.8%",
     "confidenceScore": 95,
-    "reasoning": "New York Yankees de local con Por Anunciar en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Baltimore Orioles.",
+    "reasoning": "New York Yankees de local con Ryan Yarbrough en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Baltimore Orioles.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Por Anunciar (NEW)",
+        "name": "Ryan Yarbrough (NEW)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -459,7 +459,7 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Mañana",
     "gameTime": "08:40 PM (Hora VE)",
     "isoStartTime": "2026-09-26T20:40:00+00:00",
-    "keyDetail": "Corbin Burnes vs Walker Buehler",
+    "keyDetail": "Por Anunciar vs Walker Buehler",
     "selection": "San Diego Padres a Ganar (Walker Buehler)",
     "decimalOdds": 1.75,
     "americanOdds": "-208",
@@ -481,7 +481,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Corbin Burnes (ARI)",
+        "name": "Por Anunciar (ARI)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
