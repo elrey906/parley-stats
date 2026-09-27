@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-27 14:59:03 UTC
+ * Generado automáticamente: 2026-09-27 16:59:05 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -107,15 +107,15 @@ export const TOP_PICKS_OF_THE_DAY = [
     "league": "MLB (Hoy)",
     "match": "Tampa Bay Rays vs Philadelphia Phillies",
     "gameDate": "Hoy",
-    "gameTime": "03:05 PM (Hora VE)",
-    "isoStartTime": "2026-09-27T15:05:00+00:00",
+    "gameTime": "02:30 PM (Hora VE)",
+    "isoStartTime": "2026-09-27T14:30:00+00:00",
     "keyDetail": "Nick Martinez vs Zack Wheeler",
     "selection": "Philadelphia Phillies a Ganar (Zack Wheeler)",
     "decimalOdds": 1.75,
     "americanOdds": "-208",
     "estimatedProb": 0.77,
     "category": "seguro",
-    "categoryLabel": "💎 Banquero (03:05 PM)",
+    "categoryLabel": "💎 Banquero (02:30 PM)",
     "stars": 5,
     "edgePercent": "+10.8%",
     "confidenceScore": 95,
@@ -404,8 +404,8 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Hoy",
     "gameTime": "03:05 PM (Hora VE)",
     "isoStartTime": "2026-09-27T15:05:00+00:00",
-    "keyDetail": "Shota Imanaga vs Por Anunciar",
-    "selection": "Boston Red Sox a Ganar (Por Anunciar)",
+    "keyDetail": "Shota Imanaga vs Tanner Houck",
+    "selection": "Boston Red Sox a Ganar (Tanner Houck)",
     "decimalOdds": 1.62,
     "americanOdds": "-161",
     "estimatedProb": 0.7,
@@ -414,11 +414,11 @@ export const TOP_PICKS_OF_THE_DAY = [
     "stars": 4,
     "edgePercent": "+9.5%",
     "confidenceScore": 90,
-    "reasoning": "Boston Red Sox de local con Por Anunciar en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Chicago Cubs.",
+    "reasoning": "Boston Red Sox de local con Tanner Houck en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Chicago Cubs.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Por Anunciar (BOS)",
+        "name": "Tanner Houck (BOS)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
