@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-27 10:58:50 UTC
+ * Generado automáticamente: 2026-09-27 12:58:54 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -404,7 +404,7 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Hoy",
     "gameTime": "03:05 PM (Hora VE)",
     "isoStartTime": "2026-09-27T15:05:00+00:00",
-    "keyDetail": "Por Anunciar vs Por Anunciar",
+    "keyDetail": "Shota Imanaga vs Por Anunciar",
     "selection": "Boston Red Sox a Ganar (Por Anunciar)",
     "decimalOdds": 1.62,
     "americanOdds": "-161",
@@ -426,7 +426,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Por Anunciar (CHI)",
+        "name": "Shota Imanaga (CHI)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
