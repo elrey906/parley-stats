@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-27 00:58:27 UTC
+ * Generado automáticamente: 2026-09-27 02:58:34 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -47,106 +47,6 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+9.2%",
       "riskLevel": "Bajo (🟢 Base Multideporte)",
       "recommendation": "Excelente base de alta probabilidad para sellar en parley."
-    }
-  },
-  {
-    "id": "mlb-api-824057",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Cleveland Guardians vs Kansas City Royals",
-    "gameDate": "Hoy",
-    "gameTime": "07:10 PM (Hora VE)",
-    "isoStartTime": "2026-09-26T19:10:00+00:00",
-    "keyDetail": "Tanner Bibee vs Michael Wacha",
-    "selection": "Kansas City Royals a Ganar (Michael Wacha)",
-    "decimalOdds": 1.75,
-    "americanOdds": "-208",
-    "estimatedProb": 0.77,
-    "category": "seguro",
-    "categoryLabel": "💎 Banquero (07:10 PM)",
-    "stars": 5,
-    "edgePercent": "+10.8%",
-    "confidenceScore": 95,
-    "reasoning": "Kansas City Royals de local con Michael Wacha en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Cleveland Guardians.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Michael Wacha (KAN)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Tanner Bibee (CLE)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.54,
-      "marketOdds": 1.75,
-      "evPercent": "+10.8%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Kansas City Royals. Duelo favorable de abridores y respaldo en casa."
-    }
-  },
-  {
-    "id": "mlb-api-823733",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "St. Louis Cardinals vs Milwaukee Brewers",
-    "gameDate": "Hoy",
-    "gameTime": "07:10 PM (Hora VE)",
-    "isoStartTime": "2026-09-26T19:10:00+00:00",
-    "keyDetail": "Quinn Mathews vs Dustin May",
-    "selection": "Milwaukee Brewers a Ganar (Dustin May)",
-    "decimalOdds": 1.75,
-    "americanOdds": "-208",
-    "estimatedProb": 0.77,
-    "category": "seguro",
-    "categoryLabel": "💎 Banquero (07:10 PM)",
-    "stars": 5,
-    "edgePercent": "+10.8%",
-    "confidenceScore": 95,
-    "reasoning": "Milwaukee Brewers de local con Dustin May en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a St. Louis Cardinals.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Dustin May (MIL)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Quinn Mathews (ST.)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.54,
-      "marketOdds": 1.75,
-      "evPercent": "+10.8%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Milwaukee Brewers. Duelo favorable de abridores y respaldo en casa."
     }
   },
   {
@@ -497,6 +397,101 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+10.8%",
       "riskLevel": "Bajo (🟢 Sólido)",
       "recommendation": "Apuesta con ventaja matemática sobre Milwaukee Brewers. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
+    "id": "soc-francia-mon",
+    "sport": "soccer",
+    "sportName": "Fútbol",
+    "sportIcon": "⚽",
+    "league": "UEFA Nations League",
+    "match": "Francia vs Bélgica",
+    "gameDate": "Lunes 07 Sep",
+    "gameTime": "2:45 PM (Hora VE)",
+    "isoStartTime": "2026-09-07T14:45:00-04:00",
+    "keyDetail": "Groupama Stadium (Lyon)",
+    "selection": "Francia a Ganar",
+    "decimalOdds": 1.72,
+    "americanOdds": "-139",
+    "estimatedProb": 0.69,
+    "category": "valor",
+    "categoryLabel": "🚀 Duelo Élite Europa (2:45 PM)",
+    "stars": 5,
+    "edgePercent": "+11.2%",
+    "confidenceScore": 92,
+    "reasoning": "Kylian Mbappé, Ousmane Dembélé y Antoine Griezmann en Lyon. Bélgica llega sin Romelu Lukaku y con serios problemas defensivos.",
+    "analysis": {
+      "type": "soccer",
+      "teamFavorite": {
+        "name": "Francia (Local)",
+        "xg": "2.10",
+        "goalsAvg": "2.3 p/p",
+        "streak": "G-G-P-G-G",
+        "cleanSheetProb": "55%"
+      },
+      "teamUnderdog": {
+        "name": "Bélgica (Visitante)",
+        "xg": "1.05",
+        "goalsAvg": "1.2 p/p",
+        "streak": "P-E-G-P-P",
+        "cleanSheetProb": "18%"
+      },
+      "keyFactors": "Superioridad física y velocidad en transiciones de Mbappé frente a centrales de Bélgica.",
+      "fairOdds": 1.45,
+      "marketOdds": 1.72,
+      "evPercent": "+11.2%",
+      "riskLevel": "Medio-Bajo (🟡 Gran Cuota +EV)",
+      "recommendation": "Francia domina el historial directo y tiene plantel superior en todas las líneas."
+    }
+  },
+  {
+    "id": "mlb-api-824949",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Hoy)",
+    "match": "Houston Astros vs Athletics",
+    "gameDate": "Hoy",
+    "gameTime": "09:40 PM (Hora VE)",
+    "isoStartTime": "2026-09-26T21:40:00+00:00",
+    "keyDetail": "Hayden Wesneski vs Jack Perkins",
+    "selection": "Athletics a Ganar (Jack Perkins)",
+    "decimalOdds": 1.62,
+    "americanOdds": "-161",
+    "estimatedProb": 0.7,
+    "category": "valor",
+    "categoryLabel": "🚀 Alto Valor +EV (09:40 PM)",
+    "stars": 4,
+    "edgePercent": "+9.5%",
+    "confidenceScore": 90,
+    "reasoning": "Athletics de local con Jack Perkins en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Houston Astros.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Jack Perkins (ATH)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "Hayden Wesneski (HOU)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.43,
+      "marketOdds": 1.62,
+      "evPercent": "+9.5%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre Athletics. Duelo favorable de abridores y respaldo en casa."
     }
   }
 ];
