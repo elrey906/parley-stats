@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-27 04:58:30 UTC
+ * Generado automáticamente: 2026-09-27 06:58:37 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -209,8 +209,8 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Hoy",
     "gameTime": "03:10 PM (Hora VE)",
     "isoStartTime": "2026-09-27T15:10:00+00:00",
-    "keyDetail": "Michael Soroka vs Por Anunciar",
-    "selection": "San Diego Padres a Ganar (Por Anunciar)",
+    "keyDetail": "Michael Soroka vs Randy Vásquez",
+    "selection": "San Diego Padres a Ganar (Randy Vásquez)",
     "decimalOdds": 1.75,
     "americanOdds": "-208",
     "estimatedProb": 0.77,
@@ -219,11 +219,11 @@ export const TOP_PICKS_OF_THE_DAY = [
     "stars": 5,
     "edgePercent": "+10.8%",
     "confidenceScore": 95,
-    "reasoning": "San Diego Padres de local con Por Anunciar en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Arizona Diamondbacks.",
+    "reasoning": "San Diego Padres de local con Randy Vásquez en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Arizona Diamondbacks.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Por Anunciar (SAN)",
+        "name": "Randy Vásquez (SAN)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -454,7 +454,7 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Hoy",
     "gameTime": "03:05 PM (Hora VE)",
     "isoStartTime": "2026-09-27T15:05:00+00:00",
-    "keyDetail": "Por Anunciar vs Seth Johnson",
+    "keyDetail": "Peter Lambert vs Seth Johnson",
     "selection": "Athletics a Ganar (Seth Johnson)",
     "decimalOdds": 1.62,
     "americanOdds": "-161",
@@ -476,7 +476,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Por Anunciar (HOU)",
+        "name": "Peter Lambert (HOU)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
