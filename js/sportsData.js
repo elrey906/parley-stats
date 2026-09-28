@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-28 03:04:16 UTC
+ * Generado automáticamente: 2026-09-28 05:04:23 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -50,30 +50,30 @@ export const TOP_PICKS_OF_THE_DAY = [
     }
   },
   {
-    "id": "mlb-api-823490",
+    "id": "mlb-api-849851",
     "sport": "baseball",
     "sportName": "MLB",
     "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Baltimore Orioles vs New York Yankees",
-    "gameDate": "Hoy",
-    "gameTime": "01:05 PM (Hora VE)",
-    "isoStartTime": "2026-09-27T13:05:00+00:00",
-    "keyDetail": "Shane Baz vs Elmer Rodríguez",
-    "selection": "New York Yankees a Ganar (Elmer Rodríguez)",
+    "league": "MLB (Mañana)",
+    "match": "Boston Red Sox vs New York Yankees",
+    "gameDate": "Mañana",
+    "gameTime": "08:00 PM (Hora VE)",
+    "isoStartTime": "2026-09-29T20:00:00+00:00",
+    "keyDetail": "Por Anunciar vs Cam Schlittler",
+    "selection": "New York Yankees a Ganar (Cam Schlittler)",
     "decimalOdds": 1.75,
     "americanOdds": "-208",
     "estimatedProb": 0.77,
     "category": "seguro",
-    "categoryLabel": "💎 Banquero (01:05 PM)",
+    "categoryLabel": "💎 Banquero (08:00 PM)",
     "stars": 5,
     "edgePercent": "+10.8%",
     "confidenceScore": 95,
-    "reasoning": "New York Yankees de local con Elmer Rodríguez en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Baltimore Orioles.",
+    "reasoning": "New York Yankees de local con Cam Schlittler en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Boston Red Sox.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Elmer Rodríguez (NEW)",
+        "name": "Cam Schlittler (NEW)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -81,7 +81,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Shane Baz (BAL)",
+        "name": "Por Anunciar (BOS)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
@@ -97,6 +97,56 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+10.8%",
       "riskLevel": "Bajo (🟢 Sólido)",
       "recommendation": "Apuesta con ventaja matemática sobre New York Yankees. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
+    "id": "mlb-api-849843",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Mañana)",
+    "match": "Chicago Cubs vs San Diego Padres",
+    "gameDate": "Mañana",
+    "gameTime": "10:00 PM (Hora VE)",
+    "isoStartTime": "2026-09-29T22:00:00+00:00",
+    "keyDetail": "Por Anunciar vs Michael King",
+    "selection": "San Diego Padres a Ganar (Michael King)",
+    "decimalOdds": 1.75,
+    "americanOdds": "-208",
+    "estimatedProb": 0.77,
+    "category": "seguro",
+    "categoryLabel": "💎 Banquero (10:00 PM)",
+    "stars": 5,
+    "edgePercent": "+10.8%",
+    "confidenceScore": 95,
+    "reasoning": "San Diego Padres de local con Michael King en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Chicago Cubs.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Michael King (SAN)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "Por Anunciar (CHI)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.54,
+      "marketOdds": 1.75,
+      "evPercent": "+10.8%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre San Diego Padres. Duelo favorable de abridores y respaldo en casa."
     }
   },
   {
@@ -142,6 +192,106 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+11.2%",
       "riskLevel": "Medio-Bajo (🟡 Gran Cuota +EV)",
       "recommendation": "Francia domina el historial directo y tiene plantel superior en todas las líneas."
+    }
+  },
+  {
+    "id": "mlb-api-849845",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Mañana)",
+    "match": "Philadelphia Phillies vs Atlanta Braves",
+    "gameDate": "Mañana",
+    "gameTime": "02:00 PM (Hora VE)",
+    "isoStartTime": "2026-09-29T14:00:00+00:00",
+    "keyDetail": "Por Anunciar vs Por Anunciar",
+    "selection": "Atlanta Braves a Ganar (Por Anunciar)",
+    "decimalOdds": 1.62,
+    "americanOdds": "-161",
+    "estimatedProb": 0.7,
+    "category": "valor",
+    "categoryLabel": "🚀 Alto Valor +EV (02:00 PM)",
+    "stars": 4,
+    "edgePercent": "+9.5%",
+    "confidenceScore": 90,
+    "reasoning": "Atlanta Braves de local con Por Anunciar en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Philadelphia Phillies.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Por Anunciar (ATL)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "Por Anunciar (PHI)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.43,
+      "marketOdds": 1.62,
+      "evPercent": "+9.5%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre Atlanta Braves. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
+    "id": "mlb-api-849849",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Mañana)",
+    "match": "Chicago White Sox vs Houston Astros",
+    "gameDate": "Mañana",
+    "gameTime": "05:00 PM (Hora VE)",
+    "isoStartTime": "2026-09-29T17:00:00+00:00",
+    "keyDetail": "Por Anunciar vs Por Anunciar",
+    "selection": "Houston Astros a Ganar (Por Anunciar)",
+    "decimalOdds": 1.62,
+    "americanOdds": "-161",
+    "estimatedProb": 0.7,
+    "category": "valor",
+    "categoryLabel": "🚀 Alto Valor +EV (05:00 PM)",
+    "stars": 4,
+    "edgePercent": "+9.5%",
+    "confidenceScore": 90,
+    "reasoning": "Houston Astros de local con Por Anunciar en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Chicago White Sox.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Por Anunciar (HOU)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "Por Anunciar (CHI)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.43,
+      "marketOdds": 1.62,
+      "evPercent": "+9.5%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre Houston Astros. Duelo favorable de abridores y respaldo en casa."
     }
   }
 ];
