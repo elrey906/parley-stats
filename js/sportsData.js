@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-28 15:04:55 UTC
+ * Generado automáticamente: 2026-09-28 17:04:55 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -59,7 +59,7 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Mañana",
     "gameTime": "08:00 PM (Hora VE)",
     "isoStartTime": "2026-09-29T20:00:00+00:00",
-    "keyDetail": "Por Anunciar vs Cam Schlittler",
+    "keyDetail": "Payton Tolle vs Cam Schlittler",
     "selection": "New York Yankees a Ganar (Cam Schlittler)",
     "decimalOdds": 1.75,
     "americanOdds": "-208",
@@ -81,7 +81,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Por Anunciar (BOS)",
+        "name": "Payton Tolle (BOS)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
