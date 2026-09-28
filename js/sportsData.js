@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-28 13:04:54 UTC
+ * Generado automáticamente: 2026-09-28 15:04:55 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -204,8 +204,8 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Mañana",
     "gameTime": "02:00 PM (Hora VE)",
     "isoStartTime": "2026-09-29T14:00:00+00:00",
-    "keyDetail": "Por Anunciar vs Por Anunciar",
-    "selection": "Atlanta Braves a Ganar (Por Anunciar)",
+    "keyDetail": "Por Anunciar vs Chris Sale",
+    "selection": "Atlanta Braves a Ganar (Chris Sale)",
     "decimalOdds": 1.62,
     "americanOdds": "-161",
     "estimatedProb": 0.7,
@@ -214,11 +214,11 @@ export const TOP_PICKS_OF_THE_DAY = [
     "stars": 4,
     "edgePercent": "+9.5%",
     "confidenceScore": 90,
-    "reasoning": "Atlanta Braves de local con Por Anunciar en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Philadelphia Phillies.",
+    "reasoning": "Atlanta Braves de local con Chris Sale en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Philadelphia Phillies.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Por Anunciar (ATL)",
+        "name": "Chris Sale (ATL)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
