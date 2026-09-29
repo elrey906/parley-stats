@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-29 12:17:15 UTC
+ * Generado automáticamente: 2026-09-29 14:17:15 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -404,8 +404,8 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Mañana",
     "gameTime": "02:00 PM (Hora VE)",
     "isoStartTime": "2026-09-30T14:00:00+00:00",
-    "keyDetail": "Cristopher Sánchez vs Por Anunciar",
-    "selection": "Atlanta Braves a Ganar (Por Anunciar)",
+    "keyDetail": "Cristopher Sánchez vs Tyler Mahle",
+    "selection": "Atlanta Braves a Ganar (Tyler Mahle)",
     "decimalOdds": 1.62,
     "americanOdds": "-161",
     "estimatedProb": 0.7,
@@ -414,11 +414,11 @@ export const TOP_PICKS_OF_THE_DAY = [
     "stars": 4,
     "edgePercent": "+9.5%",
     "confidenceScore": 90,
-    "reasoning": "Atlanta Braves de local con Por Anunciar en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Philadelphia Phillies.",
+    "reasoning": "Atlanta Braves de local con Tyler Mahle en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Philadelphia Phillies.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Por Anunciar (ATL)",
+        "name": "Tyler Mahle (ATL)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
