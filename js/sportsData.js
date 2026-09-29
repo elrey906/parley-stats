@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-28 21:05:05 UTC
+ * Generado automáticamente: 2026-09-29 02:16:48 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -109,7 +109,7 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Mañana",
     "gameTime": "10:00 PM (Hora VE)",
     "isoStartTime": "2026-09-29T22:00:00+00:00",
-    "keyDetail": "Por Anunciar vs Michael King",
+    "keyDetail": "Matthew Boyd vs Michael King",
     "selection": "San Diego Padres a Ganar (Michael King)",
     "decimalOdds": 1.75,
     "americanOdds": "-208",
@@ -131,7 +131,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Por Anunciar (CHI)",
+        "name": "Matthew Boyd (CHI)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
@@ -254,8 +254,8 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Mañana",
     "gameTime": "05:00 PM (Hora VE)",
     "isoStartTime": "2026-09-29T17:00:00+00:00",
-    "keyDetail": "Por Anunciar vs Por Anunciar",
-    "selection": "Houston Astros a Ganar (Por Anunciar)",
+    "keyDetail": "Hagen Smith vs AJ Blubaugh",
+    "selection": "Houston Astros a Ganar (AJ Blubaugh)",
     "decimalOdds": 1.62,
     "americanOdds": "-161",
     "estimatedProb": 0.7,
@@ -264,11 +264,11 @@ export const TOP_PICKS_OF_THE_DAY = [
     "stars": 4,
     "edgePercent": "+9.5%",
     "confidenceScore": 90,
-    "reasoning": "Houston Astros de local con Por Anunciar en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Chicago White Sox.",
+    "reasoning": "Houston Astros de local con AJ Blubaugh en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Chicago White Sox.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Por Anunciar (HOU)",
+        "name": "AJ Blubaugh (HOU)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -276,7 +276,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Por Anunciar (CHI)",
+        "name": "Hagen Smith (CHI)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
