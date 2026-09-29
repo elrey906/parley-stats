@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-29 16:17:24 UTC
+ * Generado automáticamente: 2026-09-29 18:17:26 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -454,8 +454,8 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Mañana",
     "gameTime": "05:00 PM (Hora VE)",
     "isoStartTime": "2026-09-30T17:00:00+00:00",
-    "keyDetail": "Por Anunciar vs Por Anunciar",
-    "selection": "Houston Astros a Ganar (Por Anunciar)",
+    "keyDetail": "Por Anunciar vs Hunter Brown",
+    "selection": "Houston Astros a Ganar (Hunter Brown)",
     "decimalOdds": 1.62,
     "americanOdds": "-161",
     "estimatedProb": 0.7,
@@ -464,11 +464,11 @@ export const TOP_PICKS_OF_THE_DAY = [
     "stars": 4,
     "edgePercent": "+9.5%",
     "confidenceScore": 90,
-    "reasoning": "Houston Astros de local con Por Anunciar en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Chicago White Sox.",
+    "reasoning": "Houston Astros de local con Hunter Brown en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Chicago White Sox.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Por Anunciar (HOU)",
+        "name": "Hunter Brown (HOU)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
