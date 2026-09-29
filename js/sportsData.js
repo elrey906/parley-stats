@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-29 10:17:06 UTC
+ * Generado automáticamente: 2026-09-29 12:17:15 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -404,7 +404,7 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Mañana",
     "gameTime": "02:00 PM (Hora VE)",
     "isoStartTime": "2026-09-30T14:00:00+00:00",
-    "keyDetail": "Por Anunciar vs Por Anunciar",
+    "keyDetail": "Cristopher Sánchez vs Por Anunciar",
     "selection": "Atlanta Braves a Ganar (Por Anunciar)",
     "decimalOdds": 1.62,
     "americanOdds": "-161",
@@ -426,7 +426,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Por Anunciar (PHI)",
+        "name": "Cristopher Sánchez (PHI)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
