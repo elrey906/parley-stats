@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-30 04:17:43 UTC
+ * Generado automáticamente: 2026-09-30 06:17:46 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -109,7 +109,7 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Hoy",
     "gameTime": "10:00 PM (Hora VE)",
     "isoStartTime": "2026-09-30T22:00:00+00:00",
-    "keyDetail": "Por Anunciar vs Nick Pivetta",
+    "keyDetail": "Kevin Gausman vs Nick Pivetta",
     "selection": "San Diego Padres a Ganar (Nick Pivetta)",
     "decimalOdds": 1.75,
     "americanOdds": "-208",
@@ -131,7 +131,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Por Anunciar (CHI)",
+        "name": "Kevin Gausman (CHI)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
