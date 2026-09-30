@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-30 00:17:33 UTC
+ * Generado automáticamente: 2026-09-30 02:17:34 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -209,8 +209,8 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Mañana",
     "gameTime": "10:00 PM (Hora VE)",
     "isoStartTime": "2026-09-30T22:00:00+00:00",
-    "keyDetail": "Por Anunciar vs Por Anunciar",
-    "selection": "San Diego Padres a Ganar (Por Anunciar)",
+    "keyDetail": "Por Anunciar vs Nick Pivetta",
+    "selection": "San Diego Padres a Ganar (Nick Pivetta)",
     "decimalOdds": 1.75,
     "americanOdds": "-208",
     "estimatedProb": 0.77,
@@ -219,11 +219,11 @@ export const TOP_PICKS_OF_THE_DAY = [
     "stars": 5,
     "edgePercent": "+10.8%",
     "confidenceScore": 95,
-    "reasoning": "San Diego Padres de local con Por Anunciar en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Chicago Cubs.",
+    "reasoning": "San Diego Padres de local con Nick Pivetta en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Chicago Cubs.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Por Anunciar (SAN)",
+        "name": "Nick Pivetta (SAN)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -295,56 +295,6 @@ export const TOP_PICKS_OF_THE_DAY = [
     }
   },
   {
-    "id": "mlb-api-849849",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Chicago White Sox vs Houston Astros",
-    "gameDate": "Hoy",
-    "gameTime": "05:00 PM (Hora VE)",
-    "isoStartTime": "2026-09-29T17:00:00+00:00",
-    "keyDetail": "Hagen Smith vs AJ Blubaugh",
-    "selection": "Houston Astros a Ganar (AJ Blubaugh)",
-    "decimalOdds": 1.62,
-    "americanOdds": "-161",
-    "estimatedProb": 0.7,
-    "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (05:00 PM)",
-    "stars": 4,
-    "edgePercent": "+9.5%",
-    "confidenceScore": 90,
-    "reasoning": "Houston Astros de local con AJ Blubaugh en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Chicago White Sox.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "AJ Blubaugh (HOU)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Hagen Smith (CHI)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.43,
-      "marketOdds": 1.62,
-      "evPercent": "+9.5%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Houston Astros. Duelo favorable de abridores y respaldo en casa."
-    }
-  },
-  {
     "id": "mlb-api-849841",
     "sport": "baseball",
     "sportName": "MLB",
@@ -404,7 +354,7 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Mañana",
     "gameTime": "05:00 PM (Hora VE)",
     "isoStartTime": "2026-09-30T17:00:00+00:00",
-    "keyDetail": "Por Anunciar vs Hunter Brown",
+    "keyDetail": "Sean Burke vs Hunter Brown",
     "selection": "Houston Astros a Ganar (Hunter Brown)",
     "decimalOdds": 1.62,
     "americanOdds": "-161",
@@ -426,7 +376,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Por Anunciar (CHI)",
+        "name": "Sean Burke (CHI)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
