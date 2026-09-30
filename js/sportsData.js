@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-09-30 20:18:36 UTC
+ * Generado automáticamente: 2026-09-30 22:18:43 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -292,56 +292,6 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+11.2%",
       "riskLevel": "Medio-Bajo (🟡 Gran Cuota +EV)",
       "recommendation": "Francia domina el historial directo y tiene plantel superior en todas las líneas."
-    }
-  },
-  {
-    "id": "mlb-api-849841",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Philadelphia Phillies vs Atlanta Braves",
-    "gameDate": "Hoy",
-    "gameTime": "02:00 PM (Hora VE)",
-    "isoStartTime": "2026-09-30T14:00:00+00:00",
-    "keyDetail": "Cristopher Sánchez vs Tyler Mahle",
-    "selection": "Atlanta Braves a Ganar (Tyler Mahle)",
-    "decimalOdds": 1.62,
-    "americanOdds": "-161",
-    "estimatedProb": 0.7,
-    "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (02:00 PM)",
-    "stars": 4,
-    "edgePercent": "+9.5%",
-    "confidenceScore": 90,
-    "reasoning": "Atlanta Braves de local con Tyler Mahle en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Philadelphia Phillies.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Tyler Mahle (ATL)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Cristopher Sánchez (PHI)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.43,
-      "marketOdds": 1.62,
-      "evPercent": "+9.5%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Atlanta Braves. Duelo favorable de abridores y respaldo en casa."
     }
   },
   {
