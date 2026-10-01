@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-10-01 14:19:29 UTC
+ * Generado automáticamente: 2026-10-01 16:19:32 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -104,8 +104,8 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Hoy",
     "gameTime": "08:00 PM (Hora VE)",
     "isoStartTime": "2026-10-01T20:00:00+00:00",
-    "keyDetail": "Por Anunciar vs Por Anunciar",
-    "selection": "Atlanta Braves a Ganar (Por Anunciar)",
+    "keyDetail": "Aaron Nola vs Ray Kerr",
+    "selection": "Atlanta Braves a Ganar (Ray Kerr)",
     "decimalOdds": 1.62,
     "americanOdds": "-161",
     "estimatedProb": 0.7,
@@ -114,11 +114,11 @@ export const TOP_PICKS_OF_THE_DAY = [
     "stars": 4,
     "edgePercent": "+9.5%",
     "confidenceScore": 90,
-    "reasoning": "Atlanta Braves de local con Por Anunciar en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Philadelphia Phillies.",
+    "reasoning": "Atlanta Braves de local con Ray Kerr en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Philadelphia Phillies.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Por Anunciar (ATL)",
+        "name": "Ray Kerr (ATL)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -126,7 +126,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Por Anunciar (PHI)",
+        "name": "Aaron Nola (PHI)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
