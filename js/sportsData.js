@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-10-02 02:19:51 UTC
+ * Generado automáticamente: 2026-10-02 04:20:00 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -50,6 +50,156 @@ export const TOP_PICKS_OF_THE_DAY = [
     }
   },
   {
+    "id": "mlb-api-849829",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Mañana)",
+    "match": "Chicago White Sox vs Cleveland Guardians",
+    "gameDate": "Mañana",
+    "gameTime": "01:00 PM (Hora VE)",
+    "isoStartTime": "2026-10-03T13:00:00+00:00",
+    "keyDetail": "Por Anunciar vs Parker Messick",
+    "selection": "Cleveland Guardians a Ganar (Parker Messick)",
+    "decimalOdds": 1.75,
+    "americanOdds": "-208",
+    "estimatedProb": 0.77,
+    "category": "seguro",
+    "categoryLabel": "💎 Banquero (01:00 PM)",
+    "stars": 5,
+    "edgePercent": "+10.8%",
+    "confidenceScore": 95,
+    "reasoning": "Cleveland Guardians de local con Parker Messick en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Chicago White Sox.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Parker Messick (CLE)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "Por Anunciar (CHI)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.54,
+      "marketOdds": 1.75,
+      "evPercent": "+10.8%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre Cleveland Guardians. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
+    "id": "mlb-api-849828",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Mañana)",
+    "match": "Atlanta Braves vs Los Angeles Dodgers",
+    "gameDate": "Mañana",
+    "gameTime": "04:00 PM (Hora VE)",
+    "isoStartTime": "2026-10-03T16:00:00+00:00",
+    "keyDetail": "Por Anunciar vs Por Anunciar",
+    "selection": "Los Angeles Dodgers a Ganar (Por Anunciar)",
+    "decimalOdds": 1.75,
+    "americanOdds": "-208",
+    "estimatedProb": 0.77,
+    "category": "seguro",
+    "categoryLabel": "💎 Banquero (04:00 PM)",
+    "stars": 5,
+    "edgePercent": "+10.8%",
+    "confidenceScore": 95,
+    "reasoning": "Los Angeles Dodgers de local con Por Anunciar en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Atlanta Braves.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Por Anunciar (LOS)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "Por Anunciar (ATL)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.54,
+      "marketOdds": 1.75,
+      "evPercent": "+10.8%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre Los Angeles Dodgers. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
+    "id": "mlb-api-849830",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Mañana)",
+    "match": "San Diego Padres vs Milwaukee Brewers",
+    "gameDate": "Mañana",
+    "gameTime": "08:30 PM (Hora VE)",
+    "isoStartTime": "2026-10-03T20:30:00+00:00",
+    "keyDetail": "Por Anunciar vs Jacob Misiorowski",
+    "selection": "Milwaukee Brewers a Ganar (Jacob Misiorowski)",
+    "decimalOdds": 1.75,
+    "americanOdds": "-208",
+    "estimatedProb": 0.77,
+    "category": "seguro",
+    "categoryLabel": "💎 Banquero (08:30 PM)",
+    "stars": 5,
+    "edgePercent": "+10.8%",
+    "confidenceScore": 95,
+    "reasoning": "Milwaukee Brewers de local con Jacob Misiorowski en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a San Diego Padres.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Jacob Misiorowski (MIL)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "Por Anunciar (SAN)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.54,
+      "marketOdds": 1.75,
+      "evPercent": "+10.8%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre Milwaukee Brewers. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
     "id": "soc-francia-mon",
     "sport": "soccer",
     "sportName": "Fútbol",
@@ -95,30 +245,30 @@ export const TOP_PICKS_OF_THE_DAY = [
     }
   },
   {
-    "id": "mlb-api-849844",
+    "id": "mlb-api-849835",
     "sport": "baseball",
     "sportName": "MLB",
     "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Philadelphia Phillies vs Atlanta Braves",
-    "gameDate": "Hoy",
-    "gameTime": "08:00 PM (Hora VE)",
-    "isoStartTime": "2026-10-01T20:00:00+00:00",
-    "keyDetail": "Aaron Nola vs Ray Kerr",
-    "selection": "Atlanta Braves a Ganar (Ray Kerr)",
+    "league": "MLB (Mañana)",
+    "match": "New York Yankees vs Tampa Bay Rays",
+    "gameDate": "Mañana",
+    "gameTime": "06:30 PM (Hora VE)",
+    "isoStartTime": "2026-10-03T18:30:00+00:00",
+    "keyDetail": "Por Anunciar vs Drew Rasmussen",
+    "selection": "Tampa Bay Rays a Ganar (Drew Rasmussen)",
     "decimalOdds": 1.62,
     "americanOdds": "-161",
     "estimatedProb": 0.7,
     "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (08:00 PM)",
+    "categoryLabel": "🚀 Alto Valor +EV (06:30 PM)",
     "stars": 4,
     "edgePercent": "+9.5%",
     "confidenceScore": 90,
-    "reasoning": "Atlanta Braves de local con Ray Kerr en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Philadelphia Phillies.",
+    "reasoning": "Tampa Bay Rays de local con Drew Rasmussen en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a New York Yankees.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Ray Kerr (ATL)",
+        "name": "Drew Rasmussen (TAM)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
@@ -126,7 +276,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Aaron Nola (PHI)",
+        "name": "Por Anunciar (NEW)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
@@ -141,7 +291,7 @@ export const TOP_PICKS_OF_THE_DAY = [
       "marketOdds": 1.62,
       "evPercent": "+9.5%",
       "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Atlanta Braves. Duelo favorable de abridores y respaldo en casa."
+      "recommendation": "Apuesta con ventaja matemática sobre Tampa Bay Rays. Duelo favorable de abridores y respaldo en casa."
     }
   }
 ];
