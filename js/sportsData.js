@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-10-02 14:20:34 UTC
+ * Generado automáticamente: 2026-10-02 15:52:48 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -254,7 +254,7 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Mañana",
     "gameTime": "06:30 PM (Hora VE)",
     "isoStartTime": "2026-10-03T18:30:00+00:00",
-    "keyDetail": "Por Anunciar vs Drew Rasmussen",
+    "keyDetail": "Gerrit Cole vs Drew Rasmussen",
     "selection": "Tampa Bay Rays a Ganar (Drew Rasmussen)",
     "decimalOdds": 1.62,
     "americanOdds": "-161",
@@ -276,7 +276,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Por Anunciar (NEW)",
+        "name": "Gerrit Cole (NEW)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
