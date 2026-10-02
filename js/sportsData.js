@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-10-02 19:52:55 UTC
+ * Generado automáticamente: 2026-10-02 21:53:04 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -159,7 +159,7 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Mañana",
     "gameTime": "08:30 PM (Hora VE)",
     "isoStartTime": "2026-10-03T20:30:00+00:00",
-    "keyDetail": "Por Anunciar vs Jacob Misiorowski",
+    "keyDetail": "Robbie Ray vs Jacob Misiorowski",
     "selection": "Milwaukee Brewers a Ganar (Jacob Misiorowski)",
     "decimalOdds": 1.75,
     "americanOdds": "-208",
@@ -181,7 +181,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Por Anunciar (SAN)",
+        "name": "Robbie Ray (SAN)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
