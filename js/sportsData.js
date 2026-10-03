@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-10-03 15:54:00 UTC
+ * Generado automáticamente: 2026-10-03 17:54:07 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -109,7 +109,7 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Hoy",
     "gameTime": "04:00 PM (Hora VE)",
     "isoStartTime": "2026-10-03T16:00:00+00:00",
-    "keyDetail": "Por Anunciar vs Tarik Skubal",
+    "keyDetail": "Dylan Dodd vs Tarik Skubal",
     "selection": "Los Angeles Dodgers a Ganar (Tarik Skubal)",
     "decimalOdds": 1.75,
     "americanOdds": "-208",
@@ -131,7 +131,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Por Anunciar (ATL)",
+        "name": "Dylan Dodd (ATL)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
@@ -259,8 +259,8 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Mañana",
     "gameTime": "08:00 PM (Hora VE)",
     "isoStartTime": "2026-10-04T20:00:00+00:00",
-    "keyDetail": "Por Anunciar vs Por Anunciar",
-    "selection": "Los Angeles Dodgers a Ganar (Por Anunciar)",
+    "keyDetail": "Por Anunciar vs Blake Snell",
+    "selection": "Los Angeles Dodgers a Ganar (Blake Snell)",
     "decimalOdds": 1.75,
     "americanOdds": "-208",
     "estimatedProb": 0.77,
@@ -269,11 +269,11 @@ export const TOP_PICKS_OF_THE_DAY = [
     "stars": 5,
     "edgePercent": "+10.8%",
     "confidenceScore": 95,
-    "reasoning": "Los Angeles Dodgers de local con Por Anunciar en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Atlanta Braves.",
+    "reasoning": "Los Angeles Dodgers de local con Blake Snell en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Atlanta Braves.",
     "analysis": {
       "type": "baseball",
       "starterFavorite": {
-        "name": "Por Anunciar (LOS)",
+        "name": "Blake Snell (LOS)",
         "era": "3.35",
         "whip": "1.08",
         "k9": "9.5",
