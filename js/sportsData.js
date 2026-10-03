@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-10-03 03:53:24 UTC
+ * Generado automáticamente: 2026-10-03 05:53:30 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -54,9 +54,9 @@ export const TOP_PICKS_OF_THE_DAY = [
     "sport": "baseball",
     "sportName": "MLB",
     "sportIcon": "⚾",
-    "league": "MLB (Mañana)",
+    "league": "MLB (Hoy)",
     "match": "Chicago White Sox vs Cleveland Guardians",
-    "gameDate": "Mañana",
+    "gameDate": "Hoy",
     "gameTime": "01:00 PM (Hora VE)",
     "isoStartTime": "2026-10-03T13:00:00+00:00",
     "keyDetail": "Hagen Smith vs Parker Messick",
@@ -104,9 +104,9 @@ export const TOP_PICKS_OF_THE_DAY = [
     "sport": "baseball",
     "sportName": "MLB",
     "sportIcon": "⚾",
-    "league": "MLB (Mañana)",
+    "league": "MLB (Hoy)",
     "match": "Atlanta Braves vs Los Angeles Dodgers",
-    "gameDate": "Mañana",
+    "gameDate": "Hoy",
     "gameTime": "04:00 PM (Hora VE)",
     "isoStartTime": "2026-10-03T16:00:00+00:00",
     "keyDetail": "Por Anunciar vs Tarik Skubal",
@@ -154,9 +154,9 @@ export const TOP_PICKS_OF_THE_DAY = [
     "sport": "baseball",
     "sportName": "MLB",
     "sportIcon": "⚾",
-    "league": "MLB (Mañana)",
+    "league": "MLB (Hoy)",
     "match": "San Diego Padres vs Milwaukee Brewers",
-    "gameDate": "Mañana",
+    "gameDate": "Hoy",
     "gameTime": "08:30 PM (Hora VE)",
     "isoStartTime": "2026-10-03T20:30:00+00:00",
     "keyDetail": "Robbie Ray vs Jacob Misiorowski",
@@ -197,6 +197,106 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+10.8%",
       "riskLevel": "Bajo (🟢 Sólido)",
       "recommendation": "Apuesta con ventaja matemática sobre Milwaukee Brewers. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
+    "id": "mlb-api-849825",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Mañana)",
+    "match": "San Diego Padres vs Milwaukee Brewers",
+    "gameDate": "Mañana",
+    "gameTime": "04:00 PM (Hora VE)",
+    "isoStartTime": "2026-10-04T16:00:00+00:00",
+    "keyDetail": "Michael King vs Logan Henderson",
+    "selection": "Milwaukee Brewers a Ganar (Logan Henderson)",
+    "decimalOdds": 1.75,
+    "americanOdds": "-208",
+    "estimatedProb": 0.77,
+    "category": "seguro",
+    "categoryLabel": "💎 Banquero (04:00 PM)",
+    "stars": 5,
+    "edgePercent": "+10.8%",
+    "confidenceScore": 95,
+    "reasoning": "Milwaukee Brewers de local con Logan Henderson en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a San Diego Padres.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Logan Henderson (MIL)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "Michael King (SAN)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.54,
+      "marketOdds": 1.75,
+      "evPercent": "+10.8%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre Milwaukee Brewers. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
+    "id": "mlb-api-849823",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Mañana)",
+    "match": "Atlanta Braves vs Los Angeles Dodgers",
+    "gameDate": "Mañana",
+    "gameTime": "08:00 PM (Hora VE)",
+    "isoStartTime": "2026-10-04T20:00:00+00:00",
+    "keyDetail": "Por Anunciar vs Por Anunciar",
+    "selection": "Los Angeles Dodgers a Ganar (Por Anunciar)",
+    "decimalOdds": 1.75,
+    "americanOdds": "-208",
+    "estimatedProb": 0.77,
+    "category": "seguro",
+    "categoryLabel": "💎 Banquero (08:00 PM)",
+    "stars": 5,
+    "edgePercent": "+10.8%",
+    "confidenceScore": 95,
+    "reasoning": "Los Angeles Dodgers de local con Por Anunciar en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Atlanta Braves.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Por Anunciar (LOS)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "Por Anunciar (ATL)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.54,
+      "marketOdds": 1.75,
+      "evPercent": "+10.8%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre Los Angeles Dodgers. Duelo favorable de abridores y respaldo en casa."
     }
   },
   {
@@ -249,9 +349,9 @@ export const TOP_PICKS_OF_THE_DAY = [
     "sport": "baseball",
     "sportName": "MLB",
     "sportIcon": "⚾",
-    "league": "MLB (Mañana)",
+    "league": "MLB (Hoy)",
     "match": "New York Yankees vs Tampa Bay Rays",
-    "gameDate": "Mañana",
+    "gameDate": "Hoy",
     "gameTime": "06:30 PM (Hora VE)",
     "isoStartTime": "2026-10-03T18:30:00+00:00",
     "keyDetail": "Gerrit Cole vs Drew Rasmussen",
