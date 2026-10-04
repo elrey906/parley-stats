@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-10-04 15:55:16 UTC
+ * Generado automáticamente: 2026-10-04 17:55:19 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -159,7 +159,7 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Mañana",
     "gameTime": "05:00 PM (Hora VE)",
     "isoStartTime": "2026-10-05T17:00:00+00:00",
-    "keyDetail": "Por Anunciar vs Gavin Williams",
+    "keyDetail": "Anthony Kay vs Gavin Williams",
     "selection": "Cleveland Guardians a Ganar (Gavin Williams)",
     "decimalOdds": 1.75,
     "americanOdds": "-208",
@@ -181,7 +181,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Por Anunciar (CHI)",
+        "name": "Anthony Kay (CHI)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
