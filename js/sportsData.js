@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-10-03 23:54:24 UTC
+ * Generado automáticamente: 2026-10-04 01:54:33 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -242,56 +242,6 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+11.2%",
       "riskLevel": "Medio-Bajo (🟡 Gran Cuota +EV)",
       "recommendation": "Francia domina el historial directo y tiene plantel superior en todas las líneas."
-    }
-  },
-  {
-    "id": "mlb-api-849835",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "New York Yankees vs Tampa Bay Rays",
-    "gameDate": "Hoy",
-    "gameTime": "06:30 PM (Hora VE)",
-    "isoStartTime": "2026-10-03T18:30:00+00:00",
-    "keyDetail": "Gerrit Cole vs Drew Rasmussen",
-    "selection": "Tampa Bay Rays a Ganar (Drew Rasmussen)",
-    "decimalOdds": 1.62,
-    "americanOdds": "-161",
-    "estimatedProb": 0.7,
-    "category": "valor",
-    "categoryLabel": "🚀 Alto Valor +EV (06:30 PM)",
-    "stars": 4,
-    "edgePercent": "+9.5%",
-    "confidenceScore": 90,
-    "reasoning": "Tampa Bay Rays de local con Drew Rasmussen en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a New York Yankees.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Drew Rasmussen (TAM)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Gerrit Cole (NEW)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.43,
-      "marketOdds": 1.62,
-      "evPercent": "+9.5%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Tampa Bay Rays. Duelo favorable de abridores y respaldo en casa."
     }
   }
 ];
