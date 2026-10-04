@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-10-04 21:55:28 UTC
+ * Generado automáticamente: 2026-10-04 23:55:31 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -47,56 +47,6 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+9.2%",
       "riskLevel": "Bajo (🟢 Base Multideporte)",
       "recommendation": "Excelente base de alta probabilidad para sellar en parley."
-    }
-  },
-  {
-    "id": "mlb-api-849825",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "San Diego Padres vs Milwaukee Brewers",
-    "gameDate": "Hoy",
-    "gameTime": "04:00 PM (Hora VE)",
-    "isoStartTime": "2026-10-04T16:00:00+00:00",
-    "keyDetail": "Michael King vs Logan Henderson",
-    "selection": "Milwaukee Brewers a Ganar (Logan Henderson)",
-    "decimalOdds": 1.75,
-    "americanOdds": "-208",
-    "estimatedProb": 0.77,
-    "category": "seguro",
-    "categoryLabel": "💎 Banquero (04:00 PM)",
-    "stars": 5,
-    "edgePercent": "+10.8%",
-    "confidenceScore": 95,
-    "reasoning": "Milwaukee Brewers de local con Logan Henderson en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a San Diego Padres.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Logan Henderson (MIL)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Michael King (SAN)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.54,
-      "marketOdds": 1.75,
-      "evPercent": "+10.8%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Milwaukee Brewers. Duelo favorable de abridores y respaldo en casa."
     }
   },
   {
