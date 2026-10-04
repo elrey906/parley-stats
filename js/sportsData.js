@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-10-04 17:55:19 UTC
+ * Generado automáticamente: 2026-10-04 19:55:21 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -109,7 +109,7 @@ export const TOP_PICKS_OF_THE_DAY = [
     "gameDate": "Hoy",
     "gameTime": "08:00 PM (Hora VE)",
     "isoStartTime": "2026-10-04T20:00:00+00:00",
-    "keyDetail": "Por Anunciar vs Blake Snell",
+    "keyDetail": "Ray Kerr vs Blake Snell",
     "selection": "Los Angeles Dodgers a Ganar (Blake Snell)",
     "decimalOdds": 1.75,
     "americanOdds": "-208",
@@ -131,7 +131,7 @@ export const TOP_PICKS_OF_THE_DAY = [
         "form": "2.40 ERA en aperturas recientes"
       },
       "starterUnderdog": {
-        "name": "Por Anunciar (ATL)",
+        "name": "Ray Kerr (ATL)",
         "era": "4.60",
         "whip": "1.36",
         "k9": "7.8",
