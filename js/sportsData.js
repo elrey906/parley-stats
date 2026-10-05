@@ -1,6 +1,6 @@
 /**
  * Base de Datos Oficial PARLEY STATS PRO - Sincronizador Autónomo v5.0.0
- * Generado automáticamente: 2026-10-05 01:55:34 UTC
+ * Generado automáticamente: 2026-10-05 14:29:41 UTC
  */
 
 export const TOP_PICKS_OF_THE_DAY = [
@@ -50,63 +50,13 @@ export const TOP_PICKS_OF_THE_DAY = [
     }
   },
   {
-    "id": "mlb-api-849823",
-    "sport": "baseball",
-    "sportName": "MLB",
-    "sportIcon": "⚾",
-    "league": "MLB (Hoy)",
-    "match": "Atlanta Braves vs Los Angeles Dodgers",
-    "gameDate": "Hoy",
-    "gameTime": "08:00 PM (Hora VE)",
-    "isoStartTime": "2026-10-04T20:00:00+00:00",
-    "keyDetail": "Ray Kerr vs Blake Snell",
-    "selection": "Los Angeles Dodgers a Ganar (Blake Snell)",
-    "decimalOdds": 1.75,
-    "americanOdds": "-208",
-    "estimatedProb": 0.77,
-    "category": "seguro",
-    "categoryLabel": "💎 Banquero (08:00 PM)",
-    "stars": 5,
-    "edgePercent": "+10.8%",
-    "confidenceScore": 95,
-    "reasoning": "Los Angeles Dodgers de local con Blake Snell en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Atlanta Braves.",
-    "analysis": {
-      "type": "baseball",
-      "starterFavorite": {
-        "name": "Blake Snell (LOS)",
-        "era": "3.35",
-        "whip": "1.08",
-        "k9": "9.5",
-        "record": "10-6",
-        "form": "2.40 ERA en aperturas recientes"
-      },
-      "starterUnderdog": {
-        "name": "Ray Kerr (ATL)",
-        "era": "4.60",
-        "whip": "1.36",
-        "k9": "7.8",
-        "record": "4-8",
-        "form": "Vulnerable fuera de casa"
-      },
-      "bullpenFavEra": "3.30",
-      "bullpenDogEra": "4.50",
-      "offenseFav": "4.9 carreras/juego de local",
-      "offenseDog": "3.8 carreras/juego",
-      "fairOdds": 1.54,
-      "marketOdds": 1.75,
-      "evPercent": "+10.8%",
-      "riskLevel": "Bajo (🟢 Sólido)",
-      "recommendation": "Apuesta con ventaja matemática sobre Los Angeles Dodgers. Duelo favorable de abridores y respaldo en casa."
-    }
-  },
-  {
     "id": "mlb-api-849834",
     "sport": "baseball",
     "sportName": "MLB",
     "sportIcon": "⚾",
-    "league": "MLB (Mañana)",
+    "league": "MLB (Hoy)",
     "match": "Chicago White Sox vs Cleveland Guardians",
-    "gameDate": "Mañana",
+    "gameDate": "Hoy",
     "gameTime": "05:00 PM (Hora VE)",
     "isoStartTime": "2026-10-05T17:00:00+00:00",
     "keyDetail": "Anthony Kay vs Gavin Williams",
@@ -147,6 +97,56 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+10.8%",
       "riskLevel": "Bajo (🟢 Sólido)",
       "recommendation": "Apuesta con ventaja matemática sobre Cleveland Guardians. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
+    "id": "mlb-api-849826",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Mañana)",
+    "match": "Milwaukee Brewers vs San Diego Padres",
+    "gameDate": "Mañana",
+    "gameTime": "09:30 PM (Hora VE)",
+    "isoStartTime": "2026-10-06T21:30:00+00:00",
+    "keyDetail": "Dustin May vs Nick Pivetta",
+    "selection": "San Diego Padres a Ganar (Nick Pivetta)",
+    "decimalOdds": 1.75,
+    "americanOdds": "-208",
+    "estimatedProb": 0.77,
+    "category": "seguro",
+    "categoryLabel": "💎 Banquero (09:30 PM)",
+    "stars": 5,
+    "edgePercent": "+10.8%",
+    "confidenceScore": 95,
+    "reasoning": "San Diego Padres de local con Nick Pivetta en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Milwaukee Brewers.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Nick Pivetta (SAN)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "Dustin May (MIL)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.54,
+      "marketOdds": 1.75,
+      "evPercent": "+10.8%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre San Diego Padres. Duelo favorable de abridores y respaldo en casa."
     }
   },
   {
@@ -199,9 +199,9 @@ export const TOP_PICKS_OF_THE_DAY = [
     "sport": "baseball",
     "sportName": "MLB",
     "sportIcon": "⚾",
-    "league": "MLB (Mañana)",
+    "league": "MLB (Hoy)",
     "match": "New York Yankees vs Tampa Bay Rays",
-    "gameDate": "Mañana",
+    "gameDate": "Hoy",
     "gameTime": "08:00 PM (Hora VE)",
     "isoStartTime": "2026-10-05T20:00:00+00:00",
     "keyDetail": "Cam Schlittler vs Freddy Peralta",
@@ -242,6 +242,56 @@ export const TOP_PICKS_OF_THE_DAY = [
       "evPercent": "+9.5%",
       "riskLevel": "Bajo (🟢 Sólido)",
       "recommendation": "Apuesta con ventaja matemática sobre Tampa Bay Rays. Duelo favorable de abridores y respaldo en casa."
+    }
+  },
+  {
+    "id": "mlb-api-849819",
+    "sport": "baseball",
+    "sportName": "MLB",
+    "sportIcon": "⚾",
+    "league": "MLB (Mañana)",
+    "match": "Los Angeles Dodgers vs Atlanta Braves",
+    "gameDate": "Mañana",
+    "gameTime": "06:00 PM (Hora VE)",
+    "isoStartTime": "2026-10-06T18:00:00+00:00",
+    "keyDetail": "Yoshinobu Yamamoto vs Chris Sale",
+    "selection": "Atlanta Braves a Ganar (Chris Sale)",
+    "decimalOdds": 1.62,
+    "americanOdds": "-161",
+    "estimatedProb": 0.7,
+    "category": "valor",
+    "categoryLabel": "🚀 Alto Valor +EV (06:00 PM)",
+    "stars": 4,
+    "edgePercent": "+9.5%",
+    "confidenceScore": 90,
+    "reasoning": "Atlanta Braves de local con Chris Sale en la lomita. Ventaja de pitcheo y mayor producción de carreras en su estadio frente a Los Angeles Dodgers.",
+    "analysis": {
+      "type": "baseball",
+      "starterFavorite": {
+        "name": "Chris Sale (ATL)",
+        "era": "3.35",
+        "whip": "1.08",
+        "k9": "9.5",
+        "record": "10-6",
+        "form": "2.40 ERA en aperturas recientes"
+      },
+      "starterUnderdog": {
+        "name": "Yoshinobu Yamamoto (LOS)",
+        "era": "4.60",
+        "whip": "1.36",
+        "k9": "7.8",
+        "record": "4-8",
+        "form": "Vulnerable fuera de casa"
+      },
+      "bullpenFavEra": "3.30",
+      "bullpenDogEra": "4.50",
+      "offenseFav": "4.9 carreras/juego de local",
+      "offenseDog": "3.8 carreras/juego",
+      "fairOdds": 1.43,
+      "marketOdds": 1.62,
+      "evPercent": "+9.5%",
+      "riskLevel": "Bajo (🟢 Sólido)",
+      "recommendation": "Apuesta con ventaja matemática sobre Atlanta Braves. Duelo favorable de abridores y respaldo en casa."
     }
   }
 ];
